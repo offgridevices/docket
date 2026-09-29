@@ -1,0 +1,62 @@
+{
+  "classification": {
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2013",
+  "evidenceType": "MarketResearch",
+  "id": "ev-supplier-survey",
+  "inclusionReason": "the primary supplier-base data source",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 15 (PDF p. 18); printed p. 16 (PDF p. 19)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "limitations": [
+    {
+      "impact": "supplier coverage rests partly on the non-respondent follow-up, the site visits and publicly available company information rather than on survey responses",
+      "statement": "Printed p. 15: \"a relatively low response rate — about 25 percent — to a survey sent to about 200 suppliers.\""
+    },
+    {
+      "impact": "the risk that respondents differ systematically from non-respondents was reduced by follow-up but never measured",
+      "statement": "Printed p. 16: \"the authors did not formally compare the respondents to the non-respondents — an additional analysis step that could have further mitigated concern about the response rate\"."
+    }
+  ],
+  "method": "a written survey sent to about 200 suppliers of key parts of the various combat vehicles — engines, transmissions, radar and target acquisition components, and many other smaller parts (printed p. 15)",
+  "pointer": {
+    "custodian": "A.T. Kearney (the instrument and the responses, not public); U.S. Government Accountability Office (the published description)",
+    "uri": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf#page=18"
+  },
+  "reliabilitySteps": [
+    "drs-nonrespondent-followup"
+  ],
+  "respondents": "about 25 percent responded; the authors contacted the non-respondents, and over 20 of them agreed to participate in the study site visits (printed pp. 15-16)",
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "reviewers": [
+    {
+      "date": "2013",
+      "name": "A.T. Kearney",
+      "role": "surveying analyst"
+    },
+    {
+      "date": "2015-06",
+      "name": "U.S. Government Accountability Office",
+      "role": "method reviewed against research standards, consulting GAO specialists in survey and research methods"
+    }
+  ],
+  "scopeOfValidity": {
+    "builtToAnswer": "Which suppliers of key combat vehicle parts can withstand enduring periods of low demand?",
+    "intendedUse": "the study's supplier base analysis",
+    "questionClass": "industrial-base"
+  },
+  "title": "Written survey of about 200 suppliers of key combat vehicle parts, with non-respondent follow-up",
+  "type": "Evidence"
+}

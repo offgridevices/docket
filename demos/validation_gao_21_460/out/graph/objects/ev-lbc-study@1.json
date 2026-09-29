@@ -1,0 +1,47 @@
+{
+  "classification": {
+    "caveats": [
+      "not publicly released; its release status has not been verified by this project"
+    ],
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "explicit",
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "evidenceType": "MSStudy",
+  "id": "ev-lbc-study",
+  "inclusionReason": "the only modelling the description reports results from: the initial results for this line of effort (printed p. 14)",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 13 (PDF p. 18)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "model": "mdl-lbc",
+  "pointer": {
+    "$gap": "gap-study-artefacts"
+  },
+  "reliabilitySteps": [
+    "drs-cdid-workshops"
+  ],
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "scenarios": [
+    "sc-europe-mdo"
+  ],
+  "scopeOfValidity": {
+    "builtToAnswer": "whether the current TWV fleet is sufficient to provide sustainment",
+    "conditions": [
+      "European MDO environment"
+    ],
+    "intendedUse": "the Distribution and Transportation line of effort",
+    "questionClass": "capability-gap"
+  },
+  "title": "Logistics Battle Command modelling of the Distribution and Transportation line of effort (printed pp. 13, 14)",
+  "type": "Evidence",
+  "vvaRecord": "vva-lbc"
+}

@@ -1,0 +1,65 @@
+{
+  "added": [
+    "ev-aries-1",
+    "ev-aries-2",
+    "ev-bradley-swapc-2018",
+    "ev-concept-design-2021",
+    "ev-hsi-1",
+    "ev-hsi-2",
+    "ev-market-research-study-2020",
+    "ev-mbl-1",
+    "ev-trac-aoa",
+    "ev-trac-oe",
+    "ev-vendor-feedback-1",
+    "ev-vendor-feedback-2",
+    "ev-vendor-feedback-3",
+    "ev-vendor-feedback-4",
+    "mdl-aries",
+    "mdl-trac",
+    "risk-bias-ep-omfv-2020-02-r3-selection",
+    "ws-omfv"
+  ],
+  "because": "rt-phase2-efforts",
+  "changed": [],
+  "createdAt": "2023-06-26T00:00:00Z",
+  "createdBy": {
+    "actorId": "docket-kernel/0.1.0",
+    "actorType": "kernel"
+  },
+  "from": "ep-omfv-2020-02-r2",
+  "id": "diff-ep-omfv-2020-02-r2-ep-omfv-2020-02-r3",
+  "judgmentsChanged": [],
+  "judgmentsConsistent": [],
+  "kernelVersion": "0.1.0",
+  "pairing": "unknown",
+  "rankingAfter": [],
+  "rankingBefore": [],
+  "ratingsChanged": [
+    {
+      "after": 1,
+      "before": 2,
+      "questionId": "DES-1"
+    },
+    {
+      "after": 2,
+      "before": 4,
+      "questionId": "EXE-1"
+    },
+    {
+      "after": 1,
+      "before": 4,
+      "questionId": "EXE-3"
+    },
+    {
+      "after": 2,
+      "before": 4,
+      "questionId": "EXE-7"
+    }
+  ],
+  "removed": [
+    "risk-bias-ep-omfv-2020-02-r2-selection"
+  ],
+  "rev": 1,
+  "to": "ep-omfv-2020-02-r3",
+  "type": "EpisodeDiff"
+}

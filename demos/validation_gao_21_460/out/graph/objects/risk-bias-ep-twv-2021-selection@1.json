@@ -1,0 +1,24 @@
+{
+  "consequence": "perceived bias in the selection of analyses (GAO-23-106549 F2/F3)",
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "docket-kernel/0.1.0",
+    "actorType": "kernel"
+  },
+  "evidence": [
+    "ev-army-officials-2021",
+    "ev-fcc-oporder-19-014",
+    "ev-g8-memo-2020-04-30",
+    "ev-gao-21-460",
+    "ev-lbc-study",
+    "ev-lsp-data",
+    "ev-mobility-data"
+  ],
+  "id": "risk-bias-ep-twv-2021-selection",
+  "kind": "bias-selection",
+  "owner": "unassigned",
+  "rev": 1,
+  "statement": "evidence excluded without a typed reason, or included without a stated reason",
+  "status": "open",
+  "type": "Risk"
+}

@@ -1,0 +1,58 @@
+{
+  "classification": {
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2013-04",
+  "evidenceType": "Document",
+  "id": "ev-cbo-cost-estimate",
+  "inclusionReason": "the cost side of the comparison; unlike the capability scores, these are CBO's own estimates rather than the Army's",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 21 (Table 2-2); p. 23 (Table 2-3); p. 7",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "limitations": [
+    {
+      "impact": "the GCV's $28.8 billion is a ceiling-driven figure, not an actual",
+      "statement": "Procurement costs are difficult to project this early: the GCV figure is built from the $13.5 million unit-cost ceiling rather than from a validated estimate (p. 7)"
+    }
+  ],
+  "pointer": {
+    "custodian": "Congressional Budget Office",
+    "uri": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf#page=26"
+  },
+  "published": "2013-04",
+  "publisher": "Congressional Budget Office",
+  "reliabilitySteps": [
+    "drs-cbo-cost-method"
+  ],
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "reviewers": [
+    {
+      "date": "2013-04",
+      "name": "David Mosher and Matthew Goldberg (CBO)",
+      "role": "general supervision of the report (p. 37)"
+    },
+    {
+      "date": "2013-04",
+      "name": "Philip Webre and Derek Trunkey (CBO)",
+      "role": "internal review of the report (p. 37)"
+    }
+  ],
+  "scopeOfValidity": {
+    "builtToAnswer": "What would developing and procuring each option cost over 2014–2030, in 2013 dollars?",
+    "intendedUse": "compare the cost of the Army's plan with four alternatives",
+    "questionClass": "cost"
+  },
+  "title": "CBO's cost estimates for the GCV program and the four options, 2014–2030",
+  "type": "Evidence"
+}

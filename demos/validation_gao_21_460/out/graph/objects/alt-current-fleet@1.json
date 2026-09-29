@@ -1,0 +1,22 @@
+{
+  "baselineFlag": true,
+  "confidence": "explicit",
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "description": "Army officials told GAO that the initial results of modeling for the Distribution and Transportation line of effort shows the current TWV fleet is sufficient to provide sustainment (printed p. 14).",
+  "enteredOrder": 1,
+  "id": "alt-current-fleet",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 14 (PDF p. 19)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "name": "the current TWV fleet",
+  "rev": 1,
+  "status": "candidate",
+  "type": "Alternative"
+}

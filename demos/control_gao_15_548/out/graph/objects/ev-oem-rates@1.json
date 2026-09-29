@@ -1,0 +1,60 @@
+{
+  "classification": {
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2013",
+  "evidenceType": "ExpertAssessment",
+  "experts": [
+    "the original equipment manufacturers"
+  ],
+  "id": "ev-oem-rates",
+  "inclusionReason": "the rate the study's low-demand analysis turns on, and the one input GAO says the study should have documented better",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 13 (PDF p. 16)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "limitations": [
+    {
+      "impact": "two manufacturers' rates are not necessarily comparable, and printed p. 13 records that \"a change in the minimum sustainment rate could impact the findings of a study\"",
+      "statement": "Printed p. 13: Army and commercial industry officials told GAO that minimum sustainment rate \"is a somewhat subjective term because different organizations may include different cost assumptions in assessing the minimum production rate it can sustain financially.\""
+    }
+  ],
+  "method": "minimum sustainment rate as derived by each original equipment manufacturer; the derivation itself is a recorded gap (gap-msr-derivation)",
+  "pointer": {
+    "custodian": "the original equipment manufacturers (the rates and their derivation, not public); U.S. Government Accountability Office (the published description)",
+    "uri": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf#page=16"
+  },
+  "reliabilitySteps": [
+    "drs-original-sources"
+  ],
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "reviewers": [
+    {
+      "date": "2013",
+      "name": "the original equipment manufacturers",
+      "role": "deriving party"
+    },
+    {
+      "date": "2015-06",
+      "name": "U.S. Government Accountability Office",
+      "role": "assumption reviewed against research standards"
+    }
+  ],
+  "scopeOfValidity": {
+    "builtToAnswer": "What is the minimum production rate a facility can sustain financially?",
+    "intendedUse": "the study's scenario analysis and its assessment of the effects of low demand",
+    "questionClass": "industrial-base"
+  },
+  "title": "Minimum sustainment rates as derived by the original equipment manufacturers",
+  "type": "Evidence"
+}

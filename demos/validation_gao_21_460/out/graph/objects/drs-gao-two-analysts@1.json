@@ -1,0 +1,22 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2021",
+  "description": "two GAO analysts used a data collection tool to independently evaluated the Army study against the generally accepted research standards … The two analysts then completed their independent analyses, and the GAO team compared the two sets of observations, discussed, and reconciled any differences.",
+  "documentation": "ev-gao-21-460",
+  "id": "drs-gao-two-analysts",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 36 (PDF p. 41)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "method": "expert-review",
+  "performedBy": "GAO",
+  "rev": 1,
+  "type": "DataReliabilityStep"
+}

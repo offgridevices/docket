@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Copied from the OffGrid brand handoff v3.0 (offgridevices/offgrid-brand,
+     handoffs/2026-09-08-brand-v3.0/handoff/logo/svg/offgrid-mark-ink.svg).
+     Verbatim except this comment and the removal of an inert <metadata> C2PA
+     manifest — ~14 kB of base64 provenance on a ~1 kB graphic, shipped in a
+     browser bundle that must fit on a USB stick for an offline demo. It is
+     file provenance, not design; nothing renders it. -->
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="OffGrid">
+  <title>OffGrid · Beacon Ring · Black ink (one-color)</title>
+  <path d="M124.5 55.4 A58 58 0 1 1 75.5 55.4" fill="none" stroke="#000000" stroke-width="22" stroke-linecap="round"></path>
+  <circle cx="100" cy="40" r="17" fill="#000000"></circle>
+</svg>

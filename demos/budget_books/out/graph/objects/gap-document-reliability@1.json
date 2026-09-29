@@ -1,0 +1,26 @@
+{
+  "confirmedBy": {
+    "actorId": "shreyash",
+    "date": "2026-09-05"
+  },
+  "createdAt": "2026-09-05T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gap-document-reliability",
+  "impact": "degrading",
+  "indicatorsThatWouldResolve": [
+    "a published methodology for the dates given in either GAO product",
+    "a methodology annex to the December 2020 industry-day briefing"
+  ],
+  "rev": 1,
+  "sought": "the steps taken to establish the reliability of the figures the three published documents print about the OMFV/XM30 effort",
+  "type": "InsufficientEvidence",
+  "whereLookedFor": [
+    "GAO-23-106549",
+    "the GAO-23-106059 programme profile",
+    "the December 2020 industry-day slides"
+  ],
+  "whyNotFound": "GAO-23-106549 states at footnote 7 (printed p. 9) and in appendix I (printed p. 18) that it did not independently assess or verify the analytical efforts supporting the Army's report; the annual assessment's programme profile and the industry-day slides carry no methodology section at all"
+}

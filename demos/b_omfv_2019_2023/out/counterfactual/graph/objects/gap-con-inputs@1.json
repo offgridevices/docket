@@ -1,0 +1,33 @@
+{
+  "confidence": "absent",
+  "confirmedBy": {
+    "actorId": "shreyash",
+    "date": "2026-09-06"
+  },
+  "createdAt": "2020-12-09T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gap-con-inputs",
+  "impact": "degrading",
+  "indicatorsThatWouldResolve": [
+    "the Army names or releases any of the three inputs",
+    "a released A-CDD traces the characteristics back to a named threat analysis"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "PDF p. 11 (slide footer 13)",
+    "sourceArtifact": "sources/army-2020-12-09-omfv-industry-day-briefing.pdf"
+  },
+  "rev": 1,
+  "sought": "the threat analysis, the market research and the ABCT operational concept the December 2020 CON was generated from: which documents they are, who authored them, what threat set and what method",
+  "type": "InsufficientEvidence",
+  "whereLookedFor": [
+    "OMFV Industry Day briefing, 9 December 2020, PDF p. 11 (slide footer 13)",
+    "the February 2020 and December 2020 published characteristics",
+    "public web search, 2026-09-06"
+  ],
+  "whyNotFound": "the slide names the three inputs and nothing else about them: no title, date, author, threat set, method or respondent set appears in any public Army document"
+}

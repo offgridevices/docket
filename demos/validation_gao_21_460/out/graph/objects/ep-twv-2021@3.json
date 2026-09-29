@@ -1,0 +1,107 @@
+{
+  "alternatives": [
+    "alt-current-fleet",
+    "alt-mdo-fleet"
+  ],
+  "asOf": "2021-05-01",
+  "assumptions": [
+    "as-readiness-90"
+  ],
+  "biasChecks": [],
+  "charter": "ch-twv-2021",
+  "claims": [],
+  "confidence": "explicit",
+  "constraints": [
+    "con-schedule"
+  ],
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "distribution": [],
+  "evidenceRegister": [
+    "ev-gao-21-460",
+    "ev-g8-memo-2020-04-30",
+    "ev-fcc-oporder-19-014",
+    "ev-army-officials-2021",
+    "ev-mobility-data",
+    "ev-lsp-data",
+    "ev-lbc-study"
+  ],
+  "flipAnalyses": [],
+  "groundRules": [
+    "gr-mdo-force"
+  ],
+  "id": "ep-twv-2021",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 9 (PDF p. 14)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "lifecycleState": "PLAN_APPROVED",
+  "mandateElements": [],
+  "models": [
+    "mdl-lbc",
+    "mdl-cba"
+  ],
+  "narratives": [],
+  "objectives": [
+    "obj-mobility",
+    "obj-launch-support",
+    "obj-distribution"
+  ],
+  "observations": [],
+  "plan": "pl-twv",
+  "rev": 3,
+  "risks": [],
+  "runs": [],
+  "scenarios": [
+    "sc-europe-mdo"
+  ],
+  "sequence": 1,
+  "transitions": [
+    {
+      "actor": {
+        "actorId": "shreyash",
+        "actorType": "human"
+      },
+      "at": "2021-05-01T00:00:00Z",
+      "checksSatisfied": [
+        "charter-three-fields",
+        "charter-human-accepted",
+        "no-blocking-structural",
+        "gaps-confirmed",
+        "linchpins-human"
+      ],
+      "checksUnsatisfied": [],
+      "from": "DRAFT",
+      "policyVersion": "0.1",
+      "refused": false,
+      "to": "MODEL_APPROVED"
+    },
+    {
+      "actor": {
+        "actorId": "shreyash",
+        "actorType": "human"
+      },
+      "at": "2021-05-01T00:00:00Z",
+      "checksSatisfied": [
+        "plan-present",
+        "plan-approved-by-human",
+        "plan-steps-have-authority",
+        "policy-method-matches"
+      ],
+      "checksUnsatisfied": [],
+      "from": "MODEL_APPROVED",
+      "policyVersion": "0.1",
+      "refused": false,
+      "to": "PLAN_APPROVED"
+    }
+  ],
+  "type": "DecisionEpisode",
+  "weightSets": [
+    "ws-twv"
+  ]
+}

@@ -1,0 +1,425 @@
+{
+  "aggregationRule": "generally X if no mapped question is state 3 and at most k=1 are state 2; insufficient if any state 4; else not X (GAO-11-82R; GAO-23-106549 pp. 7-8)",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "docket-kernel/0.1.0",
+    "actorType": "kernel"
+  },
+  "dimensionVerdicts": {
+    "objectivity": {
+      "mapped": [
+        "DES-2",
+        "DES-4",
+        "DES-7",
+        "EXE-1",
+        "EXE-2",
+        "PRE-3",
+        "PRE-4"
+      ],
+      "qualifier": null,
+      "states": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "verdict": "generally_objective"
+    },
+    "reliability": {
+      "mapped": [
+        "DES-6",
+        "EXE-5",
+        "PRE-2",
+        "PRE-3"
+      ],
+      "qualifier": "generally reliable, with concerns: EXE-5 (only some cited evidence describes its reliability steps)",
+      "states": [
+        1,
+        2,
+        1,
+        1
+      ],
+      "verdict": "generally_reliable"
+    },
+    "validity": {
+      "mapped": [
+        "DES-5",
+        "EXE-3",
+        "PRE-1",
+        "PRE-3"
+      ],
+      "qualifier": null,
+      "states": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "verdict": "generally_valid"
+    }
+  },
+  "episode": "ep-cbo-2013",
+  "id": "sa-ep-cbo-2013-published-21-1",
+  "k": 1,
+  "kernelVersion": "0.1.0",
+  "ratings": [
+    {
+      "applicable": true,
+      "justification": [
+        "ch-gcv-2013",
+        "pl-cbo"
+      ],
+      "questionId": "DES-1",
+      "rule": "charter_complete_and_plan_approved→1",
+      "state": 1
+    },
+    {
+      "applicable": true,
+      "justification": [
+        "ch-gcv-2013"
+      ],
+      "questionId": "DES-2",
+      "rule": "charter_question_and_terms_defined→1",
+      "state": 1
+    },
+    {
+      "applicable": true,
+      "justification": [
+        "ch-gcv-2013"
+      ],
+      "questionId": "DES-3",
+      "rule": "scope_defined_and_terms_defined→1",
+      "state": 1
+    },
+    {
+      "applicable": true,
+      "justification": [
+        "as-army-weights",
+        "as-expert-estimates",
+        "as-nine-squad"
+      ],
+      "questionId": "DES-4",
+      "rule": "assumptions_all_have_rationale→1",
+      "state": 1
+    },
+    {
+      "applicable": true,
+      "justification": [
+        "as-army-weights",
+        "as-expert-estimates",
+        "as-nine-squad"
+      ],
+      "questionId": "DES-5",
+      "rule": "assumptions_all_evidenced_and_consistent→1",
+      "state": 1
+    },
+    {
+      "applicable": true,
+      "justification": [
+        "as-nine-squad",
+        "flip-run-pl-cbo-secondary-4"
+      ],
+      "questionId": "DES-6",
+      "rule": "all_linchpins_have_flip→1",
+      "state": 1
+    },
+    {
+      "applicable": true,
+      "justification": [
+        "con-platoon",
+        "con-unit-cost"
+      ],
+      "questionId": "DES-7",
+      "rule": "constraints_discussed→1",
+      "state": 1
+    },
+    {
+      "applicable": true,
+      "justification": [
+        "sc-conventional",
+        "sc-ne-asia",
+        "sc-unconventional"
+      ],
+      "questionId": "DES-8",
+      "rule": "scenarios_have_rationale→1",
+      "state": 1
+    },
+    {
+      "applicable": true,
+      "justification": [
+        "ch-gcv-2013",
+        "sc-conventional",
+        "sc-ne-asia",
+        "sc-unconventional"
+      ],
+      "questionId": "DES-9",
+      "rule": "scenarios_cover_conditions→1",
+      "state": 1
+    },
+    {
+      "applicable": false,
+      "justification": [],
+      "questionId": "DES-10",
+      "rule": "tailored-out",
+      "state": null,
+      "tailoringReason": "Not among the 21 questions GAO published in GAO-15-548 App. I, GAO-21-460 Fig. 6 and GAO-23-106549 Fig. 3; retained in the 36-question standard (GAO-16-820 App. I) and scored on request."
+    },
+    {
+      "applicable": false,
+      "justification": [],
+      "questionId": "DES-11",
+      "rule": "tailored-out",
+      "state": null,
+      "tailoringReason": "Not among the 21 questions GAO published in GAO-15-548 App. I, GAO-21-460 Fig. 6 and GAO-23-106549 Fig. 3; retained in the 36-question standard (GAO-16-820 App. I) and scored on request."
+    },
+    {
+      "applicable": false,
+      "justification": [],
+      "questionId": "DES-12",
+      "rule": "tailored-out",
+      "state": null,
+      "tailoringReason": "Not among the 21 questions GAO published in GAO-15-548 App. I, GAO-21-460 Fig. 6 and GAO-23-106549 Fig. 3; retained in the 36-question standard (GAO-16-820 App. I) and scored on request."
+    },
+    {
+      "applicable": false,
+      "justification": [],
+      "questionId": "DES-13",
+      "rule": "tailored-out",
+      "state": null,
+      "tailoringReason": "Not among the 21 questions GAO published in GAO-15-548 App. I, GAO-21-460 Fig. 6 and GAO-23-106549 Fig. 3; retained in the 36-question standard (GAO-16-820 App. I) and scored on request."
+    },
+    {
+      "applicable": false,
+      "justification": [],
+      "questionId": "DES-14",
+      "rule": "tailored-out",
+      "state": null,
+      "tailoringReason": "Not among the 21 questions GAO published in GAO-15-548 App. I, GAO-21-460 Fig. 6 and GAO-23-106549 Fig. 3; retained in the 36-question standard (GAO-16-820 App. I) and scored on request."
+    },
+    {
+      "applicable": true,
+      "justification": [
+        "obj-capability",
+        "pl-cbo"
+      ],
+      "questionId": "EXE-1",
+      "rule": "methodology_covers_objectives→1",
+      "state": 1
+    },
+    {
+      "applicable": true,
+      "justification": [
+        "obj-capability"
+      ],
+      "questionId": "EXE-2",
+      "rule": "objectives_addressed→1",
+      "state": 1
+    },
+    {
+      "applicable": true,
+      "justification": [
+        "mdl-cbo-metric"
+      ],
+      "questionId": "EXE-3",
+      "rule": "models_scope_ok→1",
+      "state": 1
+    },
+    {
+      "applicable": true,
+      "justification": [
+        "ev-army-aoa-2011",
+        "ev-army-expert-estimates",
+        "ev-army-mobility-data",
+        "ev-army-sim-2010",
+        "ev-army-squad-2011",
+        "ev-cbo-2013",
+        "ev-cbo-cost-estimate",
+        "ev-soldier-survey"
+      ],
+      "questionId": "EXE-4",
+      "rule": "data_scope_all_known→1",
+      "state": 1
+    },
+    {
+      "applicable": true,
+      "justification": [
+        "ev-army-aoa-2011",
+        "ev-army-expert-estimates",
+        "ev-army-mobility-data",
+        "ev-army-sim-2010",
+        "ev-army-squad-2011",
+        "ev-cbo-2013",
+        "ev-cbo-cost-estimate",
+        "ev-soldier-survey"
+      ],
+      "questionId": "EXE-5",
+      "rule": "reliability_some→2",
+      "state": 2
+    },
+    {
+      "applicable": true,
+      "justification": [
+        "ev-army-aoa-2011",
+        "ev-army-expert-estimates",
+        "ev-army-mobility-data",
+        "ev-army-sim-2010",
+        "ev-army-squad-2011",
+        "ev-cbo-2013",
+        "ev-cbo-cost-estimate",
+        "ev-soldier-survey"
+      ],
+      "questionId": "EXE-6",
+      "rule": "limitations_all_explained→1",
+      "state": 1
+    },
+    {
+      "applicable": true,
+      "justification": [
+        "mdl-cbo-metric"
+      ],
+      "questionId": "EXE-7",
+      "rule": "ms_limitations_all_justified→1",
+      "state": 1
+    },
+    {
+      "applicable": true,
+      "justification": [
+        "mdl-cbo-metric"
+      ],
+      "questionId": "EXE-8",
+      "rule": "models_documented_na_reasoned→2",
+      "state": 2
+    },
+    {
+      "applicable": false,
+      "justification": [],
+      "questionId": "EXE-9",
+      "rule": "tailored-out",
+      "state": null,
+      "tailoringReason": "Not among the 21 questions GAO published in GAO-15-548 App. I, GAO-21-460 Fig. 6 and GAO-23-106549 Fig. 3; retained in the 36-question standard (GAO-16-820 App. I) and scored on request."
+    },
+    {
+      "applicable": false,
+      "justification": [],
+      "questionId": "EXE-10",
+      "rule": "tailored-out",
+      "state": null,
+      "tailoringReason": "Not among the 21 questions GAO published in GAO-15-548 App. I, GAO-21-460 Fig. 6 and GAO-23-106549 Fig. 3; retained in the 36-question standard (GAO-16-820 App. I) and scored on request."
+    },
+    {
+      "applicable": false,
+      "justification": [],
+      "questionId": "EXE-11",
+      "rule": "tailored-out",
+      "state": null,
+      "tailoringReason": "Not among the 21 questions GAO published in GAO-15-548 App. I, GAO-21-460 Fig. 6 and GAO-23-106549 Fig. 3; retained in the 36-question standard (GAO-16-820 App. I) and scored on request."
+    },
+    {
+      "applicable": false,
+      "justification": [],
+      "questionId": "EXE-12",
+      "rule": "tailored-out",
+      "state": null,
+      "tailoringReason": "Not among the 21 questions GAO published in GAO-15-548 App. I, GAO-21-460 Fig. 6 and GAO-23-106549 Fig. 3; retained in the 36-question standard (GAO-16-820 App. I) and scored on request."
+    },
+    {
+      "applicable": false,
+      "justification": [],
+      "questionId": "EXE-13",
+      "rule": "tailored-out",
+      "state": null,
+      "tailoringReason": "Not among the 21 questions GAO published in GAO-15-548 App. I, GAO-21-460 Fig. 6 and GAO-23-106549 Fig. 3; retained in the 36-question standard (GAO-16-820 App. I) and scored on request."
+    },
+    {
+      "applicable": false,
+      "justification": [],
+      "questionId": "EXE-14",
+      "rule": "tailored-out",
+      "state": null,
+      "tailoringReason": "Not among the 21 questions GAO published in GAO-15-548 App. I, GAO-21-460 Fig. 6 and GAO-23-106549 Fig. 3; retained in the 36-question standard (GAO-16-820 App. I) and scored on request."
+    },
+    {
+      "applicable": false,
+      "justification": [],
+      "questionId": "EXE-15",
+      "rule": "tailored-out",
+      "state": null,
+      "tailoringReason": "Not among the 21 questions GAO published in GAO-15-548 App. I, GAO-21-460 Fig. 6 and GAO-23-106549 Fig. 3; retained in the 36-question standard (GAO-16-820 App. I) and scored on request."
+    },
+    {
+      "applicable": true,
+      "justification": [
+        "cl-primary",
+        "cl-secondary"
+      ],
+      "questionId": "PRE-1",
+      "rule": "results_support_claims→1",
+      "state": 1
+    },
+    {
+      "applicable": true,
+      "justification": [
+        "cl-cost",
+        "cl-primary",
+        "cl-secondary",
+        "cl-squad-rationale",
+        "cl-weights"
+      ],
+      "questionId": "PRE-2",
+      "rule": "claims_exist_no_silence_no_blocking_gaps→1",
+      "state": 1
+    },
+    {
+      "applicable": true,
+      "justification": [
+        "cl-primary",
+        "cl-secondary"
+      ],
+      "questionId": "PRE-3",
+      "rule": "conclusions_sound→1",
+      "state": 1
+    },
+    {
+      "applicable": true,
+      "justification": [
+        "cl-primary",
+        "cl-secondary",
+        "run-pl-cbo-primary",
+        "run-pl-cbo-secondary"
+      ],
+      "questionId": "PRE-4",
+      "rule": "results_clear→1",
+      "state": 1
+    },
+    {
+      "applicable": false,
+      "justification": [],
+      "questionId": "PRE-5",
+      "rule": "tailored-out",
+      "state": null,
+      "tailoringReason": "Not among the 21 questions GAO published in GAO-15-548 App. I, GAO-21-460 Fig. 6 and GAO-23-106549 Fig. 3; retained in the 36-question standard (GAO-16-820 App. I) and scored on request."
+    },
+    {
+      "applicable": false,
+      "justification": [],
+      "questionId": "PRE-6",
+      "rule": "tailored-out",
+      "state": null,
+      "tailoringReason": "Not among the 21 questions GAO published in GAO-15-548 App. I, GAO-21-460 Fig. 6 and GAO-23-106549 Fig. 3; retained in the 36-question standard (GAO-16-820 App. I) and scored on request."
+    },
+    {
+      "applicable": false,
+      "justification": [],
+      "questionId": "PRE-7",
+      "rule": "tailored-out",
+      "state": null,
+      "tailoringReason": "Not among the 21 questions GAO published in GAO-15-548 App. I, GAO-21-460 Fig. 6 and GAO-23-106549 Fig. 3; retained in the 36-question standard (GAO-16-820 App. I) and scored on request."
+    }
+  ],
+  "rev": 1,
+  "tailoring": "published-21",
+  "type": "StandardsAssessment"
+}

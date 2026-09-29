@@ -1,0 +1,23 @@
+/* The five semantic colour tokens (spec §10; docs/decisions/2026-09-11-ui-colour-system.md).
+   A deliberate, recorded deviation from the brand's one-accent rule: a working tool needs
+   state colour people learn once. Each token has a text/icon value (>= 4.5:1 on the paper
+   ground #F7F4EC), a tint for backgrounds and a hairline for borders. This file and
+   tokens.css are the only two files allowed to name a colour. */
+:root {
+  --c-act:       var(--og-accent);       /* the act to do next — the one fill per view  */
+  --c-act-text:  var(--og-accent-text);  /* the same, as text or an icon                  */
+  --c-act-tint:  #FBE3D1;
+  --c-act-line:  #F0B892;
+  --c-stop:      #B3261E;                /* stops progress · refused · overdue            */
+  --c-stop-tint: #F4DFDB;
+  --c-stop-line: #D9A49C;
+  --c-wait:      #8A5F00;                /* in progress · waiting · warning · time running low */
+  --c-wait-tint: #F6EBCB;
+  --c-wait-line: #D9BF7A;
+  --c-done:      #2E6B3F;                /* done · passed · agreed by a person · verified */
+  --c-done-tint: #DDEBDC;
+  --c-done-line: #9DC3A2;
+  --c-ai:        #2F5F8F;                /* drafted by the AI, not yet agreed             */
+  --c-ai-tint:   #DEE7F1;
+  --c-ai-line:   #9FB9D3;
+}

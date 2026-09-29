@@ -1,0 +1,16 @@
+{
+  "aggregate": true,
+  "alternative": "alt-namer",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "docket-kernel/0.1.0",
+    "actorType": "kernel"
+  },
+  "id": "res-run-pl-cbo-secondary-alt-namer",
+  "method": "mavt-additive",
+  "rev": 1,
+  "run": "run-pl-cbo-secondary",
+  "type": "Result",
+  "units": "weighted value",
+  "value": 25.25
+}

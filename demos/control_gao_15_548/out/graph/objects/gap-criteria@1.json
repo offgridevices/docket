@@ -1,0 +1,31 @@
+{
+  "confidence": "absent",
+  "confirmedBy": {
+    "actorId": "shreyash",
+    "date": "2026-09-05"
+  },
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gap-criteria",
+  "impact": "informational",
+  "indicatorsThatWouldResolve": [
+    "release of the April 2014 report or the backup slides that detail the methodological elements of the study (printed p. 2)"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 9 (PDF p. 12); printed p. 13 (PDF p. 16)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "rev": 1,
+  "sought": "the threshold and objective values each of the six analyses was scored against",
+  "type": "InsufficientEvidence",
+  "whereLookedFor": [
+    "GAO-15-548 printed pp. 9, 13-14 (the methodology and its execution)",
+    "GAO-15-548 printed p. 10, figure 2 (a raster figure with no text layer)"
+  ],
+  "whyNotFound": "GAO describes the six analyses and their findings; the study's own threshold and objective values are not in the public account, and GAO nowhere says the analyses were scored against numeric criteria at all."
+}

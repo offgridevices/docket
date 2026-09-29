@@ -1,0 +1,17 @@
+{
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "docket-kernel/0.1.0",
+    "actorType": "kernel"
+  },
+  "episode": "ep-cbo-2013",
+  "graphSnapshotHash": "f094be5a08949a0e318388f825b41308d30f848b0584af465efde952cb31fa37",
+  "hash": "9ab1881135bc46557ee1f061831f5d480dbfd288675d8400076c4025e270c5bf",
+  "id": "pkg-ep-cbo-2013-unclassified-1",
+  "kernelVersion": "0.1.0",
+  "path": "package-unclassified.md",
+  "renderedAt": "2013-04-30T00:00:00Z",
+  "rendering": "unclassified",
+  "rev": 1,
+  "type": "DecisionPackage"
+}

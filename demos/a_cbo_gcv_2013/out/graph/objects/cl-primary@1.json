@@ -1,0 +1,43 @@
+{
+  "addresses": [
+    "obj-capability"
+  ],
+  "assessableAt": {
+    "level": "U"
+  },
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "derivedFrom": "run-pl-cbo-primary",
+  "id": "cl-primary",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "pp. 3, 21",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "questionClass": "requirements-tradeoff",
+  "resultRef": "res-run-pl-cbo-primary-alt-puma",
+  "rev": 1,
+  "section": "evaluation-results",
+  "supportedBy": [
+    {
+      "evidence": "ev-cbo-2013"
+    },
+    {
+      "evidence": "ev-army-expert-estimates",
+      "reuseJustification": {
+        "authority": "Congressional Budget Office",
+        "text": "The Namer's and the Puma's protection and lethality are Army analysts' estimates, made because the technical data were insufficient to simulate those vehicles; CBO placed them beside the GCV's simulated scores and said so (p. 20 fn 4)."
+      }
+    },
+    {
+      "evidence": "ev-army-mobility-data"
+    }
+  ],
+  "text": "Under CBO's primary metric the Puma is the most capable of the five vehicles, followed by the upgraded Bradley IFV, the notional GCV and the Namer.",
+  "type": "Claim"
+}

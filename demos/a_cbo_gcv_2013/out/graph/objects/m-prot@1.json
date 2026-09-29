@@ -1,0 +1,36 @@
+{
+  "attribute": "protection and survivability",
+  "conditions": [
+    "unconventional threats",
+    "conventional armored battle",
+    "northeast Asia intense battle"
+  ],
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "criteria": {
+    "$exclusion": "ex-no-thresholds"
+  },
+  "id": "m-prot",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 10 fn 13; p. 34",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "measure": "improvement combining the reduction in soldiers lost (two-thirds) and in vehicles lost (one-third) in the Army's simulations",
+  "metric": {
+    "direction": "max",
+    "units": "percent improvement vs the current Bradley IFV"
+  },
+  "objective": "obj-capability",
+  "rev": 1,
+  "task": "Protect the occupants and survive attack",
+  "type": "Measure",
+  "valueFunction": {
+    "kind": "identity"
+  }
+}

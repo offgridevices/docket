@@ -1,0 +1,20 @@
+{
+  "consequence": "perceived bias in the selection of analyses (GAO-23-106549 F2/F3)",
+  "createdAt": "2020-02-25T00:00:00Z",
+  "createdBy": {
+    "actorId": "docket-kernel/0.1.0",
+    "actorType": "kernel"
+  },
+  "evidence": [
+    "ev-breaking-defense",
+    "ev-con-2020-02",
+    "ev-industry-day-narrative-2020-04"
+  ],
+  "id": "risk-bias-ep-omfv-2020-02-selection",
+  "kind": "bias-selection",
+  "owner": "unassigned",
+  "rev": 1,
+  "statement": "evidence excluded without a typed reason, or included without a stated reason",
+  "status": "open",
+  "type": "Risk"
+}

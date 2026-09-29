@@ -1,0 +1,145 @@
+{
+  "alternatives": [
+    "alt-continue-production",
+    "alt-warm-shutdown",
+    "alt-courses-of-action"
+  ],
+  "asOf": "2014-04-30",
+  "assumptions": [
+    "as-warm-shutdown",
+    "as-york-costs",
+    "as-min-sustainment-rate",
+    "as-army-risk-perspective",
+    "as-demand-scenarios"
+  ],
+  "biasChecks": [
+    "bc-oem-review"
+  ],
+  "charter": "ch-kearney-2014",
+  "claims": [
+    "cl-excess-capacity",
+    "cl-critical-suppliers",
+    "cl-critical-skills",
+    "cl-cost-baseline",
+    "cl-benchmark-estimates",
+    "cl-data-valid-reliable",
+    "cl-min-sustainment-rate",
+    "cl-oem-review",
+    "cl-shutdown-cost",
+    "cl-mandate-coverage",
+    "cl-presentation"
+  ],
+  "confidence": "inferred",
+  "constraints": [
+    "con-fiscal"
+  ],
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "distribution": [
+    {
+      "date": "2014-04",
+      "to": "the congressional defense committees"
+    },
+    {
+      "date": "2013-04",
+      "to": "the Army (preliminary results)"
+    },
+    {
+      "date": "2013",
+      "to": "key congressional committees (interim briefings)"
+    }
+  ],
+  "evidenceRegister": [
+    "ev-gao-15-548",
+    "ev-kearney-final-report",
+    "ev-manufacturer-data",
+    "ev-supplier-survey",
+    "ev-amc-baseline",
+    "ev-benchmark-data",
+    "ev-oem-rates",
+    "ev-army-procurement-plans",
+    "ev-oem-review-2013",
+    "ev-abrams-cost-data"
+  ],
+  "flipAnalyses": [],
+  "groundRules": [
+    "gr-three-programs"
+  ],
+  "id": "ep-kearney-2014",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 1 (PDF p. 4); printed p. 18 (PDF p. 21)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "lifecycleState": "PLAN_APPROVED",
+  "mandateElements": [
+    "me-ndaa13-bradley",
+    "me-sasc-goco"
+  ],
+  "models": [
+    "mdl-kearney-financial",
+    "mdl-kearney-method"
+  ],
+  "narratives": [],
+  "objectives": [
+    "obj-viability",
+    "obj-alternatives"
+  ],
+  "observations": [],
+  "plan": "pl-kearney",
+  "program": "prg-kearney",
+  "rev": 3,
+  "risks": [],
+  "runs": [],
+  "scenarios": [
+    "sc-demand-levels"
+  ],
+  "sequence": 1,
+  "transitions": [
+    {
+      "actor": {
+        "actorId": "shreyash",
+        "actorType": "human"
+      },
+      "at": "2014-04-30T00:00:00Z",
+      "checksSatisfied": [
+        "charter-three-fields",
+        "charter-human-accepted",
+        "no-blocking-structural",
+        "gaps-confirmed",
+        "linchpins-human"
+      ],
+      "checksUnsatisfied": [],
+      "from": "DRAFT",
+      "policyVersion": "0.1",
+      "refused": false,
+      "to": "MODEL_APPROVED"
+    },
+    {
+      "actor": {
+        "actorId": "shreyash",
+        "actorType": "human"
+      },
+      "at": "2014-04-30T00:00:00Z",
+      "checksSatisfied": [
+        "plan-present",
+        "plan-approved-by-human",
+        "plan-steps-have-authority",
+        "policy-method-matches"
+      ],
+      "checksUnsatisfied": [],
+      "from": "MODEL_APPROVED",
+      "policyVersion": "0.1",
+      "refused": false,
+      "to": "PLAN_APPROVED"
+    }
+  ],
+  "type": "DecisionEpisode",
+  "weightSets": [
+    "ws-kearney"
+  ]
+}

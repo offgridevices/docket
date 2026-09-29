@@ -1,0 +1,43 @@
+{
+  "classification": {
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "explicit",
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "evidenceType": "ExpertAssessment",
+  "experts": [
+    "Futures and Concepts Center officials",
+    "Army modeling officials",
+    "MDO TWV Study officials"
+  ],
+  "id": "ev-army-officials-2021",
+  "inclusionReason": "the stressor force, the readiness assumption, the model's validation and the schedule slip are all reported as statements of Army officials, not as documents",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 12 (PDF p. 17)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "method": "statements to GAO in interview",
+  "pointer": {
+    "custodian": "U.S. Government Accountability Office",
+    "uri": "https://www.gao.gov/products/gao-21-460"
+  },
+  "reliabilitySteps": [
+    "drs-gao-two-analysts"
+  ],
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "scopeOfValidity": {
+    "builtToAnswer": "how the study was conducted",
+    "intendedUse": "GAO's assessment",
+    "questionClass": "capability-gap"
+  },
+  "title": "Statements Army officials made to GAO about how the 2021 MDO TWV Study was conducted (printed pp. 12, 13, 14)",
+  "type": "Evidence"
+}

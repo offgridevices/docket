@@ -1,0 +1,22 @@
+{
+  "authority": {
+    "date": "2026-09-05",
+    "role": "reconstruction author",
+    "who": "shreyash"
+  },
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "ex-vva-na",
+  "reason": "MIL-STD-3022 §5.3 retains every section; there are no outstanding issues and no lessons learned to record for a reproduction of a published additive metric.",
+  "reasonType": "not-applicable",
+  "retainedInStructure": true,
+  "rev": 1,
+  "target": {
+    "kind": "Section",
+    "label": "VV&A Issues / Lessons Learned"
+  },
+  "type": "Exclusion"
+}

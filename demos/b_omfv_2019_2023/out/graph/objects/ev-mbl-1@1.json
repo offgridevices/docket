@@ -1,0 +1,61 @@
+{
+  "analysisMethod": {
+    "$gap": "gap-touchpoint-fields"
+  },
+  "classification": {
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "inferred",
+  "createdAt": "2021-09-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2021-07",
+  "dates": "2021-07",
+  "evidenceType": "SoldierTouchpoint",
+  "id": "ev-mbl-1",
+  "inclusionReason": "GAO printed p. 11: one of the two of the 11 analytical efforts the force-structure observations rely on. MBL1 is the only Maneuver Battle Lab item on the December 2020 schedule, so the identification is a safe inference — but it is still OURS, and the schedule places MBL1 around April 2021 against GAO's July 2021",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "printed p. 11 (PDF p. 14); named on the Phase 2 schedule at sources/army-2020-12-09-omfv-industry-day-briefing.pdf PDF p. 17 (slide footer 19)",
+    "sourceArtifact": "sources/gao-23-106549.pdf"
+  },
+  "instrument": {
+    "$gap": "gap-touchpoint-fields"
+  },
+  "n": {
+    "$gap": "gap-touchpoint-fields"
+  },
+  "pointer": {
+    "custodian": "Department of the Army (the study itself is not public); the cited document is the public record that names it",
+    "uri": "sources/gao-23-106549.pdf#page=14"
+  },
+  "reliabilitySteps": {
+    "$gap": "gap-reliability-steps"
+  },
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "reviewers": [
+    {
+      "date": "2021-07",
+      "name": "Department of the Army",
+      "role": "performing organisation (no review record is public)"
+    }
+  ],
+  "scopeOfValidity": {
+    "builtToAnswer": "the desired characteristics for the OMFV — GAO printed p. 12: \"these analyses were not designed to draw conclusions on force structure alternatives. Instead, the analyses were intended to assess the desired characteristics\"",
+    "intendedUse": "Phase 2 modelling, simulation and analysis",
+    "questionClass": "desired-characteristics"
+  },
+  "selectionRule": {
+    "$gap": "gap-touchpoint-fields"
+  },
+  "title": "MBL1 — the July 2021 soldier touchpoint conducted by the Maneuver Battle Lab within the Maneuver Capabilities Development and Integration Directorate; identified with the \"MBL1\" line on the December 2020 Phase 2 schedule by US, not by GAO",
+  "type": "Evidence",
+  "unit": {
+    "$gap": "gap-touchpoint-fields"
+  }
+}

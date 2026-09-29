@@ -1,0 +1,20 @@
+<definitions xmlns="https://www.omg.org/spec/DMN/20230324/MODEL/" id="defs-pl-omfv-r4-fs" name="pl-omfv-r4-fs" namespace="https://docket.dev/ns#pl-omfv-r4-fs">
+  <knowledgeSource id="ks-omfv-industry-day-briefing-9-december-2020" name="OMFV Industry Day briefing, 9 December 2020" />
+  <inputData id="input-m-weight-bridges" name="m-weight-bridges" />
+  <decision id="aries" name="aries">
+    <informationRequirement>
+      <requiredInput href="#input-m-weight-bridges" />
+    </informationRequirement>
+    <authorityRequirement>
+      <requiredAuthority href="#ks-omfv-industry-day-briefing-9-december-2020" />
+    </authorityRequirement>
+  </decision>
+  <decision id="trac" name="trac">
+    <informationRequirement>
+      <requiredInput href="#input-m-weight-bridges" />
+    </informationRequirement>
+    <authorityRequirement>
+      <requiredAuthority href="#ks-omfv-industry-day-briefing-9-december-2020" />
+    </authorityRequirement>
+  </decision>
+</definitions>

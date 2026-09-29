@@ -1,0 +1,40 @@
+{
+  "classification": {
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "explicit",
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2021-07-15",
+  "evidenceType": "Document",
+  "id": "ev-gao-21-460",
+  "inclusionReason": "the only public description of the study",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 35 (PDF p. 40)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "pointer": {
+    "custodian": "U.S. Government Accountability Office",
+    "uri": "https://www.gao.gov/products/gao-21-460"
+  },
+  "published": "2021-07-15",
+  "publisher": "U.S. Government Accountability Office",
+  "reliabilitySteps": [
+    "drs-gao-two-analysts"
+  ],
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "scopeOfValidity": {
+    "builtToAnswer": "the Army's progress in identifying specific capabilities and requirements for its 2022 TWV Strategy",
+    "intendedUse": "report to congressional committees",
+    "questionClass": "other"
+  },
+  "title": "U.S. Government Accountability Office, Tactical Wheeled Vehicles, GAO-21-460",
+  "type": "Evidence"
+}

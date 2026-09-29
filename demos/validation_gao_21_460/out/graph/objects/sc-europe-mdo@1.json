@@ -1,0 +1,24 @@
+{
+  "conditions": [
+    "European MDO environment"
+  ],
+  "confidence": "explicit",
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "description": "An existing scenario previously developed to support a European Command wargame, which modeling officials stated they modified for the study (printed pp. 13–14). The description does not say what was modified.",
+  "id": "sc-europe-mdo",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 14 (PDF p. 19)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "name": "Modified European Command wargame scenario",
+  "rationale": "It mitigates the limitation the Army identified for the Distribution and Transportation line of effort: the lack of a sufficient, Office of the Secretary of Defense-approved, Multi-Domain Operations Defense Planning Scenario for the European theater (printed pp. 13–14).",
+  "rev": 1,
+  "source": "ev-gao-21-460",
+  "type": "Scenario"
+}

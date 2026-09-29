@@ -1,0 +1,22 @@
+{
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2013",
+  "description": "Verbatim from printed p. 17: to ensure the data's reliability the study's authors \"went back to the data sources, in many cases multiple times, to review their methods and ensure they were using the data correctly.\" GAO's example is the Bradley engine financial analysis, reviewed with the supplier's general manager and working team; printed p. 16 records the same loop for benchmark-estimated costs, which were put back to the supplier. GAO states this of the study's data generally — the section is headed \"The Army Took Sufficient Actions to Ensure the Data Were Valid and Reliable for the Study's Purposes\" and the Bradley engine follows a \"For example\" — so attaching it to a particular evidence item GAO does not name is our reading, not GAO's. See the README, 'Which reliability steps are general and which are item-specific'.",
+  "documentation": "ev-gao-15-548",
+  "id": "drs-supplier-review",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 16 (PDF p. 19); printed p. 17 (PDF p. 20)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "method": "corroboration",
+  "performedBy": "A.T. Kearney",
+  "rev": 1,
+  "type": "DataReliabilityStep"
+}

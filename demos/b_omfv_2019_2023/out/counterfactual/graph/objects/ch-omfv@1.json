@@ -1,0 +1,65 @@
+{
+  "authority": {
+    "board": "Army Futures Command",
+    "signer": "Next Generation Combat Vehicles Cross-Functional Team"
+  },
+  "confidence": "inferred",
+  "consequencesOfErroneousOutput": "A fleet that cannot cross the bridges of the theatre it is bought for (the Weight characteristic sets an 80 percent trafficability target), cannot carry the squad it is built around (the December 2020 Manning characteristic fixes a platoon at 30 dismounts and a crew of two), or cannot be afforded. This paragraph is reconstructed: no public Army document states the consequences of getting the characteristics wrong, which is why this Charter is marked inferred.",
+  "createdAt": "2020-02-25T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "decisionClassPolicy": "pol-omfv",
+  "decisionToBeMade": "the CON to A-CDD to PSPEC requirements chain for the OMFV: which characteristics are published, in what order of priority, and how industry concepts refine them into requirements",
+  "definitions": [
+    {
+      "term": "ABCT",
+      "text": "Armored Brigade Combat Team"
+    },
+    {
+      "term": "force structure",
+      "text": {
+        "$gap": "gap-def-force-structure"
+      }
+    },
+    {
+      "term": "operational concepts",
+      "text": {
+        "$gap": "gap-def-operational-concepts"
+      }
+    }
+  ],
+  "id": "ch-omfv",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "Background and Concept of employment; priority order from sources/army-2020-04-09-omfv-industry-day-narrative.pdf p. 6 section 3.2; undefined terms from sources/gao-23-106549.pdf printed p. 10 (PDF p. 13)",
+    "sourceArtifact": "sources/army-2020-02-25-omfv-characteristics-for-industry-comment.md"
+  },
+  "mandateElements": [],
+  "question": "What characteristics must the OMFV have, in what priority, to replace the Bradley in the Armored Brigade Combat Team?",
+  "questionClass": "desired-characteristics",
+  "rev": 1,
+  "scope": {
+    "excluded": [],
+    "included": [
+      "Survivability",
+      "Mobility",
+      "Growth",
+      "Lethality",
+      "Weight",
+      "Logistics",
+      "Transportability",
+      "Manning",
+      "Training",
+      "the OMFV fighting as part of a section, platoon and company of mechanized infantry inside an ABCT (February 2020 notice, Concept of employment)"
+    ]
+  },
+  "successCriteria": [
+    "characteristics stated broadly enough for industry to trade against",
+    "a priority order industry can design to",
+    "requirements refined through Phase 2 modelling and simulation rather than specified up front"
+  ],
+  "type": "Charter"
+}

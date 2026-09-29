@@ -1,0 +1,45 @@
+# src/docket/agent/authority_catalogue.yaml
+# The doctrine paragraph that REQUIRES a plan step (DMN AuthorityRequirement, design §8.3).
+# The agent chooses a key from this closed list; it never writes a citation of its own.
+#
+# `document` carries the edition/date and `paragraph` carries the printed page, because a
+# citation with neither is not checkable by a reviewer holding the source: AR 5-11 is
+# edition-sensitive (¶4-5f(1) does not exist in the 1997 edition's Chapter 4 at all), and a
+# paragraph without a page cannot be found in a hundred-page document. Every value below was
+# checked with `pdftotext -layout` against a local copy of the source (library/doctrine/,
+# library/standards/ — both gitignored, read-only, never staged).
+sensitivity:
+  document: "DoDI 5000.84 (4 Aug 2020)"
+  paragraph: "§4.2.i (p. 12)"
+  requires: "Sensitivity analysis of the results to the key assumptions and parameters."
+  # Verified, p. 12: "The DoD Components should ensure that the AoA study team conducts sensitivity analysis to identify the dependence of results on key parameters of the analysis."
+baseline:
+  document: "DoDI 5000.84 (4 Aug 2020)"
+  paragraph: "§3.1.c(2) (p. 5)"
+  requires: "A status-quo (current programme of record) alternative is carried as a baseline."
+  # Verified, p. 5: "(2) One alternative that represents the status quo and sufficient additional alternatives to enable a robust exploration of the trade-space."
+cba-decmat:
+  document: "Army Cost Benefit Analysis Guide v3.3 (21 January 2020)"
+  paragraph: "Step 7, \"The Decision Matrix\" (p. 59)"
+  requires: "Compare alternatives against the decision criteria and rank them."
+  # Verified, p. 59: the Decision Matrix tool evaluates "the selection criteria identified in Step 6" to compare and prioritise alternatives; no lettered "7c" exists anywhere in the Guide.
+oas-4-10:
+  document: "OAS Analysis of Alternatives Handbook (4 Aug 2017)"
+  paragraph: "§4.10 (p. 45)"
+  requires: "Document the analysis methodology — measures, tools and techniques — before conducting the AoA."
+  # Verified, p. 45: "4.10 Task 8: Developing the Analysis Methodology" walks through documenting measures, tools/techniques, scenarios and the cost/risk approach before the AoA is conducted.
+bias-check:
+  document: "ICD 203 (2 Jan 2015)"
+  paragraph: "§D.6.e(4) (p. 4)"
+  requires: "Identify and assess plausible alternative hypotheses."
+  # Verified, p. 4: "(4) Incorporates analysis of alternatives ... Analytic products should identify and assess plausible alternative hypotheses."
+ar-5-11-accreditation:
+  document: "AR 5-11 (9 April 2025)"
+  paragraph: "¶4-5f(1) (p. 16)"
+  requires: "The model used is accredited for the intended use before its results are relied on."
+  # Verified, p. 16 (9 April 2025 edition only — ¶4-5f does not exist in the 1997 edition): "(1) The actual results of the model or simulation are acceptable for the intended use."
+milstd3022-documentation:
+  document: "MIL-STD-3022 (28 Jan 2008)"
+  paragraph: "§5.1 (p. 4)"
+  requires: "The VV&A effort is documented to demonstrate fitness for the intended use."
+  # Verified, p. 4: "5.1 Template descriptions. The VV&A effort shall be documented to demonstrate fitness for the intended use and to support model and simulation reuse."

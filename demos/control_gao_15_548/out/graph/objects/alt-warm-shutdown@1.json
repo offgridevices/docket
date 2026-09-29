@@ -1,0 +1,22 @@
+{
+  "baselineFlag": false,
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "description": "GAO printed p. 11, verbatim: the Army's study assumed \"a two-year shutdown of the Bradley line followed by restart, which the study's authors termed a 'warm shutdown,' because the shutdown included an anticipated restart date.\" The study estimated $53 million for the shutdown and restart.",
+  "enteredOrder": 2,
+  "id": "alt-warm-shutdown",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 11 (PDF p. 14)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "name": "A two-year 'warm shutdown' of the Bradley line, followed by restart",
+  "rev": 1,
+  "status": "evaluated",
+  "type": "Alternative"
+}

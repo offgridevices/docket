@@ -1,0 +1,57 @@
+{
+  "classification": {
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "custodian": "Department of the Army (values); Congressional Budget Office (weights)",
+  "date": "2012-05",
+  "evidenceType": "Dataset",
+  "id": "ev-army-mobility-data",
+  "inclusionReason": "six attributes weighted per the Army's scheme, with long-distance transportability excluded (Table A-2, p. 35)",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 35 (Table A-2); p. 24 (Table 2-4)",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "limitations": [
+    {
+      "impact": "the mobility score is taken as printed and cannot be recomputed from public data",
+      "statement": "Table A-2 publishes the attribute weights but not the per-vehicle attribute values behind them"
+    },
+    {
+      "impact": "any recomputation from these weights would be out by up to one percent of the mobility score",
+      "statement": "The six CBO weights are transcribed exactly as Table A-2 prints them and they sum to 1.01, against the table's own printed total of 1.00 — CBO's rounding to two decimals, not a transcription error"
+    }
+  ],
+  "pointer": {
+    "custodian": "Department of the Army (per-vehicle values, personal communication to CBO, May 2012; not public); CBO (published attribute weights)",
+    "uri": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf#page=40"
+  },
+  "reliabilitySteps": [
+    "drs-cbo-army-data"
+  ],
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "reviewers": [
+    {
+      "date": "2013-04",
+      "name": "Congressional Budget Office",
+      "role": "compiler"
+    }
+  ],
+  "schemaRef": "Table A-2: acceleration 0.29, average off-road speed 0.24, range 0.18, turning radius 0.06, width 0.12, bridge-crossing capacity 0.12",
+  "scopeOfValidity": {
+    "builtToAnswer": "How mobile is each of the five vehicles on- and off-road, relative to the current Bradley IFV?",
+    "intendedUse": "CBO's mobility score",
+    "questionClass": "requirements-tradeoff"
+  },
+  "title": "Automotive characteristics behind the mobility score: acceleration, average off-road speed, range on a tank of fuel, turning radius, width and bridge-crossing capacity",
+  "type": "Evidence"
+}

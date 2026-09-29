@@ -1,0 +1,22 @@
+{
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2013",
+  "description": "Printed p. 16: the study's authors obtained information on government expenses at the Joint Systems Manufacturing Center directly from the Abrams program office. Printed p. 17 adds that the financial data the production facilities provided \"had also been reviewed by the Defense Contract Management Agency, the government agency responsible for, among other things, monitoring contractors' management of their indirect costs.\"",
+  "documentation": "ev-gao-15-548",
+  "id": "drs-abrams-program-office",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 16 (PDF p. 19); printed p. 17 (PDF p. 20)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "method": "source-review",
+  "performedBy": "A.T. Kearney",
+  "rev": 1,
+  "type": "DataReliabilityStep"
+}

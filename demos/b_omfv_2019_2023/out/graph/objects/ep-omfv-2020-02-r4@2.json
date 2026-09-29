@@ -1,0 +1,85 @@
+{
+  "alternatives": [
+    "alt-omfv-concept",
+    "alt-m2a4-bradley"
+  ],
+  "asOf": "2023-03-31",
+  "assumptions": [
+    "as-poland-bridges",
+    "as-manning-dec"
+  ],
+  "biasChecks": [],
+  "charter": "ch-omfv",
+  "claims": [],
+  "constraints": [
+    "con-30-dismounts",
+    "con-two-crew",
+    "con-crew-in-hull"
+  ],
+  "createdAt": "2023-03-31T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "evidenceRegister": [
+    "ev-con-2020-02",
+    "ev-industry-day-narrative-2020-04",
+    "ev-breaking-defense",
+    "ev-con-2020-12",
+    "ev-threat-analysis",
+    "ev-market-research-2020",
+    "ev-abct-opconcept",
+    "ev-aries-1",
+    "ev-aries-2",
+    "ev-trac-aoa",
+    "ev-trac-oe",
+    "ev-mbl-1",
+    "ev-hsi-1",
+    "ev-hsi-2",
+    "ev-vendor-feedback-1",
+    "ev-vendor-feedback-2",
+    "ev-vendor-feedback-3",
+    "ev-vendor-feedback-4",
+    "ev-bradley-swapc-2018",
+    "ev-market-research-study-2020",
+    "ev-concept-design-2021",
+    "ev-234-report"
+  ],
+  "flipAnalyses": [],
+  "groundRules": [],
+  "id": "ep-omfv-2020-02-r4",
+  "lifecycleState": "DRAFT",
+  "mandateElements": [],
+  "models": [
+    "mdl-aries",
+    "mdl-trac"
+  ],
+  "narratives": [],
+  "objectives": [
+    "obj-survivability-dec",
+    "obj-mobility",
+    "obj-growth",
+    "obj-lethality",
+    "obj-weight",
+    "obj-logistics",
+    "obj-transportability",
+    "obj-manning-dec",
+    "obj-training"
+  ],
+  "observations": [],
+  "plan": "pl-omfv-r4",
+  "program": "prg-omfv",
+  "refreshedBecause": "rt-234-report",
+  "replacements": {},
+  "rev": 2,
+  "risks": [],
+  "runs": [],
+  "scenarios": [],
+  "sequence": 4,
+  "supersedes": "ep-omfv-2020-02-r3",
+  "transitions": [],
+  "type": "DecisionEpisode",
+  "weightSets": [
+    "ws-omfv"
+  ]
+}

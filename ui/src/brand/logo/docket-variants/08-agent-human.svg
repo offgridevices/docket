@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Docket icon 08 - Agent to human. Dashed diamond behind a solid accepted square. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Docket">
+  <title>Docket - Agent to human</title>
+  <rect width="200" height="200" fill="#1B1813"/>
+  <polygon points="100,36 156,100 100,164 44,100" fill="none" stroke="#F1ECE0" stroke-width="6" stroke-dasharray="12 8" opacity="0.45"/>
+  <rect x="68" y="68" width="64" height="64" fill="#F1ECE0"/>
+  <rect x="68" y="68" width="64" height="64" fill="none" stroke="#FF6A00" stroke-width="4"/>
+</svg>

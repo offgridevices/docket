@@ -1,0 +1,22 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2020-02-25T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "description": "The OMFV must have mobility that can keep pace with the Abrams in a combined arms fight through rural and urban terrain.",
+  "id": "obj-mobility",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "section 'OMFV Characteristics: Objectives', Mobility (characteristic text); sources/army-2020-04-09-omfv-industry-day-narrative.pdf p. 6 section 3.2 (priorityRank 2)",
+    "sourceArtifact": "sources/army-2020-02-25-omfv-characteristics-for-industry-comment.md"
+  },
+  "name": "Mobility",
+  "priority": "primary",
+  "priorityRank": 2,
+  "provenance": "ev-con-2020-02",
+  "rev": 1,
+  "type": "Objective"
+}

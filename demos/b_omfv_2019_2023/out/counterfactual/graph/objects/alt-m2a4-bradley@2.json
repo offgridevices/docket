@@ -1,0 +1,22 @@
+{
+  "baselineFlag": true,
+  "confidence": "explicit",
+  "createdAt": "2023-03-31T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "description": "The status-quo vehicle. GAO printed p. 13: the Army's report \"compared three government concepts for the OMFV with a modernized version of the M2A4 Bradley\".",
+  "enteredOrder": 2,
+  "id": "alt-m2a4-bradley",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "printed p. 13 (PDF p. 16)",
+    "sourceArtifact": "sources/gao-23-106549.pdf"
+  },
+  "name": "modernized Bradley M2A4",
+  "rev": 2,
+  "status": "evaluated",
+  "type": "Alternative"
+}

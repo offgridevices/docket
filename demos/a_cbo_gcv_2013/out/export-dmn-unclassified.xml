@@ -1,0 +1,42 @@
+<definitions xmlns="https://www.omg.org/spec/DMN/20230324/MODEL/" id="defs-pl-cbo" name="pl-cbo" namespace="https://docket.dev/ns#pl-cbo">
+  <knowledgeSource id="ks-cbo-the-army-s-ground-combat-vehicle-program-and-alternatives-april-2013" name="CBO, The Army's Ground Combat Vehicle Program and Alternatives (April 2013)" />
+  <inputData id="input-m-leth" name="m-leth" />
+  <inputData id="input-m-mob" name="m-mob" />
+  <inputData id="input-m-pax" name="m-pax" />
+  <inputData id="input-m-prot" name="m-prot" />
+  <inputData id="input-m-squad" name="m-squad" />
+  <decision id="primary" name="primary">
+    <informationRequirement>
+      <requiredInput href="#input-m-leth" />
+    </informationRequirement>
+    <informationRequirement>
+      <requiredInput href="#input-m-mob" />
+    </informationRequirement>
+    <informationRequirement>
+      <requiredInput href="#input-m-pax" />
+    </informationRequirement>
+    <informationRequirement>
+      <requiredInput href="#input-m-prot" />
+    </informationRequirement>
+    <authorityRequirement>
+      <requiredAuthority href="#ks-cbo-the-army-s-ground-combat-vehicle-program-and-alternatives-april-2013" />
+    </authorityRequirement>
+  </decision>
+  <decision id="secondary" name="secondary">
+    <informationRequirement>
+      <requiredInput href="#input-m-leth" />
+    </informationRequirement>
+    <informationRequirement>
+      <requiredInput href="#input-m-mob" />
+    </informationRequirement>
+    <informationRequirement>
+      <requiredInput href="#input-m-prot" />
+    </informationRequirement>
+    <informationRequirement>
+      <requiredInput href="#input-m-squad" />
+    </informationRequirement>
+    <authorityRequirement>
+      <requiredAuthority href="#ks-cbo-the-army-s-ground-combat-vehicle-program-and-alternatives-april-2013" />
+    </authorityRequirement>
+  </decision>
+</definitions>

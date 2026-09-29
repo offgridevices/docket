@@ -1,0 +1,33 @@
+{
+  "confidence": "absent",
+  "confirmedBy": {
+    "actorId": "shreyash",
+    "date": "2026-09-06"
+  },
+  "createdAt": "2021-09-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gap-model-docs",
+  "impact": "blocking",
+  "indicatorsThatWouldResolve": [
+    "release of any MIL-STD-3022 accreditation report for ARIES or TRAC OE",
+    "an Army model description published for either model"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "printed p. 9 (PDF p. 12)",
+    "sourceArtifact": "sources/gao-23-106549.pdf"
+  },
+  "rev": 1,
+  "sought": "the methodology, model description and documentation for the 11 analytical efforts",
+  "type": "InsufficientEvidence",
+  "whereLookedFor": [
+    "GAO-23-106549 printed pp. 9-10 (PDF pp. 12-13)",
+    "OMFV Industry Day briefing, 9 December 2020, PDF p. 18 (slide footer 20)",
+    "public web search, 2026-09-06"
+  ],
+  "whyNotFound": "the Army report did not clearly describe the methodology of these efforts; the steps it took to ensure data reliability; or the verification, validation, and accreditation of the models and simulations it used (GAO-23-106549 printed p. 9)"
+}

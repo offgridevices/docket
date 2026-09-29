@@ -1,0 +1,277 @@
+{
+  "$defs": {
+    "actor": {
+      "additionalProperties": false,
+      "properties": {
+        "actorId": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "actorType": {
+          "enum": [
+            "human",
+            "agent",
+            "kernel"
+          ]
+        }
+      },
+      "required": [
+        "actorType",
+        "actorId"
+      ],
+      "type": "object"
+    },
+    "exclusionRef": {
+      "additionalProperties": false,
+      "properties": {
+        "$exclusion": {
+          "$ref": "#/$defs/id"
+        }
+      },
+      "required": [
+        "$exclusion"
+      ],
+      "type": "object"
+    },
+    "gapRef": {
+      "additionalProperties": false,
+      "properties": {
+        "$gap": {
+          "$ref": "#/$defs/id"
+        }
+      },
+      "required": [
+        "$gap"
+      ],
+      "type": "object"
+    },
+    "id": {
+      "pattern": "^[a-z0-9][a-z0-9._:-]*$",
+      "type": "string"
+    },
+    "provenance": {
+      "additionalProperties": false,
+      "properties": {
+        "extractedAt": {
+          "type": "string"
+        },
+        "extractor": {
+          "type": "string"
+        },
+        "locator": {
+          "type": "string"
+        },
+        "sourceArtifact": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "sourceArtifact",
+        "locator",
+        "extractor",
+        "extractedAt"
+      ],
+      "type": "object"
+    },
+    "timestamp": {
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}(T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?Z)?$",
+      "type": "string"
+    }
+  },
+  "$id": "https://docket.offgriddevices.com/schema/Plan.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "The evaluation workflow the agent proposes and a human approves (G2).",
+  "properties": {
+    "approvedBy": {
+      "additionalProperties": false,
+      "properties": {
+        "actorId": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "actorId",
+        "date"
+      ],
+      "type": "object"
+    },
+    "confidence": {
+      "enum": [
+        "explicit",
+        "inferred",
+        "absent"
+      ]
+    },
+    "createdAt": {
+      "$ref": "#/$defs/timestamp"
+    },
+    "createdBy": {
+      "$ref": "#/$defs/actor"
+    },
+    "deviations": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "reason": {
+            "type": "string"
+          },
+          "step": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "step",
+          "reason"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "episode": {
+      "$ref": "#/$defs/id"
+    },
+    "id": {
+      "$ref": "#/$defs/id"
+    },
+    "ingestionProvenance": {
+      "$ref": "#/$defs/provenance"
+    },
+    "policyBasis": {
+      "$ref": "#/$defs/id"
+    },
+    "rev": {
+      "minimum": 1,
+      "type": "integer"
+    },
+    "steps": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "alternatives": {
+            "items": {
+              "$ref": "#/$defs/id"
+            },
+            "type": "array"
+          },
+          "authority": {
+            "additionalProperties": false,
+            "properties": {
+              "document": {
+                "type": "string"
+              },
+              "paragraph": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "document",
+              "paragraph"
+            ],
+            "type": "object"
+          },
+          "biasChecks": {
+            "items": {
+              "$ref": "#/$defs/id"
+            },
+            "type": "array"
+          },
+          "evaluator": {
+            "$ref": "#/$defs/id"
+          },
+          "id": {
+            "type": "string"
+          },
+          "measures": {
+            "items": {
+              "$ref": "#/$defs/id"
+            },
+            "type": "array"
+          },
+          "method": {
+            "enum": [
+              "mavt",
+              "ahp",
+              "topsis",
+              "pugh"
+            ]
+          },
+          "sensitivitySweeps": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "kind": {
+                  "enum": [
+                    "weight",
+                    "observation"
+                  ]
+                },
+                "range": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "hi": {
+                      "type": "number"
+                    },
+                    "lo": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "lo",
+                    "hi"
+                  ],
+                  "type": "object"
+                },
+                "target": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "kind",
+                "target"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "weightSet": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "required": [
+          "id",
+          "evaluator",
+          "method",
+          "alternatives",
+          "measures",
+          "weightSet",
+          "authority"
+        ],
+        "type": "object"
+      },
+      "minItems": 1,
+      "type": "array"
+    },
+    "supersedes": {
+      "$ref": "#/$defs/id"
+    },
+    "type": {
+      "const": "Plan"
+    }
+  },
+  "required": [
+    "id",
+    "type",
+    "rev",
+    "createdBy",
+    "createdAt",
+    "episode",
+    "policyBasis",
+    "steps"
+  ],
+  "title": "Plan",
+  "type": "object"
+}

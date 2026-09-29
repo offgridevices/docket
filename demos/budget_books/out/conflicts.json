@@ -1,0 +1,655 @@
+{
+  "across": [
+    {
+      "message": "omfv-acdd.quarter disagrees across sources: ev-gao-23-106059@GAO-23-106059 printed p. 128 (PDF p. 138), OMFV programme profile \u2014 the PDF is a deliberate sidecar-only source; see sources/gao-23-106059.source.md=2022-07 (4Q FY2022); ev-pb2022@PB2022 PE 0605625A R-4A, volume p. 463 (extract PDF p. 92)=1Q-2Q FY2022; ev-pb2023@PB2023 PE 0605625A R-4A, volume p. 2e-268 (extract PDF p. 84)=1Q-2Q FY2022; ev-pb2024@PB2024 PE 0605625A R-4A, volume p. 3d-281 (extract PDF p. 87)=2Q-2Q FY2022; ev-pb2025@PB2025 PE 0605625A R-4A, volume p. 3d-204 (extract PDF p. 77)=2Q-2Q FY2022; ev-pb2026@PB2026 PE 0605625A R-4A, volume p. 3d-339 (extract PDF p. 74)=2Q-2Q FY2022; ev-pb2027@PB2027 PE 0605625A R-4A, volume p. 3d-320 (extract PDF p. 64)=2Q-2Q FY2022",
+      "objects": [
+        "ev-gao-23-106059",
+        "ev-pb2022",
+        "ev-pb2023",
+        "ev-pb2024",
+        "ev-pb2025",
+        "ev-pb2026",
+        "ev-pb2027"
+      ],
+      "rows": [
+        {
+          "evidence": "ev-pb2022",
+          "locator": "PB2022 PE 0605625A R-4A, volume p. 463 (extract PDF p. 92)",
+          "value": "1Q-2Q FY2022"
+        },
+        {
+          "evidence": "ev-pb2023",
+          "locator": "PB2023 PE 0605625A R-4A, volume p. 2e-268 (extract PDF p. 84)",
+          "value": "1Q-2Q FY2022"
+        },
+        {
+          "evidence": "ev-pb2024",
+          "locator": "PB2024 PE 0605625A R-4A, volume p. 3d-281 (extract PDF p. 87)",
+          "value": "2Q-2Q FY2022"
+        },
+        {
+          "evidence": "ev-pb2025",
+          "locator": "PB2025 PE 0605625A R-4A, volume p. 3d-204 (extract PDF p. 77)",
+          "value": "2Q-2Q FY2022"
+        },
+        {
+          "evidence": "ev-pb2026",
+          "locator": "PB2026 PE 0605625A R-4A, volume p. 3d-339 (extract PDF p. 74)",
+          "value": "2Q-2Q FY2022"
+        },
+        {
+          "evidence": "ev-pb2027",
+          "locator": "PB2027 PE 0605625A R-4A, volume p. 3d-320 (extract PDF p. 64)",
+          "value": "2Q-2Q FY2022"
+        },
+        {
+          "evidence": "ev-gao-23-106059",
+          "locator": "GAO-23-106059 printed p. 128 (PDF p. 138), OMFV programme profile \u2014 the PDF is a deliberate sidecar-only source; see sources/gao-23-106059.source.md",
+          "value": "2022-07 (4Q FY2022)"
+        }
+      ],
+      "rule": "value-conflict",
+      "severity": "warning"
+    },
+    {
+      "message": "omfv-phase2-award.date disagrees across sources: ev-gao-23-106549@GAO-23-106549, Highlights page (PDF p. 2) and printed p. 5 (PDF p. 8)=2021-09; ev-pb2022@PB2022 PE 0605625A R-3, volume p. 460 (extract PDF p. 89)=2021-07; ev-pb2023@PB2023 PE 0605625A R-3, volume p. 2e-264 (extract PDF p. 80)=2021-07",
+      "objects": [
+        "ev-gao-23-106549",
+        "ev-pb2022",
+        "ev-pb2023"
+      ],
+      "rows": [
+        {
+          "evidence": "ev-pb2022",
+          "locator": "PB2022 PE 0605625A R-3, volume p. 460 (extract PDF p. 89)",
+          "value": "2021-07"
+        },
+        {
+          "evidence": "ev-pb2023",
+          "locator": "PB2023 PE 0605625A R-3, volume p. 2e-264 (extract PDF p. 80)",
+          "value": "2021-07"
+        },
+        {
+          "evidence": "ev-gao-23-106549",
+          "locator": "GAO-23-106549, Highlights page (PDF p. 2) and printed p. 5 (PDF p. 8)",
+          "value": "2021-09"
+        }
+      ],
+      "rule": "value-conflict",
+      "severity": "warning"
+    },
+    {
+      "message": "aries.definition disagrees across sources: ev-industry-day-2020-12@Industry Day briefing, PDF p. 18 (slide footer 20)=performance M&S: highlights sensitivities between functional requirements; ev-pb2026@PB2026 PE 0605625A R-2A, volume p. 3d-330 (extract PDF p. 65)=Augmented Reality Integrated Environment for Situational Awareness - crew display overlay",
+      "objects": [
+        "ev-industry-day-2020-12",
+        "ev-pb2026"
+      ],
+      "rows": [
+        {
+          "evidence": "ev-pb2026",
+          "locator": "PB2026 PE 0605625A R-2A, volume p. 3d-330 (extract PDF p. 65)",
+          "value": "Augmented Reality Integrated Environment for Situational Awareness - crew display overlay"
+        },
+        {
+          "evidence": "ev-industry-day-2020-12",
+          "locator": "Industry Day briefing, PDF p. 18 (slide footer 20)",
+          "value": "performance M&S: highlights sensitivities between functional requirements"
+        }
+      ],
+      "rule": "value-conflict",
+      "severity": "warning"
+    },
+    {
+      "message": "cave.definition disagrees across sources: ev-industry-day-2020-12@Industry Day briefing, PDF p. 18 (slide footer 20)=Immersive Simulation modeling; first-person perspective of the design; ev-pb2026@PB2026 PE 0605625A R-2A, volume p. 3d-330 (extract PDF p. 65)=Commanders Aperture Visual Enhancement - 360-degree camera/sensor system",
+      "objects": [
+        "ev-industry-day-2020-12",
+        "ev-pb2026"
+      ],
+      "rows": [
+        {
+          "evidence": "ev-pb2026",
+          "locator": "PB2026 PE 0605625A R-2A, volume p. 3d-330 (extract PDF p. 65)",
+          "value": "Commanders Aperture Visual Enhancement - 360-degree camera/sensor system"
+        },
+        {
+          "evidence": "ev-industry-day-2020-12",
+          "locator": "Industry Day briefing, PDF p. 18 (slide footer 20)",
+          "value": "Immersive Simulation modeling; first-person perspective of the design"
+        }
+      ],
+      "rule": "value-conflict",
+      "severity": "warning"
+    },
+    {
+      "message": "omfv-aoa.window disagrees across sources: ev-pb2021@PB2021 PE 0604100A R-2A, volume p. 451 (extract PDF p. 75)=started FY2019; ev-pb2021@PB2021 PE 0605625A R-4A, volume p. 506 (extract PDF p. 92); R-2A, volume p. 500 (extract PDF p. 86)=2Q2020-1Q2021, completion; ev-pb2023@PB2023 PE 0605625A R-2A, volume p. 2e-261 (extract PDF p. 77)=formal execution FY2023; ev-pb2024@PB2024 PE 0605625A R-2A, volume p. 3d-271 (extract PDF p. 77)=formal execution FY2023; ev-pb2025@PB2025 PE 0604100A R-2A, volume p. 2b-33 (extract PDF p. 52)=started FY2023, continuing to FY2025",
+      "objects": [
+        "ev-pb2021",
+        "ev-pb2023",
+        "ev-pb2024",
+        "ev-pb2025"
+      ],
+      "rows": [
+        {
+          "evidence": "ev-pb2021",
+          "locator": "PB2021 PE 0604100A R-2A, volume p. 451 (extract PDF p. 75)",
+          "value": "started FY2019"
+        },
+        {
+          "evidence": "ev-pb2021",
+          "locator": "PB2021 PE 0605625A R-4A, volume p. 506 (extract PDF p. 92); R-2A, volume p. 500 (extract PDF p. 86)",
+          "value": "2Q2020-1Q2021, completion"
+        },
+        {
+          "evidence": "ev-pb2023",
+          "locator": "PB2023 PE 0605625A R-2A, volume p. 2e-261 (extract PDF p. 77)",
+          "value": "formal execution FY2023"
+        },
+        {
+          "evidence": "ev-pb2024",
+          "locator": "PB2024 PE 0605625A R-2A, volume p. 3d-271 (extract PDF p. 77)",
+          "value": "formal execution FY2023"
+        },
+        {
+          "evidence": "ev-pb2025",
+          "locator": "PB2025 PE 0604100A R-2A, volume p. 2b-33 (extract PDF p. 52)",
+          "value": "started FY2023, continuing to FY2025"
+        }
+      ],
+      "rule": "value-conflict",
+      "severity": "warning"
+    },
+    {
+      "message": "omfv-mta-total-cost-fy21-24.costM disagrees across sources: ev-pb2023@PB2023 PE 0605625A R-2/R-2A, volume pp. 2e-257, 2e-259 (extract PDF pp. 73, 75)=1432.1; ev-pb2024@PB2024 PE 0603645A R-2/R-2A, volume pp. 2a-99, 2a-101 (extract PDF pp. 60, 61)=1348; ev-pb2024@PB2024 PE 0605625A R-2/R-2A, volume pp. 3d-268, 3d-270 (extract PDF pp. 74, 76)=1384; ev-pb2025@PB2025 PE 0605625A R-2/R-2A, volume pp. 3d-191, 3d-192 (extract PDF pp. 64, 65)=1330",
+      "objects": [
+        "ev-pb2023",
+        "ev-pb2024",
+        "ev-pb2025"
+      ],
+      "rows": [
+        {
+          "evidence": "ev-pb2023",
+          "locator": "PB2023 PE 0605625A R-2/R-2A, volume pp. 2e-257, 2e-259 (extract PDF pp. 73, 75)",
+          "value": 1432.1
+        },
+        {
+          "evidence": "ev-pb2024",
+          "locator": "PB2024 PE 0603645A R-2/R-2A, volume pp. 2a-99, 2a-101 (extract PDF pp. 60, 61)",
+          "value": 1348
+        },
+        {
+          "evidence": "ev-pb2024",
+          "locator": "PB2024 PE 0605625A R-2/R-2A, volume pp. 3d-268, 3d-270 (extract PDF pp. 74, 76)",
+          "value": 1384
+        },
+        {
+          "evidence": "ev-pb2025",
+          "locator": "PB2025 PE 0605625A R-2/R-2A, volume pp. 3d-191, 3d-192 (extract PDF pp. 64, 65)",
+          "value": 1330
+        }
+      ],
+      "rule": "value-conflict",
+      "severity": "warning"
+    }
+  ],
+  "blockers": [
+    "silent-omission",
+    "value-conflict-internal"
+  ],
+  "conflicts": [
+    {
+      "message": "omfv-acdd.quarter disagrees across sources: ev-gao-23-106059@GAO-23-106059 printed p. 128 (PDF p. 138), OMFV programme profile \u2014 the PDF is a deliberate sidecar-only source; see sources/gao-23-106059.source.md=2022-07 (4Q FY2022); ev-pb2022@PB2022 PE 0605625A R-4A, volume p. 463 (extract PDF p. 92)=1Q-2Q FY2022; ev-pb2023@PB2023 PE 0605625A R-4A, volume p. 2e-268 (extract PDF p. 84)=1Q-2Q FY2022; ev-pb2024@PB2024 PE 0605625A R-4A, volume p. 3d-281 (extract PDF p. 87)=2Q-2Q FY2022; ev-pb2025@PB2025 PE 0605625A R-4A, volume p. 3d-204 (extract PDF p. 77)=2Q-2Q FY2022; ev-pb2026@PB2026 PE 0605625A R-4A, volume p. 3d-339 (extract PDF p. 74)=2Q-2Q FY2022; ev-pb2027@PB2027 PE 0605625A R-4A, volume p. 3d-320 (extract PDF p. 64)=2Q-2Q FY2022",
+      "objects": [
+        "ev-gao-23-106059",
+        "ev-pb2022",
+        "ev-pb2023",
+        "ev-pb2024",
+        "ev-pb2025",
+        "ev-pb2026",
+        "ev-pb2027"
+      ],
+      "rows": [
+        {
+          "evidence": "ev-pb2022",
+          "locator": "PB2022 PE 0605625A R-4A, volume p. 463 (extract PDF p. 92)",
+          "value": "1Q-2Q FY2022"
+        },
+        {
+          "evidence": "ev-pb2023",
+          "locator": "PB2023 PE 0605625A R-4A, volume p. 2e-268 (extract PDF p. 84)",
+          "value": "1Q-2Q FY2022"
+        },
+        {
+          "evidence": "ev-pb2024",
+          "locator": "PB2024 PE 0605625A R-4A, volume p. 3d-281 (extract PDF p. 87)",
+          "value": "2Q-2Q FY2022"
+        },
+        {
+          "evidence": "ev-pb2025",
+          "locator": "PB2025 PE 0605625A R-4A, volume p. 3d-204 (extract PDF p. 77)",
+          "value": "2Q-2Q FY2022"
+        },
+        {
+          "evidence": "ev-pb2026",
+          "locator": "PB2026 PE 0605625A R-4A, volume p. 3d-339 (extract PDF p. 74)",
+          "value": "2Q-2Q FY2022"
+        },
+        {
+          "evidence": "ev-pb2027",
+          "locator": "PB2027 PE 0605625A R-4A, volume p. 3d-320 (extract PDF p. 64)",
+          "value": "2Q-2Q FY2022"
+        },
+        {
+          "evidence": "ev-gao-23-106059",
+          "locator": "GAO-23-106059 printed p. 128 (PDF p. 138), OMFV programme profile \u2014 the PDF is a deliberate sidecar-only source; see sources/gao-23-106059.source.md",
+          "value": "2022-07 (4Q FY2022)"
+        }
+      ],
+      "rule": "value-conflict",
+      "severity": "warning"
+    },
+    {
+      "message": "omfv-phase2-award.date disagrees across sources: ev-gao-23-106549@GAO-23-106549, Highlights page (PDF p. 2) and printed p. 5 (PDF p. 8)=2021-09; ev-pb2022@PB2022 PE 0605625A R-3, volume p. 460 (extract PDF p. 89)=2021-07; ev-pb2023@PB2023 PE 0605625A R-3, volume p. 2e-264 (extract PDF p. 80)=2021-07",
+      "objects": [
+        "ev-gao-23-106549",
+        "ev-pb2022",
+        "ev-pb2023"
+      ],
+      "rows": [
+        {
+          "evidence": "ev-pb2022",
+          "locator": "PB2022 PE 0605625A R-3, volume p. 460 (extract PDF p. 89)",
+          "value": "2021-07"
+        },
+        {
+          "evidence": "ev-pb2023",
+          "locator": "PB2023 PE 0605625A R-3, volume p. 2e-264 (extract PDF p. 80)",
+          "value": "2021-07"
+        },
+        {
+          "evidence": "ev-gao-23-106549",
+          "locator": "GAO-23-106549, Highlights page (PDF p. 2) and printed p. 5 (PDF p. 8)",
+          "value": "2021-09"
+        }
+      ],
+      "rule": "value-conflict",
+      "severity": "warning"
+    },
+    {
+      "message": "aries.definition disagrees across sources: ev-industry-day-2020-12@Industry Day briefing, PDF p. 18 (slide footer 20)=performance M&S: highlights sensitivities between functional requirements; ev-pb2026@PB2026 PE 0605625A R-2A, volume p. 3d-330 (extract PDF p. 65)=Augmented Reality Integrated Environment for Situational Awareness - crew display overlay",
+      "objects": [
+        "ev-industry-day-2020-12",
+        "ev-pb2026"
+      ],
+      "rows": [
+        {
+          "evidence": "ev-pb2026",
+          "locator": "PB2026 PE 0605625A R-2A, volume p. 3d-330 (extract PDF p. 65)",
+          "value": "Augmented Reality Integrated Environment for Situational Awareness - crew display overlay"
+        },
+        {
+          "evidence": "ev-industry-day-2020-12",
+          "locator": "Industry Day briefing, PDF p. 18 (slide footer 20)",
+          "value": "performance M&S: highlights sensitivities between functional requirements"
+        }
+      ],
+      "rule": "value-conflict",
+      "severity": "warning"
+    },
+    {
+      "message": "cave.definition disagrees across sources: ev-industry-day-2020-12@Industry Day briefing, PDF p. 18 (slide footer 20)=Immersive Simulation modeling; first-person perspective of the design; ev-pb2026@PB2026 PE 0605625A R-2A, volume p. 3d-330 (extract PDF p. 65)=Commanders Aperture Visual Enhancement - 360-degree camera/sensor system",
+      "objects": [
+        "ev-industry-day-2020-12",
+        "ev-pb2026"
+      ],
+      "rows": [
+        {
+          "evidence": "ev-pb2026",
+          "locator": "PB2026 PE 0605625A R-2A, volume p. 3d-330 (extract PDF p. 65)",
+          "value": "Commanders Aperture Visual Enhancement - 360-degree camera/sensor system"
+        },
+        {
+          "evidence": "ev-industry-day-2020-12",
+          "locator": "Industry Day briefing, PDF p. 18 (slide footer 20)",
+          "value": "Immersive Simulation modeling; first-person perspective of the design"
+        }
+      ],
+      "rule": "value-conflict",
+      "severity": "warning"
+    },
+    {
+      "message": "omfv-aoa.window disagrees across sources: ev-pb2021@PB2021 PE 0604100A R-2A, volume p. 451 (extract PDF p. 75)=started FY2019; ev-pb2021@PB2021 PE 0605625A R-4A, volume p. 506 (extract PDF p. 92); R-2A, volume p. 500 (extract PDF p. 86)=2Q2020-1Q2021, completion; ev-pb2023@PB2023 PE 0605625A R-2A, volume p. 2e-261 (extract PDF p. 77)=formal execution FY2023; ev-pb2024@PB2024 PE 0605625A R-2A, volume p. 3d-271 (extract PDF p. 77)=formal execution FY2023; ev-pb2025@PB2025 PE 0604100A R-2A, volume p. 2b-33 (extract PDF p. 52)=started FY2023, continuing to FY2025",
+      "objects": [
+        "ev-pb2021",
+        "ev-pb2023",
+        "ev-pb2024",
+        "ev-pb2025"
+      ],
+      "rows": [
+        {
+          "evidence": "ev-pb2021",
+          "locator": "PB2021 PE 0604100A R-2A, volume p. 451 (extract PDF p. 75)",
+          "value": "started FY2019"
+        },
+        {
+          "evidence": "ev-pb2021",
+          "locator": "PB2021 PE 0605625A R-4A, volume p. 506 (extract PDF p. 92); R-2A, volume p. 500 (extract PDF p. 86)",
+          "value": "2Q2020-1Q2021, completion"
+        },
+        {
+          "evidence": "ev-pb2023",
+          "locator": "PB2023 PE 0605625A R-2A, volume p. 2e-261 (extract PDF p. 77)",
+          "value": "formal execution FY2023"
+        },
+        {
+          "evidence": "ev-pb2024",
+          "locator": "PB2024 PE 0605625A R-2A, volume p. 3d-271 (extract PDF p. 77)",
+          "value": "formal execution FY2023"
+        },
+        {
+          "evidence": "ev-pb2025",
+          "locator": "PB2025 PE 0604100A R-2A, volume p. 2b-33 (extract PDF p. 52)",
+          "value": "started FY2023, continuing to FY2025"
+        }
+      ],
+      "rule": "value-conflict",
+      "severity": "warning"
+    },
+    {
+      "message": "omfv-mta-total-cost-fy21-24.costM disagrees across sources: ev-pb2023@PB2023 PE 0605625A R-2/R-2A, volume pp. 2e-257, 2e-259 (extract PDF pp. 73, 75)=1432.1; ev-pb2024@PB2024 PE 0603645A R-2/R-2A, volume pp. 2a-99, 2a-101 (extract PDF pp. 60, 61)=1348; ev-pb2024@PB2024 PE 0605625A R-2/R-2A, volume pp. 3d-268, 3d-270 (extract PDF pp. 74, 76)=1384; ev-pb2025@PB2025 PE 0605625A R-2/R-2A, volume pp. 3d-191, 3d-192 (extract PDF pp. 64, 65)=1330",
+      "objects": [
+        "ev-pb2023",
+        "ev-pb2024",
+        "ev-pb2025"
+      ],
+      "rows": [
+        {
+          "evidence": "ev-pb2023",
+          "locator": "PB2023 PE 0605625A R-2/R-2A, volume pp. 2e-257, 2e-259 (extract PDF pp. 73, 75)",
+          "value": 1432.1
+        },
+        {
+          "evidence": "ev-pb2024",
+          "locator": "PB2024 PE 0603645A R-2/R-2A, volume pp. 2a-99, 2a-101 (extract PDF pp. 60, 61)",
+          "value": 1348
+        },
+        {
+          "evidence": "ev-pb2024",
+          "locator": "PB2024 PE 0605625A R-2/R-2A, volume pp. 3d-268, 3d-270 (extract PDF pp. 74, 76)",
+          "value": 1384
+        },
+        {
+          "evidence": "ev-pb2025",
+          "locator": "PB2025 PE 0605625A R-2/R-2A, volume pp. 3d-191, 3d-192 (extract PDF pp. 64, 65)",
+          "value": 1330
+        }
+      ],
+      "rule": "value-conflict",
+      "severity": "warning"
+    },
+    {
+      "message": "omfv-aoa.window takes different values within one document: ev-pb2021@PB2021 PE 0604100A R-2A, volume p. 451 (extract PDF p. 75)=started FY2019; ev-pb2021@PB2021 PE 0605625A R-4A, volume p. 506 (extract PDF p. 92); R-2A, volume p. 500 (extract PDF p. 86)=2Q2020-1Q2021, completion; ev-pb2023@PB2023 PE 0605625A R-2A, volume p. 2e-261 (extract PDF p. 77)=formal execution FY2023; ev-pb2024@PB2024 PE 0605625A R-2A, volume p. 3d-271 (extract PDF p. 77)=formal execution FY2023; ev-pb2025@PB2025 PE 0604100A R-2A, volume p. 2b-33 (extract PDF p. 52)=started FY2023, continuing to FY2025",
+      "objects": [
+        "ev-pb2021"
+      ],
+      "rows": [
+        {
+          "evidence": "ev-pb2021",
+          "locator": "PB2021 PE 0604100A R-2A, volume p. 451 (extract PDF p. 75)",
+          "value": "started FY2019"
+        },
+        {
+          "evidence": "ev-pb2021",
+          "locator": "PB2021 PE 0605625A R-4A, volume p. 506 (extract PDF p. 92); R-2A, volume p. 500 (extract PDF p. 86)",
+          "value": "2Q2020-1Q2021, completion"
+        }
+      ],
+      "rule": "value-conflict-internal",
+      "severity": "blocking"
+    },
+    {
+      "message": "omfv-mta-total-cost-fy21-24.costM takes different values within one document: ev-pb2023@PB2023 PE 0605625A R-2/R-2A, volume pp. 2e-257, 2e-259 (extract PDF pp. 73, 75)=1432.1; ev-pb2024@PB2024 PE 0603645A R-2/R-2A, volume pp. 2a-99, 2a-101 (extract PDF pp. 60, 61)=1348; ev-pb2024@PB2024 PE 0605625A R-2/R-2A, volume pp. 3d-268, 3d-270 (extract PDF pp. 74, 76)=1384; ev-pb2025@PB2025 PE 0605625A R-2/R-2A, volume pp. 3d-191, 3d-192 (extract PDF pp. 64, 65)=1330",
+      "objects": [
+        "ev-pb2024"
+      ],
+      "rows": [
+        {
+          "evidence": "ev-pb2024",
+          "locator": "PB2024 PE 0603645A R-2/R-2A, volume pp. 2a-99, 2a-101 (extract PDF pp. 60, 61)",
+          "value": 1348
+        },
+        {
+          "evidence": "ev-pb2024",
+          "locator": "PB2024 PE 0605625A R-2/R-2A, volume pp. 3d-268, 3d-270 (extract PDF pp. 74, 76)",
+          "value": 1384
+        }
+      ],
+      "rule": "value-conflict-internal",
+      "severity": "blocking"
+    }
+  ],
+  "episode": "ep-budget",
+  "internal": [
+    {
+      "message": "omfv-aoa.window takes different values within one document: ev-pb2021@PB2021 PE 0604100A R-2A, volume p. 451 (extract PDF p. 75)=started FY2019; ev-pb2021@PB2021 PE 0605625A R-4A, volume p. 506 (extract PDF p. 92); R-2A, volume p. 500 (extract PDF p. 86)=2Q2020-1Q2021, completion; ev-pb2023@PB2023 PE 0605625A R-2A, volume p. 2e-261 (extract PDF p. 77)=formal execution FY2023; ev-pb2024@PB2024 PE 0605625A R-2A, volume p. 3d-271 (extract PDF p. 77)=formal execution FY2023; ev-pb2025@PB2025 PE 0604100A R-2A, volume p. 2b-33 (extract PDF p. 52)=started FY2023, continuing to FY2025",
+      "objects": [
+        "ev-pb2021"
+      ],
+      "rows": [
+        {
+          "evidence": "ev-pb2021",
+          "locator": "PB2021 PE 0604100A R-2A, volume p. 451 (extract PDF p. 75)",
+          "value": "started FY2019"
+        },
+        {
+          "evidence": "ev-pb2021",
+          "locator": "PB2021 PE 0605625A R-4A, volume p. 506 (extract PDF p. 92); R-2A, volume p. 500 (extract PDF p. 86)",
+          "value": "2Q2020-1Q2021, completion"
+        }
+      ],
+      "rule": "value-conflict-internal",
+      "severity": "blocking"
+    },
+    {
+      "message": "omfv-mta-total-cost-fy21-24.costM takes different values within one document: ev-pb2023@PB2023 PE 0605625A R-2/R-2A, volume pp. 2e-257, 2e-259 (extract PDF pp. 73, 75)=1432.1; ev-pb2024@PB2024 PE 0603645A R-2/R-2A, volume pp. 2a-99, 2a-101 (extract PDF pp. 60, 61)=1348; ev-pb2024@PB2024 PE 0605625A R-2/R-2A, volume pp. 3d-268, 3d-270 (extract PDF pp. 74, 76)=1384; ev-pb2025@PB2025 PE 0605625A R-2/R-2A, volume pp. 3d-191, 3d-192 (extract PDF pp. 64, 65)=1330",
+      "objects": [
+        "ev-pb2024"
+      ],
+      "rows": [
+        {
+          "evidence": "ev-pb2024",
+          "locator": "PB2024 PE 0603645A R-2/R-2A, volume pp. 2a-99, 2a-101 (extract PDF pp. 60, 61)",
+          "value": 1348
+        },
+        {
+          "evidence": "ev-pb2024",
+          "locator": "PB2024 PE 0605625A R-2/R-2A, volume pp. 3d-268, 3d-270 (extract PDF pp. 74, 76)",
+          "value": 1384
+        }
+      ],
+      "rule": "value-conflict-internal",
+      "severity": "blocking"
+    }
+  ],
+  "now": "2026-09-05T00:00:00Z",
+  "otherFindings": {
+    "silent-omission": 10
+  },
+  "policy": "pol-budget",
+  "rows": {
+    "aries.definition": [
+      {
+        "evidence": "ev-pb2026",
+        "locator": "PB2026 PE 0605625A R-2A, volume p. 3d-330 (extract PDF p. 65)",
+        "value": "Augmented Reality Integrated Environment for Situational Awareness - crew display overlay"
+      },
+      {
+        "evidence": "ev-industry-day-2020-12",
+        "locator": "Industry Day briefing, PDF p. 18 (slide footer 20)",
+        "value": "performance M&S: highlights sensitivities between functional requirements"
+      }
+    ],
+    "cave.definition": [
+      {
+        "evidence": "ev-pb2026",
+        "locator": "PB2026 PE 0605625A R-2A, volume p. 3d-330 (extract PDF p. 65)",
+        "value": "Commanders Aperture Visual Enhancement - 360-degree camera/sensor system"
+      },
+      {
+        "evidence": "ev-industry-day-2020-12",
+        "locator": "Industry Day briefing, PDF p. 18 (slide footer 20)",
+        "value": "Immersive Simulation modeling; first-person perspective of the design"
+      }
+    ],
+    "omfv-acdd.quarter": [
+      {
+        "evidence": "ev-pb2022",
+        "locator": "PB2022 PE 0605625A R-4A, volume p. 463 (extract PDF p. 92)",
+        "value": "1Q-2Q FY2022"
+      },
+      {
+        "evidence": "ev-pb2023",
+        "locator": "PB2023 PE 0605625A R-4A, volume p. 2e-268 (extract PDF p. 84)",
+        "value": "1Q-2Q FY2022"
+      },
+      {
+        "evidence": "ev-pb2024",
+        "locator": "PB2024 PE 0605625A R-4A, volume p. 3d-281 (extract PDF p. 87)",
+        "value": "2Q-2Q FY2022"
+      },
+      {
+        "evidence": "ev-pb2025",
+        "locator": "PB2025 PE 0605625A R-4A, volume p. 3d-204 (extract PDF p. 77)",
+        "value": "2Q-2Q FY2022"
+      },
+      {
+        "evidence": "ev-pb2026",
+        "locator": "PB2026 PE 0605625A R-4A, volume p. 3d-339 (extract PDF p. 74)",
+        "value": "2Q-2Q FY2022"
+      },
+      {
+        "evidence": "ev-pb2027",
+        "locator": "PB2027 PE 0605625A R-4A, volume p. 3d-320 (extract PDF p. 64)",
+        "value": "2Q-2Q FY2022"
+      },
+      {
+        "evidence": "ev-gao-23-106059",
+        "locator": "GAO-23-106059 printed p. 128 (PDF p. 138), OMFV programme profile \u2014 the PDF is a deliberate sidecar-only source; see sources/gao-23-106059.source.md",
+        "value": "2022-07 (4Q FY2022)"
+      }
+    ],
+    "omfv-aoa.window": [
+      {
+        "evidence": "ev-pb2021",
+        "locator": "PB2021 PE 0604100A R-2A, volume p. 451 (extract PDF p. 75)",
+        "value": "started FY2019"
+      },
+      {
+        "evidence": "ev-pb2021",
+        "locator": "PB2021 PE 0605625A R-4A, volume p. 506 (extract PDF p. 92); R-2A, volume p. 500 (extract PDF p. 86)",
+        "value": "2Q2020-1Q2021, completion"
+      },
+      {
+        "evidence": "ev-pb2023",
+        "locator": "PB2023 PE 0605625A R-2A, volume p. 2e-261 (extract PDF p. 77)",
+        "value": "formal execution FY2023"
+      },
+      {
+        "evidence": "ev-pb2024",
+        "locator": "PB2024 PE 0605625A R-2A, volume p. 3d-271 (extract PDF p. 77)",
+        "value": "formal execution FY2023"
+      },
+      {
+        "evidence": "ev-pb2025",
+        "locator": "PB2025 PE 0604100A R-2A, volume p. 2b-33 (extract PDF p. 52)",
+        "value": "started FY2023, continuing to FY2025"
+      }
+    ],
+    "omfv-concept-design.window": [
+      {
+        "evidence": "ev-pb2022",
+        "locator": "PB2022 PE 0605625A R-4A, volume p. 463 (extract PDF p. 92)",
+        "value": "4Q FY2021 - 1Q FY2023"
+      },
+      {
+        "evidence": "ev-pb2023",
+        "locator": "PB2023 PE 0605625A R-4A, volume p. 2e-268 (extract PDF p. 84)",
+        "value": "4Q FY2021 - 1Q FY2023"
+      },
+      {
+        "evidence": "ev-pb2024",
+        "locator": "PB2024 PE 0605625A R-4A, volume p. 3d-281 (extract PDF p. 87)",
+        "value": "4Q FY2021 - 1Q FY2023"
+      },
+      {
+        "evidence": "ev-pb2025",
+        "locator": "PB2025 PE 0605625A R-4A, volume p. 3d-204 (extract PDF p. 77)",
+        "value": "4Q FY2021 - 1Q FY2023"
+      },
+      {
+        "evidence": "ev-pb2026",
+        "locator": "PB2026 PE 0605625A R-4A, volume p. 3d-339 (extract PDF p. 74)",
+        "value": "4Q FY2021 - 1Q FY2023"
+      },
+      {
+        "evidence": "ev-pb2027",
+        "locator": "PB2027 PE 0605625A R-4A, volume p. 3d-320 (extract PDF p. 64)",
+        "value": "4Q FY2021 - 1Q FY2023"
+      }
+    ],
+    "omfv-mta-total-cost-fy21-24.costM": [
+      {
+        "evidence": "ev-pb2023",
+        "locator": "PB2023 PE 0605625A R-2/R-2A, volume pp. 2e-257, 2e-259 (extract PDF pp. 73, 75)",
+        "value": 1432.1
+      },
+      {
+        "evidence": "ev-pb2024",
+        "locator": "PB2024 PE 0603645A R-2/R-2A, volume pp. 2a-99, 2a-101 (extract PDF pp. 60, 61)",
+        "value": 1348
+      },
+      {
+        "evidence": "ev-pb2024",
+        "locator": "PB2024 PE 0605625A R-2/R-2A, volume pp. 3d-268, 3d-270 (extract PDF pp. 74, 76)",
+        "value": 1384
+      },
+      {
+        "evidence": "ev-pb2025",
+        "locator": "PB2025 PE 0605625A R-2/R-2A, volume pp. 3d-191, 3d-192 (extract PDF pp. 64, 65)",
+        "value": 1330
+      }
+    ],
+    "omfv-mta-total-cost-fy21-25.costM": [
+      {
+        "evidence": "ev-pb2027",
+        "locator": "PB2027 PE 0605625A R-2/R-2A, volume pp. 3d-306, 3d-308 (extract PDF pp. 50, 52)",
+        "value": 1536
+      }
+    ],
+    "omfv-phase2-award.date": [
+      {
+        "evidence": "ev-pb2022",
+        "locator": "PB2022 PE 0605625A R-3, volume p. 460 (extract PDF p. 89)",
+        "value": "2021-07"
+      },
+      {
+        "evidence": "ev-pb2023",
+        "locator": "PB2023 PE 0605625A R-3, volume p. 2e-264 (extract PDF p. 80)",
+        "value": "2021-07"
+      },
+      {
+        "evidence": "ev-gao-23-106549",
+        "locator": "GAO-23-106549, Highlights page (PDF p. 2) and printed p. 5 (PDF p. 8)",
+        "value": "2021-09"
+      }
+    ]
+  },
+  "seed": 20260905,
+  "subjects": [
+    "aries.definition",
+    "cave.definition",
+    "omfv-acdd.quarter",
+    "omfv-aoa.window",
+    "omfv-mta-total-cost-fy21-24.costM",
+    "omfv-phase2-award.date"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "attribute": "sustainment",
+  "conditions": [
+    "European MDO environment"
+  ],
+  "confidence": "explicit",
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "criteria": {
+    "$gap": "gap-thresholds"
+  },
+  "id": "m-dt-sustainment",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 14 (PDF p. 19)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "measure": "sufficiency of the TWV fleet to provide sustainment from theater operations down to brigade level",
+  "metric": {
+    "direction": "max",
+    "units": "sufficient or insufficient"
+  },
+  "objective": "obj-distribution",
+  "rev": 1,
+  "task": "distribute supplies, equipment and troops from theater operations down to brigade level",
+  "type": "Measure"
+}

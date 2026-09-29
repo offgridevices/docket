@@ -1,0 +1,13 @@
+{
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "docket-kernel/0.1.0",
+    "actorType": "kernel"
+  },
+  "episode": "ep-twv-2021",
+  "id": "ms-ep-twv-2021-1",
+  "kernelVersion": "0.1.0",
+  "rev": 1,
+  "rows": [],
+  "type": "MandateScorecard"
+}

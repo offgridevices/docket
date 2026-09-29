@@ -1,0 +1,34 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2021-09-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "definition": {
+    "kind": "simulation",
+    "version": "unversioned in the public record"
+  },
+  "id": "mdl-aries",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "PDF p. 18 (slide footer 20)",
+    "sourceArtifact": "sources/army-2020-12-09-omfv-industry-day-briefing.pdf"
+  },
+  "intendedUse": "ARIES / performance M&S - Highlights sensitivities between functional requirements in real time to inform the program. Analytics will be performed on mobility, vehicle dynamics, automotive performance, and under-hood cooling M&S.",
+  "limitations": [
+    {
+      "justification": {
+        "$gap": "gap-model-docs"
+      },
+      "statement": "The public record describes what ARIES highlights, not how it computes it."
+    }
+  ],
+  "name": "ARIES / performance M&S",
+  "qualificationStatus": "draft",
+  "questionClass": "desired-characteristics",
+  "rev": 1,
+  "type": "Model",
+  "vvaRecord": "vva-aries"
+}

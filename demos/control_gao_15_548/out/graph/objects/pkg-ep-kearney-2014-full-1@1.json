@@ -1,0 +1,17 @@
+{
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "docket-kernel/0.1.0",
+    "actorType": "kernel"
+  },
+  "episode": "ep-kearney-2014",
+  "graphSnapshotHash": "03a126ae206bd8045db8fb0abc3ee292dcb840a1a304d0ff1bc2d10e116ee6dd",
+  "hash": "a20aa23271adf1b800b14206cd5df601ba9f86c1e386d1cce2794d999322cc81",
+  "id": "pkg-ep-kearney-2014-full-1",
+  "kernelVersion": "0.1.0",
+  "path": "package-full.md",
+  "renderedAt": "2014-04-30T00:00:00Z",
+  "rendering": "full",
+  "rev": 1,
+  "type": "DecisionPackage"
+}

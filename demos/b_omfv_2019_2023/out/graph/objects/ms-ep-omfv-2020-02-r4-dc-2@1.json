@@ -1,0 +1,13 @@
+{
+  "createdAt": "2023-03-31T00:00:00Z",
+  "createdBy": {
+    "actorId": "docket-kernel/0.1.0",
+    "actorType": "kernel"
+  },
+  "episode": "ep-omfv-2020-02-r4-dc",
+  "id": "ms-ep-omfv-2020-02-r4-dc-2",
+  "kernelVersion": "0.1.0",
+  "rev": 1,
+  "rows": [],
+  "type": "MandateScorecard"
+}

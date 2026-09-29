@@ -1,0 +1,22 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2020-02-25T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "description": "The OMFV should operate with the minimal number of crew members required to fight and win. The OMFV should allow commanders to choose between manned or remote operation based on the tactical situation.",
+  "id": "obj-manning",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "section 'OMFV Characteristics: Objectives', Manning (characteristic text); sources/army-2020-04-09-omfv-industry-day-narrative.pdf p. 6 section 3.2 (priorityRank 8)",
+    "sourceArtifact": "sources/army-2020-02-25-omfv-characteristics-for-industry-comment.md"
+  },
+  "name": "Manning",
+  "priority": "primary",
+  "priorityRank": 8,
+  "provenance": "ev-con-2020-02",
+  "rev": 1,
+  "type": "Objective"
+}

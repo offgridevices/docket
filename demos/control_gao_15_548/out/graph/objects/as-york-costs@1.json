@@ -1,0 +1,27 @@
+{
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "evidence": "ev-manufacturer-data",
+  "id": "as-york-costs",
+  "implicationsIfWrong": "If a shutdown reached beyond the current Bradley line — other lines at York, or inventory held elsewhere — the $53 million estimate would understate the cost.",
+  "indicatorsThatWouldAlter": [
+    "a shutdown scope extending beyond the current Bradley production line at York",
+    "an anticipated shutdown of the Abrams production line"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 11 (PDF p. 14)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "linchpin": false,
+  "rationale": "Printed p. 11: GAO found this \"appropriate since it was consistent with the assumption of a 2-year shutdown of Bradley production at this particular facility\", and printed p. 11 fn 7 records that at the time of the study it was not anticipated that the Abrams production line would be shut down.",
+  "rev": 1,
+  "statement": "Printed p. 11: the inventory cost estimate was based on costs associated with the disposition of the inventory of the current Bradley production line at the York facility, and the employee cost estimate included only the employee costs associated with that same line.",
+  "type": "Assumption",
+  "variedInSensitivity": false
+}

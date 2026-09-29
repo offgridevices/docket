@@ -1,0 +1,22 @@
+{
+  "baselineFlag": false,
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "description": "The notional GCV — the December 2010 Design Concept After Trades: 1,748 vehicles, 50 to 65 tons, 9 passengers and a crew of 3, average procurement unit cost capped at $13.5 million in 2013 dollars (pp. 2, 7, 8). Programmatic risk: High.",
+  "enteredOrder": 1,
+  "id": "alt-gcv",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 2 (Summary Table 1); pp. 20–31",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "name": "Army's plan: field the Ground Combat Vehicle",
+  "rev": 1,
+  "status": "evaluated",
+  "type": "Alternative"
+}

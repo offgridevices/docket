@@ -1,0 +1,45 @@
+{
+  "alternatives": [],
+  "asOf": "2026-09-05",
+  "assumptions": [],
+  "biasChecks": [],
+  "charter": "ch-budget",
+  "claims": [],
+  "constraints": [],
+  "createdAt": "2026-09-05T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "evidenceRegister": [
+    "ev-pb2021",
+    "ev-pb2022",
+    "ev-pb2023",
+    "ev-pb2024",
+    "ev-pb2025",
+    "ev-pb2026",
+    "ev-pb2027",
+    "ev-gao-23-106549",
+    "ev-gao-23-106059",
+    "ev-industry-day-2020-12"
+  ],
+  "flipAnalyses": [],
+  "groundRules": [],
+  "id": "ep-budget",
+  "lifecycleState": "DRAFT",
+  "mandateElements": [],
+  "models": [],
+  "narratives": [],
+  "objectives": [],
+  "observations": [],
+  "rev": 1,
+  "risks": [
+    "rk-msa-line-studies"
+  ],
+  "runs": [],
+  "scenarios": [],
+  "sequence": 1,
+  "transitions": [],
+  "type": "DecisionEpisode",
+  "weightSets": []
+}

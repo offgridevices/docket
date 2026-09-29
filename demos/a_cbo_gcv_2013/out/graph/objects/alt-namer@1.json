@@ -1,0 +1,22 @@
+{
+  "baselineFlag": false,
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "description": "1,748 Namer APCs on the GCV's procurement schedule (pp. 2, 20): 68 to 70 tons, 9 passengers. The best protected vehicle CBO examined (p. 24) and the least lethal — its largest weapon is a 12.7 mm machine gun (p. 25; described as its primary weapon at p. 23). Programmatic risk: Low.",
+  "enteredOrder": 2,
+  "id": "alt-namer",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 2 (Summary Table 1); pp. 20–31",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "name": "Option 1: purchase the Israeli Namer armored personnel carrier",
+  "rev": 1,
+  "status": "evaluated",
+  "type": "Alternative"
+}

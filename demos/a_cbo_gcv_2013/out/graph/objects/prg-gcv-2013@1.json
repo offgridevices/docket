@@ -1,0 +1,17 @@
+{
+  "charter": "ch-gcv-2013",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "diffs": [],
+  "episodes": [
+    "ep-cbo-2013"
+  ],
+  "id": "prg-gcv-2013",
+  "name": "Bradley replacement — the CBO 2013 point study",
+  "refreshTriggers": [],
+  "rev": 1,
+  "type": "DecisionProgram"
+}

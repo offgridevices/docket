@@ -1,0 +1,67 @@
+{
+  "assertions": [
+    {
+      "field": "costM",
+      "locator": "PB2025 PE 0605625A R-2/R-2A, volume pp. 3d-191, 3d-192 (extract PDF pp. 64, 65)",
+      "subject": "omfv-mta-total-cost-fy21-24",
+      "value": 1330
+    },
+    {
+      "field": "window",
+      "locator": "PB2025 PE 0604100A R-2A, volume p. 2b-33 (extract PDF p. 52)",
+      "subject": "omfv-aoa",
+      "value": "started FY2023, continuing to FY2025"
+    },
+    {
+      "field": "window",
+      "locator": "PB2025 PE 0605625A R-4A, volume p. 3d-204 (extract PDF p. 77)",
+      "subject": "omfv-concept-design",
+      "value": "4Q FY2021 - 1Q FY2023"
+    },
+    {
+      "field": "quarter",
+      "locator": "PB2025 PE 0605625A R-4A, volume p. 3d-204 (extract PDF p. 77)",
+      "subject": "omfv-acdd",
+      "value": "2Q-2Q FY2022"
+    }
+  ],
+  "classification": {
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "explicit",
+  "createdAt": "2026-09-05T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2024-03",
+  "evidenceType": "BudgetExhibit",
+  "fiscalYear": "FY2025",
+  "id": "ev-pb2025",
+  "inclusionReason": "one of the seven annual R-2 exhibits covering the OMFV/XM30 program elements",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "the OMFV/XM30 pages of the PB FY2025 justification books — the first book to use the XM30 name",
+    "sourceArtifact": "sources/army-rdte-r2-fy2025-omfv-xm30-extract.pdf"
+  },
+  "pointer": {
+    "custodian": "Assistant Secretary of the Army (Financial Management and Comptroller)",
+    "uri": "sources/army-rdte-r2-fy2025-omfv-xm30-extract.pdf ; https://www.asafm.army.mil/Budget-Materials/"
+  },
+  "programElement": "PE 0604100A; PE 0605625A",
+  "reliabilitySteps": {
+    "$gap": "gap-exhibit-reliability"
+  },
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "scopeOfValidity": {
+    "builtToAnswer": "the President's Budget justification for the OMFV/XM30 effort",
+    "intendedUse": "congressional budget justification",
+    "questionClass": "cost"
+  },
+  "submitted": "2024-03",
+  "title": "Army RDT&E R-2 exhibits, President's Budget FY2025 — OMFV/XM30 extract",
+  "type": "Evidence"
+}

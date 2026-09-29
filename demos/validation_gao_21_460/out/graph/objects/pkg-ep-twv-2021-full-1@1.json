@@ -1,0 +1,17 @@
+{
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "docket-kernel/0.1.0",
+    "actorType": "kernel"
+  },
+  "episode": "ep-twv-2021",
+  "graphSnapshotHash": "1908bab721874d8eec5a84c353c851cd83ae3518ef9db8b3f578209c4c979bd8",
+  "hash": "74dc9d371a62473be30f2776ded172bd9e4371c0fdd3d65c90789738c6c62399",
+  "id": "pkg-ep-twv-2021-full-1",
+  "kernelVersion": "0.1.0",
+  "path": "package-full.md",
+  "renderedAt": "2021-05-01T00:00:00Z",
+  "rendering": "full",
+  "rev": 1,
+  "type": "DecisionPackage"
+}

@@ -1,0 +1,36 @@
+{
+  "attribute": "lethality",
+  "conditions": [
+    "unconventional threats",
+    "conventional armored battle",
+    "northeast Asia intense battle"
+  ],
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "criteria": {
+    "$exclusion": "ex-no-thresholds"
+  },
+  "id": "m-leth",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 10 fn 14; p. 34",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "measure": "improvement combining capability against enemy vehicles (60 percent) and against enemy personnel (40 percent)",
+  "metric": {
+    "direction": "max",
+    "units": "percent improvement vs the current Bradley IFV"
+  },
+  "objective": "obj-capability",
+  "rev": 1,
+  "task": "Destroy enemy forces",
+  "type": "Measure",
+  "valueFunction": {
+    "kind": "identity"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "description": "Billions of 2013 dollars, over the whole fleet.",
+  "id": "obj-cost",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "pp. 3, 21",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "measures": [
+    "m-cost"
+  ],
+  "name": "Keep down the total cost of development and procurement, 2014–2030",
+  "priority": "secondary",
+  "priorityRank": 2,
+  "provenance": "ev-cbo-cost-estimate",
+  "rev": 1,
+  "type": "Objective"
+}

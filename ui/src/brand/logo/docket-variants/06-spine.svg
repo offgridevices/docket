@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Docket icon 06 - Spine. Court docket: Ember spine and bone body. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Docket">
+  <title>Docket - Spine</title>
+  <rect width="200" height="200" fill="#1B1813"/>
+  <rect x="48" y="36" width="32" height="128" fill="#FF6A00"/>
+  <rect x="88" y="44" width="64" height="112" fill="#F1ECE0"/>
+</svg>

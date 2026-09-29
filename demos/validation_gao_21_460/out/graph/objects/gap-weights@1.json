@@ -1,0 +1,30 @@
+{
+  "confidence": "explicit",
+  "confirmedBy": {
+    "actorId": "shreyash",
+    "date": "2026-09-05"
+  },
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gap-weights",
+  "impact": "informational",
+  "indicatorsThatWouldResolve": [
+    "the study's final report states how the three lines of effort were combined"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 11 (PDF p. 16)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "rev": 1,
+  "sought": "the relative weighting the study applied across the three lines of effort",
+  "type": "InsufficientEvidence",
+  "whereLookedFor": [
+    "GAO-21-460 printed pp. 11-14"
+  ],
+  "whyNotFound": "the description does not state that the lines of effort were weighted or combined"
+}

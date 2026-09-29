@@ -1,0 +1,50 @@
+{
+  "classification": {
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "explicit",
+  "createdAt": "2021-09-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "event": {
+    "$gap": "gap-vendor-events"
+  },
+  "evidenceType": "VendorFeedback",
+  "id": "ev-vendor-feedback-2",
+  "inclusionReason": "GAO printed p. 8: \"the report noted that the Army conducted four vendor feedback events that provided the Army and its industry partners with opportunities to exchange concepts and comments\"",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "printed p. 8 (PDF p. 11)",
+    "sourceArtifact": "sources/gao-23-106549.pdf"
+  },
+  "pointer": {
+    "custodian": "Department of the Army (the study itself is not public); the cited document is the public record that names it",
+    "uri": "sources/gao-23-106549.pdf#page=11"
+  },
+  "reliabilitySteps": {
+    "$gap": "gap-reliability-steps"
+  },
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "reviewers": [
+    {
+      "date": "2021",
+      "name": "Department of the Army",
+      "role": "convening authority (no review record is public)"
+    }
+  ],
+  "scopeOfValidity": {
+    "builtToAnswer": "the desired characteristics for the OMFV",
+    "intendedUse": "exchange of concepts and comments between the Army and its industry partners",
+    "questionClass": "desired-characteristics"
+  },
+  "title": "Vendor feedback event 2 of 4",
+  "type": "Evidence",
+  "vendors": {
+    "$gap": "gap-vendor-events"
+  }
+}

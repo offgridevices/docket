@@ -1,0 +1,27 @@
+# Doctrine crosswalk: which Army/DoW/standards paragraph each schema object gives machine form to.
+- {object: Charter, field: "question/decisionToBeMade/consequencesOfErroneousOutput", doctrine: "AR 5-11 ¶4-5b problem statement; MIL-STD-3022 §D.6", locus: "AR 5-11 (2025) printed p. 15; MIL-STD-3022 printed p. 44"}
+- {object: MandateElement, field: null, doctrine: "GAO mandate-element scorecards; FY22 NDAA §234(b) elements", locus: "GAO-23-106549 pp. 8-14; GAO-16-86 Table 1"}
+- {object: Measure, field: null, doctrine: "OAS AoA Handbook Table 5-2 Measures Framework", locus: "OAS Handbook printed p. 64"}
+- {object: GroundRule, field: null, doctrine: "OAS AoA Handbook §4.9 GRC&A typing", locus: "printed p. 45"}
+- {object: Constraint, field: null, doctrine: "OAS AoA Handbook §4.9; Army CBA Guide v3.3 fact/constraint/assumption", locus: "OAS printed p. 45; CBA Guide printed p. 19"}
+- {object: Assumption, field: "linchpin/implicationsIfWrong/indicatorsThatWouldAlter", doctrine: "ICD 203 §D.6.e(3)", locus: "ICD 203 (2015) p. 3"}
+- {object: Assumption, field: rationale, doctrine: "GAO-18-230 App. I II.a.1 'accompanied by a statement of their rationale'", locus: "GAO-18-230 p. 22"}
+- {object: Alternative, field: baselineFlag, doctrine: "DoDI 5000.84 §3.1.c status-quo alternative", locus: "DoDI 5000.84 (2020) p. 5"}
+- {object: Plan, field: "steps[].sensitivitySweeps", doctrine: "DoDI 5000.84 §4.2.i sensitivity analysis; OAS §4.10; CBA Guide step 7c", locus: "DoDI 5000.84 p. 12; OAS printed p. 48"}
+- {object: Evidence, field: scopeOfValidity, doctrine: "AR 5-11 ¶4-2i(1) different use = re-accreditation; DoD RAI principle 4 'explicit, well-defined domain of use'", locus: "AR 5-11 printed p. 14"}
+- {object: Evidence, field: classification, doctrine: "OMFV CDRL A013 (unclassified RTVM) / A103 (classified RTVM) from one template", locus: "W56HZV-20-R-0142 Attachment 0026"}
+- {object: Evidence, field: reliabilitySteps, doctrine: "GAO-20-283G Assessing Data Reliability", locus: "GAO-20-283G"}
+- {object: DataReliabilityStep, field: null, doctrine: "GAO-20-283G", locus: "GAO-20-283G §2"}
+- {object: VVARecord, field: null, doctrine: "MIL-STD-3022 Table I; §D.8 four typed lists", locus: "MIL-STD-3022 printed pp. 5, 45"}
+- {object: VVARecord, field: "sections[].content", doctrine: "MIL-STD-3022 §5.3 'This section is not applicable' retained", locus: "printed p. 5"}
+- {object: Exclusion, field: null, doctrine: "MIL-STD-3022 §5.3; CBA Guide p. 70 'Don't leave out major sections'; OAS §4.7 screening with prohibited reason; DoDI 5000.84 §4.2.g", locus: "OAS printed pp. 42-43"}
+- {object: InsufficientEvidence, field: null, doctrine: "GAO-11-82R rating state 4; PhantomFill (arXiv 2607.20492)", locus: "GAO-11-82R Encl. II p. 35"}
+- {object: FlipAnalysis, field: null, doctrine: "Topic 'what flips the decision'; ICD 203 indicators; DoDI 5000.84 §4.2.i; CBA step 7c", locus: "ICD 203 p. 3"}
+- {object: Uncertainty, field: lexiconBand, doctrine: "ICD 203 §D.6.e(2) seven-band lexicon, no mixing", locus: "ICD 203 p. 3"}
+- {object: StandardsAssessment, field: null, doctrine: "GAO-06-938 / GAO-16-820 / GAO-18-230 / GAO-11-82R four-state rating", locus: "GAO-16-820 App. I; GAO-11-82R Encl. II"}
+- {object: EpisodeDiff, field: null, doctrine: "ICD 203 §D.6.e(7) explain change or consistency", locus: "ICD 203 p. 4"}
+- {object: RefreshTrigger, field: kind, doctrine: "AR 5-11 ¶4-2i(1)-(3) reaccreditation predicates", locus: "AR 5-11 printed p. 14"}
+- {object: Commitment, field: dissent, doctrine: "NASA SP-2016-6105 Table 6.8-1 dissent", locus: "NASA SE Handbook Rev 2"}
+- {object: DecisionEpisode, field: null, doctrine: "ISO/IEC/IEEE 42010 App. A; MADR; ISO 15288 DM-3.2 decision record", locus: "ISO 42010 App. A"}
+- {object: Narrative, field: "sentences[].cites", doctrine: "Amershi et al. 2019 G11 make clear why; DoD RAI Traceable", locus: "Amershi 2019 Table 1"}
+- {object: Scenario, field: rationale, doctrine: "GAO DES-8/DES-9; GAO-06-938 area III", locus: "GAO-06-938 App. I"}

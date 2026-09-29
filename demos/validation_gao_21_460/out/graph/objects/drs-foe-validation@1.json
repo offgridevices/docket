@@ -1,0 +1,21 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "description": "the study used the expertise of the Future Operational Environment Directorate within the Futures and Concepts Center to validate two elements of the evaluation criteria for the Mobility line of effort: Priority of Targeting and Signature Detection.",
+  "documentation": "ev-gao-21-460",
+  "id": "drs-foe-validation",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 13 (PDF p. 18)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "method": "expert-review",
+  "performedBy": "Future Operational Environment Directorate, Futures and Concepts Center",
+  "rev": 1,
+  "type": "DataReliabilityStep"
+}

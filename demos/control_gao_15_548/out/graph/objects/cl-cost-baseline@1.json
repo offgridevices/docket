@@ -1,0 +1,34 @@
+{
+  "addresses": [
+    "obj-viability"
+  ],
+  "assessableAt": {
+    "level": "U"
+  },
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "cl-cost-baseline",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 13 (PDF p. 16)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "questionClass": "industrial-base",
+  "rev": 1,
+  "section": "evaluation-results",
+  "supportedBy": [
+    {
+      "evidence": "ev-gao-15-548"
+    },
+    {
+      "evidence": "ev-manufacturer-data"
+    }
+  ],
+  "text": "Verbatim, printed p. 13: to establish a cost baseline the study's authors identified the costs of various manufacturing processes for combat vehicles at different production facilities \"by requesting data from manufacturers and suppliers, observing production operations, walking along production lines and interviewing production workers about production operations at both government and commercial manufacturing facilities.\"",
+  "type": "Claim"
+}

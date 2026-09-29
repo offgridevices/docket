@@ -1,0 +1,52 @@
+[project]
+name = "docket"
+version = "0.1.0"
+description = "Schema-driven, auditable decision records: a governed AI agent drafts, a deterministic kernel computes, and a human signs"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = ["Private :: Do Not Upload"]
+license-files = []
+dependencies = [
+  "jsonschema>=4.23",
+  "pyyaml>=6.0",
+  "click>=8.1",
+  "httpx>=0.27",
+  "fastapi>=0.115",
+  "uvicorn[standard]>=0.30",
+  "python-multipart>=0.0.9",
+]
+
+[project.scripts]
+docket = "docket.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=8.3", "hypothesis>=6.100", "ruff>=0.6"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/docket"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+extend-exclude = ["proposal"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+# B008 ("function call in default argument") ignores calls whose parameter carries an
+# immutable type annotation, so `agent: tuple[...] = Depends(_agent)` already passes but
+# `actor: dict = Depends(human_actor)` does not, purely because `dict` is mutable — B008
+# has no idea `Depends()` re-runs its argument on every request rather than caching a
+# mutable default once at definition time. FastAPI's own dependency-injection contract is
+# exactly the case this option exists for (see the rule's own docs, "Calls ... outside of
+# the standard library can be marked as an exception with extend-immutable-calls").
+[tool.ruff.lint.flake8-bugbear]
+extend-immutable-calls = ["fastapi.Depends", "fastapi.params.Depends"]

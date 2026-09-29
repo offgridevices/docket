@@ -1,0 +1,51 @@
+{
+  "classification": {
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "explicit",
+  "createdAt": "2020-12-09T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2020",
+  "evidenceType": "MarketResearch",
+  "id": "ev-market-research-2020",
+  "inclusionReason": "Publish Broad Updated Characteristics (CON) - Generated using threat analysis, market research, and the ABCT operational concept. (OMFV Industry Day briefing, 9 December 2020, PDF p. 11 (slide footer 13))",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "PDF p. 11 (slide footer 13)",
+    "sourceArtifact": "sources/army-2020-12-09-omfv-industry-day-briefing.pdf"
+  },
+  "method": {
+    "$gap": "gap-con-inputs"
+  },
+  "pointer": {
+    "custodian": "Department of the Army, NGCV CFT — the underlying analysis is not public; the 9 December 2020 Industry Day briefing is the public record that names it",
+    "uri": "sources/army-2020-12-09-omfv-industry-day-briefing.pdf#page=11"
+  },
+  "reliabilitySteps": {
+    "$gap": "gap-reliability-steps"
+  },
+  "respondents": {
+    "$gap": "gap-con-inputs"
+  },
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "reviewers": [
+    {
+      "date": "2020-12-09",
+      "name": "Next Generation Combat Vehicles Cross-Functional Team",
+      "role": "issuing authority (no review record is public)"
+    }
+  ],
+  "scopeOfValidity": {
+    "builtToAnswer": "the inputs the Army used to generate the updated CON",
+    "intendedUse": "generation of the December 2020 updated characteristics",
+    "questionClass": "desired-characteristics"
+  },
+  "title": "Market research used to generate the December 2020 updated CON",
+  "type": "Evidence"
+}

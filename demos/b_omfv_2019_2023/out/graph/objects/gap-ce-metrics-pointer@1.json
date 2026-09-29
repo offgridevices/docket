@@ -1,0 +1,32 @@
+{
+  "confidence": "absent",
+  "confirmedBy": {
+    "actorId": "shreyash",
+    "date": "2026-09-06"
+  },
+  "createdAt": "2023-03-31T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gap-ce-metrics-pointer",
+  "impact": "blocking",
+  "indicatorsThatWouldResolve": [
+    "a classified annex is identified with a CDRL number and a custodian, so the metrics can be located even where the values cannot be read",
+    "release of the metrics at a lower classification"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "printed p. 14 (PDF p. 17)",
+    "sourceArtifact": "sources/gao-23-106549.pdf"
+  },
+  "rev": 1,
+  "sought": "a locator, custodian and schema for the quantitative survivability, mobility and lethality metrics behind the combat-effectiveness comparison",
+  "type": "InsufficientEvidence",
+  "whereLookedFor": [
+    "GAO-23-106549 printed p. 14 (PDF p. 17)",
+    "the Army's Section 234 report, which is not public"
+  ],
+  "whyNotFound": "Army officials told us, however, that they had quantitative metrics for each of these characteristics and used them in support of the report. The officials stated that they did not include these metrics in the report due to security concerns. (GAO-23-106549 printed p. 14)"
+}

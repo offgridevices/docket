@@ -1,0 +1,55 @@
+{
+  "added": [
+    "alt-xm30-gdls",
+    "alt-xm30-rheinmetall",
+    "risk-bias-ep-omfv-2020-02-r5-selection"
+  ],
+  "because": "rt-downselect",
+  "changed": [
+    {
+      "after": "\"One of the two Phase 3/4 Product Development performers named on the PB2025 R-3 exhibit against a June 2023 award date. The abstract \\\"OMFV concept\\\" of 2020 has become two funded detailed designs.\"",
+      "before": "\"The vehicle the nine characteristics describe: a Bradley replacement inside the Armored Brigade Combat Team, to be refined with industry rather than specified up front (February 2020 notice, Background and Concept of employment).\"",
+      "field": "description",
+      "object": "alt-omfv-concept→alt-xm30-gdls"
+    },
+    {
+      "after": "3",
+      "before": "1",
+      "field": "enteredOrder",
+      "object": "alt-omfv-concept→alt-xm30-gdls"
+    },
+    {
+      "after": "\"XM30 (OMFV) detailed design — General Dynamics Land Systems\"",
+      "before": "\"OMFV concept\"",
+      "field": "name",
+      "object": "alt-omfv-concept→alt-xm30-gdls"
+    },
+    {
+      "after": "\"selected\"",
+      "before": "\"evaluated\"",
+      "field": "status",
+      "object": "alt-omfv-concept→alt-xm30-gdls"
+    }
+  ],
+  "createdAt": "2023-06-26T00:00:00Z",
+  "createdBy": {
+    "actorId": "docket-kernel/0.1.0",
+    "actorType": "kernel"
+  },
+  "from": "ep-omfv-2020-02-r4",
+  "id": "diff-ep-omfv-2020-02-r4-ep-omfv-2020-02-r5",
+  "judgmentsChanged": [],
+  "judgmentsConsistent": [],
+  "kernelVersion": "0.1.0",
+  "pairing": "replacements",
+  "rankingAfter": [],
+  "rankingBefore": [],
+  "ratingsChanged": [],
+  "removed": [
+    "alt-omfv-concept",
+    "risk-bias-ep-omfv-2020-02-r4-selection"
+  ],
+  "rev": 1,
+  "to": "ep-omfv-2020-02-r5",
+  "type": "EpisodeDiff"
+}

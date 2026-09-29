@@ -1,0 +1,30 @@
+{
+  "aggregationK": 1,
+  "blockingRules": [],
+  "confidence": "inferred",
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "decisionClass": "capability-study",
+  "id": "pol-twv",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 6 (PDF p. 11)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "method": "mavt",
+  "nSimplex": 200,
+  "name": "MDO TWV capability study (GAO-21-460 comparison policy)",
+  "prohibitedExclusionReasons": [
+    "time-or-resource"
+  ],
+  "requireAllLinchpinsVaried": false,
+  "requiredBiasChecks": [],
+  "rev": 1,
+  "tailoring": "gao-21-460",
+  "type": "Policy",
+  "version": "0.1"
+}

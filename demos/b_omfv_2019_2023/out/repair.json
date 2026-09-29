@@ -1,0 +1,22 @@
+{
+  "after": "assessable-with-classified-value",
+  "before": "NotAssessableAtLevel",
+  "ce_row_after": {
+    "objectivity": "generally_objective",
+    "reliability": "generally_reliable",
+    "validity": "insufficient_to_conclude"
+  },
+  "ce_row_before": {
+    "objectivity": "generally_objective",
+    "reliability": "insufficient_to_conclude",
+    "validity": "insufficient_to_conclude"
+  },
+  "classification_level": "S",
+  "exe14_after": 1,
+  "exe14_before": 3,
+  "exe5_after": 2,
+  "exe5_after_under_grid_tailoring": 2,
+  "exe5_before": 4,
+  "note": "A counterfactual. It shows what the record would have to contain, not anything about what the Army did. The classification level stays S: the value is still withheld, and that is the point.",
+  "reliability_note": "Re-scored under the grid tailoring, the repair also moves EXE-5 from 4 to 2 and with it GAO's reliability verdict on the combat-effectiveness section, from `insufficient_to_conclude` to `generally_reliable`. That is the whole of it: one described reliability step on one dataset. Validity does not move, because PRE-1 still reads 4 \u2014 every other cited evidence item's `reliabilitySteps` is still the `gap-reliability-steps` object, which is GAO's F8 stated once."
+}

@@ -1,0 +1,26 @@
+{
+  "affected": [
+    "as-manning-feb",
+    "obj-survivability",
+    "obj-manning"
+  ],
+  "confidence": "explicit",
+  "createdAt": "2020-12-09T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "description": "The updated CON restates Survivability and Manning. Survivability loses the February clause on protecting the crew from CBRN environments and becomes survivability against modern direct fire, indirect fire and blast threats. Manning stops being \"the minimal number of crew members required to fight and win\" and becomes 30 dismounts per platoon and no more than two crew, positioned in the hull. The slide gives no reason for either change.",
+  "detectedAt": "2020-12-09",
+  "id": "rt-con-update-2020-12",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "PDF p. 5 (slide footer 6)",
+    "sourceArtifact": "sources/army-2020-12-09-omfv-industry-day-briefing.pdf"
+  },
+  "kind": "assumption-changed",
+  "rev": 1,
+  "source": "OMFV Industry Day briefing, 9 December 2020, PDF p. 5 (slide footer 6)",
+  "type": "RefreshTrigger"
+}

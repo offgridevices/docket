@@ -1,0 +1,10 @@
+{
+  "4c02320493dc2bd031570c703baddb6069974bb97aada3005ea235faa984336b": {
+    "note": "hand-authored; wrong numeral on purpose",
+    "response": "{\"sentences\": [{\"text\": \"Under the primary metric the highest-scoring alternative scores 46.1.\", \"cites\": [\"res-run-pl-cbo-primary-alt-puma\", \"run-pl-cbo-primary\"]}]}"
+  },
+  "cd0b75f968121f09985030a2369d2a03741bfb9445596978a9dd832e1e5813ef": {
+    "note": "hand-authored; the corrected draft",
+    "response": "{\"sentences\": [{\"text\": \"Under the primary metric the highest-scoring alternative scores 45.1.\", \"cites\": [\"res-run-pl-cbo-primary-alt-puma\", \"run-pl-cbo-primary\"]}]}"
+  }
+}

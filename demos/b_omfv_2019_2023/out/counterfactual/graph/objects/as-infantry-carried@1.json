@@ -1,0 +1,26 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2023-03-31T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "evidence": "ev-ce-metrics",
+  "id": "as-infantry-carried",
+  "implicationsIfWrong": "If the dismount-count variation does not span the platoon structures the Army would actually field, the payload comparison understates the uncertainty in the result.",
+  "indicatorsThatWouldAlter": [
+    "the range of the varied assumption is published and is narrower than the fielded design space"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "printed p. 14 (PDF p. 17)",
+    "sourceArtifact": "sources/gao-23-106549.pdf"
+  },
+  "linchpin": false,
+  "rationale": "GAO printed p. 14: \"each OMFV concept presents different assumptions for some of its characteristics, such as engines with varying power or variance in the number of infantry soldiers it can transport.\" GAO credits this as a form of sensitivity analysis that can provide increased reliability in results.",
+  "rev": 1,
+  "statement": "The OMFV concepts are compared with variance in the number of infantry soldiers each can transport.",
+  "type": "Assumption",
+  "variedInSensitivity": true
+}

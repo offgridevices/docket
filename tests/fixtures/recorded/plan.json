@@ -1,0 +1,6 @@
+{
+  "d4ebf5351d237bc498f9e4d0bf1efcdc7e01f1b03ec7c80c3066b80a57f376b4": {
+    "note": "hand-authored",
+    "response": "{\"steps\": [{\"authorityKey\": \"cba-decmat\", \"id\": \"primary\", \"rationale\": \"Step 7's Decision Matrix requires comparing alternatives against the decision criteria and ranking them, which is exactly what this weighted-comparison step does.\"}, {\"authorityKey\": \"sensitivity\", \"id\": \"secondary\", \"rationale\": \"This step carries the linchpin nine-member-squad weight sweep, so DoDI 5000.84 \\u00a74.2.i is what requires it to exist at all.\"}]}"
+  }
+}

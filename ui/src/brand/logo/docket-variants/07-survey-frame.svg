@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Docket icon 07 - Survey frame. Brackets with an empty center: no numbers yet. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Docket">
+  <title>Docket - Survey frame</title>
+  <rect width="200" height="200" fill="#1B1813"/>
+  <rect x="48" y="56" width="40" height="14" fill="#FF6A00"/>
+  <rect x="48" y="56" width="14" height="88" fill="#FF6A00"/>
+  <rect x="48" y="130" width="40" height="14" fill="#FF6A00"/>
+  <rect x="112" y="56" width="40" height="14" fill="#FF6A00"/>
+  <rect x="138" y="56" width="14" height="88" fill="#FF6A00"/>
+  <rect x="112" y="130" width="40" height="14" fill="#FF6A00"/>
+</svg>

@@ -1,0 +1,19 @@
+{
+  "confidence": "inferred",
+  "createdAt": "2021-09-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "ws-omfv",
+  "method": "equal",
+  "name": "equal weighting over the one published OMFV metric",
+  "provenance": {
+    "$gap": "gap-weights"
+  },
+  "rev": 1,
+  "type": "WeightSet",
+  "weights": {
+    "m-weight-bridges": 1.0
+  }
+}

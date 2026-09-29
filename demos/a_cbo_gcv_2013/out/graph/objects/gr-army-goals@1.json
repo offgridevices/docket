@@ -1,0 +1,19 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gr-army-goals",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 5",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "rev": 1,
+  "source": "ev-cbo-2013",
+  "statement": "CBO accepted the Army's goals for the vehicle and the Army's estimate of how many vehicles are needed; different goals would have changed the criteria.",
+  "type": "GroundRule"
+}

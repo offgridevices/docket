@@ -1,0 +1,23 @@
+{
+  "aggregationK": 1,
+  "blockingRules": [],
+  "createdAt": "2026-09-05T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "decisionClass": "record-consistency",
+  "id": "pol-budget",
+  "method": "mavt",
+  "nSimplex": 200,
+  "name": "budget-record consistency",
+  "prohibitedExclusionReasons": [
+    "time-or-resource"
+  ],
+  "requireAllLinchpinsVaried": false,
+  "requiredBiasChecks": [],
+  "rev": 1,
+  "tailoring": "published-21",
+  "type": "Policy",
+  "version": "0.1"
+}

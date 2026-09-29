@@ -1,0 +1,29 @@
+{
+  "authority": {
+    "date": "2013-04",
+    "role": "analyst",
+    "who": "Congressional Budget Office"
+  },
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "ex-no-thresholds",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 21; p. 33",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "reason": "CBO compared percentage improvement relative to the current Bradley IFV and published no threshold or objective value for any category; the Army's threshold and objective values live in the Milestone A AoA, which is not public.",
+  "reasonType": "data-unavailable",
+  "retainedInStructure": true,
+  "rev": 1,
+  "target": {
+    "kind": "Measure",
+    "label": "threshold and objective values for the five capability measures"
+  },
+  "type": "Exclusion"
+}

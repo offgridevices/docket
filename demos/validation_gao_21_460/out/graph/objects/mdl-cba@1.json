@@ -1,0 +1,26 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "definition": {
+    "kind": "rubric",
+    "version": "unversioned in the public description"
+  },
+  "id": "mdl-cba",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 12 (PDF p. 17)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "intendedUse": "the assessment of all three lines of effort that identified the operational tasks, conditions, and standards needed to achieve military objectives; assessed current and future capabilities to identify gaps; and sought to determine TWV solutions (printed pp. 12–13)",
+  "name": "Capabilities based assessment",
+  "qualificationStatus": "draft",
+  "questionClass": "capability-gap",
+  "rev": 1,
+  "type": "Model",
+  "vvaRecord": "vva-cba"
+}

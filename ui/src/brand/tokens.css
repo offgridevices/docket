@@ -1,0 +1,169 @@
+/* Copied from the OffGrid brand handoff v3.0
+   (offgridevices/offgrid-brand, handoffs/2026-09-08-brand-v3.0/handoff/tokens/tokens.css).
+   Adoption and the edits below: docs/decisions/2026-09-08-demo-ui-rebuilt-on-brand-v3.md.
+
+   FOUR EDITS, all deliberate, none cosmetic:
+
+   1. The remote `@import url(fonts.googleapis.com/...)` is removed. The demo must run at
+      a venue with no internet; a remote font import silently drops the whole brand to
+      system fonts and makes screenshots non-reproducible. Self-hosted @fontsource
+      equivalents live in ./fonts.css, which main.tsx imports alongside this file.
+
+   2. Ember is #FF6A00 and Ember-Deep #A84A00 (the handoff's own tokens.scss and
+      tailwind.preset.js say #E8743C/#B8531F, and tokens.json contradicts its own hex with
+      its rgb triplet). Ruling and evidence:
+      docs/decisions/2026-09-08-ember-is-ff6a00.md. offgrid.preset.cjs carries the same
+      two values, so this repository is internally consistent where the handoff is not.
+
+   3. The dark theme is deleted — §3 (prefers-color-scheme), the [data-theme="dark"] block
+      and the now-pointless [data-theme="light"] block all go. This UI ships light only:
+      docs/decisions/2026-09-08-demo-ui-is-light-only.md. The dark RAW tones (pitch, bark,
+      coal) stay in §1 because they are ingredients the wordmark asset still uses.
+
+   4. Everything else — the palette, the type scale, the geometry, the spacing ramp and
+      every utility class — is verbatim. .og-display is weight 400 with NO
+      text-transform, and .og-mono has no text-transform either: v3.0 takes authority
+      from size, never from weight or caps. Do not add either back. If a value you need
+      is not here, the design system is missing a token; add it upstream, not inline.
+*/
+
+/* ───────────────────────────────────────────────────────────
+   1 · RAW PALETTE — the seven brand colors, mode-independent.
+   These never change. They are the *ingredients*. Components
+   should consume the SEMANTIC tokens below, not these directly
+   (with the one exception of Ember when it's used as a literal
+   accent fill — Ember is the same in both modes).
+   ─────────────────────────────────────────────────────────── */
+:root {
+  --og-pitch:       #1B1813;   /* primary dark                            */
+  --og-bark:        #3A2E22;   /* secondary dark                          */
+  --og-coal:        #100D09;   /* deepest dark                            */
+  --og-bone:        #F1ECE0;   /* primary light                           */
+  --og-sand:        #D9C9A8;   /* secondary light                         */
+  --og-ember:       #FF6A00;   /* THE accent — same in both modes         */
+  --og-dim:         #9A9082;   /* muted gray — works in both modes        */
+
+  /* v2.1 light-mode neutrals — only used to build the light theme.
+     Pronounced "lin-en" and "PAY-per". Earthy paper tones, never #FFFFFF. */
+  --og-linen:       #E5DDC9;   /* surface tone for light mode             */
+  --og-paper:       #FAF7EF;   /* lifted card / chalk highlight in light  */
+  --og-ember-deep:  #A84A00;   /* darker Ember for text on light bg       */
+
+  /* ── Bone surface ramp · v2.1 (the DEFAULT expression) ── */
+  --og-ground:      #F7F4EC;   /* page — warm paper                       */
+  --og-surface:     #EFEAE0;   /* recessed panel                          */
+  --og-raised:      #FBF9F3;   /* lifted card                             */
+  --og-ink:         #1B1813;   /* primary type                            */
+  --og-ink-2:       #5C554A;   /* secondary type                          */
+  --og-ink-3:       #6B6456;   /* muted type                              */
+
+  /* ── Type families ───────────────────────────────────── */
+  --og-font-display:   'Instrument Sans', system-ui, sans-serif;
+  --og-font-body:      'Instrument Sans', system-ui, sans-serif;
+  --og-font-editorial: 'Newsreader', Georgia, serif;
+  --og-font-mono:      'JetBrains Mono', ui-monospace, 'SF Mono', monospace;
+
+  /* ── Type scale ──────────────────────────────────────── */
+  /* v2.1 — Bone. Display is SENTENCE CASE at 400/500. Never uppercase,
+     never 900. Scale runs bigger; authority comes from size, not weight. */
+  --og-d1: 118px; --og-d1-lh: 0.92;
+  --og-d2:  76px; --og-d2-lh: 0.96;
+  --og-d3:  62px; --og-d3-lh: 1.02;
+  --og-d4:  42px; --og-d4-lh: 1.10;
+  --og-b1:  21px; --og-b1-lh: 1.50;
+  --og-b2:  16px; --og-b2-lh: 1.62;
+  --og-b3:  14px; --og-b3-lh: 1.55;
+  --og-e1:  44px; --og-e1-lh: 1.18;
+  --og-e2:  24px; --og-e2-lh: 1.40;
+  --og-m1:  13px; --og-m1-lh: 1.40;
+  --og-m2:  11px; --og-m2-lh: 1.40;
+
+  /* ── Geometry ────────────────────────────────────────── */
+  --og-radius:    0;
+  --og-hairline:  1px;
+  --og-section-y: 160px;   /* v2.1 — air is the premium signal */
+  --og-gutter:    80px;
+  --og-max-width: 1280px;
+
+  /* ── Spacing (4 px base) ─────────────────────────────── */
+  --og-s-1: 4px;  --og-s-2: 8px;   --og-s-3: 12px;  --og-s-4: 16px; --og-s-5: 24px;
+  --og-s-6: 32px; --og-s-7: 40px;  --og-s-8: 56px;  --og-s-9: 80px; --og-s-10: 120px;
+}
+
+/* ───────────────────────────────────────────────────────────
+   2 · SEMANTIC TOKENS — what components actually consume.
+   Default = BONE (light). v2.1 — this is now the canonical brand
+   expression for web and app. Dark is an opt-in mode and a
+   full-bleed section treatment, not the ground.
+   ─────────────────────────────────────────────────────────── */
+:root {
+  --og-bg:            var(--og-ground);  /* page background                 */
+  --og-bg-raised:     var(--og-raised);  /* lifted card                     */
+  --og-bg-sunken:     var(--og-surface); /* recessed panel                  */
+  --og-bg-deepest:    var(--og-surface); /* footer plane                    */
+
+  --og-fg:            var(--og-ink);     /* primary body / headline text    */
+  --og-fg-secondary:  var(--og-ink-2);   /* secondary copy, captions        */
+  --og-fg-muted:      var(--og-ink-3);   /* disabled, muted labels          */
+
+  --og-accent:        var(--og-ember);      /* fills — buttons, planes      */
+  --og-accent-text:   var(--og-ember-deep); /* Ember AS text — passes 4.5:1 */
+  --og-on-accent:     var(--og-ink);        /* type ON an Ember plane       */
+
+  --og-hairline-color:  rgba(27, 24, 19, 0.14);   /* Ink @ 14%              */
+  --og-hairline-strong: rgba(27, 24, 19, 0.26);
+
+  --og-selection-bg: var(--og-ember);
+  --og-selection-fg: var(--og-ink);
+
+  color-scheme: light;
+}
+
+/* ───────────────────────────────────────────────────────────
+   3 · GLOBAL DEFAULTS — body, selection, scrollbar.
+   Apply these once on the root and the whole page themes.
+   ─────────────────────────────────────────────────────────── */
+html, body {
+  background: var(--og-bg);
+  color: var(--og-fg);
+}
+::selection { background: var(--og-selection-bg); color: var(--og-selection-fg); }
+
+/* ── Utility classes (optional, drop-in) ─────────────── */
+.og-display    { font-family: var(--og-font-display); font-weight: 400; letter-spacing: -0.045em; }
+.og-body       { font-family: var(--og-font-body);    font-weight: 400; }
+.og-editorial  { font-family: var(--og-font-editorial); font-style: italic; letter-spacing: -0.01em; }
+.og-label      { font-family: var(--og-font-body);    font-weight: 500; letter-spacing: 0.01em; }
+.og-mono       { font-family: var(--og-font-mono);    font-weight: 500; letter-spacing: 0.04em; }  /* numerals & code only */
+
+/* Semantic backgrounds — these auto-swap by mode */
+.og-bg          { background: var(--og-bg);         color: var(--og-fg); }
+.og-bg-raised   { background: var(--og-bg-raised);  color: var(--og-fg); }
+.og-bg-sunken   { background: var(--og-bg-sunken);  color: var(--og-fg); }
+.og-bg-deepest  { background: var(--og-bg-deepest); color: var(--og-fg); }
+
+/* Raw-tone backgrounds — use only when you need a SPECIFIC tone
+   that should stay the same in both modes (e.g. a marketing splash
+   that's always Pitch). Most components should NOT use these. */
+.og-bg-pitch    { background: var(--og-pitch); color: var(--og-bone); }
+.og-bg-bark     { background: var(--og-bark);  color: var(--og-bone); }
+.og-bg-coal     { background: var(--og-coal);  color: var(--og-bone); }
+.og-bg-bone     { background: var(--og-bone);  color: var(--og-pitch); }
+
+.og-hairline    { border-color: var(--og-hairline-color); }
+
+.og-btn {
+  background: var(--og-accent);
+  color: var(--og-on-accent);
+  border: 0;
+  padding: 18px 28px;
+  font: 500 15px/1 var(--og-font-body);
+  letter-spacing: -0.005em;
+  cursor: pointer;
+}
+.og-btn--ghost {
+  background: transparent;
+  color: var(--og-fg);
+  border: 1px solid var(--og-fg);
+  padding: 17px 27px;
+}

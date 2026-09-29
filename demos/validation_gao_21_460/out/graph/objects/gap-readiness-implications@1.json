@@ -1,0 +1,31 @@
+{
+  "confidence": "explicit",
+  "confirmedBy": {
+    "actorId": "shreyash",
+    "date": "2026-09-05"
+  },
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gap-readiness-implications",
+  "impact": "degrading",
+  "indicatorsThatWouldResolve": [
+    "the study's final report states what follows if the rate does not hold",
+    "release of the sensitivity analysis the Army performed on readiness rates"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 12 (PDF p. 17)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "rev": 1,
+  "sought": "what would follow if the 90 percent operational readiness rate did not hold",
+  "type": "InsufficientEvidence",
+  "whereLookedFor": [
+    "GAO-21-460 printed p. 12"
+  ],
+  "whyNotFound": "the description reports the assumption and its sensitivity treatment, not the consequences of it being wrong"
+}

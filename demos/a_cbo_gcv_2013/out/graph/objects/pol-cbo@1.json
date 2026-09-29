@@ -1,0 +1,30 @@
+{
+  "aggregationK": 1,
+  "blockingRules": [
+    "linchpin-unevidenced",
+    "baseline-present",
+    "silent-omission",
+    "run-inputs-changed"
+  ],
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "decisionClass": "trade-study",
+  "id": "pol-cbo",
+  "method": "mavt",
+  "nSimplex": 2000,
+  "name": "point-trade-study",
+  "prohibitedExclusionReasons": [
+    "time-or-resource"
+  ],
+  "requireAllLinchpinsVaried": true,
+  "requiredBiasChecks": [
+    "structured-alternative-comparison"
+  ],
+  "rev": 1,
+  "tailoring": "published-21",
+  "type": "Policy",
+  "version": "0.1"
+}

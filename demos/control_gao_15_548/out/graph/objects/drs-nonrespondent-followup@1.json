@@ -1,0 +1,22 @@
+{
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2013",
+  "description": "Printed p. 15: the study's authors contacted non-responding suppliers and obtained publicly available information on the companies, including credit rating information, to develop an accurate company business profile; that identified reasons for non-participation, some of which showed a subset should not have been in the original survey. Printed p. 16 records that over 20 non-respondents agreed to participate in the study site visits, and that GAO judged these steps \"generally reasonable\" while noting the authors did not formally compare respondents to non-respondents.",
+  "documentation": "ev-gao-15-548",
+  "id": "drs-nonrespondent-followup",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 15 (PDF p. 18); printed p. 16 (PDF p. 19)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "method": "corroboration",
+  "performedBy": "A.T. Kearney",
+  "rev": 1,
+  "type": "DataReliabilityStep"
+}

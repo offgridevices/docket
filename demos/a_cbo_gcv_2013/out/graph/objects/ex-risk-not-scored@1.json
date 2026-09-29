@@ -1,0 +1,29 @@
+{
+  "authority": {
+    "date": "2013-04",
+    "role": "analyst",
+    "who": "Congressional Budget Office"
+  },
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "ex-risk-not-scored",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 21 (Table 2-2)",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "reason": "CBO reported programmatic risk qualitatively — High for the GCV, Intermediate for the upgraded Bradley, Low for the Namer and the Puma, None for retaining the current Bradley — and combined it into neither overall-improvement metric. It is therefore not scored here either; it is recorded on the alternatives and as a Risk.",
+  "reasonType": "assessed-differently",
+  "retainedInStructure": true,
+  "rev": 1,
+  "target": {
+    "kind": "Measure",
+    "label": "programmatic risk"
+  },
+  "type": "Exclusion"
+}

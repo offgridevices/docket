@@ -1,0 +1,61 @@
+{
+  "assertions": [
+    {
+      "field": "date",
+      "locator": "PB2022 PE 0605625A R-3, volume p. 460 (extract PDF p. 89)",
+      "subject": "omfv-phase2-award",
+      "value": "2021-07"
+    },
+    {
+      "field": "window",
+      "locator": "PB2022 PE 0605625A R-4A, volume p. 463 (extract PDF p. 92)",
+      "subject": "omfv-concept-design",
+      "value": "4Q FY2021 - 1Q FY2023"
+    },
+    {
+      "field": "quarter",
+      "locator": "PB2022 PE 0605625A R-4A, volume p. 463 (extract PDF p. 92)",
+      "subject": "omfv-acdd",
+      "value": "1Q-2Q FY2022"
+    }
+  ],
+  "classification": {
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "explicit",
+  "createdAt": "2026-09-05T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2021-05",
+  "evidenceType": "BudgetExhibit",
+  "fiscalYear": "FY2022",
+  "id": "ev-pb2022",
+  "inclusionReason": "one of the seven annual R-2 exhibits covering the OMFV/XM30 program elements",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "the OMFV/XM30 pages of the PB FY2022 justification books — the first book after the February 2020 reset",
+    "sourceArtifact": "sources/army-rdte-r2-fy2022-omfv-xm30-extract.pdf"
+  },
+  "pointer": {
+    "custodian": "Assistant Secretary of the Army (Financial Management and Comptroller)",
+    "uri": "sources/army-rdte-r2-fy2022-omfv-xm30-extract.pdf ; https://www.asafm.army.mil/Budget-Materials/"
+  },
+  "programElement": "PE 0605625A",
+  "reliabilitySteps": {
+    "$gap": "gap-exhibit-reliability"
+  },
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "scopeOfValidity": {
+    "builtToAnswer": "the President's Budget justification for the OMFV/XM30 effort",
+    "intendedUse": "congressional budget justification",
+    "questionClass": "cost"
+  },
+  "submitted": "2021-05",
+  "title": "Army RDT&E R-2 exhibits, President's Budget FY2022 — OMFV/XM30 extract",
+  "type": "Evidence"
+}

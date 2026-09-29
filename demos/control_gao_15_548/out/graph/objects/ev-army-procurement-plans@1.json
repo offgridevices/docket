@@ -1,0 +1,58 @@
+{
+  "classification": {
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2013",
+  "evidenceType": "Document",
+  "id": "ev-army-procurement-plans",
+  "inclusionReason": "the basis GAO gives for calling the shutdown assumptions reasonable — \"they were based on current information, such as updated procurement plans and recent contractor actions\" (printed p. 11)",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 11 (PDF p. 14); printed p. 12 (PDF p. 15)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "limitations": [
+    {
+      "impact": "the currency of the plans, and therefore the reasonableness GAO reads off it, cannot be checked against the plans themselves",
+      "statement": "The plans and the contractor actions are not public; GAO's characterisation of them as current information is the whole of the public account."
+    }
+  ],
+  "pointer": {
+    "custodian": "Department of the Army and the original equipment manufacturers (the plans and actions themselves, not public); U.S. Government Accountability Office (the published description)",
+    "uri": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf#page=14"
+  },
+  "published": "2013",
+  "publisher": "Department of the Army",
+  "reliabilitySteps": [
+    "drs-original-sources"
+  ],
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "reviewers": [
+    {
+      "date": "2013",
+      "name": "Department of the Army",
+      "role": "issuing authority"
+    },
+    {
+      "date": "2015-06",
+      "name": "U.S. Government Accountability Office",
+      "role": "assumption reviewed against research standards"
+    }
+  ],
+  "scopeOfValidity": {
+    "builtToAnswer": "When does the Army anticipate restarting Bradley production, and what has changed at the York facility since 2012?",
+    "intendedUse": "the study's shutdown and restart cost assumptions for the York facility",
+    "questionClass": "industrial-base"
+  },
+  "title": "The Army's updated combat vehicle procurement plans and the recent contractor actions current at the time of the study",
+  "type": "Evidence"
+}

@@ -1,0 +1,33 @@
+{
+  "addresses": [
+    "obj-capability"
+  ],
+  "assessableAt": {
+    "level": "U"
+  },
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "derivedFrom": "run-pl-cbo-secondary",
+  "id": "cl-secondary",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 4; p. 21 (Table 2-2)",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "questionClass": "requirements-tradeoff",
+  "resultRef": "res-run-pl-cbo-secondary-alt-puma",
+  "rev": 1,
+  "section": "evaluation-results",
+  "supportedBy": [
+    {
+      "evidence": "ev-cbo-2013"
+    }
+  ],
+  "text": "Under CBO's secondary metric, which scores the nine-member squad all or nothing, the Puma stays slightly ahead of the GCV, and the Namer and the upgraded Bradley are within a quarter-point of each other — CBO printed both as 25.",
+  "type": "Claim"
+}

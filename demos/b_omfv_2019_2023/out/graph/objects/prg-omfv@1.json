@@ -1,0 +1,17 @@
+{
+  "charter": "ch-omfv",
+  "createdAt": "2020-02-25T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "diffs": [],
+  "episodes": [
+    "ep-omfv-2020-02"
+  ],
+  "id": "prg-omfv",
+  "name": "OMFV requirements decision, 2019-2023",
+  "refreshTriggers": [],
+  "rev": 1,
+  "type": "DecisionProgram"
+}

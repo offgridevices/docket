@@ -1,0 +1,31 @@
+{
+  "attribute": "the cost of each manufacturing process at each production facility",
+  "conditions": [
+    "constrained fiscal environment"
+  ],
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "criteria": {
+    "$gap": "gap-criteria"
+  },
+  "id": "m-cost-baseline",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 9 (PDF p. 12); printed p. 13 (PDF p. 16); printed p. 16 (PDF p. 19)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "measure": "the costs of various manufacturing processes for combat vehicles at different production facilities, normalised so that overhead rates are comprised of the same elements (printed pp. 9, 13, 16)",
+  "metric": {
+    "direction": "min",
+    "units": "cost per manufacturing process per facility, in dollars, overhead-normalised"
+  },
+  "objective": "obj-viability",
+  "rev": 1,
+  "task": "Establish the original equipment manufacturer / government cost baseline",
+  "type": "Measure"
+}

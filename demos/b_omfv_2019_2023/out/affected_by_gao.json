@@ -1,0 +1,19 @@
+{
+  "episodes": [
+    "ep-omfv-2020-02",
+    "ep-omfv-2020-02-r2",
+    "ep-omfv-2020-02-r3",
+    "ep-omfv-2020-02-r4",
+    "ep-omfv-2020-02-r4-ce",
+    "ep-omfv-2020-02-r4-dc",
+    "ep-omfv-2020-02-r4-fs",
+    "ep-omfv-2020-02-r5"
+  ],
+  "gradedSections": [
+    "ep-omfv-2020-02-r4-ce",
+    "ep-omfv-2020-02-r4-dc",
+    "ep-omfv-2020-02-r4-fs"
+  ],
+  "note": "`affected_episodes` is transitive reverse reachability. The trigger is filed on `prg-omfv`, and every main-chain episode references the programme through `DecisionEpisode.program`, so the raw set is the whole programme, not only the three sections GAO graded. The three sections are the episodes whose own `claims` list holds one of the claims the trigger names; `gradedSections` is that subset, and it is ours, not the kernel's.",
+  "trigger": "rt-gao-grading"
+}

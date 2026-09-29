@@ -1,0 +1,359 @@
+{
+  "aggregationRule": "generally X if no mapped question is state 3 and at most k=21 are state 2; insufficient if any state 4; else not X (GAO-11-82R; GAO-23-106549 pp. 7-8)",
+  "createdAt": "2020-12-09T00:00:00Z",
+  "createdBy": {
+    "actorId": "docket-kernel/0.1.0",
+    "actorType": "kernel"
+  },
+  "dimensionVerdicts": {
+    "objectivity": {
+      "mapped": [
+        "DES-2",
+        "DES-4",
+        "DES-7",
+        "EXE-1",
+        "EXE-2",
+        "PRE-3",
+        "PRE-4"
+      ],
+      "qualifier": null,
+      "states": [
+        2,
+        1,
+        1,
+        4,
+        4,
+        4,
+        4
+      ],
+      "verdict": "insufficient_to_conclude"
+    },
+    "reliability": {
+      "mapped": [
+        "DES-6",
+        "EXE-5",
+        "PRE-2",
+        "PRE-3"
+      ],
+      "qualifier": null,
+      "states": [
+        3,
+        4,
+        4,
+        4
+      ],
+      "verdict": "insufficient_to_conclude"
+    },
+    "validity": {
+      "mapped": [
+        "DES-5",
+        "EXE-3",
+        "PRE-1",
+        "PRE-3"
+      ],
+      "qualifier": null,
+      "states": [
+        2,
+        4,
+        4,
+        4
+      ],
+      "verdict": "insufficient_to_conclude"
+    }
+  },
+  "episode": "ep-omfv-2020-02-r2",
+  "id": "sa-ep-omfv-2020-02-r2-gao-23-106549-1",
+  "k": 21,
+  "kernelVersion": "0.1.0",
+  "ratings": [
+    {
+      "applicable": true,
+      "justification": [
+        "ch-omfv"
+      ],
+      "questionId": "DES-1",
+      "rule": "charter_complete→2",
+      "state": 2
+    },
+    {
+      "applicable": true,
+      "justification": [
+        "ch-omfv"
+      ],
+      "questionId": "DES-2",
+      "rule": "charter_question_stated→2",
+      "state": 2
+    },
+    {
+      "applicable": true,
+      "justification": [
+        "ch-omfv"
+      ],
+      "questionId": "DES-3",
+      "rule": "scope_defined→2",
+      "state": 2
+    },
+    {
+      "applicable": true,
+      "justification": [
+        "as-manning-dec",
+        "as-poland-bridges"
+      ],
+      "questionId": "DES-4",
+      "rule": "assumptions_all_have_rationale→1",
+      "state": 1
+    },
+    {
+      "applicable": true,
+      "justification": [
+        "as-manning-dec",
+        "as-poland-bridges"
+      ],
+      "questionId": "DES-5",
+      "rule": "assumptions_some_evidenced→2",
+      "state": 2
+    },
+    {
+      "applicable": true,
+      "justification": [
+        "as-manning-dec",
+        "as-poland-bridges"
+      ],
+      "questionId": "DES-6",
+      "rule": "assumptions_listed→3",
+      "state": 3
+    },
+    {
+      "applicable": true,
+      "justification": [
+        "con-30-dismounts",
+        "con-crew-in-hull",
+        "con-two-crew"
+      ],
+      "questionId": "DES-7",
+      "rule": "constraints_discussed→1",
+      "state": 1
+    },
+    {
+      "applicable": true,
+      "justification": [],
+      "questionId": "DES-8",
+      "rule": "always→4",
+      "state": 4
+    },
+    {
+      "applicable": true,
+      "justification": [],
+      "questionId": "DES-9",
+      "rule": "always→4",
+      "state": 4
+    },
+    {
+      "applicable": false,
+      "justification": [],
+      "questionId": "DES-10",
+      "rule": "tailored-out",
+      "state": null,
+      "tailoringReason": "Not among the 21 questions GAO published in GAO-15-548 App. I, GAO-21-460 Fig. 6 and GAO-23-106549 Fig. 3; retained in the 36-question standard (GAO-16-820 App. I) and scored on request."
+    },
+    {
+      "applicable": false,
+      "justification": [],
+      "questionId": "DES-11",
+      "rule": "tailored-out",
+      "state": null,
+      "tailoringReason": "Not among the 21 questions GAO published in GAO-15-548 App. I, GAO-21-460 Fig. 6 and GAO-23-106549 Fig. 3; retained in the 36-question standard (GAO-16-820 App. I) and scored on request."
+    },
+    {
+      "applicable": false,
+      "justification": [],
+      "questionId": "DES-12",
+      "rule": "tailored-out",
+      "state": null,
+      "tailoringReason": "Not among the 21 questions GAO published in GAO-15-548 App. I, GAO-21-460 Fig. 6 and GAO-23-106549 Fig. 3; retained in the 36-question standard (GAO-16-820 App. I) and scored on request."
+    },
+    {
+      "applicable": false,
+      "justification": [],
+      "questionId": "DES-13",
+      "rule": "tailored-out",
+      "state": null,
+      "tailoringReason": "Not among the 21 questions GAO published in GAO-15-548 App. I, GAO-21-460 Fig. 6 and GAO-23-106549 Fig. 3; retained in the 36-question standard (GAO-16-820 App. I) and scored on request."
+    },
+    {
+      "applicable": false,
+      "justification": [],
+      "questionId": "DES-14",
+      "rule": "tailored-out",
+      "state": null,
+      "tailoringReason": "Not among the 21 questions GAO published in GAO-15-548 App. I, GAO-21-460 Fig. 6 and GAO-23-106549 Fig. 3; retained in the 36-question standard (GAO-16-820 App. I) and scored on request."
+    },
+    {
+      "applicable": true,
+      "justification": [],
+      "questionId": "EXE-1",
+      "rule": "always→4",
+      "state": 4
+    },
+    {
+      "applicable": true,
+      "justification": [],
+      "questionId": "EXE-2",
+      "rule": "always→4",
+      "state": 4
+    },
+    {
+      "applicable": true,
+      "justification": [],
+      "questionId": "EXE-3",
+      "rule": "always→4",
+      "state": 4
+    },
+    {
+      "applicable": true,
+      "justification": [],
+      "questionId": "EXE-4",
+      "rule": "always→4",
+      "state": 4
+    },
+    {
+      "applicable": true,
+      "justification": [],
+      "questionId": "EXE-5",
+      "rule": "always→4",
+      "state": 4
+    },
+    {
+      "applicable": true,
+      "justification": [],
+      "questionId": "EXE-6",
+      "rule": "always→4",
+      "state": 4
+    },
+    {
+      "applicable": true,
+      "justification": [],
+      "questionId": "EXE-7",
+      "rule": "always→4",
+      "state": 4
+    },
+    {
+      "applicable": true,
+      "justification": [],
+      "questionId": "EXE-8",
+      "rule": "always→4",
+      "state": 4
+    },
+    {
+      "applicable": false,
+      "justification": [],
+      "questionId": "EXE-9",
+      "rule": "tailored-out",
+      "state": null,
+      "tailoringReason": "Not among the 21 questions GAO published in GAO-15-548 App. I, GAO-21-460 Fig. 6 and GAO-23-106549 Fig. 3; retained in the 36-question standard (GAO-16-820 App. I) and scored on request."
+    },
+    {
+      "applicable": false,
+      "justification": [],
+      "questionId": "EXE-10",
+      "rule": "tailored-out",
+      "state": null,
+      "tailoringReason": "Not among the 21 questions GAO published in GAO-15-548 App. I, GAO-21-460 Fig. 6 and GAO-23-106549 Fig. 3; retained in the 36-question standard (GAO-16-820 App. I) and scored on request."
+    },
+    {
+      "applicable": false,
+      "justification": [],
+      "questionId": "EXE-11",
+      "rule": "tailored-out",
+      "state": null,
+      "tailoringReason": "Not among the 21 questions GAO published in GAO-15-548 App. I, GAO-21-460 Fig. 6 and GAO-23-106549 Fig. 3; retained in the 36-question standard (GAO-16-820 App. I) and scored on request."
+    },
+    {
+      "applicable": false,
+      "justification": [],
+      "questionId": "EXE-12",
+      "rule": "tailored-out",
+      "state": null,
+      "tailoringReason": "Not among the 21 questions GAO published in GAO-15-548 App. I, GAO-21-460 Fig. 6 and GAO-23-106549 Fig. 3; retained in the 36-question standard (GAO-16-820 App. I) and scored on request."
+    },
+    {
+      "applicable": false,
+      "justification": [],
+      "questionId": "EXE-13",
+      "rule": "tailored-out",
+      "state": null,
+      "tailoringReason": "Not among the 21 questions GAO published in GAO-15-548 App. I, GAO-21-460 Fig. 6 and GAO-23-106549 Fig. 3; retained in the 36-question standard (GAO-16-820 App. I) and scored on request."
+    },
+    {
+      "applicable": false,
+      "justification": [],
+      "questionId": "EXE-14",
+      "rule": "tailored-out",
+      "state": null,
+      "tailoringReason": "Not among the 21 questions GAO published in GAO-15-548 App. I, GAO-21-460 Fig. 6 and GAO-23-106549 Fig. 3; retained in the 36-question standard (GAO-16-820 App. I) and scored on request."
+    },
+    {
+      "applicable": false,
+      "justification": [],
+      "questionId": "EXE-15",
+      "rule": "tailored-out",
+      "state": null,
+      "tailoringReason": "Not among the 21 questions GAO published in GAO-15-548 App. I, GAO-21-460 Fig. 6 and GAO-23-106549 Fig. 3; retained in the 36-question standard (GAO-16-820 App. I) and scored on request."
+    },
+    {
+      "applicable": true,
+      "justification": [],
+      "questionId": "PRE-1",
+      "rule": "always→4",
+      "state": 4
+    },
+    {
+      "applicable": true,
+      "justification": [],
+      "questionId": "PRE-2",
+      "rule": "always→4",
+      "state": 4
+    },
+    {
+      "applicable": true,
+      "justification": [],
+      "questionId": "PRE-3",
+      "rule": "always→4",
+      "state": 4
+    },
+    {
+      "applicable": true,
+      "justification": [],
+      "questionId": "PRE-4",
+      "rule": "always→4",
+      "state": 4
+    },
+    {
+      "applicable": false,
+      "justification": [],
+      "questionId": "PRE-5",
+      "rule": "tailored-out",
+      "state": null,
+      "tailoringReason": "Not among the 21 questions GAO published in GAO-15-548 App. I, GAO-21-460 Fig. 6 and GAO-23-106549 Fig. 3; retained in the 36-question standard (GAO-16-820 App. I) and scored on request."
+    },
+    {
+      "applicable": false,
+      "justification": [],
+      "questionId": "PRE-6",
+      "rule": "tailored-out",
+      "state": null,
+      "tailoringReason": "Not among the 21 questions GAO published in GAO-15-548 App. I, GAO-21-460 Fig. 6 and GAO-23-106549 Fig. 3; retained in the 36-question standard (GAO-16-820 App. I) and scored on request."
+    },
+    {
+      "applicable": false,
+      "justification": [],
+      "questionId": "PRE-7",
+      "rule": "tailored-out",
+      "state": null,
+      "tailoringReason": "Not among the 21 questions GAO published in GAO-15-548 App. I, GAO-21-460 Fig. 6 and GAO-23-106549 Fig. 3; retained in the 36-question standard (GAO-16-820 App. I) and scored on request."
+    }
+  ],
+  "rev": 1,
+  "tailoring": "gao-23-106549",
+  "type": "StandardsAssessment"
+}

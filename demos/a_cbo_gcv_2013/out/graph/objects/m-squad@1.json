@@ -1,0 +1,36 @@
+{
+  "attribute": "passenger capacity, all or nothing",
+  "conditions": [
+    "unconventional threats",
+    "conventional armored battle",
+    "northeast Asia intense battle"
+  ],
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "criteria": {
+    "$exclusion": "ex-no-thresholds"
+  },
+  "id": "m-squad",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 34",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "measure": "100 if the vehicle is designed to carry a full nine-member squad, otherwise 0",
+  "metric": {
+    "direction": "max",
+    "units": "percent, all or nothing"
+  },
+  "objective": "obj-capability",
+  "rev": 1,
+  "task": "Carry a full nine-member squad",
+  "type": "Measure",
+  "valueFunction": {
+    "kind": "identity"
+  }
+}

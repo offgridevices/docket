@@ -1,0 +1,39 @@
+{
+  "classification": {
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "inferred",
+  "createdAt": "2026-09-06T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "evidenceType": "Document",
+  "id": "cf-ev-vva-accreditation",
+  "inclusionReason": "counterfactual: the document that would turn GAO's interview sentence into a signed accreditation",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "counterfactual",
+    "locator": "counterfactual",
+    "sourceArtifact": "demos/b_omfv_2019_2023/README.md#counterfactual-repair"
+  },
+  "pointer": {
+    "custodian": "COUNTERFACTUAL — Army Futures Command",
+    "uri": "counterfactual: an accreditation report cited by the Section 234 report"
+  },
+  "published": "2021",
+  "publisher": "COUNTERFACTUAL — no such document is known to exist",
+  "reliabilitySteps": {
+    "$gap": "gap-reliability-steps"
+  },
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "scopeOfValidity": {
+    "builtToAnswer": "whether the models and simulations informing the 11 analytical efforts are accredited for this use",
+    "intendedUse": "counterfactual accreditation basis",
+    "questionClass": "desired-characteristics"
+  },
+  "title": "COUNTERFACTUAL: a MIL-STD-3022 accreditation report for the models and simulations informing the 11 analytical efforts",
+  "type": "Evidence"
+}

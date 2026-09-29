@@ -1,0 +1,835 @@
+# src/docket/schema/objects.yaml
+# The docket object catalogue. Source of truth for src/docket/schema/json/*.schema.json.
+# Every object also carries the envelope: id, type, rev, createdBy, createdAt,
+# ingestionProvenance?, supersedes?, confidence?  (added by schema/generate.py).
+# `slot: true` = P3: the value may be content, {"$exclusion": id} or {"$gap": id}.
+# `ref: <TypeName>` = an object id of that type; `ref: [A, B]` = an id of any listed type;
+# `ref: any` = an id of any object type. All three are emitted by the generator as an id
+# reference and walked by the reference walker.
+# Doctrine anchors per object are in src/docket/standard/crosswalk.yaml.
+
+version: "0.1.0"
+question_classes: &qc
+  - desired-characteristics
+  - force-structure
+  - operational-concept
+  - combat-effectiveness
+  - cost
+  - schedule
+  - industrial-base
+  - requirements-tradeoff
+  - capability-gap
+  - other
+classification_levels: &levels [U, CUI, C, S, TS]
+lexicon_bands: &bands [almost-no-chance, very-unlikely, unlikely, roughly-even-chance, likely, very-likely, almost-certain]
+package_sections: &sections [cover, problem-statement, mandate-elements, objectives-and-measures, alternatives, grca, evidence-register, evaluation-results, what-flips, bias-checks, readiness, risks, refresh-log, commitment, traceability, machine-annex]
+
+types:
+
+  Charter:
+    doc: "AR 5-11 ¶4-5b problem statement plus scope and authority (design §6.1)."
+    fields:
+      question: {type: string, required: true, slot: true, doc: "AR 5-11 ¶4-5b(1) question(s) to be answered"}
+      decisionToBeMade: {type: string, required: true, slot: true, doc: "¶4-5b(2)"}
+      consequencesOfErroneousOutput: {type: string, required: true, slot: true, doc: "¶4-5b(3)"}
+      questionClass: {type: string, enum: *qc, required: true}
+      scope:
+        type: object
+        required: true
+        properties:
+          included: {type: array, items: {type: string}, required: true}
+          excluded: {type: array, items: {type: string}, required: true}
+      definitions:
+        type: array
+        doc: "Scope terms with definitions (GAO-23-106549 F9)."
+        items:
+          type: object
+          properties:
+            term: {type: string, required: true}
+            text: {type: string, required: true, slot: true}
+      conditionsOfInterest: {type: array, items: {type: string}, doc: "DES-9 coverage target"}
+      limitations:
+        type: array
+        doc: "DES-13"
+        items:
+          type: object
+          properties:
+            statement: {type: string, required: true}
+            mitigation: {type: string, required: true, slot: true}
+      authority:
+        type: object
+        required: true
+        properties:
+          signer: {type: string, required: true}
+          board: {type: string}
+          delegations: {type: array, items: {type: string}}
+      successCriteria: {type: array, items: {type: string}}
+      decisionClassPolicy: {ref: Policy, required: true}
+      mandateElements: {type: array, items: {ref: MandateElement}}
+      hierarchyBinding: {type: string}
+      neededBy: {type: string, doc: "Human-authored ISO date: when this decision is needed by. Read by the clock (kernel/clock.py); never a gate."}
+
+  MandateElement:
+    doc: "One thing the tasking authority required the record to contain."
+    fields:
+      text: {type: string, required: true}
+      source: {type: string, required: true}
+      satisfiedBy: {type: array, items: {ref: Claim}}
+      status: {type: string, enum: [satisfied, partial, unsatisfied, not-applicable], required: true}
+      statusReason: {type: string}
+
+  Objective:
+    doc: "Hierarchical value model node."
+    fields:
+      name: {type: string, required: true}
+      description: {type: string}
+      parent: {ref: Objective}
+      priority: {type: string, enum: [primary, secondary], required: true}
+      priorityRank: {type: integer}
+      measures: {type: array, items: {ref: Measure}}
+      provenance: {ref: Evidence, required: true, slot: true, doc: "Where the objective came from"}
+
+  Measure:
+    doc: "One row of the OAS AoA Handbook Table 5-2 Measures Framework."
+    fields:
+      objective: {ref: Objective, required: true}
+      task: {type: string, required: true}
+      attribute: {type: string, required: true}
+      measure: {type: string, required: true}
+      metric:
+        type: object
+        required: true
+        properties:
+          units: {type: string, required: true}
+          direction: {type: string, enum: [max, min], required: true}
+          aggregation: {type: string, enum: [mean, sum, min, max]}
+      criteria:
+        type: object
+        required: true
+        slot: true
+        properties:
+          threshold: {type: number}
+          objective: {type: number}
+      conditions: {type: array, items: {type: string}}
+      analysisMethod: {ref: Model}
+      valueFunction:
+        type: object
+        doc: "How a raw value maps to [0,1] value for MAVT. Default identity on the raw scale."
+        properties:
+          kind: {type: string, enum: [identity, linear, binary, step], required: true}
+          lo: {type: number}
+          hi: {type: number}
+          threshold: {type: number}
+
+  Alternative:
+    fields:
+      name: {type: string, required: true}
+      description: {type: string, required: true}
+      parameters: {type: object, additionalProperties: true}
+      status: {type: string, enum: [candidate, screened-out, evaluated, selected, rejected], required: true}
+      statusReason: {ref: [Exclusion, Rationale]}
+      baselineFlag: {type: boolean, required: true, doc: "DoDI 5000.84 §3.1.c status-quo alternative"}
+      optionSet: {ref: OptionSet}
+      enteredOrder: {type: integer, doc: "Order of entry; used by the anchoring indicator"}
+
+  OptionSet:
+    fields:
+      name: {type: string, required: true}
+      members: {type: array, items: {ref: Alternative}, required: true}
+      narrowingEvents:
+        type: array
+        items:
+          type: object
+          properties:
+            date: {type: string, required: true}
+            removed: {type: array, items: {ref: Alternative}, required: true}
+            reason: {ref: Exclusion, required: true}
+
+  GroundRule:
+    fields:
+      statement: {type: string, required: true}
+      source: {ref: Evidence, required: true, slot: true}
+
+  Constraint:
+    fields:
+      statement: {type: string, required: true}
+      kind: {type: string, enum: [physical, programmatic, policy], required: true}
+      source: {ref: Evidence, required: true, slot: true}
+      implications: {type: string, required: true, slot: true, doc: "DES-7 'discussed'"}
+
+  Assumption:
+    doc: "ICD 203 §D.6.e(3) fields; linchpin + gap is the Poland-bridges object."
+    fields:
+      statement: {type: string, required: true}
+      linchpin: {type: boolean, required: true}
+      rationale: {type: string, required: true, slot: true, doc: "GAO-18-230 II.a.1 statement of rationale"}
+      evidence: {ref: Evidence, required: true, slot: true}
+      implicationsIfWrong: {type: string, required: true, slot: true}
+      indicatorsThatWouldAlter: {type: array, items: {type: string}, required: true, slot: true}
+      variedInSensitivity: {type: boolean, required: true}
+      sensitivityResult: {ref: FlipAnalysis}
+      parameterBinding:
+        type: object
+        doc: "Binds the assumption to a numeric parameter for flip analysis."
+        properties:
+          kind: {type: string, enum: [weight, observation], required: true}
+          target: {type: string, required: true, doc: "For kind=weight: '<weightSetId>:<measureId>'. For kind=observation: an Observation id."}
+      conflictsWith: {type: array, items: {ref: Assumption}}
+
+  Evidence:
+    doc: "The load-bearing object. Pointer, classification and scope are separable from any Claim."
+    discriminator: evidenceType
+    fields:
+      title: {type: string, required: true}
+      evidenceType: {type: string, enum: [MSStudy, SoldierTouchpoint, VendorFeedback, MarketResearch, ThreatAnalysis, Document, Dataset, ExpertAssessment, BudgetExhibit], required: true}
+      date: {type: string}
+      pointer:
+        type: object
+        required: true
+        slot: true
+        properties:
+          uri: {type: string, required: true}
+          hash: {type: string}
+          custodian: {type: string, required: true}
+      classification:
+        type: object
+        required: true
+        properties:
+          level: {type: string, enum: *levels, required: true}
+          caveats: {type: array, items: {type: string}}
+          controlledBy: {type: string}
+          metadataLevel: {type: string, enum: *levels, required: true, doc: "Level at which pointer/scope/VV&A/review are visible"}
+      scopeOfValidity:
+        type: object
+        required: true
+        slot: true
+        properties:
+          builtToAnswer: {type: string, required: true}
+          questionClass: {type: string, enum: *qc, required: true}
+          conditions: {type: array, items: {type: string}}
+          intendedUse: {type: string, required: true}
+          accreditedFor: {type: string}
+          validUntil: {type: string}
+      reviewStatus: {type: string, enum: [draft, reviewed, rejected], required: true}
+      reviewers:
+        type: array
+        items:
+          type: object
+          properties:
+            name: {type: string, required: true}
+            role: {type: string, required: true}
+            date: {type: string, required: true}
+      reliabilitySteps: {type: array, items: {ref: DataReliabilityStep}, required: true, slot: true, doc: "GAO-20-283G; EXE-4/5/6"}
+      limitations:
+        type: array
+        items:
+          type: object
+          properties:
+            statement: {type: string, required: true}
+            impact: {type: string, required: true, slot: true}
+      inclusionReason: {type: string, slot: true, doc: "Why this item was included (GAO-23-106549 F3)"}
+      assertions:
+        type: array
+        doc: "Typed facts the document asserts; the value-conflict rule compares these across evidence."
+        items:
+          type: object
+          properties:
+            subject: {type: string, required: true}
+            field: {type: string, required: true}
+            value: {oneOfTypes: [{type: string}, {type: number}], required: true}
+            locator: {type: string, required: true}
+    variants:
+      MSStudy:
+        fields:
+          model: {ref: Model, required: true, slot: true}
+          scenarios: {type: array, items: {ref: Scenario}, required: true, slot: true}
+          vvaRecord: {ref: VVARecord, required: true, slot: true}
+          runs: {type: array, items: {ref: EvaluationRun}}
+      SoldierTouchpoint:
+        fields:
+          n: {type: integer, required: true, slot: true}
+          selectionRule: {type: string, required: true, slot: true}
+          unit: {type: string, required: true, slot: true}
+          instrument: {type: array, items: {type: string}, required: true, slot: true}
+          dates: {type: string, required: true, slot: true}
+          analysisMethod: {type: string, required: true, slot: true}
+          hsiPlanRef: {type: string}
+      VendorFeedback:
+        fields:
+          vendors: {type: array, items: {type: string}, required: true, slot: true}
+          event: {type: string, required: true, slot: true}
+      MarketResearch:
+        fields:
+          method: {type: string, required: true, slot: true}
+          respondents: {type: string, required: true, slot: true}
+      ThreatAnalysis:
+        fields:
+          threatSet: {type: string, required: true, slot: true}
+          authority: {type: string, required: true, slot: true}
+      Document:
+        fields:
+          publisher: {type: string, required: true, slot: true}
+          published: {type: string, required: true, slot: true}
+      Dataset:
+        fields:
+          custodian: {type: string, required: true, slot: true}
+          schemaRef: {type: string, required: true, slot: true}
+      ExpertAssessment:
+        fields:
+          experts: {type: array, items: {type: string}, required: true, slot: true}
+          method: {type: string, required: true, slot: true}
+      BudgetExhibit:
+        fields:
+          fiscalYear: {type: string, required: true}
+          programElement: {type: string, required: true}
+          submitted: {type: string, required: true, slot: true}
+
+  DataReliabilityStep:
+    fields:
+      description: {type: string, required: true}
+      method: {type: string, enum: [source-review, tracing, electronic-testing, corroboration, interview, expert-review, other], required: true}
+      performedBy: {type: string, required: true}
+      date: {type: string}
+      documentation: {ref: Evidence, required: true, slot: true}
+
+  Claim:
+    doc: "A statement the package asserts. Assessable at level L if supporting evidence metadata is visible at L."
+    fields:
+      text: {type: string, required: true}
+      questionClass: {type: string, enum: *qc, required: true}
+      section: {type: string}
+      assessableAt:
+        type: object
+        required: true
+        properties:
+          level: {type: string, enum: *levels, required: true}
+      supportedBy:
+        type: array
+        required: true
+        slot: true
+        items:
+          type: object
+          properties:
+            evidence: {ref: Evidence, required: true}
+            reuseJustification:
+              type: object
+              properties:
+                text: {type: string, required: true}
+                authority: {type: string, required: true}
+      derivedFrom: {ref: EvaluationRun}
+      resultRef: {ref: Result}
+      addresses: {type: array, items: {ref: Objective}}
+      mandateElements: {type: array, items: {ref: MandateElement}}
+
+  Model:
+    fields:
+      name: {type: string, required: true}
+      definition:
+        type: object
+        required: true
+        properties:
+          kind: {type: string, enum: [code, lookup, rpc, rubric, simulation], required: true}
+          version: {type: string, required: true}
+          containerDigest: {type: string}
+      intendedUse: {type: string, required: true}
+      questionClass: {type: string, enum: *qc, required: true}
+      vvaRecord: {ref: VVARecord, required: true, slot: true}
+      qualificationStatus: {type: string, enum: [draft, validated, qualified], required: true}
+      inputs: {type: array, items: {ref: Measure}}
+      outputs: {type: array, items: {ref: Measure}}
+      validityRegions: {type: object, additionalProperties: true}
+      limitations:
+        type: array
+        items:
+          type: object
+          properties:
+            statement: {type: string, required: true}
+            justification: {type: string, required: true, slot: true}
+
+  VVARecord:
+    doc: "MIL-STD-3022 Table I fields; §5.3 retained-section rule via sections[].content."
+    fields:
+      problemStatement: {ref: Charter, required: true}
+      requirementsAndAcceptabilityCriteria: {type: string, required: true, slot: true}
+      assumptionsCapabilitiesLimitationsRisks:
+        type: object
+        required: true
+        properties:
+          assumptions: {type: array, items: {type: string}, required: true, slot: true}
+          capabilities: {type: array, items: {type: string}, required: true, slot: true}
+          limitations: {type: array, items: {type: string}, required: true, slot: true}
+          risks: {type: array, items: {type: string}, required: true, slot: true}
+      methodology: {type: string, required: true, slot: true}
+      accreditationDecision:
+        type: object
+        required: true
+        slot: true
+        properties:
+          authority: {type: string, required: true}
+          date: {type: string, required: true}
+          scope: {type: string, required: true}
+          basis: {type: string, enum: [document, interview, verbal], required: true}
+          document: {ref: Evidence}
+      issues: {type: array, items: {type: string}}
+      lessonsLearned: {type: string}
+      sections:
+        type: array
+        required: true
+        items:
+          type: object
+          properties:
+            name: {type: string, required: true}
+            content: {type: string, required: true, slot: true}
+
+  Scenario:
+    fields:
+      name: {type: string, required: true}
+      description: {type: string, required: true}
+      rationale: {type: string, required: true, slot: true, doc: "DES-8 reasonable to consider"}
+      conditions: {type: array, items: {type: string}, required: true}
+      source: {ref: Evidence, required: true, slot: true}
+
+  Observation:
+    doc: "Alternative × Measure datum, evidence-backed. Kernel input, never kernel output."
+    fields:
+      alternative: {ref: Alternative, required: true}
+      measure: {ref: Measure, required: true}
+      value:
+        required: true
+        oneOfTypes:
+          - {type: number}
+          - {type: object, properties: {lo: {type: number, required: true}, hi: {type: number, required: true}}}
+      evidence: {ref: Evidence, required: true, slot: true}
+      uncertainty: {ref: Uncertainty}
+      variedInSensitivity: {type: boolean}
+
+  WeightSet:
+    fields:
+      name: {type: string, required: true}
+      method: {type: string, enum: [swing, stated, equal, derived], required: true}
+      weights: {type: object, additionalProperties: true, required: true, doc: "measureId -> weight; must sum to 1"}
+      provenance: {ref: Evidence, required: true, slot: true}
+
+  Plan:
+    doc: "The evaluation workflow the agent proposes and a human approves (G2)."
+    fields:
+      episode: {ref: DecisionEpisode, required: true}
+      policyBasis: {ref: Policy, required: true}
+      steps:
+        type: array
+        required: true
+        minItems: 1
+        items:
+          type: object
+          properties:
+            id: {type: string, required: true}
+            evaluator: {ref: Model, required: true}
+            method: {type: string, enum: [mavt, ahp, topsis, pugh], required: true}
+            alternatives: {type: array, items: {ref: Alternative}, required: true}
+            measures: {type: array, items: {ref: Measure}, required: true}
+            weightSet: {ref: WeightSet, required: true}
+            sensitivitySweeps:
+              type: array
+              items:
+                type: object
+                properties:
+                  kind: {type: string, enum: [weight, observation], required: true}
+                  target: {type: string, required: true, doc: "For kind=weight: '<weightSetId>:<measureId>'. For kind=observation: an Observation id."}
+                  range:
+                    type: object
+                    properties:
+                      lo: {type: number, required: true}
+                      hi: {type: number, required: true}
+            biasChecks: {type: array, items: {ref: BiasCheck}}
+            authority:
+              type: object
+              required: true
+              doc: "DMN AuthorityRequirement — the doctrine paragraph that requires this step"
+              properties:
+                document: {type: string, required: true}
+                paragraph: {type: string, required: true}
+      approvedBy:
+        type: object
+        properties:
+          actorId: {type: string, required: true}
+          date: {type: string, required: true}
+      deviations:
+        type: array
+        items:
+          type: object
+          properties:
+            step: {type: string, required: true}
+            reason: {type: string, required: true}
+
+  EvaluationRun:
+    doc: "Immutable, sealed, kernel-only."
+    fields:
+      plan: {ref: Plan, required: true}
+      step: {type: string, required: true}
+      evaluator: {ref: Model, required: true}
+      evaluatorVersion: {type: string, required: true}
+      method: {type: string, required: true}
+      inputsHash: {type: string, required: true}
+      parameterBindings: {type: object, additionalProperties: true, required: true}
+      seed: {type: integer, required: true}
+      kernelVersion: {type: string, required: true}
+      outputs: {type: array, items: {ref: Result}, required: true}
+      outputHashes: {type: array, items: {type: string}, required: true}
+      ranking: {type: array, items: {ref: Alternative}, required: true}
+      sealedAt: {type: string, required: true}
+      sealedBy: {type: string, const: kernel, required: true}
+      runRecordHash: {type: string, required: true}
+
+  Result:
+    fields:
+      run: {ref: EvaluationRun, required: true}
+      alternative: {ref: Alternative, required: true}
+      measure: {ref: Measure}
+      aggregate: {type: boolean, required: true}
+      value: {type: number, required: true}
+      units: {type: string, required: true}
+      raw:
+        oneOfTypes:
+          - {type: number}
+          - {type: object, properties: {lo: {type: number, required: true}, hi: {type: number, required: true}}}
+        doc: "the observation value before valuation"
+      rawUnits: {type: string}
+      uncertainty:
+        type: object
+        properties:
+          lo: {type: number, required: true}
+          hi: {type: number, required: true}
+      method: {type: string, required: true}
+
+  FlipAnalysis:
+    fields:
+      run: {ref: EvaluationRun, required: true}
+      parameter:
+        type: object
+        required: true
+        properties:
+          kind: {type: string, enum: [weight, observation, assumption], required: true}
+          target: {type: string, required: true}
+          label: {type: string, required: true}
+      assumption: {ref: Assumption}
+      currentValue: {type: number, required: true}
+      range:
+        type: object
+        required: true
+        properties:
+          lo: {type: number, required: true}
+          hi: {type: number, required: true}
+          source: {type: string, enum: [uncertainty, sweep, default], required: true}
+      flipThreshold: {oneOfTypes: [{type: number}, {type: "null"}], required: true}
+      flipDistance: {oneOfTypes: [{type: number}, {type: "null"}], required: true}
+      direction: {type: string, enum: [up, down, none], required: true}
+      rankingBefore: {type: array, items: {ref: Alternative}, required: true}
+      rankingAfter: {oneOfTypes: [{type: array, items: {ref: Alternative}}, {type: "null"}], required: true}
+      kernelVersion: {type: string, required: true}
+
+  Exclusion:
+    doc: "First-class omission. time-or-resource is PROHIBITED by default policy (OAS AoA Handbook §4.7)."
+    fields:
+      target:
+        type: object
+        required: true
+        properties:
+          kind: {type: string, enum: [Alternative, Evidence, Study, Section, Question, Measure, Category, Scenario], required: true}
+          id: {type: string}
+          label: {type: string, required: true}
+      reasonType: {type: string, enum: [infeasible, dominated, out-of-scope, security-withheld, data-unavailable, superseded, time-or-resource, not-applicable, assessed-differently, other], required: true}
+      reason: {type: string, required: true}
+      authority:
+        type: object
+        required: true
+        properties:
+          who: {type: string, required: true}
+          role: {type: string, required: true}
+          date: {type: string, required: true}
+      evidence: {ref: Evidence}
+      retainedInStructure: {type: boolean, const: true, required: true}
+
+  InsufficientEvidence:
+    doc: "First-class gap. Required fields make recording a gap more work-complete than inventing a value (PhantomFill)."
+    fields:
+      sought: {type: string, required: true}
+      whereLookedFor: {type: array, items: {type: string}, required: true, minItems: 1}
+      whyNotFound: {type: string, required: true}
+      confirmedBy:
+        type: object
+        doc: "Human only; required before G1 passes."
+        properties:
+          actorId: {type: string, required: true}
+          date: {type: string, required: true}
+      impact: {type: string, enum: [blocking, degrading, informational], required: true}
+      indicatorsThatWouldResolve: {type: array, items: {type: string}, required: true}
+
+  Risk:
+    fields:
+      statement: {type: string, required: true}
+      kind: {type: string, enum: [bias-anchoring, bias-confirmation, bias-selection, bias-over-specification, method, data, schedule, other], required: true}
+      uncertainty: {ref: Uncertainty}
+      consequence: {type: string, required: true}
+      owner: {type: string, required: true}
+      mitigation: {type: array, items: {ref: Action}}
+      monitor: {type: string}
+      acceptanceCriteria: {type: string}
+      status: {type: string, enum: [open, mitigated, accepted, closed], required: true}
+      evidence: {type: array, items: {ref: any}, doc: "object ids the indicator was computed from"}
+
+  Uncertainty:
+    fields:
+      kind: {type: string, enum: [interval, distribution, scenarioSet], required: true}
+      spec: {type: object, additionalProperties: true, required: true}
+      lexiconBand: {type: string, enum: *bands}
+      lexicon: {type: string, enum: [A, B], doc: "ICD 203 lexicon row A or B; bands are recorded on the A scale; B terms are mapped positionally; mixing rows in one episode is a validation error."}
+
+  BiasCheck:
+    fields:
+      checkType: {type: string, enum: [anchoring-control, independent-disconfirming-review, premortem, outside-view, structured-alternative-comparison, devils-advocate], required: true}
+      requiredBy: {ref: Policy, required: true}
+      performedBy: {type: string}
+      performedAt: {type: string}
+      producedEvidence: {ref: Evidence, required: true, slot: true}
+      status: {type: string, enum: [required, performed, waived], required: true}
+      waiver: {ref: Exclusion}
+
+  Policy:
+    doc: "Decision-class policy: readiness rules, tailoring, aggregation, blocking rules. Versioned."
+    fields:
+      name: {type: string, required: true}
+      version: {type: string, required: true}
+      decisionClass: {type: string, required: true}
+      method: {type: string, enum: [mavt, ahp, topsis, pugh], required: true}
+      tailoring: {type: string, required: true, doc: "name of a file in standard/tailorings/"}
+      aggregationK: {type: integer, required: true}
+      requiredBiasChecks: {type: array, items: {type: string}, required: true}
+      requireAllLinchpinsVaried: {type: boolean, required: true}
+      prohibitedExclusionReasons: {type: array, items: {type: string}, required: true}
+      blockingRules: {type: array, items: {type: string}, required: true}
+      nSimplex: {type: integer, required: true}
+      expectedDaysByState:
+        type: object
+        additionalProperties: {type: integer}
+        doc: "Expected days per lifecycle state (DRAFT, MODEL_APPROVED, PLAN_APPROVED, EVALUATED, PENDING_SIGNATURE). A policy setting the clock flags against; overrunning it never blocks. Absent = kernel/clock.py's DEFAULT_EXPECTED_DAYS."
+
+  StandardsAssessment:
+    fields:
+      episode: {ref: DecisionEpisode, required: true}
+      tailoring: {type: string, required: true}
+      ratings:
+        type: array
+        required: true
+        items:
+          type: object
+          properties:
+            questionId: {type: string, required: true}
+            applicable: {type: boolean, required: true}
+            tailoringReason: {type: string}
+            state: {oneOfTypes: [{enum: [1, 2, 3, 4]}, {type: "null"}], required: true}
+            justification: {type: array, items: {ref: any}, required: true}
+            rule: {type: string, required: true}
+      dimensionVerdicts: {type: object, additionalProperties: true, required: true}
+      aggregationRule: {type: string, required: true}
+      k: {type: integer, required: true}
+      kernelVersion: {type: string, required: true}
+
+  MandateScorecard:
+    fields:
+      episode: {ref: DecisionEpisode, required: true}
+      rows:
+        type: array
+        required: true
+        items:
+          type: object
+          properties:
+            element: {ref: MandateElement, required: true}
+            status: {type: string, required: true}
+            satisfiedBy: {type: array, items: {ref: Claim}, required: true}
+      kernelVersion: {type: string, required: true}
+
+  ReadinessReport:
+    fields:
+      episode: {ref: DecisionEpisode, required: true}
+      standardsAssessment: {ref: StandardsAssessment, required: true}
+      mandateScorecard: {ref: MandateScorecard, required: true}
+      blockers: {type: array, items: {type: object, additionalProperties: true}, required: true}
+      warnings: {type: array, items: {type: object, additionalProperties: true}, required: true}
+      openGaps: {type: array, items: {ref: InsufficientEvidence}, required: true}
+      openExclusions: {type: array, items: {ref: Exclusion}, required: true}
+      flipSummary: {type: object, additionalProperties: true, required: true}
+      biasChecksStatus: {type: array, items: {type: object, additionalProperties: true}, required: true}
+      computedBiasRisks: {type: array, items: {ref: Risk}, required: true}
+      ready: {type: boolean, required: true}
+      policyVersion: {type: string, required: true}
+      kernelVersion: {type: string, required: true}
+      seed: {type: integer, required: true}
+
+  Commitment:
+    fields:
+      episode: {ref: DecisionEpisode, required: true}
+      selected: {ref: Alternative, required: true}
+      signer:
+        type: object
+        required: true
+        properties:
+          identity: {type: string, required: true}
+          role: {type: string, required: true}
+      signedAt: {type: string, required: true}
+      conditions:
+        type: array
+        required: true
+        items:
+          type: object
+          properties:
+            text: {type: string, required: true}
+            verifyBy: {ref: Action, required: true}
+            dueDate: {type: string, required: true}
+      stopRules: {type: array, items: {type: string}, required: true}
+      packageHash: {type: string, required: true}
+      dissent:
+        type: array
+        items:
+          type: object
+          properties:
+            who: {type: string, required: true}
+            text: {type: string, required: true}
+
+  DecisionEpisode:
+    fields:
+      program: {ref: DecisionProgram}
+      sequence: {type: integer, required: true}
+      charter: {ref: Charter, required: true}
+      lifecycleState: {type: string, enum: [DRAFT, MODEL_APPROVED, PLAN_APPROVED, EVALUATED, PENDING_SIGNATURE, SIGNED, SUSPECT, SUPERSEDED, VOID], required: true}
+      transitions:
+        type: array
+        required: true
+        items:
+          type: object
+          properties:
+            from: {type: string, required: true}
+            to: {type: string, required: true}
+            actor:
+              type: object
+              required: true
+              properties:
+                actorType: {type: string, enum: [human, agent, kernel], required: true}
+                actorId: {type: string, required: true}
+            at: {type: string, required: true}
+            policyVersion: {type: string, required: true}
+            checksSatisfied: {type: array, items: {type: string}, required: true}
+            checksUnsatisfied: {type: array, items: {type: string}, required: true}
+            refused: {type: boolean, required: true}
+      objectives: {type: array, items: {ref: Objective}, required: true}
+      alternatives: {type: array, items: {ref: Alternative}, required: true}
+      groundRules: {type: array, items: {ref: GroundRule}, required: true}
+      constraints: {type: array, items: {ref: Constraint}, required: true}
+      assumptions: {type: array, items: {ref: Assumption}, required: true}
+      evidenceRegister: {type: array, items: {ref: Evidence}, required: true, doc: "Every evidence item known to the episode; F2 silence rule runs over this."}
+      scenarios: {type: array, items: {ref: Scenario}, required: true}
+      claims: {type: array, items: {ref: Claim}, required: true}
+      risks: {type: array, items: {ref: Risk}, required: true}
+      biasChecks: {type: array, items: {ref: BiasCheck}, required: true}
+      mandateElements: {type: array, items: {ref: MandateElement}, required: true}
+      observations: {type: array, items: {ref: Observation}, required: true}
+      weightSets: {type: array, items: {ref: WeightSet}, required: true}
+      models: {type: array, items: {ref: Model}, required: true}
+      plan: {ref: Plan}
+      runs: {type: array, items: {ref: EvaluationRun}, required: true}
+      flipAnalyses: {type: array, items: {ref: FlipAnalysis}, required: true}
+      readiness: {ref: ReadinessReport}
+      commitment: {ref: Commitment}
+      narratives: {type: array, items: {ref: Narrative}, required: true}
+      distribution:
+        type: array
+        doc: "PRE-7 stakeholders informed"
+        items:
+          type: object
+          properties:
+            to: {type: string, required: true}
+            date: {type: string, required: true}
+      refreshedBecause: {ref: RefreshTrigger}
+      replacements:
+        type: object
+        additionalProperties: {type: string}
+        doc: "Prior object id -> replacing object id, set by the refresh engine; empty or absent on a first episode."
+      asOf: {type: string, required: true, doc: "The episode's declared 'now' for elapsed-time predicates"}
+
+  DecisionProgram:
+    fields:
+      name: {type: string, required: true}
+      charter: {ref: Charter, required: true}
+      episodes: {type: array, items: {ref: DecisionEpisode}, required: true}
+      refreshTriggers: {type: array, items: {ref: RefreshTrigger}, required: true}
+      diffs: {type: array, items: {ref: EpisodeDiff}, required: true}
+
+  RefreshTrigger:
+    fields:
+      kind: {type: string, enum: [evidence-changed, assumption-changed, intended-use-changed, artefact-version-changed, elapsed-time, indicator-detected, external-finding, signer-return], required: true}
+      source: {type: string, required: true}
+      description: {type: string, required: true}
+      detectedAt: {type: string, required: true}
+      affected: {type: array, items: {ref: [Claim, Assumption, Evidence, Objective, Model, Alternative, DecisionEpisode]}, required: true}
+
+  EpisodeDiff:
+    fields:
+      from: {ref: DecisionEpisode, required: true}
+      to: {ref: DecisionEpisode, required: true}
+      because: {ref: RefreshTrigger, required: true}
+      changed:
+        type: array
+        required: true
+        items:
+          type: object
+          properties:
+            object: {type: string, required: true}
+            field: {type: string, required: true}
+            before: {type: string, required: true}
+            after: {type: string, required: true}
+      added: {type: array, items: {type: string}, required: true}
+      removed: {type: array, items: {type: string}, required: true}
+      judgmentsChanged: {type: array, items: {type: object, additionalProperties: true}, required: true}
+      judgmentsConsistent: {type: array, items: {type: string}, required: true}
+      ratingsChanged: {type: array, items: {type: object, additionalProperties: true}, required: true}
+      rankingBefore: {type: array, items: {type: string}, required: true}
+      rankingAfter: {type: array, items: {type: string}, required: true}
+      pairing: {type: string, required: true, doc: "How `changed[]` was paired: \"replacements\" when the new episode's `replacements` map had entries to pair from, \"unknown\" when it was absent or empty and no pairing was attempted."}
+      kernelVersion: {type: string, required: true}
+
+  DecisionPackage:
+    fields:
+      episode: {ref: DecisionEpisode, required: true}
+      rendering: {type: string, enum: [unclassified, full], required: true}
+      hash: {type: string, required: true}
+      kernelVersion: {type: string, required: true}
+      graphSnapshotHash: {type: string, required: true}
+      renderedAt: {type: string, required: true}
+      path: {type: string}
+
+  Narrative:
+    doc: "Agent-drafted prose for one package section. Every sentence cites object ids; the renderer enforces it."
+    fields:
+      episode: {ref: DecisionEpisode, required: true}
+      section: {type: string, enum: *sections, required: true}
+      sentences:
+        type: array
+        required: true
+        items:
+          type: object
+          properties:
+            text: {type: string, required: true}
+            cites: {type: array, items: {ref: any}, required: true, minItems: 1}
+
+  Rationale:
+    fields:
+      text: {type: string, required: true}
+      author: {type: string, required: true}
+      evidence: {type: array, items: {ref: Evidence}}
+
+  Action:
+    fields:
+      description: {type: string, required: true}
+      owner: {type: string, required: true}
+      dueDate: {type: string}
+      status: {type: string, enum: [open, done], required: true}
+      verification: {type: string}

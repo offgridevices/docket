@@ -1,0 +1,42 @@
+{
+  "classification": {
+    "caveats": [
+      "not publicly released; its release status has not been verified by this project"
+    ],
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "explicit",
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2020-04-30",
+  "evidenceType": "Document",
+  "id": "ev-g8-memo-2020-04-30",
+  "inclusionReason": "the document the study's authors said set the study objective",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 35 (PDF p. 40)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "pointer": {
+    "$gap": "gap-g8-memo"
+  },
+  "published": "2020-04-30",
+  "publisher": "Department of the Army, Deputy Chief of Staff, G-8",
+  "reliabilitySteps": [
+    "drs-gao-two-analysts"
+  ],
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "scopeOfValidity": {
+    "builtToAnswer": "the objective of the 2021 MDO TWV Study",
+    "intendedUse": "tasking",
+    "questionClass": "capability-gap"
+  },
+  "title": "Department of the Army, Deputy Chief of Staff, G-8, Memorandum, Tactical Wheeled Vehicle Study (Apr. 30, 2020)",
+  "type": "Evidence"
+}

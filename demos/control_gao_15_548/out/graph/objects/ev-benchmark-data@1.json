@@ -1,0 +1,58 @@
+{
+  "classification": {
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "custodian": "A.T. Kearney",
+  "date": "2013",
+  "evidenceType": "Dataset",
+  "id": "ev-benchmark-data",
+  "inclusionReason": "the study's stated mitigation where suppliers were reticent to provide proprietary cost information",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 16 (PDF p. 19)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "limitations": [
+    {
+      "impact": "those cost lines are proxies wherever the supplier did not go on to share the actual data, and GAO does not say how many did",
+      "statement": "Some cost lines are estimated rather than reported: printed p. 16 records that these efforts \"often resulted in the supplier sharing the actual data\", which means they did not always."
+    }
+  ],
+  "pointer": {
+    "custodian": "A.T. Kearney (the benchmark data, not public); U.S. Government Accountability Office (the published description)",
+    "uri": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf#page=19"
+  },
+  "reliabilitySteps": [
+    "drs-supplier-review"
+  ],
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "reviewers": [
+    {
+      "date": "2013",
+      "name": "A.T. Kearney",
+      "role": "estimating analyst"
+    },
+    {
+      "date": "2015-06",
+      "name": "U.S. Government Accountability Office",
+      "role": "mitigation reviewed against research standards"
+    }
+  ],
+  "schemaRef": "an estimated range within which the authors expected a withheld cost to fall, put back to the supplier to discuss whether it was a reasonable proxy (printed p. 16)",
+  "scopeOfValidity": {
+    "builtToAnswer": "What range should a facility or supplier cost fall in, when the supplier will not provide the actual figure?",
+    "intendedUse": "the study's benchmark comparison and its cost baseline",
+    "questionClass": "industrial-base"
+  },
+  "title": "Industry benchmark cost data, and the study's authors' own industry experience, used where a supplier withheld proprietary cost data",
+  "type": "Evidence"
+}

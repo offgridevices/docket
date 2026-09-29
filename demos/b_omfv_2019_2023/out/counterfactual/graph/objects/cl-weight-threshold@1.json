@@ -1,0 +1,34 @@
+{
+  "addresses": [
+    "obj-weight"
+  ],
+  "assessableAt": {
+    "level": "U"
+  },
+  "confidence": "inferred",
+  "createdAt": "2023-03-31T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "cl-weight-threshold",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "printed p. 9 (PDF p. 12)",
+    "sourceArtifact": "sources/gao-23-106549.pdf"
+  },
+  "questionClass": "desired-characteristics",
+  "rev": 1,
+  "section": "objectives-and-measures",
+  "supportedBy": [
+    {
+      "evidence": "ev-con-2020-02"
+    },
+    {
+      "evidence": "ev-breaking-defense"
+    }
+  ],
+  "text": "The Weight characteristic's 80 percent trafficability target is set against a bridge population the record represents by Poland.",
+  "type": "Claim"
+}

@@ -1,0 +1,33 @@
+{
+  "confidence": "absent",
+  "confirmedBy": {
+    "actorId": "shreyash",
+    "date": "2026-09-06"
+  },
+  "createdAt": "2021-09-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gap-touchpoint-fields",
+  "impact": "blocking",
+  "indicatorsThatWouldResolve": [
+    "an Army human-systems-integration plan for the OMFV touchpoints",
+    "release of the touchpoint reports"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "printed p. 10 (PDF p. 13)",
+    "sourceArtifact": "sources/gao-23-106549.pdf"
+  },
+  "rev": 1,
+  "sought": "the sample size, selection rule, unit, dates, instrument and analysis method of each soldier touchpoint",
+  "type": "InsufficientEvidence",
+  "whereLookedFor": [
+    "GAO-23-106549 printed pp. 8-11 (PDF pp. 11-14)",
+    "OMFV Industry Day briefing, 9 December 2020, PDF p. 18 (slide footer 20)",
+    "Army regulation on soldier touchpoints, searched 2026-09-06"
+  ],
+  "whyNotFound": "neither the Army's report as GAO describes it nor any public Army regulation specifies a method, sample size, instrument or analysis standard for a soldier touchpoint (GAO-23-106549 printed pp. 9-10)"
+}

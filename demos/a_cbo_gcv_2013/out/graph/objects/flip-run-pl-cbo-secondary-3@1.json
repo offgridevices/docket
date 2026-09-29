@@ -1,0 +1,40 @@
+{
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "docket-kernel/0.1.0",
+    "actorType": "kernel"
+  },
+  "currentValue": 0.25,
+  "direction": "up",
+  "flipDistance": 0.397059,
+  "flipThreshold": 0.647059,
+  "id": "flip-run-pl-cbo-secondary-3",
+  "kernelVersion": "0.1.0",
+  "parameter": {
+    "kind": "weight",
+    "label": "weight on six automotive attributes weighted per the Army's scheme: acceleration, average off-road speed, range on a tank of fuel, turning radius, width, bridge-crossing capacity",
+    "target": "ws-secondary:m-mob"
+  },
+  "range": {
+    "hi": 1.0,
+    "lo": 0.0,
+    "source": "default"
+  },
+  "rankingAfter": [
+    "alt-gcv",
+    "alt-puma",
+    "alt-upgraded-bradley",
+    "alt-namer",
+    "alt-retain-bradley"
+  ],
+  "rankingBefore": [
+    "alt-puma",
+    "alt-gcv",
+    "alt-upgraded-bradley",
+    "alt-namer",
+    "alt-retain-bradley"
+  ],
+  "rev": 1,
+  "run": "run-pl-cbo-secondary",
+  "type": "FlipAnalysis"
+}

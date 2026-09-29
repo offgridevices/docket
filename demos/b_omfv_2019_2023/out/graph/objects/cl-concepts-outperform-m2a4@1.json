@@ -1,0 +1,48 @@
+{
+  "addresses": [
+    "obj-survivability-dec",
+    "obj-mobility",
+    "obj-growth",
+    "obj-lethality",
+    "obj-weight",
+    "obj-logistics",
+    "obj-transportability",
+    "obj-manning-dec",
+    "obj-training"
+  ],
+  "assessableAt": {
+    "level": "U"
+  },
+  "confidence": "explicit",
+  "createdAt": "2023-03-31T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "cl-concepts-outperform-m2a4",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "printed p. 13 (PDF p. 16)",
+    "sourceArtifact": "sources/gao-23-106549.pdf"
+  },
+  "questionClass": "combat-effectiveness",
+  "rev": 1,
+  "section": "evaluation-results",
+  "supportedBy": [
+    {
+      "evidence": "ev-ce-metrics"
+    },
+    {
+      "evidence": "ev-bradley-swapc-2018"
+    },
+    {
+      "evidence": "ev-market-research-study-2020"
+    },
+    {
+      "evidence": "ev-concept-design-2021"
+    }
+  ],
+  "text": "The report compared three government concepts for the OMFV with a modernized version of the M2A4 Bradley and presented findings on the survivability and force protection, mobility, lethality, payload, and operational effectiveness of the four vehicles.",
+  "type": "Claim"
+}

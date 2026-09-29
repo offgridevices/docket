@@ -1,0 +1,36 @@
+{
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "definition": {
+    "kind": "code",
+    "version": "0.1.0"
+  },
+  "id": "mdl-cbo-metric",
+  "inputs": [
+    "m-prot",
+    "m-leth",
+    "m-mob",
+    "m-pax",
+    "m-squad"
+  ],
+  "intendedUse": "Combine four category improvement scores into one overall improvement relative to the current Bradley IFV.",
+  "limitations": [
+    {
+      "justification": "It matches CBO's published construction, which combines the categories by a weighting scheme and nothing else (pp. 33–34).",
+      "statement": "Additive: no interaction between the categories."
+    },
+    {
+      "justification": "CBO combines the percentages directly; introducing a normalisation would change the published numbers.",
+      "statement": "The value function is the identity on CBO's percentage scale."
+    }
+  ],
+  "name": "CBO's overall-improvement metric (additive, four weighted categories)",
+  "qualificationStatus": "validated",
+  "questionClass": "requirements-tradeoff",
+  "rev": 1,
+  "type": "Model",
+  "vvaRecord": "vva-cbo-metric"
+}

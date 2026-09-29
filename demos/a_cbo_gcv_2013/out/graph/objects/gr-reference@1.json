@@ -1,0 +1,19 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gr-reference",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 11; p. 21 (Table 2-2 note b)",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "rev": 1,
+  "source": "ev-cbo-2013",
+  "statement": "Every improvement is measured relative to the current Bradley IFV — the M2A3 version used in Iraq, with reactive and underbelly armor.",
+  "type": "GroundRule"
+}

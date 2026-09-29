@@ -1,0 +1,23 @@
+{
+  "confidence": "inferred",
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "obj-distribution",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 11 (PDF p. 16)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "measures": [
+    "m-dt-sustainment"
+  ],
+  "name": "Distribution and Transportation. The conveyance and delivery of supplies, equipment, and troops; for example, truck companies that deliver water, fuel, ammunition, and food to the battlefield.",
+  "priority": "primary",
+  "provenance": "ev-g8-memo-2020-04-30",
+  "rev": 1,
+  "type": "Objective"
+}

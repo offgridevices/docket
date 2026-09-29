@@ -1,0 +1,91 @@
+{
+  "accreditationDecision": {
+    "$gap": "gap-vva-cba"
+  },
+  "assumptionsCapabilitiesLimitationsRisks": {
+    "assumptions": {
+      "$gap": "gap-vva-cba"
+    },
+    "capabilities": {
+      "$gap": "gap-vva-cba"
+    },
+    "limitations": {
+      "$gap": "gap-vva-cba"
+    },
+    "risks": {
+      "$gap": "gap-vva-cba"
+    }
+  },
+  "confidence": "explicit",
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "vva-cba",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 12 (PDF p. 17)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "methodology": {
+    "$gap": "gap-vva-cba"
+  },
+  "problemStatement": "ch-twv-2021",
+  "requirementsAndAcceptabilityCriteria": {
+    "$gap": "gap-vva-cba"
+  },
+  "rev": 1,
+  "sections": [
+    {
+      "content": {
+        "$gap": "gap-vva-cba"
+      },
+      "name": "Problem Statement"
+    },
+    {
+      "content": {
+        "$gap": "gap-vva-cba"
+      },
+      "name": "M&S Requirements and Acceptability Criteria"
+    },
+    {
+      "content": {
+        "$gap": "gap-vva-cba"
+      },
+      "name": "M&S Assumptions, Capabilities, Limitations & Risks/Impacts"
+    },
+    {
+      "content": {
+        "$gap": "gap-vva-cba"
+      },
+      "name": "Accreditation Methodology"
+    },
+    {
+      "content": {
+        "$gap": "gap-vva-cba"
+      },
+      "name": "Issues"
+    },
+    {
+      "content": {
+        "$gap": "gap-vva-cba"
+      },
+      "name": "Key Participants"
+    },
+    {
+      "content": {
+        "$gap": "gap-vva-cba"
+      },
+      "name": "Resources"
+    },
+    {
+      "content": {
+        "$gap": "gap-vva-cba"
+      },
+      "name": "Lessons Learned"
+    }
+  ],
+  "type": "VVARecord"
+}

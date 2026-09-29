@@ -1,0 +1,31 @@
+{
+  "attribute": "total cost",
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "criteria": {
+    "$exclusion": "ex-no-thresholds"
+  },
+  "id": "m-cost",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 21 (Table 2-2)",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "measure": "development and procurement of the fleet, 2014 through 2030",
+  "metric": {
+    "direction": "min",
+    "units": "billions of 2013 dollars"
+  },
+  "objective": "obj-cost",
+  "rev": 1,
+  "task": "Afford the fleet",
+  "type": "Measure",
+  "valueFunction": {
+    "kind": "identity"
+  }
+}

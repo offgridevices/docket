@@ -1,0 +1,200 @@
+{
+  "$defs": {
+    "actor": {
+      "additionalProperties": false,
+      "properties": {
+        "actorId": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "actorType": {
+          "enum": [
+            "human",
+            "agent",
+            "kernel"
+          ]
+        }
+      },
+      "required": [
+        "actorType",
+        "actorId"
+      ],
+      "type": "object"
+    },
+    "exclusionRef": {
+      "additionalProperties": false,
+      "properties": {
+        "$exclusion": {
+          "$ref": "#/$defs/id"
+        }
+      },
+      "required": [
+        "$exclusion"
+      ],
+      "type": "object"
+    },
+    "gapRef": {
+      "additionalProperties": false,
+      "properties": {
+        "$gap": {
+          "$ref": "#/$defs/id"
+        }
+      },
+      "required": [
+        "$gap"
+      ],
+      "type": "object"
+    },
+    "id": {
+      "pattern": "^[a-z0-9][a-z0-9._:-]*$",
+      "type": "string"
+    },
+    "provenance": {
+      "additionalProperties": false,
+      "properties": {
+        "extractedAt": {
+          "type": "string"
+        },
+        "extractor": {
+          "type": "string"
+        },
+        "locator": {
+          "type": "string"
+        },
+        "sourceArtifact": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "sourceArtifact",
+        "locator",
+        "extractor",
+        "extractedAt"
+      ],
+      "type": "object"
+    },
+    "timestamp": {
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}(T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?Z)?$",
+      "type": "string"
+    }
+  },
+  "$id": "https://docket.offgriddevices.com/schema/StandardsAssessment.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "",
+  "properties": {
+    "aggregationRule": {
+      "type": "string"
+    },
+    "confidence": {
+      "enum": [
+        "explicit",
+        "inferred",
+        "absent"
+      ]
+    },
+    "createdAt": {
+      "$ref": "#/$defs/timestamp"
+    },
+    "createdBy": {
+      "$ref": "#/$defs/actor"
+    },
+    "dimensionVerdicts": {
+      "additionalProperties": true,
+      "type": "object"
+    },
+    "episode": {
+      "$ref": "#/$defs/id"
+    },
+    "id": {
+      "$ref": "#/$defs/id"
+    },
+    "ingestionProvenance": {
+      "$ref": "#/$defs/provenance"
+    },
+    "k": {
+      "type": "integer"
+    },
+    "kernelVersion": {
+      "type": "string"
+    },
+    "ratings": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "applicable": {
+            "type": "boolean"
+          },
+          "justification": {
+            "items": {
+              "$ref": "#/$defs/id"
+            },
+            "type": "array"
+          },
+          "questionId": {
+            "type": "string"
+          },
+          "rule": {
+            "type": "string"
+          },
+          "state": {
+            "oneOf": [
+              {
+                "enum": [
+                  1,
+                  2,
+                  3,
+                  4
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "tailoringReason": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "questionId",
+          "applicable",
+          "state",
+          "justification",
+          "rule"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "rev": {
+      "minimum": 1,
+      "type": "integer"
+    },
+    "supersedes": {
+      "$ref": "#/$defs/id"
+    },
+    "tailoring": {
+      "type": "string"
+    },
+    "type": {
+      "const": "StandardsAssessment"
+    }
+  },
+  "required": [
+    "id",
+    "type",
+    "rev",
+    "createdBy",
+    "createdAt",
+    "episode",
+    "tailoring",
+    "ratings",
+    "dimensionVerdicts",
+    "aggregationRule",
+    "k",
+    "kernelVersion"
+  ],
+  "title": "StandardsAssessment",
+  "type": "object"
+}

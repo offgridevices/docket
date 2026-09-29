@@ -1,0 +1,177 @@
+{
+  "$defs": {
+    "actor": {
+      "additionalProperties": false,
+      "properties": {
+        "actorId": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "actorType": {
+          "enum": [
+            "human",
+            "agent",
+            "kernel"
+          ]
+        }
+      },
+      "required": [
+        "actorType",
+        "actorId"
+      ],
+      "type": "object"
+    },
+    "exclusionRef": {
+      "additionalProperties": false,
+      "properties": {
+        "$exclusion": {
+          "$ref": "#/$defs/id"
+        }
+      },
+      "required": [
+        "$exclusion"
+      ],
+      "type": "object"
+    },
+    "gapRef": {
+      "additionalProperties": false,
+      "properties": {
+        "$gap": {
+          "$ref": "#/$defs/id"
+        }
+      },
+      "required": [
+        "$gap"
+      ],
+      "type": "object"
+    },
+    "id": {
+      "pattern": "^[a-z0-9][a-z0-9._:-]*$",
+      "type": "string"
+    },
+    "provenance": {
+      "additionalProperties": false,
+      "properties": {
+        "extractedAt": {
+          "type": "string"
+        },
+        "extractor": {
+          "type": "string"
+        },
+        "locator": {
+          "type": "string"
+        },
+        "sourceArtifact": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "sourceArtifact",
+        "locator",
+        "extractor",
+        "extractedAt"
+      ],
+      "type": "object"
+    },
+    "timestamp": {
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}(T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?Z)?$",
+      "type": "string"
+    }
+  },
+  "$id": "https://docket.offgriddevices.com/schema/Observation.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "Alternative \u00d7 Measure datum, evidence-backed. Kernel input, never kernel output.",
+  "properties": {
+    "alternative": {
+      "$ref": "#/$defs/id"
+    },
+    "confidence": {
+      "enum": [
+        "explicit",
+        "inferred",
+        "absent"
+      ]
+    },
+    "createdAt": {
+      "$ref": "#/$defs/timestamp"
+    },
+    "createdBy": {
+      "$ref": "#/$defs/actor"
+    },
+    "evidence": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/id"
+        },
+        {
+          "$ref": "#/$defs/exclusionRef"
+        },
+        {
+          "$ref": "#/$defs/gapRef"
+        }
+      ]
+    },
+    "id": {
+      "$ref": "#/$defs/id"
+    },
+    "ingestionProvenance": {
+      "$ref": "#/$defs/provenance"
+    },
+    "measure": {
+      "$ref": "#/$defs/id"
+    },
+    "rev": {
+      "minimum": 1,
+      "type": "integer"
+    },
+    "supersedes": {
+      "$ref": "#/$defs/id"
+    },
+    "type": {
+      "const": "Observation"
+    },
+    "uncertainty": {
+      "$ref": "#/$defs/id"
+    },
+    "value": {
+      "oneOf": [
+        {
+          "type": "number"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "hi": {
+              "type": "number"
+            },
+            "lo": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "lo",
+            "hi"
+          ],
+          "type": "object"
+        }
+      ]
+    },
+    "variedInSensitivity": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "id",
+    "type",
+    "rev",
+    "createdBy",
+    "createdAt",
+    "alternative",
+    "measure",
+    "value",
+    "evidence"
+  ],
+  "title": "Observation",
+  "type": "object"
+}

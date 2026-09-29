@@ -1,0 +1,25 @@
+{
+  "aggregationK": 21,
+  "blockingRules": [],
+  "createdAt": "2020-02-25T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "decisionClass": "requirements-characteristics",
+  "id": "pol-omfv",
+  "method": "mavt",
+  "nSimplex": 200,
+  "name": "OMFV requirements-characteristics review, scored against GAO's own aggregation rule: GAO-23-106549 printed p. 17 (PDF p. 20) — \"we drew conclusions that the report was generally objective when available information presented in the report was consistent with our definition of objectivity but was missing information that would have addressed the generally accepted research standards\"",
+  "prohibitedExclusionReasons": [
+    "time-or-resource"
+  ],
+  "requireAllLinchpinsVaried": false,
+  "requiredBiasChecks": [
+    "independent-disconfirming-review"
+  ],
+  "rev": 1,
+  "tailoring": "gao-23-106549",
+  "type": "Policy",
+  "version": "0.1"
+}

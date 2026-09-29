@@ -1,0 +1,53 @@
+{
+  "alternatives": [
+    "alt-omfv-concept",
+    "alt-m2a4-bradley"
+  ],
+  "asOf": "2020-02-25",
+  "assumptions": [
+    "as-poland-bridges",
+    "as-manning-feb"
+  ],
+  "biasChecks": [],
+  "charter": "ch-omfv",
+  "claims": [],
+  "constraints": [],
+  "createdAt": "2020-02-25T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "evidenceRegister": [
+    "ev-con-2020-02",
+    "ev-industry-day-narrative-2020-04",
+    "ev-breaking-defense"
+  ],
+  "flipAnalyses": [],
+  "groundRules": [],
+  "id": "ep-omfv-2020-02",
+  "lifecycleState": "DRAFT",
+  "mandateElements": [],
+  "models": [],
+  "narratives": [],
+  "objectives": [
+    "obj-survivability",
+    "obj-mobility",
+    "obj-growth",
+    "obj-lethality",
+    "obj-weight",
+    "obj-logistics",
+    "obj-transportability",
+    "obj-manning",
+    "obj-training"
+  ],
+  "observations": [],
+  "program": "prg-omfv",
+  "rev": 1,
+  "risks": [],
+  "runs": [],
+  "scenarios": [],
+  "sequence": 1,
+  "transitions": [],
+  "type": "DecisionEpisode",
+  "weightSets": []
+}

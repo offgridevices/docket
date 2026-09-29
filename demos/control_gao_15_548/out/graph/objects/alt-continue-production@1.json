@@ -1,0 +1,22 @@
+{
+  "baselineFlag": true,
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "description": "The status quo the shutdown analysis is measured against: Bradley Fighting Vehicle production continues at the BAE facility in York, Pennsylvania. GAO printed p. 11 reports the study's in-depth assessment of the potential costs of shutting that line down, which presupposes the cost of continuing it.",
+  "enteredOrder": 1,
+  "id": "alt-continue-production",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 10 (PDF p. 13); printed p. 11 (PDF p. 14)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "name": "Continue Bradley production at the York facility",
+  "rev": 1,
+  "status": "evaluated",
+  "type": "Alternative"
+}

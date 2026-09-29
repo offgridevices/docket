@@ -1,0 +1,40 @@
+{
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "definition": {
+    "kind": "rubric",
+    "version": "unversioned in the public description"
+  },
+  "id": "mdl-kearney-method",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 9 (PDF p. 12); printed p. 13 (PDF p. 16)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "inputs": [
+    "m-current-state",
+    "m-cost-baseline",
+    "m-supplier-base",
+    "m-benchmark",
+    "m-scenario-analysis",
+    "m-network-strategy"
+  ],
+  "intendedUse": "Verbatim, printed p. 13: the study's authors \"successfully conducted each of the six analyses — the current state assessment, cost baseline, supplier base analysis, benchmark comparison, scenario analysis, and network strategy plan.\" Printed p. 9 assigns the first four to assessing the industrial base and the last two to developing strategic alternatives.",
+  "limitations": [
+    {
+      "justification": "GAO's own conclusion is qualitative for the same reason — printed p. 24: \"we determined that qualitative assessment ratings provide the best explanation of the nuances of the analysis and findings, rather than numeric ratings for each individual standard.\"",
+      "statement": "Five of the six analyses are qualitative: GAO reports their findings, not scores, and this record therefore carries no Observation and no evaluation run."
+    }
+  ],
+  "name": "The six-analysis industrial base assessment method",
+  "qualificationStatus": "validated",
+  "questionClass": "industrial-base",
+  "rev": 1,
+  "type": "Model",
+  "vvaRecord": "vva-kearney-method"
+}

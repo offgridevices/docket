@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- Copied from the OffGrid brand handoff v3.0 (offgridevices/offgrid-brand,
+     handoffs/2026-09-08-brand-v3.0/handoff/logo/svg/offgrid-wordmark-horizontal.svg).
+     Verbatim except this comment and the removal of an inert <metadata> C2PA
+     manifest — ~14 kB of base64 provenance on a ~1 kB graphic, shipped in a
+     browser bundle that must fit on a USB stick for an offline demo. It is
+     file provenance, not design; nothing renders it. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200" xmlns:c2pa="http://c2pa.org/manifest">
+  <title>OffGrid · Horizontal wordmark lockup · Beacon Ring + Bone on Pitch</title>
+  <rect width="800" height="200" fill="#1B1813"></rect>
+  <g transform="translate(20 12)">
+    <path d="M124.5 55.4 A58 58 0 1 1 75.5 55.4" fill="none" stroke="#FF6A00" stroke-width="22" stroke-linecap="round"></path>
+    <circle cx="100" cy="40" r="17" fill="#FF6A00"></circle>
+  </g>
+  <text x="240" y="128" font-family="Instrument Sans, system-ui, sans-serif" font-weight="600" font-size="92" letter-spacing="-3" fill="#F1ECE0">OffGrid</text>
+</svg>

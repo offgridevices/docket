@@ -1,0 +1,29 @@
+{
+  "authority": {
+    "date": "2020-12-09",
+    "role": "requirements owner",
+    "who": "Next Generation Combat Vehicles Cross-Functional Team"
+  },
+  "confidence": "explicit",
+  "createdAt": "2020-12-09T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "ex-cbrn-dropped",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "PDF p. 5 (slide footer 6)",
+    "sourceArtifact": "sources/army-2020-12-09-omfv-industry-day-briefing.pdf"
+  },
+  "reason": "the December 2020 updated CON states the Survivability characteristic without the February 2020 clause on protecting the crew and Soldiers from CBRN environments; the slide gives no reason for the change",
+  "reasonType": "superseded",
+  "retainedInStructure": true,
+  "rev": 1,
+  "target": {
+    "kind": "Measure",
+    "label": "CBRN protection"
+  },
+  "type": "Exclusion"
+}

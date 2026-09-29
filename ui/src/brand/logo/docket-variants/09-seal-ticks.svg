@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Docket icon 09 - Seal ticks. Signer-ready package with corner verification marks. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Docket">
+  <title>Docket - Seal ticks</title>
+  <rect width="200" height="200" fill="#1B1813"/>
+  <rect x="48" y="48" width="104" height="104" fill="#F1ECE0"/>
+  <rect x="48" y="48" width="28" height="8" fill="#FF6A00"/>
+  <rect x="48" y="48" width="8" height="28" fill="#FF6A00"/>
+  <rect x="124" y="48" width="28" height="8" fill="#FF6A00"/>
+  <rect x="144" y="48" width="8" height="28" fill="#FF6A00"/>
+  <rect x="48" y="144" width="28" height="8" fill="#FF6A00"/>
+  <rect x="48" y="124" width="8" height="28" fill="#FF6A00"/>
+  <rect x="124" y="144" width="28" height="8" fill="#FF6A00"/>
+  <rect x="144" y="124" width="8" height="28" fill="#FF6A00"/>
+</svg>

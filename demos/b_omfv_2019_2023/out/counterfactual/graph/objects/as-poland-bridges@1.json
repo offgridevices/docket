@@ -1,0 +1,29 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2020-02-25T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "evidence": {
+    "$gap": "gap-poland-data"
+  },
+  "id": "as-poland-bridges",
+  "implicationsIfWrong": "the 80 percent Weight threshold, and therefore the design weight envelope, could be set against the wrong bridge population",
+  "indicatorsThatWouldAlter": [
+    "a bridge classification survey of the pacing theatre",
+    "a change in the pacing threat country set"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "printed p. 9 (PDF p. 12)",
+    "sourceArtifact": "sources/gao-23-106549.pdf"
+  },
+  "linchpin": true,
+  "rationale": "Breaking Defense, 6 February 2020: \"Poland in particular has many rivers and few reinforced bridges\", and \"few of them [Eastern European bridges] can handle more than 55 tons\". That is a real operational rationale, and it is not the same thing as evidence for representativeness.",
+  "rev": 1,
+  "statement": "bridges in Poland are representative of those across Eastern Europe",
+  "type": "Assumption",
+  "variedInSensitivity": false
+}

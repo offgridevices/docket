@@ -1,0 +1,28 @@
+{
+  "added": [
+    "ev-234-report",
+    "risk-bias-ep-omfv-2020-02-r4-selection"
+  ],
+  "because": "rt-234-report",
+  "changed": [],
+  "createdAt": "2023-06-26T00:00:00Z",
+  "createdBy": {
+    "actorId": "docket-kernel/0.1.0",
+    "actorType": "kernel"
+  },
+  "from": "ep-omfv-2020-02-r3",
+  "id": "diff-ep-omfv-2020-02-r3-ep-omfv-2020-02-r4",
+  "judgmentsChanged": [],
+  "judgmentsConsistent": [],
+  "kernelVersion": "0.1.0",
+  "pairing": "unknown",
+  "rankingAfter": [],
+  "rankingBefore": [],
+  "ratingsChanged": [],
+  "removed": [
+    "risk-bias-ep-omfv-2020-02-r3-selection"
+  ],
+  "rev": 1,
+  "to": "ep-omfv-2020-02-r4",
+  "type": "EpisodeDiff"
+}

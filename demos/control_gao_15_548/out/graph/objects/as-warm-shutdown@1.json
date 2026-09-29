@@ -1,0 +1,28 @@
+{
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "evidence": "ev-army-procurement-plans",
+  "id": "as-warm-shutdown",
+  "implicationsIfWrong": "The $53 million shutdown-and-restart estimate would not hold (printed p. 11): a longer break, or one with no anticipated restart date, changes the inventory and employee cost treatment the estimate rests on, and with it the comparison against the 2012 original equipment manufacturer estimate of $750 million.",
+  "indicatorsThatWouldAlter": [
+    "a change in the Army's anticipated restart date for Bradley production",
+    "a change in the Army's Bradley procurement plans",
+    "a decision to shut the line down without an anticipated restart date"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 11 (PDF p. 14)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "linchpin": true,
+  "rationale": "Verbatim, printed p. 11: \"This assumption was reasonable because it was based on the Army's anticipated time frame for restarting production at the time of the study.\" GAO adds that the shutdown assumptions generally were reasonable \"because they were based on current information, such as updated procurement plans and recent contractor actions.\"",
+  "rev": 1,
+  "statement": "Verbatim, printed p. 11: the Army's study assumed \"a two-year shutdown of the Bradley line followed by restart, which the study's authors termed a 'warm shutdown,' because the shutdown included an anticipated restart date.\"",
+  "type": "Assumption",
+  "variedInSensitivity": false
+}

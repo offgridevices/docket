@@ -1,0 +1,4133 @@
+{
+  "ep-omfv-2020-02-r4-ce": {
+    "baseline": {
+      "exclusions": [],
+      "findings": {
+        "NotAssessableAtLevel": [
+          [
+            "cl-concepts-outperform-m2a4",
+            "ev-ce-metrics"
+          ]
+        ],
+        "bias-check-missing": [
+          [
+            "ep-omfv-2020-02"
+          ],
+          [
+            "ep-omfv-2020-02-r2"
+          ],
+          [
+            "ep-omfv-2020-02-r3"
+          ],
+          [
+            "ep-omfv-2020-02-r4"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce"
+          ],
+          [
+            "ep-omfv-2020-02-r4-dc"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs"
+          ]
+        ],
+        "definition-missing": [
+          [
+            "ch-omfv"
+          ],
+          [
+            "ch-omfv"
+          ]
+        ],
+        "inclusion-reason-missing": [
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "cl-concepts-outperform-m2a4",
+            "ev-bradley-swapc-2018"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "cl-concepts-outperform-m2a4",
+            "ev-concept-design-2021"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "cl-concepts-outperform-m2a4",
+            "ev-market-research-study-2020"
+          ]
+        ],
+        "linchpin-unevidenced": [
+          [
+            "as-poland-bridges"
+          ]
+        ],
+        "objective-measured": [
+          [
+            "obj-growth"
+          ],
+          [
+            "obj-lethality"
+          ],
+          [
+            "obj-logistics"
+          ],
+          [
+            "obj-manning"
+          ],
+          [
+            "obj-manning-dec"
+          ],
+          [
+            "obj-mobility"
+          ],
+          [
+            "obj-survivability"
+          ],
+          [
+            "obj-survivability-dec"
+          ],
+          [
+            "obj-training"
+          ],
+          [
+            "obj-transportability"
+          ]
+        ],
+        "objective-run-coverage": [
+          [
+            "obj-weight"
+          ]
+        ],
+        "silent-omission": [
+          [
+            "ep-omfv-2020-02",
+            "ev-breaking-defense"
+          ],
+          [
+            "ep-omfv-2020-02",
+            "ev-con-2020-02"
+          ],
+          [
+            "ep-omfv-2020-02",
+            "ev-industry-day-narrative-2020-04"
+          ],
+          [
+            "ep-omfv-2020-02-r2",
+            "ev-abct-opconcept"
+          ],
+          [
+            "ep-omfv-2020-02-r2",
+            "ev-breaking-defense"
+          ],
+          [
+            "ep-omfv-2020-02-r2",
+            "ev-con-2020-02"
+          ],
+          [
+            "ep-omfv-2020-02-r2",
+            "ev-con-2020-12"
+          ],
+          [
+            "ep-omfv-2020-02-r2",
+            "ev-industry-day-narrative-2020-04"
+          ],
+          [
+            "ep-omfv-2020-02-r2",
+            "ev-market-research-2020"
+          ],
+          [
+            "ep-omfv-2020-02-r2",
+            "ev-threat-analysis"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-abct-opconcept"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-aries-1"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-aries-2"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-bradley-swapc-2018"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-breaking-defense"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-con-2020-02"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-con-2020-12"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-concept-design-2021"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-hsi-1"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-hsi-2"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-industry-day-narrative-2020-04"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-market-research-2020"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-market-research-study-2020"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-mbl-1"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-threat-analysis"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-trac-aoa"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-trac-oe"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-vendor-feedback-1"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-vendor-feedback-2"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-vendor-feedback-3"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-vendor-feedback-4"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-abct-opconcept"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-aries-1"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-aries-2"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-bradley-swapc-2018"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-breaking-defense"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-con-2020-02"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-con-2020-12"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-concept-design-2021"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-hsi-1"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-hsi-2"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-industry-day-narrative-2020-04"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-market-research-2020"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-market-research-study-2020"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-mbl-1"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-threat-analysis"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-trac-aoa"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-trac-oe"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-vendor-feedback-1"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-vendor-feedback-2"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-vendor-feedback-3"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-vendor-feedback-4"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "ev-abct-opconcept"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "ev-aries-1"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "ev-aries-2"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "ev-breaking-defense"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "ev-con-2020-02"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "ev-con-2020-12"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "ev-hsi-1"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "ev-hsi-2"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "ev-industry-day-narrative-2020-04"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "ev-market-research-2020"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "ev-mbl-1"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "ev-threat-analysis"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "ev-trac-aoa"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "ev-trac-oe"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "ev-vendor-feedback-1"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "ev-vendor-feedback-2"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "ev-vendor-feedback-3"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "ev-vendor-feedback-4"
+          ],
+          [
+            "ep-omfv-2020-02-r4-dc",
+            "ev-aries-1"
+          ],
+          [
+            "ep-omfv-2020-02-r4-dc",
+            "ev-aries-2"
+          ],
+          [
+            "ep-omfv-2020-02-r4-dc",
+            "ev-bradley-swapc-2018"
+          ],
+          [
+            "ep-omfv-2020-02-r4-dc",
+            "ev-con-2020-12"
+          ],
+          [
+            "ep-omfv-2020-02-r4-dc",
+            "ev-concept-design-2021"
+          ],
+          [
+            "ep-omfv-2020-02-r4-dc",
+            "ev-hsi-1"
+          ],
+          [
+            "ep-omfv-2020-02-r4-dc",
+            "ev-hsi-2"
+          ],
+          [
+            "ep-omfv-2020-02-r4-dc",
+            "ev-industry-day-narrative-2020-04"
+          ],
+          [
+            "ep-omfv-2020-02-r4-dc",
+            "ev-market-research-study-2020"
+          ],
+          [
+            "ep-omfv-2020-02-r4-dc",
+            "ev-mbl-1"
+          ],
+          [
+            "ep-omfv-2020-02-r4-dc",
+            "ev-trac-aoa"
+          ],
+          [
+            "ep-omfv-2020-02-r4-dc",
+            "ev-trac-oe"
+          ],
+          [
+            "ep-omfv-2020-02-r4-dc",
+            "ev-vendor-feedback-1"
+          ],
+          [
+            "ep-omfv-2020-02-r4-dc",
+            "ev-vendor-feedback-2"
+          ],
+          [
+            "ep-omfv-2020-02-r4-dc",
+            "ev-vendor-feedback-3"
+          ],
+          [
+            "ep-omfv-2020-02-r4-dc",
+            "ev-vendor-feedback-4"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs",
+            "ev-abct-opconcept"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs",
+            "ev-aries-1"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs",
+            "ev-aries-2"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs",
+            "ev-bradley-swapc-2018"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs",
+            "ev-breaking-defense"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs",
+            "ev-con-2020-02"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs",
+            "ev-con-2020-12"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs",
+            "ev-concept-design-2021"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs",
+            "ev-hsi-1"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs",
+            "ev-hsi-2"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs",
+            "ev-industry-day-narrative-2020-04"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs",
+            "ev-market-research-2020"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs",
+            "ev-market-research-study-2020"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs",
+            "ev-threat-analysis"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs",
+            "ev-trac-oe"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs",
+            "ev-vendor-feedback-1"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs",
+            "ev-vendor-feedback-2"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs",
+            "ev-vendor-feedback-3"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs",
+            "ev-vendor-feedback-4"
+          ]
+        ],
+        "vva-verbal": [
+          [
+            "mdl-aries",
+            "vva-aries"
+          ],
+          [
+            "mdl-trac",
+            "vva-trac"
+          ]
+        ]
+      },
+      "gaps": [
+        "gap-poland-data",
+        "gap-ce-metrics-pointer",
+        "gap-model-docs",
+        "gap-reliability-steps",
+        "gap-touchpoint-fields",
+        "gap-234-report",
+        "gap-additional-studies",
+        "gap-con-inputs",
+        "gap-def-force-structure",
+        "gap-def-operational-concepts",
+        "gap-trac-aoa-model",
+        "gap-unnamed-efforts",
+        "gap-vendor-events",
+        "gap-weights"
+      ],
+      "ratings": {
+        "DES-1": 1,
+        "DES-2": 2,
+        "DES-3": 2,
+        "DES-4": 1,
+        "DES-5": 2,
+        "DES-6": 2,
+        "DES-7": 1,
+        "DES-8": 4,
+        "DES-9": 4,
+        "EXE-1": 2,
+        "EXE-2": 1,
+        "EXE-3": 1,
+        "EXE-4": 1,
+        "EXE-5": 4,
+        "EXE-6": 4,
+        "EXE-7": 2,
+        "EXE-8": 4,
+        "PRE-1": 4,
+        "PRE-2": 2,
+        "PRE-3": 2,
+        "PRE-4": 2
+      },
+      "verdicts": {
+        "objectivity": "generally_objective",
+        "reliability": "insufficient_to_conclude",
+        "validity": "insufficient_to_conclude"
+      }
+    },
+    "gaps-collapsed": {
+      "exclusions_lost": [],
+      "gained_findings": {
+        "other": [
+          "ref-integrity"
+        ],
+        "schema": [
+          "schema"
+        ],
+        "silence": [
+          "silence"
+        ]
+      },
+      "gaps_lost": [
+        "gap-234-report",
+        "gap-additional-studies",
+        "gap-ce-metrics-pointer",
+        "gap-con-inputs",
+        "gap-def-force-structure",
+        "gap-def-operational-concepts",
+        "gap-model-docs",
+        "gap-poland-data",
+        "gap-reliability-steps",
+        "gap-touchpoint-fields",
+        "gap-trac-aoa-model",
+        "gap-unnamed-efforts",
+        "gap-vendor-events",
+        "gap-weights"
+      ],
+      "lost_findings": [],
+      "ratings_changed": {
+        "PRE-2": [
+          2,
+          4
+        ],
+        "PRE-3": [
+          2,
+          4
+        ]
+      },
+      "substitutions": [
+        {
+          "kind": "schema-forced",
+          "object": "as-poland-bridges",
+          "path": "evidence"
+        },
+        {
+          "kind": "empty",
+          "object": "ch-omfv",
+          "path": "definitions/1/text"
+        },
+        {
+          "kind": "empty",
+          "object": "ch-omfv",
+          "path": "definitions/2/text"
+        },
+        {
+          "kind": "empty",
+          "object": "ch-omfv",
+          "path": "limitations/0/mitigation"
+        },
+        {
+          "kind": "schema-forced",
+          "object": "ev-234-report",
+          "path": "pointer"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-234-report",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-abct-opconcept",
+          "path": "published"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-abct-opconcept",
+          "path": "publisher"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-abct-opconcept",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-aries-1",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-aries-1",
+          "path": "scenarios"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-aries-2",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-aries-2",
+          "path": "scenarios"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-bradley-swapc-2018",
+          "path": "publisher"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-bradley-swapc-2018",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-breaking-defense",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-ce-metrics",
+          "path": "custodian"
+        },
+        {
+          "kind": "schema-forced",
+          "object": "ev-ce-metrics",
+          "path": "pointer"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-ce-metrics",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-ce-metrics",
+          "path": "schemaRef"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-con-2020-02",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-con-2020-12",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-concept-design-2021",
+          "path": "publisher"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-concept-design-2021",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-1",
+          "path": "analysisMethod"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-1",
+          "path": "dates"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-1",
+          "path": "instrument"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-1",
+          "path": "n"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-1",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-1",
+          "path": "selectionRule"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-1",
+          "path": "unit"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-2",
+          "path": "analysisMethod"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-2",
+          "path": "dates"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-2",
+          "path": "instrument"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-2",
+          "path": "n"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-2",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-2",
+          "path": "selectionRule"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-2",
+          "path": "unit"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-industry-day-narrative-2020-04",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-market-research-2020",
+          "path": "method"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-market-research-2020",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-market-research-2020",
+          "path": "respondents"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-market-research-study-2020",
+          "path": "publisher"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-market-research-study-2020",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-mbl-1",
+          "path": "analysisMethod"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-mbl-1",
+          "path": "instrument"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-mbl-1",
+          "path": "n"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-mbl-1",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-mbl-1",
+          "path": "selectionRule"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-mbl-1",
+          "path": "unit"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-threat-analysis",
+          "path": "authority"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-threat-analysis",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-threat-analysis",
+          "path": "threatSet"
+        },
+        {
+          "kind": "schema-forced",
+          "object": "ev-trac-aoa",
+          "path": "model"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-trac-aoa",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-trac-aoa",
+          "path": "scenarios"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-trac-oe",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-trac-oe",
+          "path": "scenarios"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-1",
+          "path": "event"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-1",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-1",
+          "path": "vendors"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-2",
+          "path": "event"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-2",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-2",
+          "path": "vendors"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-3",
+          "path": "event"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-3",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-3",
+          "path": "vendors"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-4",
+          "path": "event"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-4",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-4",
+          "path": "vendors"
+        },
+        {
+          "kind": "empty",
+          "object": "mdl-aries",
+          "path": "limitations/0/justification"
+        },
+        {
+          "kind": "empty",
+          "object": "mdl-trac",
+          "path": "limitations/0/justification"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-1",
+          "path": "openGaps/0"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-1",
+          "path": "openGaps/1"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-1",
+          "path": "openGaps/2"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-1",
+          "path": "openGaps/3"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r2-1",
+          "path": "openGaps/0"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r2-1",
+          "path": "openGaps/1"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r2-1",
+          "path": "openGaps/2"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r2-1",
+          "path": "openGaps/3"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r2-1",
+          "path": "openGaps/4"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/0"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/1"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/10"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/11"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/2"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/3"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/4"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/5"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/6"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/7"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/8"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/9"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/0"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/1"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/10"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/11"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/12"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/2"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/3"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/4"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/5"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/6"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/7"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/8"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/9"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "assumptionsCapabilitiesLimitationsRisks/assumptions"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "assumptionsCapabilitiesLimitationsRisks/capabilities"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "assumptionsCapabilitiesLimitationsRisks/limitations"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "assumptionsCapabilitiesLimitationsRisks/risks"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "methodology"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "requirementsAndAcceptabilityCriteria"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "sections/0/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "sections/1/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "sections/2/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "sections/3/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "sections/4/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "sections/5/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "sections/6/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "sections/7/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "assumptionsCapabilitiesLimitationsRisks/assumptions"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "assumptionsCapabilitiesLimitationsRisks/capabilities"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "assumptionsCapabilitiesLimitationsRisks/limitations"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "assumptionsCapabilitiesLimitationsRisks/risks"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "methodology"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "requirementsAndAcceptabilityCriteria"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "sections/0/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "sections/1/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "sections/2/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "sections/3/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "sections/4/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "sections/5/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "sections/6/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "sections/7/content"
+        },
+        {
+          "kind": "schema-forced",
+          "object": "ws-omfv",
+          "path": "provenance"
+        }
+      ],
+      "verdicts_changed": {
+        "objectivity": [
+          "generally_objective",
+          "insufficient_to_conclude"
+        ]
+      }
+    },
+    "gaps-collapsed-silence-off": {
+      "exclusions_lost": [],
+      "gained_findings": {
+        "other": [
+          "ref-integrity"
+        ],
+        "schema": [
+          "schema"
+        ],
+        "silence": []
+      },
+      "gaps_lost": [
+        "gap-234-report",
+        "gap-additional-studies",
+        "gap-ce-metrics-pointer",
+        "gap-con-inputs",
+        "gap-def-force-structure",
+        "gap-def-operational-concepts",
+        "gap-model-docs",
+        "gap-poland-data",
+        "gap-reliability-steps",
+        "gap-touchpoint-fields",
+        "gap-trac-aoa-model",
+        "gap-unnamed-efforts",
+        "gap-vendor-events",
+        "gap-weights"
+      ],
+      "lost_findings": [],
+      "ratings_changed": {
+        "PRE-2": [
+          2,
+          1
+        ]
+      },
+      "substitutions": [
+        {
+          "kind": "schema-forced",
+          "object": "as-poland-bridges",
+          "path": "evidence"
+        },
+        {
+          "kind": "empty",
+          "object": "ch-omfv",
+          "path": "definitions/1/text"
+        },
+        {
+          "kind": "empty",
+          "object": "ch-omfv",
+          "path": "definitions/2/text"
+        },
+        {
+          "kind": "empty",
+          "object": "ch-omfv",
+          "path": "limitations/0/mitigation"
+        },
+        {
+          "kind": "schema-forced",
+          "object": "ev-234-report",
+          "path": "pointer"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-234-report",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-abct-opconcept",
+          "path": "published"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-abct-opconcept",
+          "path": "publisher"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-abct-opconcept",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-aries-1",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-aries-1",
+          "path": "scenarios"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-aries-2",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-aries-2",
+          "path": "scenarios"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-bradley-swapc-2018",
+          "path": "publisher"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-bradley-swapc-2018",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-breaking-defense",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-ce-metrics",
+          "path": "custodian"
+        },
+        {
+          "kind": "schema-forced",
+          "object": "ev-ce-metrics",
+          "path": "pointer"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-ce-metrics",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-ce-metrics",
+          "path": "schemaRef"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-con-2020-02",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-con-2020-12",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-concept-design-2021",
+          "path": "publisher"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-concept-design-2021",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-1",
+          "path": "analysisMethod"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-1",
+          "path": "dates"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-1",
+          "path": "instrument"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-1",
+          "path": "n"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-1",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-1",
+          "path": "selectionRule"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-1",
+          "path": "unit"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-2",
+          "path": "analysisMethod"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-2",
+          "path": "dates"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-2",
+          "path": "instrument"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-2",
+          "path": "n"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-2",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-2",
+          "path": "selectionRule"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-2",
+          "path": "unit"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-industry-day-narrative-2020-04",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-market-research-2020",
+          "path": "method"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-market-research-2020",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-market-research-2020",
+          "path": "respondents"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-market-research-study-2020",
+          "path": "publisher"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-market-research-study-2020",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-mbl-1",
+          "path": "analysisMethod"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-mbl-1",
+          "path": "instrument"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-mbl-1",
+          "path": "n"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-mbl-1",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-mbl-1",
+          "path": "selectionRule"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-mbl-1",
+          "path": "unit"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-threat-analysis",
+          "path": "authority"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-threat-analysis",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-threat-analysis",
+          "path": "threatSet"
+        },
+        {
+          "kind": "schema-forced",
+          "object": "ev-trac-aoa",
+          "path": "model"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-trac-aoa",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-trac-aoa",
+          "path": "scenarios"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-trac-oe",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-trac-oe",
+          "path": "scenarios"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-1",
+          "path": "event"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-1",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-1",
+          "path": "vendors"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-2",
+          "path": "event"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-2",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-2",
+          "path": "vendors"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-3",
+          "path": "event"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-3",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-3",
+          "path": "vendors"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-4",
+          "path": "event"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-4",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-4",
+          "path": "vendors"
+        },
+        {
+          "kind": "empty",
+          "object": "mdl-aries",
+          "path": "limitations/0/justification"
+        },
+        {
+          "kind": "empty",
+          "object": "mdl-trac",
+          "path": "limitations/0/justification"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-1",
+          "path": "openGaps/0"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-1",
+          "path": "openGaps/1"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-1",
+          "path": "openGaps/2"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-1",
+          "path": "openGaps/3"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r2-1",
+          "path": "openGaps/0"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r2-1",
+          "path": "openGaps/1"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r2-1",
+          "path": "openGaps/2"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r2-1",
+          "path": "openGaps/3"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r2-1",
+          "path": "openGaps/4"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/0"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/1"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/10"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/11"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/2"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/3"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/4"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/5"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/6"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/7"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/8"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/9"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/0"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/1"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/10"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/11"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/12"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/2"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/3"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/4"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/5"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/6"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/7"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/8"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/9"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "assumptionsCapabilitiesLimitationsRisks/assumptions"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "assumptionsCapabilitiesLimitationsRisks/capabilities"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "assumptionsCapabilitiesLimitationsRisks/limitations"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "assumptionsCapabilitiesLimitationsRisks/risks"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "methodology"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "requirementsAndAcceptabilityCriteria"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "sections/0/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "sections/1/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "sections/2/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "sections/3/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "sections/4/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "sections/5/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "sections/6/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "sections/7/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "assumptionsCapabilitiesLimitationsRisks/assumptions"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "assumptionsCapabilitiesLimitationsRisks/capabilities"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "assumptionsCapabilitiesLimitationsRisks/limitations"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "assumptionsCapabilitiesLimitationsRisks/risks"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "methodology"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "requirementsAndAcceptabilityCriteria"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "sections/0/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "sections/1/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "sections/2/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "sections/3/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "sections/4/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "sections/5/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "sections/6/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "sections/7/content"
+        },
+        {
+          "kind": "schema-forced",
+          "object": "ws-omfv",
+          "path": "provenance"
+        }
+      ],
+      "verdicts_changed": {}
+    },
+    "no-exclusions": {
+      "exclusions_lost": [],
+      "gained_findings": {
+        "other": [
+          "silent-omission"
+        ],
+        "schema": [],
+        "silence": []
+      },
+      "gaps_lost": [],
+      "lost_findings": [],
+      "ratings_changed": {},
+      "substitutions": [],
+      "verdicts_changed": {}
+    },
+    "scope-off": {
+      "exclusions_lost": [],
+      "gained_findings": {
+        "other": [],
+        "schema": [],
+        "silence": []
+      },
+      "gaps_lost": [],
+      "lost_findings": [
+        "NotAssessableAtLevel"
+      ],
+      "ratings_changed": {},
+      "substitutions": [],
+      "verdicts_changed": {}
+    },
+    "silence-off": {
+      "exclusions_lost": [],
+      "gained_findings": {
+        "other": [],
+        "schema": [],
+        "silence": []
+      },
+      "gaps_lost": [],
+      "lost_findings": [],
+      "ratings_changed": {},
+      "substitutions": [],
+      "verdicts_changed": {}
+    }
+  },
+  "ep-omfv-2020-02-r4-fs": {
+    "baseline": {
+      "exclusions": [],
+      "findings": {
+        "ReusePastPurpose": [
+          [
+            "cl-force-structure-improves",
+            "ev-mbl-1"
+          ],
+          [
+            "cl-force-structure-improves",
+            "ev-trac-aoa"
+          ]
+        ],
+        "bias-check-missing": [
+          [
+            "ep-omfv-2020-02"
+          ],
+          [
+            "ep-omfv-2020-02-r2"
+          ],
+          [
+            "ep-omfv-2020-02-r3"
+          ],
+          [
+            "ep-omfv-2020-02-r4"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce"
+          ],
+          [
+            "ep-omfv-2020-02-r4-dc"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs"
+          ]
+        ],
+        "definition-missing": [
+          [
+            "ch-omfv"
+          ],
+          [
+            "ch-omfv"
+          ]
+        ],
+        "inclusion-reason-missing": [
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "cl-concepts-outperform-m2a4",
+            "ev-bradley-swapc-2018"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "cl-concepts-outperform-m2a4",
+            "ev-concept-design-2021"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "cl-concepts-outperform-m2a4",
+            "ev-market-research-study-2020"
+          ]
+        ],
+        "linchpin-unevidenced": [
+          [
+            "as-poland-bridges"
+          ]
+        ],
+        "objective-measured": [
+          [
+            "obj-growth"
+          ],
+          [
+            "obj-lethality"
+          ],
+          [
+            "obj-logistics"
+          ],
+          [
+            "obj-manning"
+          ],
+          [
+            "obj-manning-dec"
+          ],
+          [
+            "obj-mobility"
+          ],
+          [
+            "obj-survivability"
+          ],
+          [
+            "obj-survivability-dec"
+          ],
+          [
+            "obj-training"
+          ],
+          [
+            "obj-transportability"
+          ]
+        ],
+        "objective-run-coverage": [
+          [
+            "obj-weight"
+          ]
+        ],
+        "silent-omission": [
+          [
+            "ep-omfv-2020-02",
+            "ev-breaking-defense"
+          ],
+          [
+            "ep-omfv-2020-02",
+            "ev-con-2020-02"
+          ],
+          [
+            "ep-omfv-2020-02",
+            "ev-industry-day-narrative-2020-04"
+          ],
+          [
+            "ep-omfv-2020-02-r2",
+            "ev-abct-opconcept"
+          ],
+          [
+            "ep-omfv-2020-02-r2",
+            "ev-breaking-defense"
+          ],
+          [
+            "ep-omfv-2020-02-r2",
+            "ev-con-2020-02"
+          ],
+          [
+            "ep-omfv-2020-02-r2",
+            "ev-con-2020-12"
+          ],
+          [
+            "ep-omfv-2020-02-r2",
+            "ev-industry-day-narrative-2020-04"
+          ],
+          [
+            "ep-omfv-2020-02-r2",
+            "ev-market-research-2020"
+          ],
+          [
+            "ep-omfv-2020-02-r2",
+            "ev-threat-analysis"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-abct-opconcept"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-aries-1"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-aries-2"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-bradley-swapc-2018"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-breaking-defense"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-con-2020-02"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-con-2020-12"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-concept-design-2021"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-hsi-1"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-hsi-2"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-industry-day-narrative-2020-04"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-market-research-2020"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-market-research-study-2020"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-mbl-1"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-threat-analysis"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-trac-aoa"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-trac-oe"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-vendor-feedback-1"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-vendor-feedback-2"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-vendor-feedback-3"
+          ],
+          [
+            "ep-omfv-2020-02-r3",
+            "ev-vendor-feedback-4"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-abct-opconcept"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-aries-1"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-aries-2"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-bradley-swapc-2018"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-breaking-defense"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-con-2020-02"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-con-2020-12"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-concept-design-2021"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-hsi-1"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-hsi-2"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-industry-day-narrative-2020-04"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-market-research-2020"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-market-research-study-2020"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-mbl-1"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-threat-analysis"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-trac-aoa"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-trac-oe"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-vendor-feedback-1"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-vendor-feedback-2"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-vendor-feedback-3"
+          ],
+          [
+            "ep-omfv-2020-02-r4",
+            "ev-vendor-feedback-4"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "ev-abct-opconcept"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "ev-aries-1"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "ev-aries-2"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "ev-breaking-defense"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "ev-con-2020-02"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "ev-con-2020-12"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "ev-hsi-1"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "ev-hsi-2"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "ev-industry-day-narrative-2020-04"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "ev-market-research-2020"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "ev-mbl-1"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "ev-threat-analysis"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "ev-trac-aoa"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "ev-trac-oe"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "ev-vendor-feedback-1"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "ev-vendor-feedback-2"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "ev-vendor-feedback-3"
+          ],
+          [
+            "ep-omfv-2020-02-r4-ce",
+            "ev-vendor-feedback-4"
+          ],
+          [
+            "ep-omfv-2020-02-r4-dc",
+            "ev-aries-1"
+          ],
+          [
+            "ep-omfv-2020-02-r4-dc",
+            "ev-aries-2"
+          ],
+          [
+            "ep-omfv-2020-02-r4-dc",
+            "ev-bradley-swapc-2018"
+          ],
+          [
+            "ep-omfv-2020-02-r4-dc",
+            "ev-con-2020-12"
+          ],
+          [
+            "ep-omfv-2020-02-r4-dc",
+            "ev-concept-design-2021"
+          ],
+          [
+            "ep-omfv-2020-02-r4-dc",
+            "ev-hsi-1"
+          ],
+          [
+            "ep-omfv-2020-02-r4-dc",
+            "ev-hsi-2"
+          ],
+          [
+            "ep-omfv-2020-02-r4-dc",
+            "ev-industry-day-narrative-2020-04"
+          ],
+          [
+            "ep-omfv-2020-02-r4-dc",
+            "ev-market-research-study-2020"
+          ],
+          [
+            "ep-omfv-2020-02-r4-dc",
+            "ev-mbl-1"
+          ],
+          [
+            "ep-omfv-2020-02-r4-dc",
+            "ev-trac-aoa"
+          ],
+          [
+            "ep-omfv-2020-02-r4-dc",
+            "ev-trac-oe"
+          ],
+          [
+            "ep-omfv-2020-02-r4-dc",
+            "ev-vendor-feedback-1"
+          ],
+          [
+            "ep-omfv-2020-02-r4-dc",
+            "ev-vendor-feedback-2"
+          ],
+          [
+            "ep-omfv-2020-02-r4-dc",
+            "ev-vendor-feedback-3"
+          ],
+          [
+            "ep-omfv-2020-02-r4-dc",
+            "ev-vendor-feedback-4"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs",
+            "ev-abct-opconcept"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs",
+            "ev-aries-1"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs",
+            "ev-aries-2"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs",
+            "ev-bradley-swapc-2018"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs",
+            "ev-breaking-defense"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs",
+            "ev-con-2020-02"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs",
+            "ev-con-2020-12"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs",
+            "ev-concept-design-2021"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs",
+            "ev-hsi-1"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs",
+            "ev-hsi-2"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs",
+            "ev-industry-day-narrative-2020-04"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs",
+            "ev-market-research-2020"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs",
+            "ev-market-research-study-2020"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs",
+            "ev-threat-analysis"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs",
+            "ev-trac-oe"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs",
+            "ev-vendor-feedback-1"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs",
+            "ev-vendor-feedback-2"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs",
+            "ev-vendor-feedback-3"
+          ],
+          [
+            "ep-omfv-2020-02-r4-fs",
+            "ev-vendor-feedback-4"
+          ]
+        ],
+        "vva-verbal": [
+          [
+            "mdl-aries",
+            "vva-aries"
+          ],
+          [
+            "mdl-trac",
+            "vva-trac"
+          ]
+        ]
+      },
+      "gaps": [
+        "gap-poland-data",
+        "gap-ce-metrics-pointer",
+        "gap-model-docs",
+        "gap-reliability-steps",
+        "gap-touchpoint-fields",
+        "gap-234-report",
+        "gap-additional-studies",
+        "gap-con-inputs",
+        "gap-def-force-structure",
+        "gap-def-operational-concepts",
+        "gap-trac-aoa-model",
+        "gap-unnamed-efforts",
+        "gap-vendor-events",
+        "gap-weights"
+      ],
+      "ratings": {
+        "DES-1": 1,
+        "DES-2": 2,
+        "DES-3": 2,
+        "DES-4": 1,
+        "DES-5": 2,
+        "DES-6": 3,
+        "DES-7": 1,
+        "DES-8": 4,
+        "DES-9": 4,
+        "EXE-1": 2,
+        "EXE-2": 2,
+        "EXE-3": 3,
+        "EXE-4": 2,
+        "EXE-5": 4,
+        "EXE-6": 4,
+        "EXE-7": 2,
+        "EXE-8": 4,
+        "PRE-1": 4,
+        "PRE-2": 2,
+        "PRE-3": 2,
+        "PRE-4": 2
+      },
+      "verdicts": {
+        "objectivity": "generally_objective",
+        "reliability": "insufficient_to_conclude",
+        "validity": "insufficient_to_conclude"
+      }
+    },
+    "gaps-collapsed": {
+      "exclusions_lost": [],
+      "gained_findings": {
+        "other": [
+          "ref-integrity"
+        ],
+        "schema": [
+          "schema"
+        ],
+        "silence": [
+          "silence"
+        ]
+      },
+      "gaps_lost": [
+        "gap-234-report",
+        "gap-additional-studies",
+        "gap-ce-metrics-pointer",
+        "gap-con-inputs",
+        "gap-def-force-structure",
+        "gap-def-operational-concepts",
+        "gap-model-docs",
+        "gap-poland-data",
+        "gap-reliability-steps",
+        "gap-touchpoint-fields",
+        "gap-trac-aoa-model",
+        "gap-unnamed-efforts",
+        "gap-vendor-events",
+        "gap-weights"
+      ],
+      "lost_findings": [],
+      "ratings_changed": {
+        "PRE-2": [
+          2,
+          4
+        ],
+        "PRE-3": [
+          2,
+          4
+        ]
+      },
+      "substitutions": [
+        {
+          "kind": "schema-forced",
+          "object": "as-poland-bridges",
+          "path": "evidence"
+        },
+        {
+          "kind": "empty",
+          "object": "ch-omfv",
+          "path": "definitions/1/text"
+        },
+        {
+          "kind": "empty",
+          "object": "ch-omfv",
+          "path": "definitions/2/text"
+        },
+        {
+          "kind": "empty",
+          "object": "ch-omfv",
+          "path": "limitations/0/mitigation"
+        },
+        {
+          "kind": "schema-forced",
+          "object": "ev-234-report",
+          "path": "pointer"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-234-report",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-abct-opconcept",
+          "path": "published"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-abct-opconcept",
+          "path": "publisher"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-abct-opconcept",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-aries-1",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-aries-1",
+          "path": "scenarios"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-aries-2",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-aries-2",
+          "path": "scenarios"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-bradley-swapc-2018",
+          "path": "publisher"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-bradley-swapc-2018",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-breaking-defense",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-ce-metrics",
+          "path": "custodian"
+        },
+        {
+          "kind": "schema-forced",
+          "object": "ev-ce-metrics",
+          "path": "pointer"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-ce-metrics",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-ce-metrics",
+          "path": "schemaRef"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-con-2020-02",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-con-2020-12",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-concept-design-2021",
+          "path": "publisher"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-concept-design-2021",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-1",
+          "path": "analysisMethod"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-1",
+          "path": "dates"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-1",
+          "path": "instrument"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-1",
+          "path": "n"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-1",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-1",
+          "path": "selectionRule"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-1",
+          "path": "unit"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-2",
+          "path": "analysisMethod"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-2",
+          "path": "dates"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-2",
+          "path": "instrument"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-2",
+          "path": "n"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-2",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-2",
+          "path": "selectionRule"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-2",
+          "path": "unit"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-industry-day-narrative-2020-04",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-market-research-2020",
+          "path": "method"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-market-research-2020",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-market-research-2020",
+          "path": "respondents"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-market-research-study-2020",
+          "path": "publisher"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-market-research-study-2020",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-mbl-1",
+          "path": "analysisMethod"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-mbl-1",
+          "path": "instrument"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-mbl-1",
+          "path": "n"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-mbl-1",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-mbl-1",
+          "path": "selectionRule"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-mbl-1",
+          "path": "unit"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-threat-analysis",
+          "path": "authority"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-threat-analysis",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-threat-analysis",
+          "path": "threatSet"
+        },
+        {
+          "kind": "schema-forced",
+          "object": "ev-trac-aoa",
+          "path": "model"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-trac-aoa",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-trac-aoa",
+          "path": "scenarios"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-trac-oe",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-trac-oe",
+          "path": "scenarios"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-1",
+          "path": "event"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-1",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-1",
+          "path": "vendors"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-2",
+          "path": "event"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-2",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-2",
+          "path": "vendors"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-3",
+          "path": "event"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-3",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-3",
+          "path": "vendors"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-4",
+          "path": "event"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-4",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-4",
+          "path": "vendors"
+        },
+        {
+          "kind": "empty",
+          "object": "mdl-aries",
+          "path": "limitations/0/justification"
+        },
+        {
+          "kind": "empty",
+          "object": "mdl-trac",
+          "path": "limitations/0/justification"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-1",
+          "path": "openGaps/0"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-1",
+          "path": "openGaps/1"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-1",
+          "path": "openGaps/2"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-1",
+          "path": "openGaps/3"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r2-1",
+          "path": "openGaps/0"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r2-1",
+          "path": "openGaps/1"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r2-1",
+          "path": "openGaps/2"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r2-1",
+          "path": "openGaps/3"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r2-1",
+          "path": "openGaps/4"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/0"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/1"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/10"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/11"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/2"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/3"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/4"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/5"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/6"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/7"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/8"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/9"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/0"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/1"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/10"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/11"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/12"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/2"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/3"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/4"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/5"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/6"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/7"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/8"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/9"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "assumptionsCapabilitiesLimitationsRisks/assumptions"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "assumptionsCapabilitiesLimitationsRisks/capabilities"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "assumptionsCapabilitiesLimitationsRisks/limitations"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "assumptionsCapabilitiesLimitationsRisks/risks"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "methodology"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "requirementsAndAcceptabilityCriteria"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "sections/0/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "sections/1/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "sections/2/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "sections/3/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "sections/4/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "sections/5/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "sections/6/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "sections/7/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "assumptionsCapabilitiesLimitationsRisks/assumptions"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "assumptionsCapabilitiesLimitationsRisks/capabilities"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "assumptionsCapabilitiesLimitationsRisks/limitations"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "assumptionsCapabilitiesLimitationsRisks/risks"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "methodology"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "requirementsAndAcceptabilityCriteria"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "sections/0/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "sections/1/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "sections/2/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "sections/3/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "sections/4/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "sections/5/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "sections/6/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "sections/7/content"
+        },
+        {
+          "kind": "schema-forced",
+          "object": "ws-omfv",
+          "path": "provenance"
+        }
+      ],
+      "verdicts_changed": {
+        "objectivity": [
+          "generally_objective",
+          "insufficient_to_conclude"
+        ]
+      }
+    },
+    "gaps-collapsed-silence-off": {
+      "exclusions_lost": [],
+      "gained_findings": {
+        "other": [
+          "ref-integrity"
+        ],
+        "schema": [
+          "schema"
+        ],
+        "silence": []
+      },
+      "gaps_lost": [
+        "gap-234-report",
+        "gap-additional-studies",
+        "gap-ce-metrics-pointer",
+        "gap-con-inputs",
+        "gap-def-force-structure",
+        "gap-def-operational-concepts",
+        "gap-model-docs",
+        "gap-poland-data",
+        "gap-reliability-steps",
+        "gap-touchpoint-fields",
+        "gap-trac-aoa-model",
+        "gap-unnamed-efforts",
+        "gap-vendor-events",
+        "gap-weights"
+      ],
+      "lost_findings": [],
+      "ratings_changed": {
+        "PRE-2": [
+          2,
+          1
+        ]
+      },
+      "substitutions": [
+        {
+          "kind": "schema-forced",
+          "object": "as-poland-bridges",
+          "path": "evidence"
+        },
+        {
+          "kind": "empty",
+          "object": "ch-omfv",
+          "path": "definitions/1/text"
+        },
+        {
+          "kind": "empty",
+          "object": "ch-omfv",
+          "path": "definitions/2/text"
+        },
+        {
+          "kind": "empty",
+          "object": "ch-omfv",
+          "path": "limitations/0/mitigation"
+        },
+        {
+          "kind": "schema-forced",
+          "object": "ev-234-report",
+          "path": "pointer"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-234-report",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-abct-opconcept",
+          "path": "published"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-abct-opconcept",
+          "path": "publisher"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-abct-opconcept",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-aries-1",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-aries-1",
+          "path": "scenarios"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-aries-2",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-aries-2",
+          "path": "scenarios"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-bradley-swapc-2018",
+          "path": "publisher"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-bradley-swapc-2018",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-breaking-defense",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-ce-metrics",
+          "path": "custodian"
+        },
+        {
+          "kind": "schema-forced",
+          "object": "ev-ce-metrics",
+          "path": "pointer"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-ce-metrics",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-ce-metrics",
+          "path": "schemaRef"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-con-2020-02",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-con-2020-12",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-concept-design-2021",
+          "path": "publisher"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-concept-design-2021",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-1",
+          "path": "analysisMethod"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-1",
+          "path": "dates"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-1",
+          "path": "instrument"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-1",
+          "path": "n"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-1",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-1",
+          "path": "selectionRule"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-1",
+          "path": "unit"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-2",
+          "path": "analysisMethod"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-2",
+          "path": "dates"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-2",
+          "path": "instrument"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-2",
+          "path": "n"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-2",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-2",
+          "path": "selectionRule"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-hsi-2",
+          "path": "unit"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-industry-day-narrative-2020-04",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-market-research-2020",
+          "path": "method"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-market-research-2020",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-market-research-2020",
+          "path": "respondents"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-market-research-study-2020",
+          "path": "publisher"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-market-research-study-2020",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-mbl-1",
+          "path": "analysisMethod"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-mbl-1",
+          "path": "instrument"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-mbl-1",
+          "path": "n"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-mbl-1",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-mbl-1",
+          "path": "selectionRule"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-mbl-1",
+          "path": "unit"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-threat-analysis",
+          "path": "authority"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-threat-analysis",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-threat-analysis",
+          "path": "threatSet"
+        },
+        {
+          "kind": "schema-forced",
+          "object": "ev-trac-aoa",
+          "path": "model"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-trac-aoa",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-trac-aoa",
+          "path": "scenarios"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-trac-oe",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-trac-oe",
+          "path": "scenarios"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-1",
+          "path": "event"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-1",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-1",
+          "path": "vendors"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-2",
+          "path": "event"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-2",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-2",
+          "path": "vendors"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-3",
+          "path": "event"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-3",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-3",
+          "path": "vendors"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-4",
+          "path": "event"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-4",
+          "path": "reliabilitySteps"
+        },
+        {
+          "kind": "empty",
+          "object": "ev-vendor-feedback-4",
+          "path": "vendors"
+        },
+        {
+          "kind": "empty",
+          "object": "mdl-aries",
+          "path": "limitations/0/justification"
+        },
+        {
+          "kind": "empty",
+          "object": "mdl-trac",
+          "path": "limitations/0/justification"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-1",
+          "path": "openGaps/0"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-1",
+          "path": "openGaps/1"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-1",
+          "path": "openGaps/2"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-1",
+          "path": "openGaps/3"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r2-1",
+          "path": "openGaps/0"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r2-1",
+          "path": "openGaps/1"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r2-1",
+          "path": "openGaps/2"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r2-1",
+          "path": "openGaps/3"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r2-1",
+          "path": "openGaps/4"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/0"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/1"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/10"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/11"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/2"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/3"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/4"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/5"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/6"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/7"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/8"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r3-1",
+          "path": "openGaps/9"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/0"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/1"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/10"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/11"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/12"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/2"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/3"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/4"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/5"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/6"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/7"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/8"
+        },
+        {
+          "kind": "removed",
+          "object": "rr-ep-omfv-2020-02-r4-1",
+          "path": "openGaps/9"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "assumptionsCapabilitiesLimitationsRisks/assumptions"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "assumptionsCapabilitiesLimitationsRisks/capabilities"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "assumptionsCapabilitiesLimitationsRisks/limitations"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "assumptionsCapabilitiesLimitationsRisks/risks"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "methodology"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "requirementsAndAcceptabilityCriteria"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "sections/0/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "sections/1/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "sections/2/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "sections/3/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "sections/4/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "sections/5/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "sections/6/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-aries",
+          "path": "sections/7/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "assumptionsCapabilitiesLimitationsRisks/assumptions"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "assumptionsCapabilitiesLimitationsRisks/capabilities"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "assumptionsCapabilitiesLimitationsRisks/limitations"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "assumptionsCapabilitiesLimitationsRisks/risks"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "methodology"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "requirementsAndAcceptabilityCriteria"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "sections/0/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "sections/1/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "sections/2/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "sections/3/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "sections/4/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "sections/5/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "sections/6/content"
+        },
+        {
+          "kind": "empty",
+          "object": "vva-trac",
+          "path": "sections/7/content"
+        },
+        {
+          "kind": "schema-forced",
+          "object": "ws-omfv",
+          "path": "provenance"
+        }
+      ],
+      "verdicts_changed": {}
+    },
+    "no-exclusions": {
+      "exclusions_lost": [],
+      "gained_findings": {
+        "other": [
+          "silent-omission"
+        ],
+        "schema": [],
+        "silence": []
+      },
+      "gaps_lost": [],
+      "lost_findings": [],
+      "ratings_changed": {},
+      "substitutions": [],
+      "verdicts_changed": {}
+    },
+    "scope-off": {
+      "exclusions_lost": [],
+      "gained_findings": {
+        "other": [],
+        "schema": [],
+        "silence": []
+      },
+      "gaps_lost": [],
+      "lost_findings": [
+        "ReusePastPurpose"
+      ],
+      "ratings_changed": {
+        "EXE-3": [
+          3,
+          1
+        ],
+        "EXE-4": [
+          2,
+          1
+        ]
+      },
+      "substitutions": [],
+      "verdicts_changed": {}
+    },
+    "silence-off": {
+      "exclusions_lost": [],
+      "gained_findings": {
+        "other": [],
+        "schema": [],
+        "silence": []
+      },
+      "gaps_lost": [],
+      "lost_findings": [],
+      "ratings_changed": {},
+      "substitutions": [],
+      "verdicts_changed": {}
+    }
+  }
+}

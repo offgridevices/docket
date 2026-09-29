@@ -1,0 +1,23 @@
+{
+  "checkType": "structured-alternative-comparison",
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "bc-structured",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "pp. 20–31 (Chapter 2); p. 21 (Table 2-2)",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "performedAt": "2013-04",
+  "performedBy": "Congressional Budget Office",
+  "producedEvidence": "ev-cbo-2013",
+  "requiredBy": "pol-cbo",
+  "rev": 1,
+  "status": "performed",
+  "type": "BiasCheck"
+}

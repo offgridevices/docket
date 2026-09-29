@@ -1,0 +1,47 @@
+{
+  "classification": {
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "explicit",
+  "createdAt": "2020-02-25T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2020-04-09",
+  "evidenceType": "Document",
+  "id": "ev-industry-day-narrative-2020-04",
+  "inclusionReason": "the only public document that states the priority order of the nine characteristics; the February notice does not",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "p. 6, section 3.2",
+    "sourceArtifact": "sources/army-2020-04-09-omfv-industry-day-narrative.pdf"
+  },
+  "pointer": {
+    "custodian": "Department of the Army (DISTRIBUTION A: approved for public release)",
+    "uri": "sources/army-2020-04-09-omfv-industry-day-narrative.pdf#page=6"
+  },
+  "published": "2020-04-09",
+  "publisher": "Department of the Army, Next Generation Combat Vehicles Cross-Functional Team",
+  "reliabilitySteps": {
+    "$gap": "gap-reliability-steps"
+  },
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "reviewers": [
+    {
+      "date": "2020-04-09",
+      "name": "Next Generation Combat Vehicles Cross-Functional Team",
+      "role": "issuing authority"
+    }
+  ],
+  "scopeOfValidity": {
+    "builtToAnswer": "the OMFV acquisition approach and the priority order of the nine desired characteristics",
+    "intendedUse": "industry day briefing narrative",
+    "questionClass": "desired-characteristics"
+  },
+  "title": "Industry Day Narrative for OMFV, 9 April 2020",
+  "type": "Evidence"
+}

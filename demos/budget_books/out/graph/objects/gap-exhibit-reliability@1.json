@@ -1,0 +1,23 @@
+{
+  "confirmedBy": {
+    "actorId": "shreyash",
+    "date": "2026-09-05"
+  },
+  "createdAt": "2026-09-05T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gap-exhibit-reliability",
+  "impact": "degrading",
+  "indicatorsThatWouldResolve": [
+    "a published reconciliation of the OMFV/XM30 cost lines across budget years"
+  ],
+  "rev": 1,
+  "sought": "the steps taken to ensure the consistency of figures across the annual exhibits",
+  "type": "InsufficientEvidence",
+  "whereLookedFor": [
+    "the seven committed R-2 extracts"
+  ],
+  "whyNotFound": "the R-2 exhibit format has no field for reconciliation against prior years"
+}

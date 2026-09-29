@@ -1,0 +1,5 @@
+name: gao-21-460
+source: "GAO-21-460 Figure 6, p. 39"
+default_applicable: false
+applicable: [DES-1, DES-2, DES-3, DES-4, DES-5, DES-6, DES-7, DES-8, DES-9, EXE-1, EXE-2, EXE-3, EXE-4, EXE-5, EXE-6, EXE-7, EXE-8, PRE-1, PRE-2, PRE-3, PRE-4]
+default_reason: "Not among the 21 questions GAO published in GAO-15-548 App. I, GAO-21-460 Fig. 6 and GAO-23-106549 Fig. 3; retained in the 36-question standard (GAO-16-820 App. I) and scored on request."

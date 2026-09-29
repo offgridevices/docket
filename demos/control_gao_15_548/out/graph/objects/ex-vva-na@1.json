@@ -1,0 +1,23 @@
+{
+  "authority": {
+    "date": "2026-09-05",
+    "role": "reconstruction author",
+    "who": "shreyash"
+  },
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "ex-vva-na",
+  "reason": "This section is not applicable (MIL-STD-3022 §5.3 retained section); GAO's account of the study does not describe it. The section is retained and marked rather than dropped, which is why EXE-8 reads 2 — documented with reasoned not-applicables — and not 1.",
+  "reasonType": "not-applicable",
+  "retainedInStructure": true,
+  "rev": 1,
+  "target": {
+    "kind": "Section",
+    "label": "VV&A sections the public account does not describe"
+  },
+  "type": "Exclusion"
+}

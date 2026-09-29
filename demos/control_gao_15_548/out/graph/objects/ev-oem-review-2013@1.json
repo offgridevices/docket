@@ -1,0 +1,58 @@
+{
+  "classification": {
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2013-05",
+  "evidenceType": "Document",
+  "id": "ev-oem-review-2013",
+  "inclusionReason": "the evidence produced by the study's independent disconfirming review; the bias check bc-oem-review names it",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 14 (PDF p. 17)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "limitations": [
+    {
+      "impact": "the disconfirming review reaches the facility findings, not the conclusions as finally presented",
+      "statement": "The review covered contractor-specific preliminary findings, not the final report: printed p. 18 records that the manufacturers and suppliers had not received copies of the final report."
+    }
+  ],
+  "pointer": {
+    "custodian": "A.T. Kearney and the original equipment manufacturers (the briefings, not public); U.S. Government Accountability Office (the published description)",
+    "uri": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf#page=17"
+  },
+  "published": "2013-05",
+  "publisher": "A.T. Kearney",
+  "reliabilitySteps": [
+    "drs-supplier-review"
+  ],
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "reviewers": [
+    {
+      "date": "2013-05",
+      "name": "BAE Systems and General Dynamics Land Systems (the two original equipment manufacturers)",
+      "role": "reviewing party"
+    },
+    {
+      "date": "2015-06",
+      "name": "U.S. Government Accountability Office",
+      "role": "corroborated in interviews with the manufacturers"
+    }
+  ],
+  "scopeOfValidity": {
+    "builtToAnswer": "Are the study's facility-specific preliminary findings accurate, in the view of the manufacturer whose facility they describe?",
+    "intendedUse": "giving the original equipment manufacturers an opportunity to weigh in on the accuracy of the findings related to their facility",
+    "questionClass": "industrial-base"
+  },
+  "title": "Contractor-specific preliminary findings presented to the original equipment manufacturers, May 2013",
+  "type": "Evidence"
+}

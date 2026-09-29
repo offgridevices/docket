@@ -1,0 +1,21 @@
+{
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "con-fiscal",
+  "implications": "The alternatives had to sustain the base at a reduced rate of demand rather than by buying more vehicles: printed p. 1 records the Army's budget request for these vehicles falling from $8.8 billion in 2010 to $1.7 billion in 2013 with further decreases anticipated between 2015 and 2019, and printed p. 5 records the concern that the corresponding decrease could make the base unsustainable. It is why the scenario analysis is framed on levels of demand and why the network strategy plan considers consolidation.",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 5 (PDF p. 8); printed p. 8 (PDF p. 11)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "kind": "programmatic",
+  "rev": 1,
+  "source": "ev-gao-15-548",
+  "statement": "Verbatim, printed p. 8: the strategic alternatives had to sustain the combat vehicle industrial base \"within a constrained fiscal environment\".",
+  "type": "Constraint"
+}

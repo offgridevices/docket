@@ -1,0 +1,14 @@
+{
+  "id": "pol-default", "type": "Policy", "rev": 1,
+  "name": "docket demonstration policy",
+  "version": "0.1.0",
+  "decisionClass": "materiel-alternatives",
+  "method": "mavt",
+  "tailoring": "published-21",
+  "aggregationK": 1,
+  "requiredBiasChecks": ["structured-alternative-comparison"],
+  "requireAllLinchpinsVaried": true,
+  "prohibitedExclusionReasons": ["time-or-resource"],
+  "blockingRules": [],
+  "nSimplex": 512
+}

@@ -1,0 +1,31 @@
+{
+  "confidence": "explicit",
+  "confirmedBy": {
+    "actorId": "shreyash",
+    "date": "2026-09-05"
+  },
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gap-fcc-oporder",
+  "impact": "degrading",
+  "indicatorsThatWouldResolve": [
+    "release of FCC OPORD 19-014"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 36 (PDF p. 41)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "rev": 1,
+  "sought": "Army Futures Command, Futures and Concepts Center, FCC OPORD 19-014: Multi-Domain Operations Tactical Wheeled Vehicle Study, and its date",
+  "type": "InsufficientEvidence",
+  "whereLookedFor": [
+    "GAO-21-460 printed p. 36",
+    "public web search 2026-09-05"
+  ],
+  "whyNotFound": "an internal Army operation order; not published, and the description gives no date"
+}

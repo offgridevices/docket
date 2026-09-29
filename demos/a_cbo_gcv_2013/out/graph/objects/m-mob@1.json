@@ -1,0 +1,36 @@
+{
+  "attribute": "mobility",
+  "conditions": [
+    "unconventional threats",
+    "conventional armored battle",
+    "northeast Asia intense battle"
+  ],
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "criteria": {
+    "$exclusion": "ex-no-thresholds"
+  },
+  "id": "m-mob",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 35 (Table A-2)",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "measure": "six automotive attributes weighted per the Army's scheme: acceleration, average off-road speed, range on a tank of fuel, turning radius, width, bridge-crossing capacity",
+  "metric": {
+    "direction": "max",
+    "units": "percent improvement vs the current Bradley IFV"
+  },
+  "objective": "obj-capability",
+  "rev": 1,
+  "task": "Travel on- and off-road",
+  "type": "Measure",
+  "valueFunction": {
+    "kind": "identity"
+  }
+}

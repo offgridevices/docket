@@ -1,0 +1,27 @@
+/* Self-hosted replacement for the handoff tokens.css's remote `@import
+   fonts.googleapis.com` line (removed there — see tokens.css's own header).
+   At an event with no internet a remote font @import silently drops the
+   whole brand to system fonts and makes screenshots non-reproducible, so
+   the families are vendored via @fontsource instead.
+
+   Brand v3.0 (2026-09-08) retired two of the four faces this file used to
+   carry. Display and body are now ONE face — Instrument Sans, 400 for
+   prose and headings, 500 for labels and buttons — because v3.0 takes
+   authority from size rather than from weight or caps. Archivo 900 and
+   Inter Tight are gone. Newsreader italic survives for verbatim quoted
+   source only; JetBrains Mono survives for numerals, ids and code, at 400
+   for inline numerals and 500 for the one big figure per screen.
+   See docs/decisions/2026-09-08-demo-ui-rebuilt-on-brand-v3.md.
+
+   `latin-*.css`, not the unqualified `*.css`: the unqualified file pulls every
+   subset the family ships (latin, latin-ext, cyrillic, cyrillic-ext, greek,
+   greek-ext, vietnamese — ~40 files for four weights), which is wasteful for an
+   offline USB copy that only ever renders English/Latin-script text (plan 07
+   Task 5 fix round 1, M7). Add `latin-ext-*.css` alongside a family here if a
+   later screen needs an accented character outside plain Latin. */
+
+@import '@fontsource/instrument-sans/latin-400.css';
+@import '@fontsource/instrument-sans/latin-500.css';
+@import '@fontsource/newsreader/latin-400-italic.css';
+@import '@fontsource/jetbrains-mono/latin-400.css';
+@import '@fontsource/jetbrains-mono/latin-500.css';

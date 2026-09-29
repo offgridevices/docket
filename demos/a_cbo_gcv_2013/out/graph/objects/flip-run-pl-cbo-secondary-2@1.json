@@ -1,0 +1,40 @@
+{
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "docket-kernel/0.1.0",
+    "actorType": "kernel"
+  },
+  "currentValue": 0.25,
+  "direction": "down",
+  "flipDistance": 0.015661,
+  "flipThreshold": 0.234339,
+  "id": "flip-run-pl-cbo-secondary-2",
+  "kernelVersion": "0.1.0",
+  "parameter": {
+    "kind": "weight",
+    "label": "weight on improvement combining capability against enemy vehicles (60 percent) and against enemy personnel (40 percent)",
+    "target": "ws-secondary:m-leth"
+  },
+  "range": {
+    "hi": 1.0,
+    "lo": 0.0,
+    "source": "default"
+  },
+  "rankingAfter": [
+    "alt-gcv",
+    "alt-puma",
+    "alt-namer",
+    "alt-upgraded-bradley",
+    "alt-retain-bradley"
+  ],
+  "rankingBefore": [
+    "alt-puma",
+    "alt-gcv",
+    "alt-upgraded-bradley",
+    "alt-namer",
+    "alt-retain-bradley"
+  ],
+  "rev": 1,
+  "run": "run-pl-cbo-secondary",
+  "type": "FlipAnalysis"
+}

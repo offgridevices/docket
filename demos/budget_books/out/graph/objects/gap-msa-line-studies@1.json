@@ -1,0 +1,23 @@
+{
+  "confirmedBy": {
+    "actorId": "shreyash",
+    "date": "2026-09-05"
+  },
+  "createdAt": "2026-09-05T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gap-msa-line-studies",
+  "impact": "degrading",
+  "indicatorsThatWouldResolve": [
+    "an exhibit or study list naming the analyses the MS&A line funded"
+  ],
+  "rev": 1,
+  "sought": "which studies the annual Modeling Simulation & Analysis line funded, in particular the July 2021 Maneuver Battle Lab touchpoint and the September 2021 TRAC study",
+  "type": "InsufficientEvidence",
+  "whereLookedFor": [
+    "the seven PE 0605625A exhibits, FY2021-FY2027"
+  ],
+  "whyNotFound": "the exhibit has no field for the studies a line pays for; neither TRAC nor the Maneuver Battle Lab appears in PE 0605625A in any year"
+}

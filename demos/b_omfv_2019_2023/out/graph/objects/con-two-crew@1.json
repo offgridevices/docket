@@ -1,0 +1,21 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2020-12-09T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "con-two-crew",
+  "implications": "A crew of two is the December 2020 CON's answer to February's \"minimal number of crew members required to fight and win\"; every crew task above two has to be automated, remoted or dropped.",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "PDF p. 5 (slide footer 6), characteristic H",
+    "sourceArtifact": "sources/army-2020-12-09-omfv-industry-day-briefing.pdf"
+  },
+  "kind": "physical",
+  "rev": 1,
+  "source": "ev-con-2020-12",
+  "statement": "Each OMFV vehicle will be crewed by no more than two Soldiers.",
+  "type": "Constraint"
+}

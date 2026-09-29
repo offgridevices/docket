@@ -1,0 +1,31 @@
+{
+  "confidence": "explicit",
+  "confirmedBy": {
+    "actorId": "shreyash",
+    "date": "2026-09-05"
+  },
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gap-study-artefacts",
+  "impact": "degrading",
+  "indicatorsThatWouldResolve": [
+    "issue of the 2021 MDO TWV Study final report",
+    "release of the study's data files, slides or model documentation"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 14 (PDF p. 19)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "rev": 1,
+  "sought": "the study's own data files, slides and model documentation",
+  "type": "InsufficientEvidence",
+  "whereLookedFor": [
+    "GAO-21-460 printed pp. 11-14, 35-36"
+  ],
+  "whyNotFound": "the study's final report was not available during GAO's audit"
+}

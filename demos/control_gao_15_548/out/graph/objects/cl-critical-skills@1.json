@@ -1,0 +1,31 @@
+{
+  "addresses": [
+    "obj-viability"
+  ],
+  "assessableAt": {
+    "level": "U"
+  },
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "cl-critical-skills",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 14 (PDF p. 17)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "questionClass": "industrial-base",
+  "rev": 1,
+  "section": "evaluation-results",
+  "supportedBy": [
+    {
+      "evidence": "ev-gao-15-548"
+    }
+  ],
+  "text": "Verbatim, printed p. 14: through an assessment of critical manufacturing skills within the current state assessment, \"the study identified the most critical and at-risk skills as various types of welding and inspection.\" GAO records that the original equipment manufacturers thought the number identified was too low, and that GAO nonetheless found the criteria reasonable and reasonably applied.",
+  "type": "Claim"
+}

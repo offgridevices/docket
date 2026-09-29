@@ -1,0 +1,88 @@
+{
+  "authority": {
+    "board": "the congressional defense committees, under Senate Report 112-173 and the conference report to the National Defense Authorization Act for Fiscal Year 2013 (printed pp. 1 fn 2, 5)",
+    "signer": "Department of the Army (the study's client; the Office of the Assistant Secretary of the Army for Acquisition, Logistics, and Technology answered for it on GAO's draft, printed p. 19)"
+  },
+  "conditionsOfInterest": [
+    "constrained fiscal environment"
+  ],
+  "confidence": "inferred",
+  "consequencesOfErroneousOutput": "Printed p. 5: decreased production of combat vehicles \"could lead to the loss of critical skills, production infrastructure, and key suppliers\", and the Army's 2011 Industrial Base Baseline Assessment indicates these effects could \"negatively affect the military's ability to quickly restart production of parts and vehicles for future combat operations.\"",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "decisionClassPolicy": "pol-kearney",
+  "decisionToBeMade": "Which investments the Army should make in the combat vehicle industrial base, and whether to accept a production break at the Bradley line at the York, Pennsylvania facility (printed pp. 5, 11).",
+  "definitions": [
+    {
+      "term": "combat vehicle industrial base",
+      "text": "Printed p. 5: \"many separate but interrelated facilities in both the government and commercial sectors\" — the government depots and the government-owned contractor-operated Joint Systems Manufacturing Center, the commercial production facilities, and \"hundreds of suppliers who furnish parts and equipment to the combat vehicle original equipment manufacturers.\""
+    },
+    {
+      "term": "minimum sustainment rate",
+      "text": "Printed p. 13, as GAO reports it: Army and commercial industry officials have noted that minimum sustainment rate \"is a somewhat subjective term because different organizations may include different cost assumptions in assessing the minimum production rate it can sustain financially.\" The study used the rates as derived by the original equipment manufacturers; how they were derived is a recorded gap (gap-msr-derivation), carried on the assumption that uses them, not on this definition."
+    }
+  ],
+  "id": "ch-kearney-2014",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 5 (PDF p. 8); printed p. 8 (PDF p. 11); printed p. 11 (PDF p. 14); printed p. 13 (PDF p. 16); printed p. 15 (PDF p. 18)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "limitations": [
+    {
+      "mitigation": "The authors obtained as much supplier information as possible from seven other sources, including the Army Materiel Command's Industrial Base Baseline Assessment (ev-amc-baseline; printed p. 15).",
+      "statement": "Printed p. 15: \"the study's authors were not provided with a comprehensive list of suppliers.\""
+    },
+    {
+      "mitigation": "The authors obtained publicly available company and credit rating information on the non-respondents and secured site visits with over 20 of them (drs-nonrespondent-followup; printed pp. 15-16). GAO notes the authors did not formally compare respondents to non-respondents.",
+      "statement": "Printed p. 15: \"there was a relatively low completion rate on the survey sent to the suppliers\" — about 25 percent of about 200 suppliers."
+    },
+    {
+      "mitigation": "The authors used industry benchmark data and their own industry experience to estimate a cost range and put the estimate back to the supplier, which often resulted in the supplier sharing the actual data (ev-benchmark-data; printed p. 16).",
+      "statement": "Printed p. 15: \"the study's authors were not always provided with the facility data they requested\", suppliers being reticent about proprietary information."
+    },
+    {
+      "mitigation": "The authors examined the time charges for the accounts that contribute to factory overhead and normalised them so that each facility's overhead rate was comprised of the same elements (drs-normalise-overhead; printed p. 16).",
+      "statement": "Printed p. 15: \"facilities included different elements in their overhead rates, potentially limiting comparison of overhead rates across the differing facilities.\""
+    }
+  ],
+  "mandateElements": [
+    "me-ndaa13-bradley",
+    "me-sasc-goco"
+  ],
+  "question": "Verbatim, printed p. 8: the study's objective was \"to complete an assessment of the combined commercial and government combat vehicle industrial base and develop viable strategic alternatives to sustain that base within a constrained fiscal environment.\"",
+  "questionClass": "industrial-base",
+  "rev": 1,
+  "scope": {
+    "excluded": [],
+    "included": [
+      "the Abrams main battle tank",
+      "the Bradley Family of Vehicles",
+      "the Stryker Family of Vehicles",
+      "the M109 Paladin Family of Vehicles",
+      "the M88 Recovery Vehicle",
+      "the M113 Armored Personnel Carrier Family of Vehicles",
+      "the Ground Combat Vehicle",
+      "the Armored Multi-Purpose Vehicle",
+      "U.S. Marine Corps combat vehicles",
+      "the Joint Systems Manufacturing Center, Lima, Ohio",
+      "the BAE facilities in York, Pennsylvania",
+      "the Anniston Army Depot, Anniston, Alabama",
+      "the GDLS facility in London, Ontario",
+      "the Red River Army Depot",
+      "the suppliers who furnish parts and equipment to the combat vehicle original equipment manufacturers",
+      "an in-depth assessment of the potential costs of shutting down the York production facility (printed p. 10)"
+    ]
+  },
+  "successCriteria": [
+    "an assessment of the combined commercial and government combat vehicle industrial base",
+    "viable strategic alternatives to sustain that base within a constrained fiscal environment",
+    "the financial impact and risk of a production break for the Bradley Fighting Vehicle",
+    "the Army's analysis and plans for the government-owned/contractor-operated tank production facility"
+  ],
+  "type": "Charter"
+}

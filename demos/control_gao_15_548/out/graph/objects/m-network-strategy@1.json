@@ -1,0 +1,31 @@
+{
+  "attribute": "potential alternatives for restructuring parts of the combat vehicle industrial base",
+  "conditions": [
+    "constrained fiscal environment"
+  ],
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "criteria": {
+    "$gap": "gap-criteria"
+  },
+  "id": "m-network-strategy",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 9 (PDF p. 12); printed p. 14 (PDF p. 17); printed p. 18 (PDF p. 21)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "measure": "potential courses of action to alter the structure of the combat vehicle industrial base, such as consolidation of production at certain facilities (printed pp. 9, 14, 18)",
+  "metric": {
+    "direction": "max",
+    "units": "courses of action developed and assessed (count)"
+  },
+  "objective": "obj-alternatives",
+  "rev": 1,
+  "task": "Develop a network strategy plan",
+  "type": "Measure"
+}

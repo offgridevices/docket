@@ -1,0 +1,40 @@
+{
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "docket-kernel/0.1.0",
+    "actorType": "kernel"
+  },
+  "currentValue": 0.1,
+  "direction": "up",
+  "flipDistance": 0.360251,
+  "flipThreshold": 0.460251,
+  "id": "flip-run-pl-cbo-primary-4",
+  "kernelVersion": "0.1.0",
+  "parameter": {
+    "kind": "weight",
+    "label": "weight on percentage increase in passengers carried beyond the current Bradley's seven",
+    "target": "ws-primary:m-pax"
+  },
+  "range": {
+    "hi": 1.0,
+    "lo": 0.0,
+    "source": "default"
+  },
+  "rankingAfter": [
+    "alt-gcv",
+    "alt-puma",
+    "alt-upgraded-bradley",
+    "alt-namer",
+    "alt-retain-bradley"
+  ],
+  "rankingBefore": [
+    "alt-puma",
+    "alt-upgraded-bradley",
+    "alt-gcv",
+    "alt-namer",
+    "alt-retain-bradley"
+  ],
+  "rev": 1,
+  "run": "run-pl-cbo-primary",
+  "type": "FlipAnalysis"
+}

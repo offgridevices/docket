@@ -1,0 +1,34 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2021-09-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "definition": {
+    "kind": "simulation",
+    "version": "unversioned in the public record"
+  },
+  "id": "mdl-trac",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "PDF p. 18 (slide footer 20)",
+    "sourceArtifact": "sources/army-2020-12-09-omfv-industry-day-briefing.pdf"
+  },
+  "intendedUse": "TRAC Operational Effectiveness (OE) - TRAC OE analyzes how well the concept design performs in a combat scenario within an organization (e.g. Company/Battalion level) by conducting multiple runs of specific scenarios.",
+  "limitations": [
+    {
+      "justification": {
+        "$gap": "gap-model-docs"
+      },
+      "statement": "The public record describes the scenario runs, not the combat model underneath them."
+    }
+  ],
+  "name": "TRAC Operational Effectiveness (OE)",
+  "qualificationStatus": "draft",
+  "questionClass": "desired-characteristics",
+  "rev": 1,
+  "type": "Model",
+  "vvaRecord": "vva-trac"
+}

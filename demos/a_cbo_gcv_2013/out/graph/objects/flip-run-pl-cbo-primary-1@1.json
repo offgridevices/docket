@@ -1,0 +1,41 @@
+{
+  "assumption": "as-army-weights",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "docket-kernel/0.1.0",
+    "actorType": "kernel"
+  },
+  "currentValue": 0.4,
+  "direction": "up",
+  "flipDistance": 0.531818,
+  "flipThreshold": 0.931818,
+  "id": "flip-run-pl-cbo-primary-1",
+  "kernelVersion": "0.1.0",
+  "parameter": {
+    "kind": "weight",
+    "label": "weight on improvement combining the reduction in soldiers lost (two-thirds) and in vehicles lost (one-third) in the Army's simulations",
+    "target": "ws-primary:m-prot"
+  },
+  "range": {
+    "hi": 1.0,
+    "lo": 0.0,
+    "source": "default"
+  },
+  "rankingAfter": [
+    "alt-namer",
+    "alt-puma",
+    "alt-upgraded-bradley",
+    "alt-gcv",
+    "alt-retain-bradley"
+  ],
+  "rankingBefore": [
+    "alt-puma",
+    "alt-upgraded-bradley",
+    "alt-gcv",
+    "alt-namer",
+    "alt-retain-bradley"
+  ],
+  "rev": 1,
+  "run": "run-pl-cbo-primary",
+  "type": "FlipAnalysis"
+}

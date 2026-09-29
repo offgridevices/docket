@@ -1,0 +1,27 @@
+{
+  "confidence": "inferred",
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "ws-twv",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 11 (PDF p. 16)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "method": "equal",
+  "name": "equal weight across the three lines of effort (ours, not the Army's)",
+  "provenance": {
+    "$gap": "gap-weights"
+  },
+  "rev": 1,
+  "type": "WeightSet",
+  "weights": {
+    "m-dt-sustainment": 0.333334,
+    "m-lsp-vehicles": 0.333333,
+    "m-mobility-pct": 0.333333
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "confidence": "explicit",
+  "confirmedBy": {
+    "actorId": "shreyash",
+    "date": "2026-09-05"
+  },
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gap-vva-cba",
+  "impact": "degrading",
+  "indicatorsThatWouldResolve": [
+    "release of an accreditation decision for the capabilities based assessment"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 12 (PDF p. 17)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "rev": 1,
+  "sought": "an accreditation decision for the capabilities based assessment",
+  "type": "InsufficientEvidence",
+  "whereLookedFor": [
+    "GAO-21-460 printed pp. 12-13"
+  ],
+  "whyNotFound": "the description names the method but records no accreditation of it"
+}

@@ -1,0 +1,49 @@
+{
+  "classification": {
+    "level": "S",
+    "metadataLevel": "U"
+  },
+  "confidence": "inferred",
+  "createdAt": "2026-09-06T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "custodian": "COUNTERFACTUAL — PEO Ground Combat Systems",
+  "date": "2023-03",
+  "evidenceType": "Dataset",
+  "id": "ev-ce-metrics",
+  "inclusionReason": "GAO printed p. 14: the officials \"had quantitative metrics for each of these characteristics and used them in support of the report\"",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "counterfactual",
+    "locator": "counterfactual",
+    "sourceArtifact": "demos/b_omfv_2019_2023/README.md#counterfactual-repair"
+  },
+  "pointer": {
+    "custodian": "COUNTERFACTUAL — PEO Ground Combat Systems",
+    "uri": "OMFV combat effectiveness metrics package (counterfactual)"
+  },
+  "reliabilitySteps": [
+    "cf-drs-ce-metrics"
+  ],
+  "rev": 2,
+  "reviewStatus": "reviewed",
+  "reviewers": [
+    {
+      "date": "2023-03",
+      "name": "COUNTERFACTUAL — PEO Ground Combat Systems",
+      "role": "custodian review"
+    }
+  ],
+  "schemaRef": {
+    "$gap": "gap-ce-metrics-pointer"
+  },
+  "scopeOfValidity": {
+    "builtToAnswer": "the combat effectiveness of the OMFV concepts against the modernized Bradley",
+    "intendedUse": "the Section 234 comparison",
+    "questionClass": "combat-effectiveness"
+  },
+  "title": "quantitative survivability, mobility and lethality metrics for the four vehicles, held by the Army and not included in the report",
+  "type": "Evidence"
+}

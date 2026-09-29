@@ -1,0 +1,22 @@
+{
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2013",
+  "description": "Verbatim from printed p. 16: \"the study's authors went to the original sources to obtain relevant information and sought clarification to make sure they understood the data provided.\" GAO states this of the study's data generally — the section is headed \"The Army Took Sufficient Actions to Ensure the Data Were Valid and Reliable for the Study's Purposes\" and the Abrams program office follows a \"For example\" — so attaching it to a particular evidence item GAO does not name is our reading, not GAO's. See the README, 'Which reliability steps are general and which are item-specific'.",
+  "documentation": "ev-gao-15-548",
+  "id": "drs-original-sources",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 16 (PDF p. 19)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "method": "source-review",
+  "performedBy": "A.T. Kearney",
+  "rev": 1,
+  "type": "DataReliabilityStep"
+}

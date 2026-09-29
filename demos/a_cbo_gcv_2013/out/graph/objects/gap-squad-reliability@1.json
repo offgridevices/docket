@@ -1,0 +1,32 @@
+{
+  "confidence": "absent",
+  "confirmedBy": {
+    "actorId": "shreyash",
+    "date": "2026-09-05"
+  },
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gap-squad-reliability",
+  "impact": "informational",
+  "indicatorsThatWouldResolve": [
+    "the paper is retrieved from an Army repository",
+    "an Army source describes its provenance"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 6 fn 2 and fn 4",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "rev": 1,
+  "sought": "any step taken to check the reliability of the Army's squad paper before its rationale was relied on",
+  "type": "InsufficientEvidence",
+  "whereLookedFor": [
+    "CBO p. 6, Box 1-1 and fn 2/fn 4",
+    "the document itself (CBO's link no longer resolves, 2026-09-05)"
+  ],
+  "whyNotFound": "CBO cites the document for the Army's rationale and describes no check on it; the document could not be retrieved to check anything either. `drs-cbo-army-data` covers CBO's handling of the Army's capability data and does not reach this paper, so it is not claimed here."
+}

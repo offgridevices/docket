@@ -1,0 +1,235 @@
+# src/docket/standard/rules.yaml — scoring rules per question. First matching clause wins.
+# States per GAO-11-82R: 1 no concerns · 2 some · 3 significant · 4 insufficient information.
+# The GAO-23-106549 page and finding numbers cited below map that report to *our* question
+# set: the mapping is ours, not GAO's. GAO-23-106549 publishes a 3×3 section×dimension
+# verdict grid and nine findings, NOT per-question labels — compare to GAO on the grid and
+# the findings only (design §9.1; mirrors the note on the gao-23-106549 tailoring).
+- question: DES-1
+  cites: "GAO-16-820 App. I 'Objectives, Scope and Methodology'"
+  clauses:
+    - {when: charter_complete_and_plan_approved, state: 1}
+    - {when: charter_complete, state: 2}
+    - {when: charter_partial, state: 3}
+    - {when: always, state: 4}
+- question: DES-2
+  cites: "GAO-16-820 App. I; GAO-23-106549 p. 7 (objectivity q2)"
+  clauses:
+    - {when: charter_question_and_terms_defined, state: 1}
+    - {when: charter_question_stated, state: 2}
+    - {when: always, state: 4}
+- question: DES-3
+  cites: "GAO-16-820 App. I; GAO-23-106549 F9"
+  clauses:
+    - {when: scope_defined_and_terms_defined, state: 1}
+    - {when: scope_defined, state: 2}
+    - {when: always, state: 4}
+- question: DES-4
+  cites: "GAO-16-820 App. I 'Assumptions'; GAO-18-230 II.a.1"
+  clauses:
+    - {when: assumptions_all_have_rationale, state: 1}
+    - {when: assumptions_listed, state: 2}
+    - {when: always, state: 4}
+- question: DES-5
+  cites: "GAO-16-820 App. I 'Assumptions'; GAO-23-106549 F6"
+  clauses:
+    - {when: assumptions_all_evidenced_and_consistent, state: 1}
+    - {when: assumptions_some_evidenced, state: 2}
+    - {when: assumptions_listed, state: 3}
+    - {when: always, state: 4}
+- question: DES-6
+  cites: "GAO-16-820 App. I 'Assumptions'; GAO-23-106549 p. 14 sensitivity credit"
+  clauses:
+    - {when: all_linchpins_have_flip, state: 1}
+    - {when: some_linchpins_have_flip, state: 2}
+    - {when: any_assumption_varied, state: 2}
+    - {when: assumptions_listed, state: 3}
+    - {when: always, state: 4}
+- question: DES-7
+  cites: "GAO-16-820 App. I 'Limitations and Constraints'"
+  clauses:
+    - {when: constraints_discussed, state: 1}
+    - {when: constraints_listed, state: 2}
+    - {when: always, state: 4}
+- question: DES-8
+  cites: "GAO-16-820 App. I 'Models'"
+  clauses:
+    - {when: scenarios_have_rationale, state: 1}
+    - {when: scenarios_listed, state: 2}
+    - {when: always, state: 4}
+- question: DES-9
+  cites: "GAO-16-820 App. I 'Models'"
+  clauses:
+    - {when: scenarios_cover_conditions, state: 1}
+    - {when: scenarios_listed, state: 2}
+    - {when: always, state: 4}
+- question: DES-10
+  cites: "GAO-15-457R I.c"
+  clauses:
+    - {when: plan_followed, state: 1}
+    - {when: plan_exists, state: 3}
+    - {when: always, state: 4}
+- question: DES-11
+  cites: "GAO-15-457R I.d"
+  clauses:
+    - {when: deviations_documented, state: 1}
+    - {when: plan_exists, state: 3}
+    - {when: always, state: 4}
+- question: DES-12
+  cites: "GAO-06-938 I.a"
+  clauses:
+    - {when: mandate_elements_covered, state: 1}
+    - {when: mandate_elements_some, state: 2}
+    - {when: always, state: 4}
+- question: DES-13
+  cites: "GAO-16-820 App. I 'Limitations and Constraints'"
+  clauses:
+    - {when: limitations_identified_and_mitigated, state: 1}
+    - {when: limitations_some, state: 2}
+    - {when: always, state: 4}
+- question: DES-14
+  cites: "GAO-15-457R II.d/II.g"
+  clauses:
+    - {when: bias_checks_performed_no_open_risks, state: 1}
+    - {when: assumptions_listed, state: 2}
+    - {when: always, state: 4}
+- question: EXE-1
+  cites: "GAO-16-820 App. I; GAO-23-106549 p. 7 (objectivity q1)"
+  clauses:
+    - {when: methodology_covers_objectives, state: 1}
+    - {when: plan_exists, state: 2}
+    - {when: always, state: 4}
+- question: EXE-2
+  cites: "GAO-23-106549 p. 7 (objectivity q2)"
+  clauses:
+    - {when: objectives_addressed, state: 1}
+    - {when: objectives_some_addressed, state: 2}
+    - {when: always, state: 4}
+- question: EXE-3
+  cites: "GAO-16-820 App. I 'Models'; GAO-23-106549 F1"
+  clauses:
+    - {when: models_scope_ok, state: 1}
+    - {when: findings_present, args: {rule: ModelUsePastPurpose}, state: 3}
+    - {when: model_evidence_reuse_past_purpose, state: 3}
+    - {when: findings_present, args: {rule: ReaccreditationRequired}, state: 2}
+    - {when: always, state: 4}
+- question: EXE-4
+  cites: "GAO-16-820 App. I 'Data reliability'; GAO-20-283G"
+  clauses:
+    - {when: data_scope_all_known, state: 1}
+    - {when: data_scope_some_known, state: 2}
+    - {when: always, state: 4}
+- question: EXE-5
+  cites: "GAO-16-820 App. I 'Data reliability'; GAO-23-106549 F8"
+  clauses:
+    - {when: reliability_all, state: 1}
+    - {when: reliability_some, state: 2}
+    - {when: always, state: 4}
+- question: EXE-6
+  cites: "GAO-16-820 App. I 'Data reliability'"
+  clauses:
+    - {when: limitations_all_explained, state: 1}
+    - {when: limitations_some_explained, state: 2}
+    - {when: always, state: 4}
+- question: EXE-7
+  cites: "GAO-16-820 App. I 'Models'"
+  clauses:
+    - {when: ms_limitations_all_justified, state: 1}
+    - {when: ms_limitations_some, state: 2}
+    - {when: always, state: 4}
+- question: EXE-8
+  cites: "GAO-16-820 App. I 'Models'; GAO-23-106549 F7; MIL-STD-3022 §5.3"
+  clauses:
+    - {when: models_documented_all, state: 1}
+    - {when: models_documented_na_reasoned, state: 2}
+    - {when: models_documented_some, state: 3}
+    - {when: always, state: 4}
+- question: EXE-9
+  cites: "GAO-15-457R IV.a"
+  clauses:
+    - {when: plan_followed, state: 1}
+    - {when: plan_exists, state: 3}
+    - {when: always, state: 4}
+- question: EXE-10
+  cites: "GAO-15-457R V.b"
+  clauses:
+    - {when: observations_evidenced, state: 1}
+    - {when: observations_some_evidenced, state: 2}
+    - {when: always, state: 4}
+- question: EXE-11
+  cites: "GAO-15-457R V.a"
+  clauses:
+    - {when: baseline_identified_and_used, state: 1}
+    - {when: baseline_present, state: 2}
+    - {when: always, state: 4}
+- question: EXE-12
+  cites: "GAO-15-457R V.c"
+  clauses:
+    - {when: baseline_data_verified, state: 1}
+    - {when: baseline_present, state: 3}
+    - {when: always, state: 4}
+- question: EXE-13
+  cites: "GAO-15-457R V.d"
+  clauses:
+    - {when: vv_documented, state: 1}
+    - {when: reliability_some, state: 2}
+    - {when: always, state: 4}
+- question: EXE-14
+  cites: "GAO-06-938 VI.a; GAO-11-82R VI.a; GAO-23-106549 F5"
+  clauses:
+    - {when: vva_signed, state: 1}
+    - {when: vva_asserted_undocumented, state: 3}
+    - {when: always, state: 4}
+- question: EXE-15
+  cites: "GAO-15-457R VII"
+  clauses:
+    - {when: measures_have_criteria, state: 1}
+    - {when: measures_exist, state: 2}
+    - {when: always, state: 4}
+- question: PRE-1
+  cites: "GAO-23-106549 p. 8 (validity q1)"
+  clauses:
+    - {when: results_support_claims, state: 1}
+    - {when: runs_exist, state: 2}
+    - {when: claims_all_supported, state: 2}
+    - {when: always, state: 4}
+- question: PRE-2
+  cites: "GAO-23-106549 p. 8 (reliability q2); MIL-STD-3022 §5.3"
+  clauses:
+    - {when: claims_exist_no_silence_no_blocking_gaps, state: 1}
+    - {when: claims_exist_no_silence, state: 2}
+    - {when: always, state: 4}
+- question: PRE-3
+  cites: "GAO-23-106549 p. 8 (all three dimensions q3)"
+  clauses:
+    - {when: conclusions_sound, state: 1}
+    - {when: results_support_claims, state: 2}
+    - {when: runs_exist, state: 3}
+    # docs/decisions/2026-09-05-narrative-only-records-score-state-2-on-pre-3-pre-4.md
+    - {when: claims_exist_no_silence, state: 2}  # R2, 2026-09-05
+    - {when: always, state: 4}
+- question: PRE-4
+  cites: "GAO-23-106549 p. 8 (objectivity q4)"
+  clauses:
+    - {when: results_clear, state: 1}
+    - {when: runs_exist, state: 2}
+    - {when: claims_all_supported, state: 2}
+    # docs/decisions/2026-09-05-narrative-only-records-score-state-2-on-pre-3-pre-4.md
+    - {when: claims_exist, state: 2}  # R2, 2026-09-05
+    - {when: always, state: 4}
+- question: PRE-5
+  cites: "GAO-15-457R VIII.c"
+  clauses:
+    - {when: recommendation_supported, state: 1}
+    - {when: commitment_exists, state: 3}
+    - {when: always, state: 4}
+- question: PRE-6
+  cites: "GAO-15-457R VIII.e"
+  clauses:
+    - {when: options_range, state: 1}
+    - {when: alternatives_exist, state: 2}
+    - {when: always, state: 4}
+- question: PRE-7
+  cites: "GAO-15-457R VIII.g; GAO-16-86"
+  clauses:
+    - {when: stakeholders_informed, state: 1}
+    - {when: always, state: 4}

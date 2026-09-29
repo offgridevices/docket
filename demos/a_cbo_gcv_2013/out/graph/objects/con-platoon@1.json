@@ -1,0 +1,21 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "con-platoon",
+  "implications": "The Puma carries six, so Option 3 fields five vehicles per platoon instead of four — 2,048 vehicles rather than 1,748 — which is why its fleet cost is $14.5 billion and not less.",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 20",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "kind": "policy",
+  "rev": 1,
+  "source": "ev-cbo-2013",
+  "statement": "Each mechanized infantry platoon must be able to carry at least 28 passengers.",
+  "type": "Constraint"
+}

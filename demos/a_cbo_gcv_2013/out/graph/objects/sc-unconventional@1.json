@@ -1,0 +1,24 @@
+{
+  "conditions": [
+    "unconventional threats"
+  ],
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "description": "U.S. forces confronting unconventional threats and small numbers of combatants; CBO reports company-sized incidents in Iraq and Afghanistan among the simulated scenarios (p. 10 fn 12).",
+  "id": "sc-unconventional",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 10 and fn 12",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "name": "Unconventional threats",
+  "rationale": "Situations similar to recent operations in Iraq and Afghanistan. This is where the GCV showed its largest relative gain: 60 percent fewer occupants lost (p. 10).",
+  "rev": 1,
+  "source": "ev-army-sim-2010",
+  "type": "Scenario"
+}

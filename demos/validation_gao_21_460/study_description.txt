@@ -1,0 +1,326 @@
+=== printed p. 6 ===
+Letter
+Page 6 GAO-21-460  Tactical Wheeled Vehicles 
+The Army has identified modernizing its TWV fleet as a key priority. Many 
+of the Army’s TWVs are based on designs last updated prior to the year 
+2000. In addition, the Army would like to incorporate advances in 
+technology to make the fleet more efficient and useful in future operations 
+and conflicts. For the purposes of our review, we define the capabilities of 
+TWVs as the technologies and abilities needed to achieve a specific 
+mission, for example, the fuel capacity, or equivalent, needed to travel 
+300 miles. We also define requirements as the number and types of 
+TWVs needed to achieve Army objectives. 
+As the Army considers how best to modernize its fleet of TWVs, it is also 
+planning for changes in the way it intends to operate on the battlefield. 
+Due to the rise of near-peer competitors such as China and Russia, the 
+Army is developing a new warfighting concept to guide how it will engage 
+jointly with other services in multiple domains. This concept, known as 
+multi-domain operations (MDO), centers on presenting adversaries with 
+multiple challenges through the combination of capabilities across land, 
+air, sea, cyber, and space simultaneously. The Army plans to have a 
+MDO-capable force in a single theater by 2028. The Army’s plans to 
+change how it operates on the battlefield will affect its capabilities and 
+requirements planning for vehicles within the TWV portfolio. We have 
+reported previously on other adjustments the Army is making to its units 
+for MDO. We also recommended in 2019 that the Army comprehensively 
+assess the risk associated with staffing, equipping, and training such 
+units. The Army concurred with the recommendation and stated that it will 
+conduct a risk assessment in accordance with its policy and procedures 
+before activating any new units.5 See figure 2 for descriptions of the 
+domains. 
+                                                                                                                    
+5GAO, Future Warfare: Army Is Preparing for Cyber and Electronic Warfare Threats, but 
+Needs to Fully Assess the Staffing, Equipping, and Training of New Organizations, 
+GAO-19-570 (Washington, D.C.: Aug 15, 2019). 
+
+=== printed p. 9 ===
+Letter
+Page 9 GAO-21-460  Tactical Wheeled Vehicles 
+companies that do not typically do business with DOD. This is because 
+other transaction agreements are not subject to many federal statutes 
+and regulations that apply to government procurement contracts, allowing 
+DOD and companies to negotiate terms and conditions specific to a 
+project. DOD may enter into these transactions with a consortium, which 
+may be composed of various types of entities including non-defense 
+companies, and may be managed by a management company. 
+Industry concentration is often used as an indicator of market 
+competitiveness for specific goods or services. When a market is highly 
+concentrated, a small number of companies supply a large share of the 
+market, although that does not preclude the presence of multiple 
+companies in that market. In less concentrated markets, the share of the 
+market is distributed more evenly across a large number of companies in 
+the market. For the purposes of this report, when we refer to the 
+commercial truck industry, we are referring to the companies that sell 
+these types of vehicles. 
+The Army’s 2022 TWV Strategy Will Not 
+Capture Information from All Relevant Initiatives 
+for Determining TWV Needs 
+The Army is developing a new TWV strategy for 2022 to guide decisions 
+on TWVs, but the strategy will not capture all relevant initiatives for 
+determining TWV needs. To inform its 2022 TWV Strategy, the Army is 
+first conducting a study— set to issue in July 2021— to identify the 
+capabilities and requirements needed for TWVs in the MDO environment. 
+The study has completed its design phase and is currently in the process 
+of completing the execution phase. In addition, there are a number of 
+other relevant initiatives underway that could have implications for Army 
+TWV capabilities and requirements. Because some of these studies will 
+continue beyond the scheduled 2022 completion of the TWV Strategy, 
+that strategy could benefit from updates in the future to account for 
+evolving information and circumstances. According to Army officials, 
+currently there is no direction or requirement to update beyond 2022. 
+
+=== printed p. 11 ===
+Letter
+Page 11 GAO-21-460  Tactical Wheeled Vehicles 
+To determine the necessary capabilities and requirements, the Army is 
+using a process that focuses on three areas that encompass how TWVs 
+are used on the battlefield:7
+· Mobility. The ability of a unit to move from point A to B using only its 
+own assets, expressed as a percentage. For example, an airborne 
+unit is required to be 100 percent mobile. 
+· Launch and Support Platforms. Some TWVs are used as a platform 
+for weapon systems such as the High Mobility Artillery Rocket System 
+or communication systems.8
+· Distribution and Transportation. The conveyance and delivery of 
+supplies, equipment, and troops; for example, truck companies that 
+deliver water, fuel, ammunition, and food to the battlefield. 
+Initial Steps in the Ongoing Multi­Domain Operations 
+TWV Study Are Generally Consistent with Relevant 
+Standards 
+While the 2021 MDO TWV Study is not yet complete and we cannot 
+assess whether the study will fully support the TWV Strategy, we found 
+that the portions of the study we were able to assess were consistent with 
+generally accepted research standards.9 These research standards 
+identify three key elements of a study: design, execution, and 
+presentation. A full list of the generally accepted research standards by 
+which we assessed portions of the Army’s 2021 MDO TWV Study are 
+included in appendix II. 
+Design. The design of a study includes, for example, establishing the 
+objective, scope, and methodology of a study, and identifying 
+assumptions related to the study. We assessed the study’s objective, 
+scope, methodology, and assumptions, and determined that the study’s 
+overall design is consistent with generally accepted research standards. 
+                                                                                                                    
+7A Capabilities Based Assessment provides an analytic basis to identify capability 
+requirements and associated capability gaps prior to development and submission of 
+capability requirements documents for review and validation. 
+8The Army refers to launch and support platforms as data interchange platforms as they 
+require different Army offices to exchange in order to integrate the two systems into one. 
+9GAO-15-548. 
+
+=== printed p. 12 ===
+Letter
+Page 12 GAO-21-460  Tactical Wheeled Vehicles 
+· Generally accepted research standards state that objectives outline 
+what a study is intended to accomplish. The study’s objective is 
+consistent with generally accepted research standards in that it 
+addresses Army G-8’s direction to identify gaps and requirements to 
+provide recommendations on TWV capabilities and requirements. 
+This objective was broad enough to encompass the required 
+capabilities of TWVs for a MDO environment as well as look 
+holistically at requirements for the TWV fleet size. 
+· Generally accepted research standards state that a study’s scope 
+should be directly related to the objectives and define the subject 
+matter to be assessed and reported on. We found that the study’s 
+scope addresses study objectives and includes the TWVs the Army 
+needs for a notional force in a European MDO environment — the 
+stressor force for the study according to Futures and Concepts Center 
+officials. This force included about 66 percent of the types of units 
+currently used in the Army and included use of some surrogate units 
+for those that currently do not exist but may in 2028— such as 
+Strategic Fires Battalions. The scope is also relevant to the Indo-
+Pacific Theater as the types of units in the study represented about 95 
+percent of that theater’s types of units. According to Army officials, 
+this commonality will allow the Army to extrapolate the results to other 
+theaters. 
+· According to generally accepted research standards, assumptions 
+underlying a study should be explicitly identified to provide a better 
+understanding of how the analysis was conducted and how it reached 
+its findings and conclusions. Sensitivity analysis against these 
+assumptions can also mitigate for them. The assumptions used within 
+the study are consistent with these standards as they are clearly 
+defined, and mitigation assessments were performed. For example, 
+the Army assumes an operational readiness rate of 90 percent but 
+then mitigates for this assumption by varying readiness rates to 
+perform sensitivity analysis according to Army officials. 
+Execution. Because the 2021 MDO TWV Study is ongoing, we limited 
+our assessment to a portion of the execution phase of the study. In 
+particular, we assessed the methodology, modeling, data use, and 
+limitations and found that these elements of the study’s execution are 
+consistent with generally accepted research standards. 
+· Generally accepted research standards state that a study’s 
+methodology should be consistent with and address a study’s 
+objective. We found that the study’s methodology included an 
+assessment of all three of its lines of effort using a capabilities based 
+
+=== printed p. 13 ===
+Letter
+Page 13 GAO-21-460  Tactical Wheeled Vehicles 
+assessment that identified the operational tasks, conditions, and 
+standards needed to achieve military objectives; assessed current 
+and future capabilities to identify gaps; and sought to determine TWV 
+solutions. 
+· Generally accepted research standards require that models are 
+adequate for the intended purpose, represent a complete range of 
+conditions, and that data used are valid and complete. We found that 
+the study’s model is consistent with these criteria as it is a generally 
+accepted model used by the Army for various efforts with similar 
+purposes. For example, for the Distribution and Transportation line of 
+effort, the Army used its standard Logistics Battle Command model. 
+This model simulates the consumption and distribution of all classes 
+of supply at either the platform level or the unit level. While the model 
+requires extensive data inputs from various sources, Army modeling 
+officials told us they use an internal verification and validation process 
+involving experts not involved with the project to review the model and 
+ensure it is appropriate. 
+· Generally accepted research standards state that the data used in a 
+study should be valid for the intended research purpose and reliable 
+in that they are consistent and verifiable. We found the data used by 
+the study are consistent with research standards for validity and 
+reliability. For example, the study used the expertise of the Future 
+Operational Environment Directorate within the Futures and Concepts 
+Center to validate two elements of the evaluation criteria for the 
+Mobility line of effort: Priority of Targeting and Signature Detection. In 
+addition, subject matter experts reviewed the mobility percentages for 
+each unit to determine their reliability. The Launch and Support 
+Platforms line of effort used an Army force design update process to 
+identify capability gaps and potential solutions. The Army then 
+provided information on the identified solutions to program managers 
+to validate how many vehicles were required to meet these expected 
+gaps. Finally, subject matter experts from the Capabilities 
+Developments Integration Directorates reviewed and validated data 
+for the Distribution and Transportation line of effort at workshops 
+conducted prior to modeling. 
+· Studies generally have limitations. Generally accepted research 
+standards do not require the elimination of all limitations but do call for 
+limitations to be identified, assessed, mitigated, and explained. We 
+determined that the study identified limitations and associated 
+mitigation efforts. For example, in the Distribution and Transportation 
+line of effort, the Army identified the lack of a sufficient, Office of the 
+Secretary of Defense-approved, Multi-Domain Operations Defense 
+
+=== printed p. 14 ===
+Letter
+Page 14 GAO-21-460  Tactical Wheeled Vehicles 
+Planning Scenario for the European theater as a limitation.10 To 
+mitigate this limitation, modeling officials stated they modified an 
+existing scenario previously developed to support a European 
+Command wargame. 
+Another limitation identified for this line of effort was a sustainment 
+analysis focused on distribution from the theater operations down to 
+the brigade level. Modeling officials stated that no mitigation was 
+necessary for this limitation since there were no specific shortfalls 
+identified at the brigade level. 
+· As the study is not yet complete, we were not able to examine the 
+consistency and verifiability of data measurement as well as the 
+description and documentation of the models used for the study. 
+According to MDO TWV Study officials, they delayed the final report from 
+March 2021 until July 2021 due to the time required to accurately define 
+the level of detail needed for the force used in the model. The initial 
+results indicated the potential need for an increase in TWVs and 
+associated trailers due to mobility requirements and the need for 
+additional launch and support platforms. However, Army officials stated 
+that these results did not reflect the results of modeling and relied, in part, 
+on previously completed analyses. Recently, Army officials told us that 
+the initial results of modeling for the Distribution and Transportation line of 
+effort shows the current TWV fleet is sufficient to provide sustainment. 
+Therefore, the preliminary results showing a potential increase may no 
+longer be accurate. 
+Army Is Assessing Additional Information but Has No 
+Direction to Update the Strategy beyond 2022 
+While the MDO TWV Study is central to the strategy, other initiatives 
+cover topics directly related to TWV capabilities and requirements as well. 
+According to Army officials, however, there is no Army directive, policy, or 
+guidance to routinely update the results of the MDO TWV study or the 
+strategy. As currently scheduled, the Army will issue its new TWV 
+strategy in fiscal year 2022 which will not account for all relevant 
+                                                                                                                    
+10We have reported previously that DOD has not kept its planning scenarios up-to-date. 
+As a result, we found that senior DOD leaders do not have the analytic support they need 
+to evaluate investments in capabilities and requirements. GAO, Defense Strategy: 
+Revised Analytic Approach Needed to Support Force Structure Decision-Making, 
+GAO-19-385 (Washington, D.C., March 2019). DOD concurred with all three 
+recommendations made in this report. 
+
+=== printed p. 35 ===
+Appendix I: Objectives, Scope, and 
+Methodology
+Page 35 GAO-21-460  Tactical Wheeled Vehicles 
+Appendix I: Objectives, Scope, 
+and Methodology 
+The House Armed Services Committee report accompanying the National 
+Defense Authorization Act for Fiscal Year 2021 and the Senate Armed 
+Services Committee report accompanying a bill for the same act included 
+provisions for GAO to assess the Army’s new tactical wheeled vehicle 
+(TWV) strategy and implementation efforts as well as an analysis of the 
+TWV industrial base and the potential for competition.1 This report 
+assesses (1) the Army’s progress in identifying specific capabilities and 
+requirements for its 2022 TWV Strategy, (2) the extent to which the Army 
+has pursued opportunities for competition in contracts for TWVs, and (3) 
+the extent to which opportunities exist for expanding the TWV industrial 
+base. Prior to completing its new TWV Strategy in fiscal year 2022, the 
+Army is conducting a Multi-Domain Operations (MDO) TWV Study in 
+fiscal year 2021 to inform the strategy. 
+To address the Army’s progress in identifying specific capabilities and 
+requirements for its 2022 TWV Strategy, we reviewed the Army’s 2021 
+MDO TWV Study looking at the Army’s TWV fleet capabilities and 
+requirements required for operating in a MDO environment which is 
+intended to inform the strategy. Both the 2022 TWV Strategy and 2021 
+MDO TWV Study are not complete. To guide our assessment of the 2021 
+MDO TWV Study, we relied on generally accepted research standards for 
+the design, execution and presentation of findings that define a sound 
+and complete study, which we identified in previous work.2 The 2021 
+MDO TWV Study final report was not available during the time of our 
+audit so we were able to assess only the design portion and portions of 
+the execution of the study against the standards. Appendix II provides a 
+list of these standards and associated questions. We also reviewed 
+documents the study’s authors said guided the conduct of the study: (1) 
+the Army Deputy Chief of Staff G-8 request in an April 30, 2020 memo 
+stating the objective of the 2021 MDO TWV Study, and (2) the Army 
+                                                                                                                    
+1House Report No. 116-442 accompanying the William M. (Mac) Thornberry National 
+Defense Authorization Act for Fiscal Year 2021, Pub. L. No. 116-283 (Jan. 1, 2021) and S. 
+Rep. No. 116-236, accompanying S. 4049, 116th Cong. (2nd Sess. 2020).  
+2GAO, Army Combat Vehicles: Industrial Base Study’s Approach Met Research 
+Standards, GAO-15-548 (Washington, D.C.: June 16, 2015). 
+
+=== printed p. 36 ===
+Appendix I: Objectives, Scope, and 
+Methodology
+Page 36 GAO-21-460  Tactical Wheeled Vehicles 
+Futures Command Futures and Concepts Center’s FCC OPORD 19-014: 
+Multi-Domain Operations Tactical Wheeled Vehicle Study.3 In addition, 
+we reviewed the Standards for Internal Control in the Federal 
+Government on the use of quality information to achieve an entity’s 
+objectives (13.01).4 
+To assess the 2021 MDO TWV Study, we interviewed the study’s authors 
+to better understand how the study was conducted, and to understand the 
+scope, methodology, analyses, assumptions, limitations, data sources, 
+and data validity and reliability steps taken as a part of the study. We also 
+reviewed relevant study documentation such as slides that detail the 
+methodological pieces of the study and various initiatives the Army was 
+conducting to inform the study and the strategy. 
+To determine the extent to which the Army’s study addressed the 
+information required by the Army Deputy Chief of Staff G-8 direction, we 
+reviewed and analyzed the April 30, 2020 memo providing direction and 
+compared it to the study’s objective and methodology. 
+To assess the study against the evidence obtained as a result of our 
+work, two GAO analysts used a data collection tool to independently 
+evaluated the Army study against the generally accepted research 
+standards for a reasonable and complete study. Based on a review of the 
+study and supporting documentation, and consultation with a GAO survey 
+and research methodology specialist, we followed up with discussions 
+and written requests for additional information and clarifications from the 
+study’s authors. The two analysts then completed their independent 
+analyses, and the GAO team compared the two sets of observations, 
+discussed, and reconciled any differences. 
+We also held discussions about the study with Army officials from 
+· Army Futures Command Futures and Concepts Center (the study’s 
+author who is responsible for requirements development), 
+· Office of the Deputy Chief of Staff, G-8 (responsible for determining 
+the affordability of TWVs), 
+                                                                                                                    
+3Department of the Army, Deputy Chief of Staff, G-8, Memorandum, Tactical Wheeled 
+Vehicle Study (Apr. 30, 2020). 
+4GAO, Standards for Internal Control in the Federal Government, GAO-14-704G 
+(Washington, D.C.: Sept. 10, 2014). 

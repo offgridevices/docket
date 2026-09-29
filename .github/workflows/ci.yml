@@ -1,0 +1,146 @@
+name: ci
+
+on:
+  # Quality gates run on pull requests only. Merges to main already passed this suite
+  # on the PR; re-running on push would double CI minutes for no review value.
+  #
+  # Pull requests do not trigger this file directly. `claude-pr-review.yml` calls it
+  # as its first job and starts the Claude review only once every job here is green,
+  # so a PR runs this suite exactly once and a red suite stops there — no paid review
+  # of code that does not pass its own tests. Inside that call `github.event_name` is
+  # still `pull_request`, so the audit-range step below sees the same event as before.
+  workflow_call:
+
+# No `concurrency:` here any more: the calling workflow already holds one group per
+# pull request with cancel-in-progress, which drops superseded runs of this suite too.
+# A second group on the called workflow would only risk the two waiting on each other.
+
+# Least privilege: this suite only checks out, installs, lints and tests.
+permissions:
+  contents: read
+
+jobs:
+  check:
+    # Blacksmith, not GitHub's hosted runner: same Ubuntu 24.04 image and toolchain,
+    # faster hardware, and a cache co-located with the runner that `actions/cache`,
+    # `setup-node` and `setup-uv` use transparently. 2 vCPU because the organisation is
+    # on Blacksmith's free plan — 3,000 2-vCPU minutes a month, and a 4-vCPU minute
+    # counts double. Rolling back is this line back to `ubuntu-latest`.
+    runs-on: blacksmith-2vcpu-ubuntu-2404
+    # Backstop so a stalled download fails in minutes rather than at the 6-hour default.
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0 # full history: origin/main must exist for the new-branch
+                         # merge-base fallback, and both endpoints of the audit range
+                         # below must resolve to real commits in this checkout
+
+      # setup-uv publishes no floating major tag from v8 on, so this is pinned. v10 turns
+      # the cache off by default on pull_request events (cache poisoning); the explicit
+      # `enable-cache: true` keeps the behaviour this suite has always had.
+      - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7 # v10.2.0
+        with:
+          enable-cache: true
+
+      - name: Install dependencies
+        run: uv sync --frozen
+
+      - name: Lint (ruff)
+        run: uv run ruff check src tests demos reports scripts
+
+      - name: Test (pytest)
+        run: uv run pytest -q
+
+      - name: Every claim cites a real file
+        run: uv run python scripts/check-citations.py
+
+      - name: DoW copy lint
+        run: uv run python scripts/dow-lint.py
+
+      # The audit range comes from the event, never a hardcoded ref: for pull_request
+      # it is base.sha..head.sha. See scripts/ci-audit-range.sh for the exact rule and
+      # its failure modes — it never lets an empty or unresolvable range pass silently.
+      #
+      # Runs before the determinism gate so a secrets hit fails fast instead of after
+      # a multi-minute demo-tree rebuild.
+      - name: Determine audit range
+        id: audit_range
+        env:
+          CI_EVENT_NAME: ${{ github.event_name }}
+          CI_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          CI_BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          CI_DEFAULT_BRANCH_REF: origin/main
+        run: |
+          range=$(scripts/ci-audit-range.sh)
+          echo "range=$range" >> "$GITHUB_OUTPUT"
+
+      - name: Pre-commit secrets audit (range mode)
+        run: scripts/precommit-audit.sh --range "${{ steps.audit_range.outputs.range }}"
+
+      # Always on for every PR: byte-identical demo output is a first-class product
+      # claim. (Pytest covers the cheaper in-process verify; this gate is the
+      # whole-tree proof.)
+      - name: Byte-identical determinism gate
+        run: scripts/determinism-check.sh
+
+  # Parallel with `check` so wall time stays close to the backend gate. Mirrors the UI
+  # half of `make test`: build (tsc + vite) then Playwright smoke only — not `figures`,
+  # which is an explicit, separate step that writes screenshot PNGs.
+  ui:
+    runs-on: blacksmith-2vcpu-ubuntu-2404 # see the note on `check`
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: ui
+    steps:
+      - uses: actions/checkout@v7
+
+      # setup-uv publishes no floating major tag from v8 on, so this is pinned. v10 turns
+      # the cache off by default on pull_request events (cache poisoning); the explicit
+      # `enable-cache: true` keeps the behaviour this suite has always had.
+      - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7 # v10.2.0
+        with:
+          enable-cache: true
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: ui/package-lock.json
+
+      # Playwright's webServer runs `uv run docket ui`, which serves the Vite bundle from
+      # src/docket/api/static/ — so the Python package and a fresh UI build are both
+      # required even though this job never runs pytest.
+      - name: Install Python dependencies
+        working-directory: .
+        run: uv sync --frozen
+
+      - name: Install UI dependencies
+        run: npm ci
+
+      - name: Build UI
+        run: npm run build
+
+      - name: Playwright version
+        id: pw
+        run: |
+          echo "version=$(node -p "require('./package-lock.json').packages['node_modules/@playwright/test'].version")" >> "$GITHUB_OUTPUT"
+
+      - name: Cache Playwright browsers
+        id: pw-cache
+        uses: actions/cache@v6
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ steps.pw.outputs.version }}
+
+      - name: Install Playwright Chromium
+        run: |
+          if [ "${{ steps.pw-cache.outputs.cache-hit }}" = "true" ]; then
+            npx playwright install-deps chromium
+          else
+            npx playwright install --with-deps chromium
+          fi
+
+      - name: Playwright smoke
+        run: npx playwright test --project=smoke

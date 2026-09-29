@@ -1,0 +1,27 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "evidence": "ev-army-expert-estimates",
+  "id": "as-expert-estimates",
+  "implicationsIfWrong": "The Puma's 103 on lethality and the Namer's 33 on protection carry more uncertainty than the GCV's simulated scores, and the Puma leads on both metrics largely on that 103.",
+  "indicatorsThatWouldAlter": [
+    "simulation data for the Namer or the Puma",
+    "a published band on either estimate"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 20 fn 4",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "linchpin": false,
+  "rationale": "The technical data were insufficient to simulate those two vehicles, so the Army's analysts estimated how they would have performed relative to the current Bradley IFV (p. 20 fn 4).",
+  "rev": 1,
+  "statement": "Army analysts' estimates for the Namer and the Puma are comparable with simulation results for the GCV and can be placed in the same table.",
+  "type": "Assumption",
+  "variedInSensitivity": false
+}

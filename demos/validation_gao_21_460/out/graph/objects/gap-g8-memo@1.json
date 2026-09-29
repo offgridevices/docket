@@ -1,0 +1,31 @@
+{
+  "confidence": "explicit",
+  "confirmedBy": {
+    "actorId": "shreyash",
+    "date": "2026-09-05"
+  },
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gap-g8-memo",
+  "impact": "degrading",
+  "indicatorsThatWouldResolve": [
+    "release of the G-8 tasking memorandum"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 35 (PDF p. 40)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "rev": 1,
+  "sought": "Army Deputy Chief of Staff G-8 memorandum, Tactical Wheeled Vehicle Study, 30 April 2020",
+  "type": "InsufficientEvidence",
+  "whereLookedFor": [
+    "GAO-21-460 printed pp. 35-36",
+    "public web search 2026-09-05"
+  ],
+  "whyNotFound": "an internal Army tasking memorandum; not published"
+}

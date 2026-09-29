@@ -1,0 +1,27 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2020-12-09T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "evidence": "ev-con-2020-12",
+  "id": "as-manning-dec",
+  "implicationsIfWrong": "a platoon that cannot put 30 soldiers on the ground, or a two-soldier crew that cannot fight the vehicle, would invalidate the concept the Phase 2 designs were built to",
+  "indicatorsThatWouldAlter": [
+    "a soldier touchpoint finds two crew insufficient",
+    "a change in the Army's platoon structure or squad size"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "PDF p. 5 (slide footer 6), characteristic H",
+    "sourceArtifact": "sources/army-2020-12-09-omfv-industry-day-briefing.pdf"
+  },
+  "linchpin": false,
+  "rationale": "the December 2020 updated CON states the platoon dismount count and the crew size as design facts; the slide gives no derivation for either number",
+  "rev": 1,
+  "statement": "A platoon of OMFVs will transport 30 Soldiers that dismount from the vehicles. Each OMFV vehicle will be crewed by no more than two Soldiers who will be positioned in the hull.",
+  "type": "Assumption",
+  "variedInSensitivity": false
+}

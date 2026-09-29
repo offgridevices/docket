@@ -1,0 +1,227 @@
+{
+  "$defs": {
+    "actor": {
+      "additionalProperties": false,
+      "properties": {
+        "actorId": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "actorType": {
+          "enum": [
+            "human",
+            "agent",
+            "kernel"
+          ]
+        }
+      },
+      "required": [
+        "actorType",
+        "actorId"
+      ],
+      "type": "object"
+    },
+    "exclusionRef": {
+      "additionalProperties": false,
+      "properties": {
+        "$exclusion": {
+          "$ref": "#/$defs/id"
+        }
+      },
+      "required": [
+        "$exclusion"
+      ],
+      "type": "object"
+    },
+    "gapRef": {
+      "additionalProperties": false,
+      "properties": {
+        "$gap": {
+          "$ref": "#/$defs/id"
+        }
+      },
+      "required": [
+        "$gap"
+      ],
+      "type": "object"
+    },
+    "id": {
+      "pattern": "^[a-z0-9][a-z0-9._:-]*$",
+      "type": "string"
+    },
+    "provenance": {
+      "additionalProperties": false,
+      "properties": {
+        "extractedAt": {
+          "type": "string"
+        },
+        "extractor": {
+          "type": "string"
+        },
+        "locator": {
+          "type": "string"
+        },
+        "sourceArtifact": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "sourceArtifact",
+        "locator",
+        "extractor",
+        "extractedAt"
+      ],
+      "type": "object"
+    },
+    "timestamp": {
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}(T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?Z)?$",
+      "type": "string"
+    }
+  },
+  "$id": "https://docket.offgriddevices.com/schema/Measure.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "One row of the OAS AoA Handbook Table 5-2 Measures Framework.",
+  "properties": {
+    "analysisMethod": {
+      "$ref": "#/$defs/id"
+    },
+    "attribute": {
+      "type": "string"
+    },
+    "conditions": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "confidence": {
+      "enum": [
+        "explicit",
+        "inferred",
+        "absent"
+      ]
+    },
+    "createdAt": {
+      "$ref": "#/$defs/timestamp"
+    },
+    "createdBy": {
+      "$ref": "#/$defs/actor"
+    },
+    "criteria": {
+      "oneOf": [
+        {
+          "additionalProperties": false,
+          "properties": {
+            "objective": {
+              "type": "number"
+            },
+            "threshold": {
+              "type": "number"
+            }
+          },
+          "type": "object"
+        },
+        {
+          "$ref": "#/$defs/exclusionRef"
+        },
+        {
+          "$ref": "#/$defs/gapRef"
+        }
+      ]
+    },
+    "id": {
+      "$ref": "#/$defs/id"
+    },
+    "ingestionProvenance": {
+      "$ref": "#/$defs/provenance"
+    },
+    "measure": {
+      "type": "string"
+    },
+    "metric": {
+      "additionalProperties": false,
+      "properties": {
+        "aggregation": {
+          "enum": [
+            "mean",
+            "sum",
+            "min",
+            "max"
+          ]
+        },
+        "direction": {
+          "enum": [
+            "max",
+            "min"
+          ]
+        },
+        "units": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "units",
+        "direction"
+      ],
+      "type": "object"
+    },
+    "objective": {
+      "$ref": "#/$defs/id"
+    },
+    "rev": {
+      "minimum": 1,
+      "type": "integer"
+    },
+    "supersedes": {
+      "$ref": "#/$defs/id"
+    },
+    "task": {
+      "type": "string"
+    },
+    "type": {
+      "const": "Measure"
+    },
+    "valueFunction": {
+      "additionalProperties": false,
+      "properties": {
+        "hi": {
+          "type": "number"
+        },
+        "kind": {
+          "enum": [
+            "identity",
+            "linear",
+            "binary",
+            "step"
+          ]
+        },
+        "lo": {
+          "type": "number"
+        },
+        "threshold": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "kind"
+      ],
+      "type": "object"
+    }
+  },
+  "required": [
+    "id",
+    "type",
+    "rev",
+    "createdBy",
+    "createdAt",
+    "objective",
+    "task",
+    "attribute",
+    "measure",
+    "metric",
+    "criteria"
+  ],
+  "title": "Measure",
+  "type": "object"
+}

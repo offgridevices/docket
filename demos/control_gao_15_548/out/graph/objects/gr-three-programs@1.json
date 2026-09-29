@@ -1,0 +1,19 @@
+{
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gr-three-programs",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 8 (PDF p. 11); printed p. 9 (PDF p. 12)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "rev": 1,
+  "source": "ev-gao-15-548",
+  "statement": "Verbatim, printed p. 8: \"the study primarily focused on three programs — the Abrams, Bradley, and Stryker vehicles\". GAO found this appropriate given the congressional language and because these three comprise a large portion of combat vehicle production; the scope nonetheless covered all the key combat vehicles.",
+  "type": "GroundRule"
+}

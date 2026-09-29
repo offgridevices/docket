@@ -1,0 +1,29 @@
+{
+  "authority": {
+    "board": "n/a",
+    "signer": "shreyash"
+  },
+  "confidence": "inferred",
+  "consequencesOfErroneousOutput": "a decision package cites a cost, an award date or an analysis window that another page of the same public record contradicts",
+  "createdAt": "2026-09-05T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "decisionClassPolicy": "pol-budget",
+  "decisionToBeMade": "which figures a decision record may rely on",
+  "id": "ch-budget",
+  "question": "What does the public budget record state about the OMFV/XM30 effort's cost, schedule and analysis history, and where does it contradict itself?",
+  "questionClass": "cost",
+  "rev": 1,
+  "scope": {
+    "excluded": [],
+    "included": [
+      "PE 0605625A",
+      "PE 0603645A",
+      "PE 0604100A",
+      "PB2021 through PB2027 R-2, R-3 and R-4A exhibits"
+    ]
+  },
+  "type": "Charter"
+}

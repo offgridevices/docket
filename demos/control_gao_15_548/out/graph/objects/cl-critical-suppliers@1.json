@@ -1,0 +1,37 @@
+{
+  "addresses": [
+    "obj-viability"
+  ],
+  "assessableAt": {
+    "level": "U"
+  },
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "cl-critical-suppliers",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 14 (PDF p. 17); printed p. 15 (PDF p. 18)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "questionClass": "industrial-base",
+  "rev": 1,
+  "section": "evaluation-results",
+  "supportedBy": [
+    {
+      "evidence": "ev-gao-15-548"
+    },
+    {
+      "evidence": "ev-supplier-survey"
+    },
+    {
+      "evidence": "ev-amc-baseline"
+    }
+  ],
+  "text": "Printed p. 14: on the information collected and analysed as part of its supplier base analysis, including interviews and site visits with 72 suppliers, the study identified several key suppliers that required direct action by the Army to ensure that production of key items continues during the period of low demand.",
+  "type": "Claim"
+}

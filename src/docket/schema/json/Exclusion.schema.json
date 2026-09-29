@@ -1,0 +1,201 @@
+{
+  "$defs": {
+    "actor": {
+      "additionalProperties": false,
+      "properties": {
+        "actorId": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "actorType": {
+          "enum": [
+            "human",
+            "agent",
+            "kernel"
+          ]
+        }
+      },
+      "required": [
+        "actorType",
+        "actorId"
+      ],
+      "type": "object"
+    },
+    "exclusionRef": {
+      "additionalProperties": false,
+      "properties": {
+        "$exclusion": {
+          "$ref": "#/$defs/id"
+        }
+      },
+      "required": [
+        "$exclusion"
+      ],
+      "type": "object"
+    },
+    "gapRef": {
+      "additionalProperties": false,
+      "properties": {
+        "$gap": {
+          "$ref": "#/$defs/id"
+        }
+      },
+      "required": [
+        "$gap"
+      ],
+      "type": "object"
+    },
+    "id": {
+      "pattern": "^[a-z0-9][a-z0-9._:-]*$",
+      "type": "string"
+    },
+    "provenance": {
+      "additionalProperties": false,
+      "properties": {
+        "extractedAt": {
+          "type": "string"
+        },
+        "extractor": {
+          "type": "string"
+        },
+        "locator": {
+          "type": "string"
+        },
+        "sourceArtifact": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "sourceArtifact",
+        "locator",
+        "extractor",
+        "extractedAt"
+      ],
+      "type": "object"
+    },
+    "timestamp": {
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}(T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?Z)?$",
+      "type": "string"
+    }
+  },
+  "$id": "https://docket.offgriddevices.com/schema/Exclusion.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "First-class omission. time-or-resource is PROHIBITED by default policy (OAS AoA Handbook \u00a74.7).",
+  "properties": {
+    "authority": {
+      "additionalProperties": false,
+      "properties": {
+        "date": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "who": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "who",
+        "role",
+        "date"
+      ],
+      "type": "object"
+    },
+    "confidence": {
+      "enum": [
+        "explicit",
+        "inferred",
+        "absent"
+      ]
+    },
+    "createdAt": {
+      "$ref": "#/$defs/timestamp"
+    },
+    "createdBy": {
+      "$ref": "#/$defs/actor"
+    },
+    "evidence": {
+      "$ref": "#/$defs/id"
+    },
+    "id": {
+      "$ref": "#/$defs/id"
+    },
+    "ingestionProvenance": {
+      "$ref": "#/$defs/provenance"
+    },
+    "reason": {
+      "type": "string"
+    },
+    "reasonType": {
+      "enum": [
+        "infeasible",
+        "dominated",
+        "out-of-scope",
+        "security-withheld",
+        "data-unavailable",
+        "superseded",
+        "time-or-resource",
+        "not-applicable",
+        "assessed-differently",
+        "other"
+      ]
+    },
+    "retainedInStructure": {
+      "const": true
+    },
+    "rev": {
+      "minimum": 1,
+      "type": "integer"
+    },
+    "supersedes": {
+      "$ref": "#/$defs/id"
+    },
+    "target": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "Alternative",
+            "Evidence",
+            "Study",
+            "Section",
+            "Question",
+            "Measure",
+            "Category",
+            "Scenario"
+          ]
+        },
+        "label": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "kind",
+        "label"
+      ],
+      "type": "object"
+    },
+    "type": {
+      "const": "Exclusion"
+    }
+  },
+  "required": [
+    "id",
+    "type",
+    "rev",
+    "createdBy",
+    "createdAt",
+    "target",
+    "reasonType",
+    "reason",
+    "authority",
+    "retainedInStructure"
+  ],
+  "title": "Exclusion",
+  "type": "object"
+}

@@ -1,0 +1,19 @@
+{
+  "consequence": "A cost or schedule figure taken from the MS&A line cannot be traced to the analysis it funded, so a reader cannot tell whether a named study is inside or outside the figure.",
+  "createdAt": "2026-09-05T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "evidence": [
+    "gap-msa-line-studies"
+  ],
+  "id": "rk-msa-line-studies",
+  "kind": "data",
+  "monitor": "Re-read the MS&A narrative in each new President's Budget for a study list.",
+  "owner": "shreyash",
+  "rev": 1,
+  "statement": "The annual Modeling Simulation & Analysis line is funded and described every year, but no exhibit names the individual studies it paid for.",
+  "status": "open",
+  "type": "Risk"
+}

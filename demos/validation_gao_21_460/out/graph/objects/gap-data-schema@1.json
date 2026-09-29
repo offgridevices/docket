@@ -1,0 +1,30 @@
+{
+  "confidence": "explicit",
+  "confirmedBy": {
+    "actorId": "shreyash",
+    "date": "2026-09-05"
+  },
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gap-data-schema",
+  "impact": "informational",
+  "indicatorsThatWouldResolve": [
+    "release of the study's datasets or their field lists"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 13 (PDF p. 18)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "rev": 1,
+  "sought": "the schema or field list of the study's datasets",
+  "type": "InsufficientEvidence",
+  "whereLookedFor": [
+    "GAO-21-460 printed p. 13"
+  ],
+  "whyNotFound": "the description names the datasets and who validated them, and says nothing about what fields they hold"
+}

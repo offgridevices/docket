@@ -1,0 +1,53 @@
+{
+  "classification": {
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2011",
+  "evidenceType": "Document",
+  "id": "ev-army-squad-2011",
+  "inclusionReason": "the source CBO cites for the Army's squad rationale (Box 1-1, p. 6)",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 6, Box 1-1 and fn 2/fn 4",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "limitations": [
+    {
+      "impact": "the rationale is read from CBO's summary in Box 1-1, not from the source",
+      "statement": "The document itself was not retrieved: the link CBO gives no longer resolves (checked 2026-09-05)"
+    }
+  ],
+  "pointer": {
+    "custodian": "Army Capabilities Integration Center",
+    "uri": "http://go.usa.gov/4fDJ"
+  },
+  "published": "2011",
+  "publisher": "Army Capabilities Integration Center",
+  "reliabilitySteps": {
+    "$gap": "gap-squad-reliability"
+  },
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "reviewers": [
+    {
+      "date": "2011",
+      "name": "Army Capabilities Integration Center",
+      "role": "issuing authority"
+    }
+  ],
+  "scopeOfValidity": {
+    "builtToAnswer": "Why does the Army want a full nine-member squad in one vehicle?",
+    "intendedUse": "the Army's rationale for the nine-member-squad goal",
+    "questionClass": "operational-concept"
+  },
+  "title": "Department of the Army, Capabilities Integration Center, The Squad and Its Ground Combat Vehicle (2011)",
+  "type": "Evidence"
+}

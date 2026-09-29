@@ -1,0 +1,22 @@
+{
+  "baselineFlag": false,
+  "confidence": "explicit",
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "description": "The initial results indicated the potential need for an increase in TWVs and associated trailers due to mobility requirements and the need for additional launch and support platforms (printed p. 14). Army officials stated that these results did not reflect the results of modeling and relied, in part, on previously completed analyses.",
+  "enteredOrder": 2,
+  "id": "alt-mdo-fleet",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 14 (PDF p. 19)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "name": "the TWV fleet required for a European MDO environment",
+  "rev": 1,
+  "status": "candidate",
+  "type": "Alternative"
+}

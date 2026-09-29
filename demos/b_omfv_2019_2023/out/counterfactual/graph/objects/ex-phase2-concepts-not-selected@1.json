@@ -1,0 +1,29 @@
+{
+  "authority": {
+    "date": "2023-06-26",
+    "role": "source selection authority",
+    "who": "Army source selection"
+  },
+  "confidence": "explicit",
+  "createdAt": "2023-06-26T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "ex-phase2-concepts-not-selected",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "Exhibit R-3, PE 0605625A / Project CF6, source-volume page \"Volume 3d - 201\", extract PDF p. 74",
+    "sourceArtifact": "sources/army-rdte-r2-fy2025-omfv-xm30-extract.pdf"
+  },
+  "reason": "not selected in the Army's Phase 3/4 source selection; the public record gives no rationale",
+  "reasonType": "other",
+  "retainedInStructure": true,
+  "rev": 1,
+  "target": {
+    "kind": "Alternative",
+    "label": "the Phase 2 concept-design vendors not selected for Phase 3/4"
+  },
+  "type": "Exclusion"
+}

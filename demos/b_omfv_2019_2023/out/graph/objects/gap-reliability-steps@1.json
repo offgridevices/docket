@@ -1,0 +1,33 @@
+{
+  "confidence": "absent",
+  "confirmedBy": {
+    "actorId": "shreyash",
+    "date": "2026-09-06"
+  },
+  "createdAt": "2020-02-25T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gap-reliability-steps",
+  "impact": "blocking",
+  "indicatorsThatWouldResolve": [
+    "release of the Army's Section 234 report with its data-reliability section",
+    "an Army data-reliability assessment published for any of the 11 analytical efforts"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "printed p. 9 (PDF p. 12)",
+    "sourceArtifact": "sources/gao-23-106549.pdf"
+  },
+  "rev": 1,
+  "sought": "the steps the Army took to ensure the reliability of the data used in the analyses supporting the March 2023 report",
+  "type": "InsufficientEvidence",
+  "whereLookedFor": [
+    "GAO-23-106549 printed pp. 9-10 (PDF pp. 12-13)",
+    "the Army's Section 234 report, which is not public",
+    "public web search, 2026-09-06"
+  ],
+  "whyNotFound": "GAO reports that \"the Army report did not clearly describe the methodology of these efforts; the steps it took to ensure data reliability; or the verification, validation, and accreditation of the models and simulations it used\" (printed p. 9)"
+}

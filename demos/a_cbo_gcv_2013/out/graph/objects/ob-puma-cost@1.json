@@ -1,0 +1,21 @@
+{
+  "alternative": "alt-puma",
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "evidence": "ev-cbo-cost-estimate",
+  "id": "ob-puma-cost",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 21 (Table 2-2)",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "measure": "m-cost",
+  "rev": 1,
+  "type": "Observation",
+  "value": 14.5
+}

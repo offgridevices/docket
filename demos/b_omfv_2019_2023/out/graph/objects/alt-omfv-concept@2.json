@@ -1,0 +1,22 @@
+{
+  "baselineFlag": false,
+  "confidence": "explicit",
+  "createdAt": "2023-03-31T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "description": "The vehicle the nine characteristics describe: a Bradley replacement inside the Armored Brigade Combat Team, to be refined with industry rather than specified up front (February 2020 notice, Background and Concept of employment).",
+  "enteredOrder": 1,
+  "id": "alt-omfv-concept",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "section 'OMFV Characteristics'",
+    "sourceArtifact": "sources/army-2020-02-25-omfv-characteristics-for-industry-comment.md"
+  },
+  "name": "OMFV concept",
+  "rev": 2,
+  "status": "evaluated",
+  "type": "Alternative"
+}

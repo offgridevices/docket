@@ -1,0 +1,32 @@
+{
+  "confidence": "absent",
+  "confirmedBy": {
+    "actorId": "shreyash",
+    "date": "2026-09-06"
+  },
+  "createdAt": "2021-09-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gap-trac-aoa-model",
+  "impact": "degrading",
+  "indicatorsThatWouldResolve": [
+    "an Army or TRAC publication naming the model behind the September 2021 study"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "printed p. 11 (PDF p. 14)",
+    "sourceArtifact": "sources/gao-23-106549.pdf"
+  },
+  "rev": 1,
+  "sought": "which model the September 2021 TRAC study named at GAO printed p. 11 was run on",
+  "type": "InsufficientEvidence",
+  "whereLookedFor": [
+    "GAO-23-106549 printed pp. 10-12 (PDF pp. 13-15)",
+    "OMFV Industry Day briefing, 9 December 2020, PDF p. 17 (slide footer 19) and PDF p. 18 (slide footer 20)",
+    "public web search, 2026-09-06"
+  ],
+  "whyNotFound": "GAO names the study by date and performer and says nothing about the model under it. The December 2020 Phase 2 schedule carries two TRAC line items, \"TRAC AoA\" and \"TRAC OE\", and slide footer 20 describes a model called TRAC OE; nothing public says that the September 2021 study ran on it. Recording `mdl-trac` here would have asserted that, so the slot is a gap"
+}

@@ -1,0 +1,22 @@
+{
+  "confidence": "inferred",
+  "createdAt": "2026-09-06T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2023-03",
+  "description": "COUNTERFACTUAL: a described reliability step for the combat effectiveness metrics — the source review the Section 234 report would have had to describe for EXE-5 to rise above state 4.",
+  "documentation": "cf-ev-ce-metrics-package",
+  "id": "cf-drs-ce-metrics",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "counterfactual",
+    "locator": "counterfactual",
+    "sourceArtifact": "demos/b_omfv_2019_2023/README.md#counterfactual-repair"
+  },
+  "method": "source-review",
+  "performedBy": "COUNTERFACTUAL — PEO Ground Combat Systems",
+  "rev": 1,
+  "type": "DataReliabilityStep"
+}

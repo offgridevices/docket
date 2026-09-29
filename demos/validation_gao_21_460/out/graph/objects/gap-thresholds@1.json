@@ -1,0 +1,30 @@
+{
+  "confidence": "explicit",
+  "confirmedBy": {
+    "actorId": "shreyash",
+    "date": "2026-09-05"
+  },
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gap-thresholds",
+  "impact": "degrading",
+  "indicatorsThatWouldResolve": [
+    "release of the study's evaluation criteria for the three lines of effort"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 11 (PDF p. 16)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "rev": 1,
+  "sought": "the threshold and objective values the study scored each line of effort against",
+  "type": "InsufficientEvidence",
+  "whereLookedFor": [
+    "GAO-21-460 printed pp. 11-14"
+  ],
+  "whyNotFound": "the description gives one example threshold (an airborne unit is required to be 100 percent mobile) and no criteria for the other lines of effort"
+}

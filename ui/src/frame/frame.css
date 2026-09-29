@@ -1,0 +1,75 @@
+/* The application frame's own layout (spec §4; Appendix B §2). No colour literal —
+   tokens only.
+
+   Every rule that competes with a Tailwind utility on the same element is written as
+   `.canvas …` (specificity 0,2,0) rather than as a bare class: `main.tsx` imports
+   `./App.tsx` before `./index.css`, so this file lands BEFORE Tailwind's utilities in
+   the bundle and would lose every tie — `display: none` on the chat sheet against the
+   aside's own `flex`, `padding` on the strip against its `px-3 py-4`, and so on. */
+.frame { height: 100%; display: flex; flex-direction: column; }
+.frame__header { flex: none; }
+.canvas {
+  flex: 1 1 auto; min-height: 0; display: grid; align-items: stretch;
+  grid-template-columns: 232px minmax(0, 1fr) 352px; grid-template-rows: minmax(0, 1fr);
+}
+.canvas[data-chat="collapsed"] { grid-template-columns: 232px minmax(0, 1fr) 52px; }
+.map, .view, .chat { height: 100%; min-height: 0; min-width: 0; overflow-y: auto; overflow-x: hidden; }
+/* a column of rows above 768, a row of them below — stated, not inherited from the
+   initial value, so the map's direction is readable from the computed style. */
+.canvas .map { display: flex; flex-direction: column; }
+.frame__footer { flex: none; }
+
+/* The one Ember fill per view (§5's precedence rule): a view marks its primary act with
+   `data-ember` and the frame paints it. Scoped under `.frame` — a bare `[data-ember]`
+   is specificity 0,1,0 and would lose every tie to the element's own Tailwind
+   background utility, because this file is emitted BEFORE Tailwind's utilities. */
+.frame [data-ember] { background: var(--c-act); color: var(--og-on-accent); border-color: var(--c-act); }
+/* An open overlay takes the Ember from the whole page — header and footer included, not
+   just the canvas: the act behind a sheet is not the act in front of one. */
+.frame[data-overlay] [data-ember] { background: transparent; color: var(--og-fg); border-color: var(--og-hairline-strong); }
+
+/* the wordiest header labels come off first, while there is still room for them
+   everywhere else */
+@media (max-width: 1279px) { .hide-below-1280 { display: none !important; } }
+
+/* below 1024 the chat is a bottom sheet opened from the header */
+@media (max-width: 1023px) {
+  .canvas, .canvas[data-chat="collapsed"] { grid-template-columns: 208px minmax(0, 1fr); }
+  .canvas .chat { position: fixed; left: 0; right: 0; bottom: 0; height: min(72vh, 560px); display: none; z-index: 75; border-top: 1px solid var(--og-hairline-strong); }
+  .canvas[data-chat-sheet="open"] .chat { display: flex; }
+  .hide-below-1024 { display: none !important; }
+  /* The status row becomes a strip rather than wrapping: a second line would push the
+     header past its budget, and nothing in it may be dropped — the mode chip least of
+     all. Same answer the map gives at 360, for the same reason. The chip ordering puts
+     the honesty indicator ahead of the clock, so the narrowest strip still shows
+     recorded/live without a swipe. */
+  .frame .status { flex-wrap: nowrap; overflow-x: auto; overflow-y: hidden; }
+  .frame .status > * { flex: none; }
+  .frame .status__mode { order: 1; }
+  .frame .status__time { order: 2; }
+  .frame .status__spacer { order: 3; }
+}
+/* below 768 the map is a strip at the top of the view column */
+@media (max-width: 767px) {
+  .canvas, .canvas[data-chat="collapsed"] { grid-template-columns: minmax(0, 1fr); grid-template-rows: auto minmax(0, 1fr); }
+  .canvas .map { height: auto; display: flex; flex-direction: row; gap: 4px; overflow-x: auto; overflow-y: hidden; border-right: 0; border-bottom: 1px solid var(--og-hairline-color); padding: 4px 12px; }
+  .canvas .map__group { display: flex; flex-direction: row; gap: 4px; margin: 0; }
+  .canvas .map__head, .canvas .map__key { display: none; }
+  /* each row is as wide as its own label, not the column's full width — the strip
+     scrolls sideways instead of squeezing ten labels into 360 px of ellipses. */
+  .canvas .map__row { width: auto; flex: none; white-space: nowrap; border-left: 0; border-bottom: 2px solid transparent; }
+  .canvas .map__row[aria-current="page"] { border-bottom-color: var(--og-fg); }
+  .hide-below-768 { display: none !important; }
+}
+@media (max-width: 519px) { .hide-below-520 { display: none !important; } }
+
+/* Two narrow-width helpers the frame needs and Tailwind has no breakpoint for.
+   `quiet-below-520` takes a word out of the layout WITHOUT taking it out of the
+   accessible name — the header counters lose the words "needs you" and "blocking" to
+   the pixel budget at 360, and a button whose whole name became "[ 1 ]" would be
+   unusable by anyone not looking at it. */
+.only-below-520 { display: none; }
+@media (max-width: 519px) {
+  .quiet-below-520 { position: absolute; width: 1px; height: 1px; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  .only-below-520 { display: inline; }
+}

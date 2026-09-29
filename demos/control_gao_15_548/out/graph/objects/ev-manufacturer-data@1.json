@@ -1,0 +1,59 @@
+{
+  "classification": {
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "custodian": "A.T. Kearney (collected from the manufacturers and suppliers)",
+  "date": "2013",
+  "evidenceType": "Dataset",
+  "id": "ev-manufacturer-data",
+  "inclusionReason": "the cost baseline is one of the study's six analyses",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 13 (PDF p. 16); printed p. 16 (PDF p. 19)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "limitations": [
+    {
+      "impact": "no cost figure in this record can be checked against the data behind it",
+      "statement": "The cost data themselves are proprietary and are not public; GAO's description of how they were collected is the whole of the public account."
+    }
+  ],
+  "pointer": {
+    "custodian": "A.T. Kearney and the manufacturers and suppliers (the data itself, not public); U.S. Government Accountability Office (the published description)",
+    "uri": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf#page=16"
+  },
+  "reliabilitySteps": [
+    "drs-original-sources",
+    "drs-normalise-overhead"
+  ],
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "reviewers": [
+    {
+      "date": "2013",
+      "name": "A.T. Kearney",
+      "role": "collecting analyst"
+    },
+    {
+      "date": "2015-06",
+      "name": "U.S. Government Accountability Office",
+      "role": "method reviewed against research standards"
+    }
+  ],
+  "schemaRef": "cost by manufacturing process and facility, with factory overhead rates normalised so each facility's rate is comprised of the same elements (printed p. 16)",
+  "scopeOfValidity": {
+    "builtToAnswer": "What does each manufacturing process for combat vehicles cost at each production facility?",
+    "intendedUse": "the study's original equipment manufacturer / government cost baseline",
+    "questionClass": "industrial-base"
+  },
+  "title": "Cost data for combat vehicle manufacturing processes, collected at the government and commercial production facilities",
+  "type": "Evidence"
+}

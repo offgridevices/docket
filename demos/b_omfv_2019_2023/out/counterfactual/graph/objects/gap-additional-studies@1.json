@@ -1,0 +1,31 @@
+{
+  "confidence": "absent",
+  "confirmedBy": {
+    "actorId": "shreyash",
+    "date": "2026-09-06"
+  },
+  "createdAt": "2021-09-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gap-additional-studies",
+  "impact": "degrading",
+  "indicatorsThatWouldResolve": [
+    "the Army names or releases any of the three"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "printed p. 13 (PDF p. 16)",
+    "sourceArtifact": "sources/gao-23-106549.pdf"
+  },
+  "rev": 1,
+  "sought": "the author, performing organisation and method of the three additional studies GAO names at printed p. 13",
+  "type": "InsufficientEvidence",
+  "whereLookedFor": [
+    "GAO-23-106549 printed p. 13 (PDF p. 16)",
+    "public web search, 2026-09-06"
+  ],
+  "whyNotFound": "GAO names the three studies by subject and year and nothing else: \"(1) a 2018 Bradley size, weight, power, and cooling growth study; (2) a study to support the program's market research in 2020; and (3) a study to support concept design in 2021\""
+}

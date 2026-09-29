@@ -1,0 +1,41 @@
+{
+  "assumption": "as-nine-squad",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "docket-kernel/0.1.0",
+    "actorType": "kernel"
+  },
+  "currentValue": 0.25,
+  "direction": "up",
+  "flipDistance": 0.016504,
+  "flipThreshold": 0.266504,
+  "id": "flip-run-pl-cbo-secondary-4",
+  "kernelVersion": "0.1.0",
+  "parameter": {
+    "kind": "weight",
+    "label": "weight on 100 if the vehicle is designed to carry a full nine-member squad, otherwise 0",
+    "target": "ws-secondary:m-squad"
+  },
+  "range": {
+    "hi": 1.0,
+    "lo": 0.0,
+    "source": "default"
+  },
+  "rankingAfter": [
+    "alt-gcv",
+    "alt-puma",
+    "alt-namer",
+    "alt-upgraded-bradley",
+    "alt-retain-bradley"
+  ],
+  "rankingBefore": [
+    "alt-puma",
+    "alt-gcv",
+    "alt-upgraded-bradley",
+    "alt-namer",
+    "alt-retain-bradley"
+  ],
+  "rev": 1,
+  "run": "run-pl-cbo-secondary",
+  "type": "FlipAnalysis"
+}

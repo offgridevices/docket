@@ -1,0 +1,21 @@
+{
+  "alternative": "alt-upgraded-bradley",
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "evidence": "ev-army-aoa-2011",
+  "id": "ob-upgraded-bradley-leth",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 21 (Table 2-2)",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "measure": "m-leth",
+  "rev": 1,
+  "type": "Observation",
+  "value": 60
+}

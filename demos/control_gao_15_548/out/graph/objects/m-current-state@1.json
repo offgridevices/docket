@@ -1,0 +1,31 @@
+{
+  "attribute": "capability, capacity and critical manufacturing skills at each production and sustainment facility",
+  "conditions": [
+    "constrained fiscal environment"
+  ],
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "criteria": {
+    "$gap": "gap-criteria"
+  },
+  "id": "m-current-state",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 9 (PDF p. 12); printed p. 14 (PDF p. 17)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "measure": "the capabilities, capacity and critical manufacturing skills identified at the key government and commercial facilities; the assessment of critical manufacturing skills is a step within it (printed pp. 9, 14)",
+  "metric": {
+    "direction": "max",
+    "units": "facilities and critical skills characterised (qualitative — GAO reports findings, not a score; units are schema-forced)"
+  },
+  "objective": "obj-viability",
+  "rev": 1,
+  "task": "Conduct a current state assessment of the combat vehicle industrial base",
+  "type": "Measure"
+}

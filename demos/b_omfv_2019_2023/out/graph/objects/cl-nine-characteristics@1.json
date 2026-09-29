@@ -1,0 +1,48 @@
+{
+  "addresses": [
+    "obj-survivability-dec",
+    "obj-mobility",
+    "obj-growth",
+    "obj-lethality",
+    "obj-weight",
+    "obj-logistics",
+    "obj-transportability",
+    "obj-manning-dec",
+    "obj-training"
+  ],
+  "assessableAt": {
+    "level": "U"
+  },
+  "confidence": "explicit",
+  "createdAt": "2023-03-31T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "cl-nine-characteristics",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "printed p. 8 (PDF p. 11)",
+    "sourceArtifact": "sources/gao-23-106549.pdf"
+  },
+  "questionClass": "desired-characteristics",
+  "rev": 1,
+  "section": "objectives-and-measures",
+  "supportedBy": [
+    {
+      "evidence": "ev-con-2020-02"
+    },
+    {
+      "evidence": "ev-threat-analysis"
+    },
+    {
+      "evidence": "ev-market-research-2020"
+    },
+    {
+      "evidence": "ev-abct-opconcept"
+    }
+  ],
+  "text": "The Army's report identified nine desired characteristics for the OMFV and prioritized 28 attributes derived from these characteristics.",
+  "type": "Claim"
+}

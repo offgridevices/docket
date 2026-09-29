@@ -1,0 +1,17 @@
+/* Tailwind's three layers. Imported before the brand tokens in main.tsx so brand rules
+   (html/body background and colour, in tokens.css) win any cascade tie against
+   Tailwind's preflight reset — later import wins for equal specificity. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* The handoff defines no focus token (flagged to the brand owner — plan 07 Task 5
+   fix round 1, I8). `--og-fg` rather than an accent colour, so "one Ember per surface
+   = a human must act" still holds for keyboard users too. */
+:focus-visible { outline: 2px solid var(--og-fg); outline-offset: 2px; }
+
+/* The application frame (spec §4; Appendix B §2): the document never scrolls. The three
+   columns scroll inside themselves and the footer is always in view, so the frame needs
+   the full viewport height to divide up — and nothing may spill past it. */
+html, body, #root { height: 100%; }
+html, body { overflow: hidden; }

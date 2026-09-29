@@ -1,0 +1,31 @@
+{
+  "addresses": [
+    "obj-viability"
+  ],
+  "assessableAt": {
+    "level": "U"
+  },
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "cl-presentation",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 7 (PDF p. 10); printed p. 17 (PDF p. 20); printed p. 18 (PDF p. 21)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "questionClass": "industrial-base",
+  "rev": 1,
+  "section": "readiness",
+  "supportedBy": [
+    {
+      "evidence": "ev-gao-15-548"
+    }
+  ],
+  "text": "Verbatim, printed pp. 7 and 17: the study's \"findings and conclusions were presented in a clear, comprehensive, and timely manner\". Printed p. 18 records the timeline: a contract in October 2012, preliminary results to the Army in April 2013, interim briefings to key congressional committees later in 2013, and a final report to those committees in April 2014.",
+  "type": "Claim"
+}

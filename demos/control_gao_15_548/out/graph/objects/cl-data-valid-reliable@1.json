@@ -1,0 +1,34 @@
+{
+  "addresses": [
+    "obj-viability"
+  ],
+  "assessableAt": {
+    "level": "U"
+  },
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "cl-data-valid-reliable",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 16 (PDF p. 19); printed p. 17 (PDF p. 20)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "questionClass": "industrial-base",
+  "rev": 1,
+  "section": "evidence-register",
+  "supportedBy": [
+    {
+      "evidence": "ev-gao-15-548"
+    },
+    {
+      "evidence": "ev-abrams-cost-data"
+    }
+  ],
+  "text": "Printed pp. 16-17: the study's authors went to the original sources to obtain relevant information and sought clarification to make sure they understood the data provided — obtaining government expenses at the Joint Systems Manufacturing Center directly from the Abrams program office, and using facility financial data that had also been reviewed by the Defense Contract Management Agency.",
+  "type": "Claim"
+}

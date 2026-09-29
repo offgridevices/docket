@@ -1,0 +1,31 @@
+{
+  "confidence": "absent",
+  "confirmedBy": {
+    "actorId": "shreyash",
+    "date": "2026-09-05"
+  },
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gap-weights",
+  "impact": "informational",
+  "indicatorsThatWouldResolve": [
+    "release of the April 2014 report or the backup slides showing how the six analyses were combined"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 9 (PDF p. 12); printed p. 13 (PDF p. 16)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "rev": 1,
+  "sought": "the relative weighting across the six analyses",
+  "type": "InsufficientEvidence",
+  "whereLookedFor": [
+    "GAO-15-548 printed pp. 9, 13-14",
+    "GAO-15-548 printed p. 10, figure 2"
+  ],
+  "whyNotFound": "the public account does not say the six analyses were weighted, or combined into a single score at all; the equal weighting this record carries is ours, supplied because the Plan schema requires a WeightSet."
+}

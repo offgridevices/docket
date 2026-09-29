@@ -1,0 +1,26 @@
+{
+  "affected": [
+    "cl-nine-characteristics",
+    "cl-force-structure-improves",
+    "cl-concepts-outperform-m2a4"
+  ],
+  "confidence": "explicit",
+  "createdAt": "2023-06-27T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "description": "GAO assesses the extent to which the Army's Section 234 report presents objective, valid and reliable analysis of the three sections. GAO did not independently assess or verify the analytical efforts supporting the report (footnote 7, printed p. 9; Appendix I, printed p. 17). The Army had no comments on the draft and GAO made no recommendations (printed p. 14).",
+  "detectedAt": "2023-06-27",
+  "id": "rt-gao-grading",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "printed p. 1 (PDF p. 4)",
+    "sourceArtifact": "sources/gao-23-106549.pdf"
+  },
+  "kind": "external-finding",
+  "rev": 1,
+  "source": "GAO-23-106549, 27 June 2023",
+  "type": "RefreshTrigger"
+}

@@ -1,0 +1,199 @@
+{
+  "ep-omfv-2020-02-r2\u2192ep-omfv-2020-02-r3": {
+    "added": [
+      "ev-aries-1",
+      "ev-aries-2",
+      "ev-bradley-swapc-2018",
+      "ev-concept-design-2021",
+      "ev-hsi-1",
+      "ev-hsi-2",
+      "ev-market-research-study-2020",
+      "ev-mbl-1",
+      "ev-trac-aoa",
+      "ev-trac-oe",
+      "ev-vendor-feedback-1",
+      "ev-vendor-feedback-2",
+      "ev-vendor-feedback-3",
+      "ev-vendor-feedback-4",
+      "mdl-aries",
+      "mdl-trac",
+      "risk-bias-ep-omfv-2020-02-r3-selection",
+      "ws-omfv"
+    ],
+    "because": "rt-phase2-efforts",
+    "changed": [],
+    "judgmentsChanged": [],
+    "judgmentsConsistent": [],
+    "pairing": "unknown",
+    "ratingsChanged": [
+      {
+        "after": 1,
+        "before": 2,
+        "questionId": "DES-1"
+      },
+      {
+        "after": 2,
+        "before": 4,
+        "questionId": "EXE-1"
+      },
+      {
+        "after": 1,
+        "before": 4,
+        "questionId": "EXE-3"
+      },
+      {
+        "after": 2,
+        "before": 4,
+        "questionId": "EXE-7"
+      }
+    ],
+    "removed": [
+      "risk-bias-ep-omfv-2020-02-r2-selection"
+    ]
+  },
+  "ep-omfv-2020-02-r3\u2192ep-omfv-2020-02-r4": {
+    "added": [
+      "ev-234-report",
+      "risk-bias-ep-omfv-2020-02-r4-selection"
+    ],
+    "because": "rt-234-report",
+    "changed": [],
+    "judgmentsChanged": [],
+    "judgmentsConsistent": [],
+    "pairing": "unknown",
+    "ratingsChanged": [],
+    "removed": [
+      "risk-bias-ep-omfv-2020-02-r3-selection"
+    ]
+  },
+  "ep-omfv-2020-02-r4\u2192ep-omfv-2020-02-r5": {
+    "added": [
+      "alt-xm30-gdls",
+      "alt-xm30-rheinmetall",
+      "risk-bias-ep-omfv-2020-02-r5-selection"
+    ],
+    "because": "rt-downselect",
+    "changed": [
+      {
+        "after": "\"One of the two Phase 3/4 Product Development performers named on the PB2025 R-3 exhibit against a June 2023 award date. The abstract \\\"OMFV concept\\\" of 2020 has become two funded detailed designs.\"",
+        "before": "\"The vehicle the nine characteristics describe: a Bradley replacement inside the Armored Brigade Combat Team, to be refined with industry rather than specified up front (February 2020 notice, Background and Concept of employment).\"",
+        "field": "description",
+        "object": "alt-omfv-concept\u2192alt-xm30-gdls"
+      },
+      {
+        "after": "3",
+        "before": "1",
+        "field": "enteredOrder",
+        "object": "alt-omfv-concept\u2192alt-xm30-gdls"
+      },
+      {
+        "after": "\"XM30 (OMFV) detailed design \u2014 General Dynamics Land Systems\"",
+        "before": "\"OMFV concept\"",
+        "field": "name",
+        "object": "alt-omfv-concept\u2192alt-xm30-gdls"
+      },
+      {
+        "after": "\"selected\"",
+        "before": "\"evaluated\"",
+        "field": "status",
+        "object": "alt-omfv-concept\u2192alt-xm30-gdls"
+      }
+    ],
+    "judgmentsChanged": [],
+    "judgmentsConsistent": [],
+    "pairing": "replacements",
+    "ratingsChanged": [],
+    "removed": [
+      "alt-omfv-concept",
+      "risk-bias-ep-omfv-2020-02-r4-selection"
+    ]
+  },
+  "ep-omfv-2020-02\u2192ep-omfv-2020-02-r2": {
+    "added": [
+      "as-manning-dec",
+      "con-30-dismounts",
+      "con-crew-in-hull",
+      "con-two-crew",
+      "ev-abct-opconcept",
+      "ev-con-2020-12",
+      "ev-market-research-2020",
+      "ev-threat-analysis",
+      "obj-manning-dec",
+      "obj-survivability-dec",
+      "risk-bias-ep-omfv-2020-02-r2-selection"
+    ],
+    "because": "rt-con-update-2020-12",
+    "changed": [
+      {
+        "after": "\"ev-con-2020-12\"",
+        "before": "\"ev-con-2020-02\"",
+        "field": "evidence",
+        "object": "as-manning-feb\u2192as-manning-dec"
+      },
+      {
+        "after": "\"a platoon that cannot put 30 soldiers on the ground, or a two-soldier crew that cannot fight the vehicle, would invalidate the concept the Phase 2 designs were built to\"",
+        "before": "\"a crew size chosen later on other grounds would be unconstrained by this characteristic, which is what happened in December 2020 when the CON fixed it at two\"",
+        "field": "implicationsIfWrong",
+        "object": "as-manning-feb\u2192as-manning-dec"
+      },
+      {
+        "after": "[\"a soldier touchpoint finds two crew insufficient\",\"a change in the Army's platoon structure or squad size\"]",
+        "before": "[\"the Army states a crew number in a published characteristic\",\"a soldier touchpoint finds a minimum crew below or above the design\"]",
+        "field": "indicatorsThatWouldAlter",
+        "object": "as-manning-feb\u2192as-manning-dec"
+      },
+      {
+        "after": "\"the December 2020 updated CON states the platoon dismount count and the crew size as design facts; the slide gives no derivation for either number\"",
+        "before": "\"the February 2020 characteristic states the crew as a minimum to be found, not as a number: no crew size appears anywhere in the notice\"",
+        "field": "rationale",
+        "object": "as-manning-feb\u2192as-manning-dec"
+      },
+      {
+        "after": "\"A platoon of OMFVs will transport 30 Soldiers that dismount from the vehicles. Each OMFV vehicle will be crewed by no more than two Soldiers who will be positioned in the hull.\"",
+        "before": "\"The OMFV should operate with the minimal number of crew members required to fight and win.\"",
+        "field": "statement",
+        "object": "as-manning-feb\u2192as-manning-dec"
+      },
+      {
+        "after": "\"A platoon of OMFVs will transport 30 Soldiers that dismount from the vehicles. Each OMFV vehicle will be crewed by no more than two Soldiers who will be positioned in the hull. Squad members can perform crew duties prior to dismounting the OMFV but the vehicles must remain operational after dismounting. The OMFV should allow commanders to choose between manned or remote operation based on the tactical situation.\"",
+        "before": "\"The OMFV should operate with the minimal number of crew members required to fight and win. The OMFV should allow commanders to choose between manned or remote operation based on the tactical situation.\"",
+        "field": "description",
+        "object": "obj-manning\u2192obj-manning-dec"
+      },
+      {
+        "after": "\"ev-con-2020-12\"",
+        "before": "\"ev-con-2020-02\"",
+        "field": "provenance",
+        "object": "obj-manning\u2192obj-manning-dec"
+      },
+      {
+        "after": "\"The OMFV shall be survivable against modern direct fire, indirect fire, and blast threats. The OMFV should reduce likelihood of detection by minimizing thermal, visual, and acoustic signatures.\"",
+        "before": "\"The OMFV must protect the crew and Soldiers from emerging threats and CBRN environments. The OMFV should reduce likelihood of detection by minimizing thermal, visual, and acoustic signatures.\"",
+        "field": "description",
+        "object": "obj-survivability\u2192obj-survivability-dec"
+      },
+      {
+        "after": "\"ev-con-2020-12\"",
+        "before": "\"ev-con-2020-02\"",
+        "field": "provenance",
+        "object": "obj-survivability\u2192obj-survivability-dec"
+      }
+    ],
+    "judgmentsChanged": [],
+    "judgmentsConsistent": [],
+    "pairing": "replacements",
+    "ratingsChanged": [
+      {
+        "after": 1,
+        "before": 4,
+        "questionId": "DES-7"
+      }
+    ],
+    "removed": [
+      "as-manning-feb",
+      "obj-manning",
+      "obj-survivability",
+      "risk-bias-ep-omfv-2020-02-selection"
+    ]
+  }
+}

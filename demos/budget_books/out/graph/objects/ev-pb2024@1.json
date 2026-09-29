@@ -1,0 +1,73 @@
+{
+  "assertions": [
+    {
+      "field": "costM",
+      "locator": "PB2024 PE 0603645A R-2/R-2A, volume pp. 2a-99, 2a-101 (extract PDF pp. 60, 61)",
+      "subject": "omfv-mta-total-cost-fy21-24",
+      "value": 1348
+    },
+    {
+      "field": "costM",
+      "locator": "PB2024 PE 0605625A R-2/R-2A, volume pp. 3d-268, 3d-270 (extract PDF pp. 74, 76)",
+      "subject": "omfv-mta-total-cost-fy21-24",
+      "value": 1384
+    },
+    {
+      "field": "window",
+      "locator": "PB2024 PE 0605625A R-2A, volume p. 3d-271 (extract PDF p. 77)",
+      "subject": "omfv-aoa",
+      "value": "formal execution FY2023"
+    },
+    {
+      "field": "window",
+      "locator": "PB2024 PE 0605625A R-4A, volume p. 3d-281 (extract PDF p. 87)",
+      "subject": "omfv-concept-design",
+      "value": "4Q FY2021 - 1Q FY2023"
+    },
+    {
+      "field": "quarter",
+      "locator": "PB2024 PE 0605625A R-4A, volume p. 3d-281 (extract PDF p. 87)",
+      "subject": "omfv-acdd",
+      "value": "2Q-2Q FY2022"
+    }
+  ],
+  "classification": {
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "explicit",
+  "createdAt": "2026-09-05T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2023-03",
+  "evidenceType": "BudgetExhibit",
+  "fiscalYear": "FY2024",
+  "id": "ev-pb2024",
+  "inclusionReason": "one of the seven annual R-2 exhibits covering the OMFV/XM30 program elements",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "the OMFV/XM30 pages of the PB FY2024 justification books — submitted the same month as the Army's Section 234 report",
+    "sourceArtifact": "sources/army-rdte-r2-fy2024-omfv-xm30-extract.pdf"
+  },
+  "pointer": {
+    "custodian": "Assistant Secretary of the Army (Financial Management and Comptroller)",
+    "uri": "sources/army-rdte-r2-fy2024-omfv-xm30-extract.pdf ; https://www.asafm.army.mil/Budget-Materials/"
+  },
+  "programElement": "PE 0603645A; PE 0605625A",
+  "reliabilitySteps": {
+    "$gap": "gap-exhibit-reliability"
+  },
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "scopeOfValidity": {
+    "builtToAnswer": "the President's Budget justification for the OMFV/XM30 effort",
+    "intendedUse": "congressional budget justification",
+    "questionClass": "cost"
+  },
+  "submitted": "2023-03",
+  "title": "Army RDT&E R-2 exhibits, President's Budget FY2024 — OMFV/XM30 extract",
+  "type": "Evidence"
+}

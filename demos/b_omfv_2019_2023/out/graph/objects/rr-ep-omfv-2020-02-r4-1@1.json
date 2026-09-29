@@ -1,0 +1,672 @@
+{
+  "biasChecksStatus": [],
+  "blockers": [
+    {
+      "message": "required bias check not performed: independent-disconfirming-review",
+      "objects": [
+        "ep-omfv-2020-02"
+      ],
+      "rule": "bias-check-missing",
+      "severity": "blocking"
+    },
+    {
+      "message": "required bias check not performed: independent-disconfirming-review",
+      "objects": [
+        "ep-omfv-2020-02-r2"
+      ],
+      "rule": "bias-check-missing",
+      "severity": "blocking"
+    },
+    {
+      "message": "required bias check not performed: independent-disconfirming-review",
+      "objects": [
+        "ep-omfv-2020-02-r3"
+      ],
+      "rule": "bias-check-missing",
+      "severity": "blocking"
+    },
+    {
+      "message": "required bias check not performed: independent-disconfirming-review",
+      "objects": [
+        "ep-omfv-2020-02-r4"
+      ],
+      "rule": "bias-check-missing",
+      "severity": "blocking"
+    },
+    {
+      "message": "linchpin assumption has no evidence (gap or exclusion recorded)",
+      "objects": [
+        "as-poland-bridges"
+      ],
+      "rule": "linchpin-unevidenced",
+      "severity": "blocking"
+    },
+    {
+      "message": "primary objective has no Measure",
+      "objects": [
+        "obj-growth"
+      ],
+      "rule": "objective-measured",
+      "severity": "blocking"
+    },
+    {
+      "message": "primary objective has no Measure",
+      "objects": [
+        "obj-lethality"
+      ],
+      "rule": "objective-measured",
+      "severity": "blocking"
+    },
+    {
+      "message": "primary objective has no Measure",
+      "objects": [
+        "obj-logistics"
+      ],
+      "rule": "objective-measured",
+      "severity": "blocking"
+    },
+    {
+      "message": "primary objective has no Measure",
+      "objects": [
+        "obj-manning"
+      ],
+      "rule": "objective-measured",
+      "severity": "blocking"
+    },
+    {
+      "message": "primary objective has no Measure",
+      "objects": [
+        "obj-manning-dec"
+      ],
+      "rule": "objective-measured",
+      "severity": "blocking"
+    },
+    {
+      "message": "primary objective has no Measure",
+      "objects": [
+        "obj-mobility"
+      ],
+      "rule": "objective-measured",
+      "severity": "blocking"
+    },
+    {
+      "message": "primary objective has no Measure",
+      "objects": [
+        "obj-survivability"
+      ],
+      "rule": "objective-measured",
+      "severity": "blocking"
+    },
+    {
+      "message": "primary objective has no Measure",
+      "objects": [
+        "obj-survivability-dec"
+      ],
+      "rule": "objective-measured",
+      "severity": "blocking"
+    },
+    {
+      "message": "primary objective has no Measure",
+      "objects": [
+        "obj-training"
+      ],
+      "rule": "objective-measured",
+      "severity": "blocking"
+    },
+    {
+      "message": "primary objective has no Measure",
+      "objects": [
+        "obj-transportability"
+      ],
+      "rule": "objective-measured",
+      "severity": "blocking"
+    },
+    {
+      "message": "no evaluation run on this episode scored any measure of this primary objective, so the record does not answer it (design §7.1)",
+      "objects": [
+        "obj-weight"
+      ],
+      "rule": "objective-run-coverage",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02",
+        "ev-breaking-defense"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02",
+        "ev-con-2020-02"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02",
+        "ev-industry-day-narrative-2020-04"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r2",
+        "ev-abct-opconcept"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r2",
+        "ev-breaking-defense"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r2",
+        "ev-con-2020-02"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r2",
+        "ev-con-2020-12"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r2",
+        "ev-industry-day-narrative-2020-04"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r2",
+        "ev-market-research-2020"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r2",
+        "ev-threat-analysis"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r3",
+        "ev-abct-opconcept"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r3",
+        "ev-aries-1"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r3",
+        "ev-aries-2"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r3",
+        "ev-bradley-swapc-2018"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r3",
+        "ev-breaking-defense"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r3",
+        "ev-con-2020-02"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r3",
+        "ev-con-2020-12"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r3",
+        "ev-concept-design-2021"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r3",
+        "ev-hsi-1"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r3",
+        "ev-hsi-2"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r3",
+        "ev-industry-day-narrative-2020-04"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r3",
+        "ev-market-research-2020"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r3",
+        "ev-market-research-study-2020"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r3",
+        "ev-mbl-1"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r3",
+        "ev-threat-analysis"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r3",
+        "ev-trac-aoa"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r3",
+        "ev-trac-oe"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r3",
+        "ev-vendor-feedback-1"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r3",
+        "ev-vendor-feedback-2"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r3",
+        "ev-vendor-feedback-3"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r3",
+        "ev-vendor-feedback-4"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r4",
+        "ev-abct-opconcept"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r4",
+        "ev-aries-1"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r4",
+        "ev-aries-2"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r4",
+        "ev-bradley-swapc-2018"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r4",
+        "ev-breaking-defense"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r4",
+        "ev-con-2020-02"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r4",
+        "ev-con-2020-12"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r4",
+        "ev-concept-design-2021"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r4",
+        "ev-hsi-1"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r4",
+        "ev-hsi-2"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r4",
+        "ev-industry-day-narrative-2020-04"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r4",
+        "ev-market-research-2020"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r4",
+        "ev-market-research-study-2020"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r4",
+        "ev-mbl-1"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r4",
+        "ev-threat-analysis"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r4",
+        "ev-trac-aoa"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r4",
+        "ev-trac-oe"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r4",
+        "ev-vendor-feedback-1"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r4",
+        "ev-vendor-feedback-2"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r4",
+        "ev-vendor-feedback-3"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-omfv-2020-02-r4",
+        "ev-vendor-feedback-4"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    }
+  ],
+  "computedBiasRisks": [
+    "risk-bias-ep-omfv-2020-02-r4-selection"
+  ],
+  "createdAt": "2023-03-31T00:00:00Z",
+  "createdBy": {
+    "actorId": "docket-kernel/0.1.0",
+    "actorType": "kernel"
+  },
+  "episode": "ep-omfv-2020-02-r4",
+  "flipSummary": {},
+  "id": "rr-ep-omfv-2020-02-r4-1",
+  "kernelVersion": "0.1.0",
+  "mandateScorecard": "ms-ep-omfv-2020-02-r4-1",
+  "openExclusions": [],
+  "openGaps": [
+    "gap-poland-data",
+    "gap-model-docs",
+    "gap-reliability-steps",
+    "gap-touchpoint-fields",
+    "gap-234-report",
+    "gap-additional-studies",
+    "gap-con-inputs",
+    "gap-def-force-structure",
+    "gap-def-operational-concepts",
+    "gap-trac-aoa-model",
+    "gap-unnamed-efforts",
+    "gap-vendor-events",
+    "gap-weights"
+  ],
+  "policyVersion": "0.1",
+  "ready": false,
+  "rev": 1,
+  "seed": 20230627,
+  "standardsAssessment": "sa-ep-omfv-2020-02-r4-gao-23-106549-1",
+  "type": "ReadinessReport",
+  "warnings": [
+    {
+      "message": "scope term undefined: force structure (GAO-23-106549 F9)",
+      "objects": [
+        "ch-omfv"
+      ],
+      "rule": "definition-missing",
+      "severity": "warning"
+    },
+    {
+      "message": "scope term undefined: operational concepts (GAO-23-106549 F9)",
+      "objects": [
+        "ch-omfv"
+      ],
+      "rule": "definition-missing",
+      "severity": "warning"
+    },
+    {
+      "message": "accreditation asserted by interview, not by document",
+      "objects": [
+        "mdl-aries",
+        "vva-aries"
+      ],
+      "rule": "vva-verbal",
+      "severity": "warning"
+    },
+    {
+      "message": "accreditation asserted by interview, not by document",
+      "objects": [
+        "mdl-trac",
+        "vva-trac"
+      ],
+      "rule": "vva-verbal",
+      "severity": "warning"
+    }
+  ]
+}

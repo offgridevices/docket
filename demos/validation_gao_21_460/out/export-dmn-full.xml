@@ -1,0 +1,30 @@
+<definitions xmlns="https://www.omg.org/spec/DMN/20230324/MODEL/" id="defs-pl-twv" name="pl-twv" namespace="https://docket.dev/ns#pl-twv">
+  <knowledgeSource id="ks-fcc-opord-19-014-multi-domain-operations-tactical-wheeled-vehicle-study" name="FCC OPORD 19-014: Multi-Domain Operations Tactical Wheeled Vehicle Study" />
+  <inputData id="input-m-dt-sustainment" name="m-dt-sustainment" />
+  <inputData id="input-m-lsp-vehicles" name="m-lsp-vehicles" />
+  <inputData id="input-m-mobility-pct" name="m-mobility-pct" />
+  <decision id="distribution-transportation" name="distribution-transportation">
+    <informationRequirement>
+      <requiredInput href="#input-m-dt-sustainment" />
+    </informationRequirement>
+    <authorityRequirement>
+      <requiredAuthority href="#ks-fcc-opord-19-014-multi-domain-operations-tactical-wheeled-vehicle-study" />
+    </authorityRequirement>
+  </decision>
+  <decision id="launch-support" name="launch-support">
+    <informationRequirement>
+      <requiredInput href="#input-m-lsp-vehicles" />
+    </informationRequirement>
+    <authorityRequirement>
+      <requiredAuthority href="#ks-fcc-opord-19-014-multi-domain-operations-tactical-wheeled-vehicle-study" />
+    </authorityRequirement>
+  </decision>
+  <decision id="mobility" name="mobility">
+    <informationRequirement>
+      <requiredInput href="#input-m-mobility-pct" />
+    </informationRequirement>
+    <authorityRequirement>
+      <requiredAuthority href="#ks-fcc-opord-19-014-multi-domain-operations-tactical-wheeled-vehicle-study" />
+    </authorityRequirement>
+  </decision>
+</definitions>

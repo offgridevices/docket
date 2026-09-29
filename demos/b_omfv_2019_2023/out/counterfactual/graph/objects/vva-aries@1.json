@@ -1,0 +1,94 @@
+{
+  "accreditationDecision": {
+    "authority": "Army officials, the Army's standard verification, validation and accreditation process",
+    "basis": "interview",
+    "date": "2021",
+    "scope": "the models and simulations informing the 11 analytical efforts, of which ARIES / performance M&S is one"
+  },
+  "assumptionsCapabilitiesLimitationsRisks": {
+    "assumptions": {
+      "$gap": "gap-model-docs"
+    },
+    "capabilities": {
+      "$gap": "gap-model-docs"
+    },
+    "limitations": {
+      "$gap": "gap-model-docs"
+    },
+    "risks": {
+      "$gap": "gap-model-docs"
+    }
+  },
+  "confidence": "inferred",
+  "createdAt": "2021-09-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "vva-aries",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "printed p. 10 (PDF p. 13)",
+    "sourceArtifact": "sources/gao-23-106549.pdf"
+  },
+  "methodology": {
+    "$gap": "gap-model-docs"
+  },
+  "problemStatement": "ch-omfv",
+  "requirementsAndAcceptabilityCriteria": {
+    "$gap": "gap-model-docs"
+  },
+  "rev": 1,
+  "sections": [
+    {
+      "content": {
+        "$gap": "gap-model-docs"
+      },
+      "name": "Problem Statement"
+    },
+    {
+      "content": {
+        "$gap": "gap-model-docs"
+      },
+      "name": "M&S Requirements and Acceptability Criteria"
+    },
+    {
+      "content": {
+        "$gap": "gap-model-docs"
+      },
+      "name": "M&S Assumptions, Capabilities, Limitations & Risks/Impacts"
+    },
+    {
+      "content": {
+        "$gap": "gap-model-docs"
+      },
+      "name": "Accreditation Methodology"
+    },
+    {
+      "content": {
+        "$gap": "gap-model-docs"
+      },
+      "name": "Issues"
+    },
+    {
+      "content": {
+        "$gap": "gap-model-docs"
+      },
+      "name": "Key Participants"
+    },
+    {
+      "content": {
+        "$gap": "gap-model-docs"
+      },
+      "name": "Resources"
+    },
+    {
+      "content": {
+        "$gap": "gap-model-docs"
+      },
+      "name": "Lessons Learned"
+    }
+  ],
+  "type": "VVARecord"
+}

@@ -1,0 +1,29 @@
+{
+  "authority": {
+    "date": "2013-04",
+    "role": "analyst",
+    "who": "Congressional Budget Office"
+  },
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "ex-army-categories",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "pp. 33–34 (Table A-1)",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "reason": "The Army's analysis included several categories that CBO assessed differently — such as cost — or excluded altogether for a variety of reasons, including an insufficiency of data for analysis of all four vehicles. CBO's primary-metric weights are the Army's weights for the four remaining categories, renormalised: the Army weighted protection and survivability 0.20, lethality 0.15, mobility 0.10 and passenger capacity 0.05, which sum to 0.50, and dividing each by 0.50 gives CBO's 0.40/0.30/0.20/0.10 exactly (Table A-1, p. 34).",
+  "reasonType": "assessed-differently",
+  "retainedInStructure": true,
+  "rev": 1,
+  "target": {
+    "kind": "Category",
+    "label": "cost, communications, growth potential and sustainability (four of the Army's eight AoA categories)"
+  },
+  "type": "Exclusion"
+}

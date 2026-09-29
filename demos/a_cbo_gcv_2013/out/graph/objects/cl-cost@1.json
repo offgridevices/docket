@@ -1,0 +1,31 @@
+{
+  "addresses": [
+    "obj-cost"
+  ],
+  "assessableAt": {
+    "level": "U"
+  },
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "cl-cost",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 3",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "questionClass": "cost",
+  "rev": 1,
+  "section": "evaluation-results",
+  "supportedBy": [
+    {
+      "evidence": "ev-cbo-cost-estimate"
+    }
+  ],
+  "text": "Fielding Pumas or upgraded Bradleys would cost $14 billion and $9 billion less, respectively, than the Army's GCV program over 2014 through 2030.",
+  "type": "Claim"
+}

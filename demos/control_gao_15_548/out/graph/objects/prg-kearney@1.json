@@ -1,0 +1,18 @@
+{
+  "charter": "ch-kearney-2014",
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "diffs": [],
+  "episodes": [
+    "ep-kearney-2014"
+  ],
+  "id": "prg-kearney",
+  "name": "The Army combat vehicle industrial base study — a single-episode programme",
+  "refreshTriggers": [],
+  "rev": 1,
+  "type": "DecisionProgram"
+}

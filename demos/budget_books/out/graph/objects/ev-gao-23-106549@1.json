@@ -1,0 +1,51 @@
+{
+  "assertions": [
+    {
+      "field": "date",
+      "locator": "GAO-23-106549, Highlights page (PDF p. 2) and printed p. 5 (PDF p. 8)",
+      "subject": "omfv-phase2-award",
+      "value": "2021-09"
+    }
+  ],
+  "classification": {
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "explicit",
+  "createdAt": "2026-09-05T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2023-06-27",
+  "evidenceType": "Document",
+  "id": "ev-gao-23-106549",
+  "inclusionReason": "it dates the Phase 2 concept-design award, which the Army's own budget exhibits date differently",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed pp. 1-18 (PDF pp. 4-21)",
+    "sourceArtifact": "sources/gao-23-106549.pdf"
+  },
+  "pointer": {
+    "custodian": "GAO",
+    "uri": "sources/gao-23-106549.pdf ; https://www.gao.gov/products/gao-23-106549"
+  },
+  "published": "2023-06-27",
+  "publisher": "U.S. Government Accountability Office",
+  "reliabilitySteps": {
+    "$gap": "gap-document-reliability"
+  },
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "scopeOfValidity": {
+    "builtToAnswer": "whether the Army's Section 234 report was objective, valid and reliable as GAO defines those terms",
+    "conditions": [
+      "GAO did not independently assess or verify the analytical efforts supporting the Army's report (footnote 7, printed p. 9; appendix I, printed p. 18)"
+    ],
+    "intendedUse": "report to congressional committees",
+    "questionClass": "other"
+  },
+  "title": "GAO-23-106549, Optionally Manned Fighting Vehicle: Observations on the Objectivity, Validity, and Reliability of the Army's Report",
+  "type": "Evidence"
+}

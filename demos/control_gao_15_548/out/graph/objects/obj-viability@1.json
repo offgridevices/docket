@@ -1,0 +1,28 @@
+{
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "description": "The first half of the study's objective (printed p. 8). GAO printed p. 9 assigns four of the six analyses to it: the current state assessment, the cost baseline, the supplier base analysis and the benchmark comparison.",
+  "id": "obj-viability",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 8 (PDF p. 11); printed p. 9 (PDF p. 12)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "measures": [
+    "m-current-state",
+    "m-cost-baseline",
+    "m-supplier-base",
+    "m-benchmark"
+  ],
+  "name": "Assess the combined commercial and government combat vehicle industrial base",
+  "priority": "primary",
+  "priorityRank": 1,
+  "provenance": "ev-gao-15-548",
+  "rev": 1,
+  "type": "Objective"
+}

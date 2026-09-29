@@ -1,0 +1,24 @@
+{
+  "conditions": [
+    "constrained fiscal environment"
+  ],
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "description": "Printed pp. 13-14: the spreadsheet-based model examined the financial consequences to various manufacturers and suppliers \"based on different levels of demand\", and those scenarios were run through the model to help the Army develop potential courses of action.",
+  "id": "sc-demand-levels",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 12 (PDF p. 15); printed p. 13 (PDF p. 16); printed p. 14 (PDF p. 17)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "name": "Different levels of demand for combat vehicles",
+  "rationale": "Printed p. 12: the study \"explicitly identified and appropriately varied assumptions about the expected demand for combat vehicles when developing scenarios for the combat vehicle industrial base using sensitivity analysis\", which GAO calls \"a key characteristic for a credible study based on generally accepted research standards\". Printed p. 6 records the study's finding that production and sustainment demand is the factor with the most impact on the industrial base.",
+  "rev": 1,
+  "source": "ev-gao-15-548",
+  "type": "Scenario"
+}

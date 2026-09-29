@@ -1,0 +1,60 @@
+{
+  "classification": {
+    "caveats": [
+      "GAO printed p. 19 reports the Army withheld the report from the manufacturers and suppliers as 'for official use only'; its present release status has not been verified by this project"
+    ],
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2014-04",
+  "evidenceType": "Document",
+  "id": "ev-kearney-final-report",
+  "inclusionReason": "the study under assessment",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 1 (PDF p. 4); printed p. 2 (PDF p. 5); printed p. 18 (PDF p. 21); printed p. 22 (PDF p. 25)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "limitations": [
+    {
+      "impact": "its findings cannot be checked against the analysis that produced them; the pointer is a recorded gap, not a locator, and no Claim in this record rests on this item",
+      "statement": "The report itself is not public: everything recorded about it here is what GAO reports about it."
+    }
+  ],
+  "pointer": {
+    "$gap": "gap-kearney-report"
+  },
+  "published": "2014-04",
+  "publisher": "Department of the Army / A.T. Kearney",
+  "reliabilitySteps": {
+    "$gap": "gap-kearney-report"
+  },
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "reviewers": [
+    {
+      "date": "2014-04",
+      "name": "Department of the Army",
+      "role": "submitting authority"
+    },
+    {
+      "date": "2015-06",
+      "name": "U.S. Government Accountability Office",
+      "role": "assessment of the reasonableness of the study's methods"
+    }
+  ],
+  "scopeOfValidity": {
+    "builtToAnswer": "What is the state of the combined commercial and government combat vehicle industrial base, and what strategic alternatives would sustain it within a constrained fiscal environment?",
+    "intendedUse": "the Army's report to the congressional defense committees and its investment decisions in the combat vehicle industrial base",
+    "questionClass": "industrial-base"
+  },
+  "title": "A.T. Kearney / Department of the Army, \"M1 Abrams Tank Upgrade and Bradley Fighting Vehicle Industrial Base Study: Report to Congress\" (April 2014), with the interim and final study briefings and the backup slides that detail the study's methodological elements",
+  "type": "Evidence"
+}

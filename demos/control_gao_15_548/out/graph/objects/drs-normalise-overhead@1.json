@@ -1,0 +1,22 @@
+{
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2013",
+  "description": "Printed p. 16: because different production facilities charge different activities to different accounts, the calculation of overhead rates had to be standardised. The study's authors examined the time charges for accounts that contribute to factory overhead at different facilities and made efforts to normalise the data, ensuring that \"overhead rates for each facility were generally comprised of the same elements.\"",
+  "documentation": "ev-gao-15-548",
+  "id": "drs-normalise-overhead",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 16 (PDF p. 19)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "method": "electronic-testing",
+  "performedBy": "A.T. Kearney",
+  "rev": 1,
+  "type": "DataReliabilityStep"
+}

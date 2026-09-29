@@ -1,0 +1,29 @@
+{
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "docket-kernel/0.1.0",
+    "actorType": "kernel"
+  },
+  "episode": "ep-kearney-2014",
+  "id": "ms-ep-kearney-2014-1",
+  "kernelVersion": "0.1.0",
+  "rev": 1,
+  "rows": [
+    {
+      "element": "me-ndaa13-bradley",
+      "satisfiedBy": [
+        "cl-shutdown-cost",
+        "cl-mandate-coverage"
+      ],
+      "status": "satisfied"
+    },
+    {
+      "element": "me-sasc-goco",
+      "satisfiedBy": [
+        "cl-mandate-coverage"
+      ],
+      "status": "satisfied"
+    }
+  ],
+  "type": "MandateScorecard"
+}

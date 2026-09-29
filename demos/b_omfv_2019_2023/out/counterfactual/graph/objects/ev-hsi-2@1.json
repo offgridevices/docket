@@ -1,0 +1,62 @@
+{
+  "analysisMethod": {
+    "$gap": "gap-touchpoint-fields"
+  },
+  "classification": {
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "inferred",
+  "createdAt": "2021-09-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "dates": {
+    "$gap": "gap-touchpoint-fields"
+  },
+  "evidenceType": "SoldierTouchpoint",
+  "id": "ev-hsi-2",
+  "inclusionReason": "named on the OMFV Phase 2 schedule as a Phase 2 MS&A activity (PDF p. 17 (slide footer 19)); Immersive Simulation modeling (CAVE) - CAVE support will provide Soldiers a first person perspective of the OMFV design.. Slide footer 20 never maps HSI 2 onto the CAVE immersive simulation; that mapping is OURS",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "PDF p. 17 (slide footer 19); PDF p. 18 (slide footer 20)",
+    "sourceArtifact": "sources/army-2020-12-09-omfv-industry-day-briefing.pdf"
+  },
+  "instrument": {
+    "$gap": "gap-touchpoint-fields"
+  },
+  "n": {
+    "$gap": "gap-touchpoint-fields"
+  },
+  "pointer": {
+    "custodian": "Department of the Army (the study itself is not public); the cited document is the public record that names it",
+    "uri": "sources/army-2020-12-09-omfv-industry-day-briefing.pdf#page=18"
+  },
+  "reliabilitySteps": {
+    "$gap": "gap-reliability-steps"
+  },
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "reviewers": [
+    {
+      "date": "2021",
+      "name": "Department of the Army",
+      "role": "performing organisation (no review record is public)"
+    }
+  ],
+  "scopeOfValidity": {
+    "builtToAnswer": "the desired characteristics for the OMFV — GAO printed p. 12: \"these analyses were not designed to draw conclusions on force structure alternatives. Instead, the analyses were intended to assess the desired characteristics\"",
+    "intendedUse": "Phase 2 modelling, simulation and analysis",
+    "questionClass": "desired-characteristics"
+  },
+  "selectionRule": {
+    "$gap": "gap-touchpoint-fields"
+  },
+  "title": "HSI 2 — Immersive Simulation modelling (CAVE)",
+  "type": "Evidence",
+  "unit": {
+    "$gap": "gap-touchpoint-fields"
+  }
+}

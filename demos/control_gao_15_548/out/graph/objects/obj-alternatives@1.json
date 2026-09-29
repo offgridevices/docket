@@ -1,0 +1,26 @@
+{
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "description": "The second half of the study's objective (printed p. 8). GAO printed p. 9 assigns the remaining two analyses to it: the scenario analysis and the network strategy plan.",
+  "id": "obj-alternatives",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 8 (PDF p. 11); printed p. 9 (PDF p. 12)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "measures": [
+    "m-scenario-analysis",
+    "m-network-strategy"
+  ],
+  "name": "Develop viable strategic alternatives to sustain that base within a constrained fiscal environment",
+  "priority": "secondary",
+  "priorityRank": 2,
+  "provenance": "ev-gao-15-548",
+  "rev": 1,
+  "type": "Objective"
+}

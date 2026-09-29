@@ -1,0 +1,28 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "evidence": "ev-army-officials-2021",
+  "id": "as-readiness-90",
+  "implicationsIfWrong": {
+    "$gap": "gap-readiness-implications"
+  },
+  "indicatorsThatWouldAlter": {
+    "$gap": "gap-readiness-indicators"
+  },
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 12 (PDF p. 17)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "linchpin": true,
+  "rationale": "the study's assumptions are clearly defined and mitigation assessments were performed (printed p. 12)",
+  "rev": 1,
+  "statement": "the Army assumes an operational readiness rate of 90 percent but then mitigates for this assumption by varying readiness rates to perform sensitivity analysis according to Army officials.",
+  "type": "Assumption",
+  "variedInSensitivity": true
+}

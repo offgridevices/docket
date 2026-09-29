@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Docket logo system</title>
+  <style>
+    :root { --pitch:#1B1813; --bone:#F1ECE0; --ground:#F7F4EC; --ink:#1B1813; --ink-2:#5C554A; --hairline:rgba(27,24,19,.14); }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    body { font-family:system-ui,sans-serif; background:var(--ground); color:var(--ink); padding:40px clamp(20px,5vw,80px); line-height:1.5; }
+    h1 { font-size:clamp(28px,4vw,42px); font-weight:400; letter-spacing:-.04em; margin-bottom:8px; }
+    .lead { color:var(--ink-2); max-width:65ch; margin-bottom:32px; }
+    h2 { font-size:16px; font-weight:600; margin:32px 0 12px; padding-bottom:8px; border-bottom:1px solid var(--hairline); }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:20px; }
+    .card { background:#FBF9F3; border:1px solid var(--hairline); padding:16px; }
+    .card h3 { font-size:13px; font-weight:600; margin-bottom:4px; text-align:center; }
+    .card code { font-size:11px; color:var(--ink-2); word-break:break-all; display:block; margin-top:8px; text-align:center; }
+    .thumb { display:flex; align-items:center; justify-content:center; min-height:100px; margin-bottom:8px; background:repeating-conic-gradient(#e8e4da 0% 25%,#f0ece2 0% 50%) 50%/16px 16px; }
+    .thumb.dark { background:var(--pitch); }
+    .thumb.wide img { width:100%; max-height:120px; object-fit:contain; }
+    .thumb img { max-width:128px; max-height:128px; }
+  </style>
+</head>
+<body>
+  <h1>Docket logo system</h1>
+  <p class="lead">All generated assets from <code>npm run gen:logo</code>. Spec: <code>ui/src/brand/DOCKET-LOGO.md</code></p>
+  <div id="root"></div>
+  <script>
+    const groups = [
+      { title: 'Mark only (transparent)', dark: [0,3], items: [
+        'docket-mark-ember.svg','docket-mark-ember-on-bone.svg','docket-mark-ink.svg','docket-mark-bone.svg'] },
+      { title: 'Square 1:1 app icons', items: [
+        'docket-icon-pitch.svg','docket-icon-bone.svg','docket-icon-raised.svg','docket-icon-ground.svg','docket-icon-transparent.svg'], dark: [4] },
+      { title: 'Favicon', items: ['docket-favicon-pitch.svg','docket-favicon-bone.svg'] },
+      { title: 'Lockups', wide: true, items: [
+        'docket-lockup-horizontal-pitch.svg','docket-lockup-horizontal-bone.svg','docket-lockup-horizontal-transparent.svg',
+        'docket-lockup-stacked-pitch.svg','docket-lockup-stacked-bone.svg'], dark: [2] },
+      { title: 'Wide / social', wide: true, items: [
+        'docket-social-og.svg','docket-social-banner-3x1.svg','docket-social-16x9.svg','docket-social-1x1.svg','docket-social-9x16.svg'] },
+      { title: 'Monochrome', items: [
+        'docket-mono-ink.svg','docket-mono-bone-on-pitch.svg','docket-mono-transparent-ink.svg'] },
+    ];
+    const root = document.getElementById('root');
+    for (const g of groups) {
+      const h2 = document.createElement('h2'); h2.textContent = g.title; root.appendChild(h2);
+      const grid = document.createElement('div'); grid.className = 'grid'; root.appendChild(grid);
+      g.items.forEach((file, i) => {
+        const card = document.createElement('div'); card.className = 'card';
+        const thumb = document.createElement('div');
+        thumb.className = 'thumb' + ((g.dark && g.dark.includes(i)) ? ' dark' : '') + (g.wide ? ' wide' : '');
+        const img = document.createElement('img');
+        img.src = 'docket/' + file;
+        img.alt = file;
+        thumb.appendChild(img);
+        card.appendChild(thumb);
+        const h3 = document.createElement('h3'); h3.textContent = file.replace('.svg',''); card.appendChild(h3);
+        const code = document.createElement('code'); code.textContent = 'docket/' + file; card.appendChild(code);
+        grid.appendChild(card);
+      });
+    }
+  </script>
+</body>
+</html>

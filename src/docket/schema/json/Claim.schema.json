@@ -1,0 +1,226 @@
+{
+  "$defs": {
+    "actor": {
+      "additionalProperties": false,
+      "properties": {
+        "actorId": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "actorType": {
+          "enum": [
+            "human",
+            "agent",
+            "kernel"
+          ]
+        }
+      },
+      "required": [
+        "actorType",
+        "actorId"
+      ],
+      "type": "object"
+    },
+    "exclusionRef": {
+      "additionalProperties": false,
+      "properties": {
+        "$exclusion": {
+          "$ref": "#/$defs/id"
+        }
+      },
+      "required": [
+        "$exclusion"
+      ],
+      "type": "object"
+    },
+    "gapRef": {
+      "additionalProperties": false,
+      "properties": {
+        "$gap": {
+          "$ref": "#/$defs/id"
+        }
+      },
+      "required": [
+        "$gap"
+      ],
+      "type": "object"
+    },
+    "id": {
+      "pattern": "^[a-z0-9][a-z0-9._:-]*$",
+      "type": "string"
+    },
+    "provenance": {
+      "additionalProperties": false,
+      "properties": {
+        "extractedAt": {
+          "type": "string"
+        },
+        "extractor": {
+          "type": "string"
+        },
+        "locator": {
+          "type": "string"
+        },
+        "sourceArtifact": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "sourceArtifact",
+        "locator",
+        "extractor",
+        "extractedAt"
+      ],
+      "type": "object"
+    },
+    "timestamp": {
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}(T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?Z)?$",
+      "type": "string"
+    }
+  },
+  "$id": "https://docket.offgriddevices.com/schema/Claim.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "A statement the package asserts. Assessable at level L if supporting evidence metadata is visible at L.",
+  "properties": {
+    "addresses": {
+      "items": {
+        "$ref": "#/$defs/id"
+      },
+      "type": "array"
+    },
+    "assessableAt": {
+      "additionalProperties": false,
+      "properties": {
+        "level": {
+          "enum": [
+            "U",
+            "CUI",
+            "C",
+            "S",
+            "TS"
+          ]
+        }
+      },
+      "required": [
+        "level"
+      ],
+      "type": "object"
+    },
+    "confidence": {
+      "enum": [
+        "explicit",
+        "inferred",
+        "absent"
+      ]
+    },
+    "createdAt": {
+      "$ref": "#/$defs/timestamp"
+    },
+    "createdBy": {
+      "$ref": "#/$defs/actor"
+    },
+    "derivedFrom": {
+      "$ref": "#/$defs/id"
+    },
+    "id": {
+      "$ref": "#/$defs/id"
+    },
+    "ingestionProvenance": {
+      "$ref": "#/$defs/provenance"
+    },
+    "mandateElements": {
+      "items": {
+        "$ref": "#/$defs/id"
+      },
+      "type": "array"
+    },
+    "questionClass": {
+      "enum": [
+        "desired-characteristics",
+        "force-structure",
+        "operational-concept",
+        "combat-effectiveness",
+        "cost",
+        "schedule",
+        "industrial-base",
+        "requirements-tradeoff",
+        "capability-gap",
+        "other"
+      ]
+    },
+    "resultRef": {
+      "$ref": "#/$defs/id"
+    },
+    "rev": {
+      "minimum": 1,
+      "type": "integer"
+    },
+    "section": {
+      "type": "string"
+    },
+    "supersedes": {
+      "$ref": "#/$defs/id"
+    },
+    "supportedBy": {
+      "oneOf": [
+        {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "evidence": {
+                "$ref": "#/$defs/id"
+              },
+              "reuseJustification": {
+                "additionalProperties": false,
+                "properties": {
+                  "authority": {
+                    "type": "string"
+                  },
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "authority"
+                ],
+                "type": "object"
+              }
+            },
+            "required": [
+              "evidence"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        {
+          "$ref": "#/$defs/exclusionRef"
+        },
+        {
+          "$ref": "#/$defs/gapRef"
+        }
+      ]
+    },
+    "text": {
+      "type": "string"
+    },
+    "type": {
+      "const": "Claim"
+    }
+  },
+  "required": [
+    "id",
+    "type",
+    "rev",
+    "createdBy",
+    "createdAt",
+    "text",
+    "questionClass",
+    "assessableAt",
+    "supportedBy"
+  ],
+  "title": "Claim",
+  "type": "object"
+}

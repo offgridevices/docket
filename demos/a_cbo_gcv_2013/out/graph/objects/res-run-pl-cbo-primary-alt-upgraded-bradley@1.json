@@ -1,0 +1,16 @@
+{
+  "aggregate": true,
+  "alternative": "alt-upgraded-bradley",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "docket-kernel/0.1.0",
+    "actorType": "kernel"
+  },
+  "id": "res-run-pl-cbo-primary-alt-upgraded-bradley",
+  "method": "mavt-additive",
+  "rev": 1,
+  "run": "run-pl-cbo-primary",
+  "type": "Result",
+  "units": "weighted value",
+  "value": 31.8
+}

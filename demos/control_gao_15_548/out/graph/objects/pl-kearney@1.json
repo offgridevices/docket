@@ -1,0 +1,158 @@
+{
+  "approvedBy": {
+    "actorId": "Department of the Army (contract with the management consulting firm, October 2012)",
+    "date": "2012-10"
+  },
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "deviations": [],
+  "episode": "ep-kearney-2014",
+  "id": "pl-kearney",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 9 (PDF p. 12); printed p. 13 (PDF p. 16); printed p. 18 (PDF p. 21)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "policyBasis": "pol-kearney",
+  "rev": 1,
+  "steps": [
+    {
+      "alternatives": [
+        "alt-continue-production",
+        "alt-warm-shutdown",
+        "alt-courses-of-action"
+      ],
+      "authority": {
+        "document": "GAO, Army Combat Vehicles: Industrial Base Study's Approach Met Research Standards, GAO-15-548 (16 June 2015)",
+        "paragraph": "'The Study's Objective, Scope, and Methodology Were Reasonable', printed p. 9 (the six methodological elements), and 'The Study was Executed in Accordance with the Defined Methodology', printed p. 13"
+      },
+      "biasChecks": [
+        "bc-oem-review"
+      ],
+      "evaluator": "mdl-kearney-method",
+      "id": "current-state",
+      "measures": [
+        "m-current-state"
+      ],
+      "method": "mavt",
+      "sensitivitySweeps": [],
+      "weightSet": "ws-kearney"
+    },
+    {
+      "alternatives": [
+        "alt-continue-production",
+        "alt-warm-shutdown",
+        "alt-courses-of-action"
+      ],
+      "authority": {
+        "document": "GAO, Army Combat Vehicles: Industrial Base Study's Approach Met Research Standards, GAO-15-548 (16 June 2015)",
+        "paragraph": "'The Study's Objective, Scope, and Methodology Were Reasonable', printed p. 9 (the six methodological elements), and 'The Study was Executed in Accordance with the Defined Methodology', printed p. 13"
+      },
+      "biasChecks": [
+        "bc-oem-review"
+      ],
+      "evaluator": "mdl-kearney-method",
+      "id": "cost-baseline",
+      "measures": [
+        "m-cost-baseline"
+      ],
+      "method": "mavt",
+      "sensitivitySweeps": [],
+      "weightSet": "ws-kearney"
+    },
+    {
+      "alternatives": [
+        "alt-continue-production",
+        "alt-warm-shutdown",
+        "alt-courses-of-action"
+      ],
+      "authority": {
+        "document": "GAO, Army Combat Vehicles: Industrial Base Study's Approach Met Research Standards, GAO-15-548 (16 June 2015)",
+        "paragraph": "'The Study's Objective, Scope, and Methodology Were Reasonable', printed p. 9 (the six methodological elements), and 'The Study was Executed in Accordance with the Defined Methodology', printed p. 13"
+      },
+      "biasChecks": [
+        "bc-oem-review"
+      ],
+      "evaluator": "mdl-kearney-method",
+      "id": "supplier-base",
+      "measures": [
+        "m-supplier-base"
+      ],
+      "method": "mavt",
+      "sensitivitySweeps": [],
+      "weightSet": "ws-kearney"
+    },
+    {
+      "alternatives": [
+        "alt-continue-production",
+        "alt-warm-shutdown",
+        "alt-courses-of-action"
+      ],
+      "authority": {
+        "document": "GAO, Army Combat Vehicles: Industrial Base Study's Approach Met Research Standards, GAO-15-548 (16 June 2015)",
+        "paragraph": "'The Study's Objective, Scope, and Methodology Were Reasonable', printed p. 9 (the six methodological elements), and 'The Study was Executed in Accordance with the Defined Methodology', printed p. 13"
+      },
+      "biasChecks": [
+        "bc-oem-review"
+      ],
+      "evaluator": "mdl-kearney-method",
+      "id": "benchmark",
+      "measures": [
+        "m-benchmark"
+      ],
+      "method": "mavt",
+      "sensitivitySweeps": [],
+      "weightSet": "ws-kearney"
+    },
+    {
+      "alternatives": [
+        "alt-continue-production",
+        "alt-warm-shutdown",
+        "alt-courses-of-action"
+      ],
+      "authority": {
+        "document": "GAO, Army Combat Vehicles: Industrial Base Study's Approach Met Research Standards, GAO-15-548 (16 June 2015)",
+        "paragraph": "'The Study's Objective, Scope, and Methodology Were Reasonable', printed p. 9 (the six methodological elements), and 'The Study was Executed in Accordance with the Defined Methodology', printed p. 13"
+      },
+      "biasChecks": [
+        "bc-oem-review"
+      ],
+      "evaluator": "mdl-kearney-financial",
+      "id": "scenario-analysis",
+      "measures": [
+        "m-scenario-analysis"
+      ],
+      "method": "mavt",
+      "sensitivitySweeps": [],
+      "weightSet": "ws-kearney"
+    },
+    {
+      "alternatives": [
+        "alt-continue-production",
+        "alt-warm-shutdown",
+        "alt-courses-of-action"
+      ],
+      "authority": {
+        "document": "GAO, Army Combat Vehicles: Industrial Base Study's Approach Met Research Standards, GAO-15-548 (16 June 2015)",
+        "paragraph": "'The Study's Objective, Scope, and Methodology Were Reasonable', printed p. 9 (the six methodological elements), and 'The Study was Executed in Accordance with the Defined Methodology', printed p. 13"
+      },
+      "biasChecks": [
+        "bc-oem-review"
+      ],
+      "evaluator": "mdl-kearney-method",
+      "id": "network-strategy",
+      "measures": [
+        "m-network-strategy"
+      ],
+      "method": "mavt",
+      "sensitivitySweeps": [],
+      "weightSet": "ws-kearney"
+    }
+  ],
+  "type": "Plan"
+}

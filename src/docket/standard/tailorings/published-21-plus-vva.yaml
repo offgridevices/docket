@@ -1,0 +1,8 @@
+name: published-21-plus-vva
+source: "GAO-15-548 App. I; GAO-21-460 Fig. 6; GAO-23-106549 Fig. 3 — plus EXE-14 (ours)"
+default_applicable: false
+applicable: [DES-1, DES-2, DES-3, DES-4, DES-5, DES-6, DES-7, DES-8, DES-9, EXE-1, EXE-2, EXE-3, EXE-4, EXE-5, EXE-6, EXE-7, EXE-8, PRE-1, PRE-2, PRE-3, PRE-4, EXE-14]
+default_reason: "Not among the 21 questions GAO published in GAO-15-548 App. I, GAO-21-460 Fig. 6 and GAO-23-106549 Fig. 3; retained in the 36-question standard (GAO-16-820 App. I) and scored on request."
+overrides:
+  EXE-14:
+    tailoringReason: "Added to the published 21 because GAO-23-106549 finding F5 (VV&A asserted verbally, not in the report) is expressible only through EXE-14 (GAO-06-938 VI.a; GAO-11-82R VI.a). Scored on a clearly labelled extended track, never presented as GAO's own tailoring."

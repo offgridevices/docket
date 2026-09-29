@@ -1,0 +1,47 @@
+{
+  "classification": {
+    "caveats": [
+      "not publicly released; its release status has not been verified by this project"
+    ],
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "explicit",
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "custodian": "Army Futures Command, Futures and Concepts Center",
+  "evidenceType": "Dataset",
+  "id": "ev-mobility-data",
+  "inclusionReason": "the data behind the Mobility line of effort; the description reports its two validation steps and none of its contents",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 13 (PDF p. 18)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "pointer": {
+    "$gap": "gap-study-artefacts"
+  },
+  "reliabilitySteps": [
+    "drs-foe-validation",
+    "drs-sme-mobility"
+  ],
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "schemaRef": {
+    "$gap": "gap-data-schema"
+  },
+  "scopeOfValidity": {
+    "builtToAnswer": "the mobility of each unit type",
+    "conditions": [
+      "European MDO environment"
+    ],
+    "intendedUse": "the Mobility line of effort",
+    "questionClass": "capability-gap"
+  },
+  "title": "The mobility percentages for each unit, Mobility line of effort",
+  "type": "Evidence"
+}

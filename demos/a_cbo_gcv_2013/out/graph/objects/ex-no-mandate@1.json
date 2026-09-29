@@ -1,0 +1,29 @@
+{
+  "authority": {
+    "date": "2013-04",
+    "role": "analyst",
+    "who": "Congressional Budget Office"
+  },
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "ex-no-mandate",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 37 ('About This Document')",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "reason": "The report was prepared at the request of the former Chairman and Ranking Member of the Tactical Air and Land Forces Subcommittee of the House Committee on Armed Services; the request carried no itemised list of things the report had to contain. The one mandate constraint CBO states — that it make no recommendations — is recorded as the exclusion on the commitment section.",
+  "reasonType": "not-applicable",
+  "retainedInStructure": true,
+  "rev": 1,
+  "target": {
+    "kind": "Section",
+    "label": "mandate-elements"
+  },
+  "type": "Exclusion"
+}

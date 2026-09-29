@@ -1,0 +1,13 @@
+{
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "docket-kernel/0.1.0",
+    "actorType": "kernel"
+  },
+  "episode": "ep-cbo-2013",
+  "id": "ms-ep-cbo-2013-1",
+  "kernelVersion": "0.1.0",
+  "rev": 1,
+  "rows": [],
+  "type": "MandateScorecard"
+}

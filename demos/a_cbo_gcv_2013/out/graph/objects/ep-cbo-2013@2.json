@@ -1,0 +1,137 @@
+{
+  "alternatives": [
+    "alt-gcv",
+    "alt-namer",
+    "alt-upgraded-bradley",
+    "alt-puma",
+    "alt-retain-bradley"
+  ],
+  "asOf": "2013-04-30",
+  "assumptions": [
+    "as-nine-squad",
+    "as-army-weights",
+    "as-expert-estimates"
+  ],
+  "biasChecks": [
+    "bc-structured"
+  ],
+  "charter": "ch-gcv-2013",
+  "claims": [],
+  "constraints": [
+    "con-unit-cost",
+    "con-platoon"
+  ],
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "distribution": [
+    {
+      "date": "2013-04",
+      "to": "Tactical Air and Land Forces Subcommittee, House Committee on Armed Services"
+    },
+    {
+      "date": "2013-04",
+      "to": "the public (cbo.gov)"
+    }
+  ],
+  "evidenceRegister": [
+    "ev-cbo-2013",
+    "ev-cbo-cost-estimate",
+    "ev-army-aoa-2011",
+    "ev-army-sim-2010",
+    "ev-army-expert-estimates",
+    "ev-army-mobility-data",
+    "ev-soldier-survey",
+    "ev-army-squad-2011"
+  ],
+  "flipAnalyses": [],
+  "groundRules": [
+    "gr-reference",
+    "gr-dollars",
+    "gr-army-goals"
+  ],
+  "id": "ep-cbo-2013",
+  "lifecycleState": "MODEL_APPROVED",
+  "mandateElements": [],
+  "models": [
+    "mdl-cbo-metric"
+  ],
+  "narratives": [],
+  "objectives": [
+    "obj-capability",
+    "obj-cost"
+  ],
+  "observations": [
+    "ob-gcv-prot",
+    "ob-gcv-leth",
+    "ob-gcv-mob",
+    "ob-gcv-pax",
+    "ob-gcv-squad",
+    "ob-gcv-cost",
+    "ob-namer-prot",
+    "ob-namer-leth",
+    "ob-namer-mob",
+    "ob-namer-pax",
+    "ob-namer-squad",
+    "ob-namer-cost",
+    "ob-upgraded-bradley-prot",
+    "ob-upgraded-bradley-leth",
+    "ob-upgraded-bradley-mob",
+    "ob-upgraded-bradley-pax",
+    "ob-upgraded-bradley-squad",
+    "ob-upgraded-bradley-cost",
+    "ob-puma-prot",
+    "ob-puma-leth",
+    "ob-puma-mob",
+    "ob-puma-pax",
+    "ob-puma-squad",
+    "ob-puma-cost",
+    "ob-retain-bradley-prot",
+    "ob-retain-bradley-leth",
+    "ob-retain-bradley-mob",
+    "ob-retain-bradley-pax",
+    "ob-retain-bradley-squad",
+    "ob-retain-bradley-cost"
+  ],
+  "plan": "pl-cbo",
+  "program": "prg-gcv-2013",
+  "rev": 2,
+  "risks": [
+    "rk-gcv-programmatic"
+  ],
+  "runs": [],
+  "scenarios": [
+    "sc-unconventional",
+    "sc-conventional",
+    "sc-ne-asia"
+  ],
+  "sequence": 1,
+  "transitions": [
+    {
+      "actor": {
+        "actorId": "shreyash",
+        "actorType": "human"
+      },
+      "at": "2013-04-30T00:00:00Z",
+      "checksSatisfied": [
+        "charter-three-fields",
+        "charter-human-accepted",
+        "no-blocking-structural",
+        "gaps-confirmed",
+        "linchpins-human"
+      ],
+      "checksUnsatisfied": [],
+      "from": "DRAFT",
+      "policyVersion": "0.1",
+      "refused": false,
+      "to": "MODEL_APPROVED"
+    }
+  ],
+  "type": "DecisionEpisode",
+  "weightSets": [
+    "ws-primary",
+    "ws-secondary"
+  ]
+}

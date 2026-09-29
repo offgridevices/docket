@@ -1,0 +1,38 @@
+{
+  "addresses": [
+    "obj-capability"
+  ],
+  "assessableAt": {
+    "level": "U"
+  },
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "cl-squad-rationale",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 6 (Box 1-1)",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "questionClass": "operational-concept",
+  "rev": 1,
+  "section": "grca",
+  "supportedBy": [
+    {
+      "evidence": "ev-army-squad-2011"
+    },
+    {
+      "evidence": "ev-cbo-2013",
+      "reuseJustification": {
+        "authority": "Congressional Budget Office",
+        "text": "The sentence is read off CBO's Box 1-1, which restates the Army's operational concept for the squad inside a requirements trade-off study and cites the Army's own document for it (p. 6 and fn 2/fn 4)."
+      }
+    }
+  ],
+  "text": "The Army's stated reason for carrying a full nine-member squad in one vehicle is that a squad split between vehicles is hard to organise and direct in the moments after the soldiers dismount.",
+  "type": "Claim"
+}

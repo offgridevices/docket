@@ -1,0 +1,19 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gr-dollars",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 21 (Table 2-2)",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "rev": 1,
+  "source": "ev-cbo-cost-estimate",
+  "statement": "Costs are total development and procurement over 2014 through 2030, in 2013 dollars.",
+  "type": "GroundRule"
+}

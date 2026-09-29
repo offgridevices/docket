@@ -1,0 +1,22 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2015-06",
+  "description": "GAO's own reconciliation, verbatim from printed p. 2: \"Two GAO analysts individually evaluated the Army study against these standards, consulting with GAO specialists in the areas of economics, survey and research methods, and, as needed, obtaining clarifications and additional information from the Army and the study's authors. After completing their independent analyses, we compared the two sets of observations and discussed and reconciled any differences.\" Printed p. 23 adds that the two analysts used a scorecard methodology.",
+  "documentation": "ev-gao-15-548",
+  "id": "drs-two-analysts",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 2 (PDF p. 5)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "method": "expert-review",
+  "performedBy": "U.S. Government Accountability Office",
+  "rev": 1,
+  "type": "DataReliabilityStep"
+}

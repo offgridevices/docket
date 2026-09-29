@@ -1,0 +1,111 @@
+{
+  "counterfactuals": {
+    "k": [
+      {
+        "grid_match": 6,
+        "k": 1,
+        "objectivity": {
+          "ce": "not_objective",
+          "dc": "not_objective",
+          "fs": "not_objective"
+        }
+      },
+      {
+        "grid_match": 6,
+        "k": 3,
+        "objectivity": {
+          "ce": "not_objective",
+          "dc": "not_objective",
+          "fs": "not_objective"
+        }
+      },
+      {
+        "grid_match": 8,
+        "k": 4,
+        "objectivity": {
+          "ce": "generally_objective",
+          "dc": "generally_objective",
+          "fs": "not_objective"
+        }
+      },
+      {
+        "grid_match": 9,
+        "k": 5,
+        "objectivity": {
+          "ce": "generally_objective",
+          "dc": "generally_objective",
+          "fs": "generally_objective"
+        }
+      },
+      {
+        "grid_match": 9,
+        "k": 21,
+        "objectivity": {
+          "ce": "generally_objective",
+          "dc": "generally_objective",
+          "fs": "generally_objective"
+        }
+      }
+    ],
+    "k_decision": "docs/decisions/2026-09-05-aggregation-k-is-a-policy-parameter.md",
+    "note": "Measured on every run, on a throwaway copy of the store. Only OBJECTIVITY moves: validity and reliability read `insufficient_to_conclude` from PRE-1 = 4 and EXE-5 = 4, both of which come from GAO's F8 (every cited evidence item's `reliabilitySteps` is the `gap-reliability-steps` object). Six of the nine cells are immovable under either counterfactual.",
+    "r2_clauses_withdrawn": {
+      "clauses": [
+        "PRE-3: claims_exist_no_silence",
+        "PRE-4: claims_exist"
+      ],
+      "grid": {
+        "ce": {
+          "objectivity": "insufficient_to_conclude",
+          "reliability": "insufficient_to_conclude",
+          "validity": "insufficient_to_conclude"
+        },
+        "dc": {
+          "objectivity": "insufficient_to_conclude",
+          "reliability": "insufficient_to_conclude",
+          "validity": "insufficient_to_conclude"
+        },
+        "fs": {
+          "objectivity": "insufficient_to_conclude",
+          "reliability": "insufficient_to_conclude",
+          "validity": "insufficient_to_conclude"
+        }
+      },
+      "grid_match": 6,
+      "objectivity": {
+        "ce": "insufficient_to_conclude",
+        "dc": "insufficient_to_conclude",
+        "fs": "insufficient_to_conclude"
+      },
+      "pre_3": {
+        "ce": 4,
+        "dc": 4,
+        "fs": 4
+      },
+      "pre_4": {
+        "ce": 4,
+        "dc": 4,
+        "fs": 4
+      }
+    },
+    "r2_decision": "docs/decisions/2026-09-05-narrative-only-records-score-state-2-on-pre-3-pre-4.md"
+  },
+  "grid": {
+    "ce": {
+      "objectivity": "generally_objective",
+      "reliability": "insufficient_to_conclude",
+      "validity": "insufficient_to_conclude"
+    },
+    "dc": {
+      "objectivity": "generally_objective",
+      "reliability": "insufficient_to_conclude",
+      "validity": "insufficient_to_conclude"
+    },
+    "fs": {
+      "objectivity": "generally_objective",
+      "reliability": "insufficient_to_conclude",
+      "validity": "insufficient_to_conclude"
+    }
+  },
+  "grid_match": 9
+}

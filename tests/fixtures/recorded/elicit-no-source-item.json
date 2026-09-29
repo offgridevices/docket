@@ -1,0 +1,6 @@
+{
+  "27638bf94351f283e234e5565aa35d651c458208c11af5e026ed0d46e6633ac1": {
+    "note": "hand-authored, plausible model output, not a real model response — exercises the source-artefact synthesis path (no isSourceArtifact:true item)",
+    "response": "{\"charter\": {\"question\": {\"value\": \"What is the synthetic test question?\", \"confidence\": \"explicit\", \"locator\": \"l\"}, \"decisionToBeMade\": {\"value\": \"decide the synthetic test outcome\", \"confidence\": \"explicit\", \"locator\": \"l\"}, \"consequencesOfErroneousOutput\": {\"value\": \"none stated\", \"confidence\": \"explicit\", \"locator\": \"l\"}, \"questionClass\": \"other\", \"scopeIncluded\": [], \"scopeExcluded\": []}, \"objectives\": [], \"alternatives\": [], \"groundRules\": [], \"constraints\": [], \"assumptions\": [], \"evidence\": [], \"gaps\": []}"
+  }
+}

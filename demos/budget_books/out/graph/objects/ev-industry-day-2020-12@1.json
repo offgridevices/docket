@@ -1,0 +1,54 @@
+{
+  "assertions": [
+    {
+      "field": "definition",
+      "locator": "Industry Day briefing, PDF p. 18 (slide footer 20)",
+      "subject": "aries",
+      "value": "performance M&S: highlights sensitivities between functional requirements"
+    },
+    {
+      "field": "definition",
+      "locator": "Industry Day briefing, PDF p. 18 (slide footer 20)",
+      "subject": "cave",
+      "value": "Immersive Simulation modeling; first-person perspective of the design"
+    }
+  ],
+  "classification": {
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "explicit",
+  "createdAt": "2026-09-05T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2020-12-09",
+  "evidenceType": "Document",
+  "id": "ev-industry-day-2020-12",
+  "inclusionReason": "it defines ARIES and CAVE as analytical activities, which the FY2026 exhibit later redefines as vehicle hardware",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "PDF p. 18 (slide footer 20), 'OMFV Phase 2 MS&A Activities'",
+    "sourceArtifact": "sources/army-2020-12-09-omfv-industry-day-briefing.pdf"
+  },
+  "pointer": {
+    "custodian": "U.S. Army Contracting Command - Detroit Arsenal",
+    "uri": "sources/army-2020-12-09-omfv-industry-day-briefing.pdf ; https://sam.gov/opp/86571129bfc34b668e8a7137a20f32b3/view"
+  },
+  "published": "2020-12-09",
+  "publisher": "U.S. Army PEO Ground Combat Systems, PM Maneuver Combat Systems, NGCV CFT and ACC-DTA",
+  "reliabilitySteps": {
+    "$gap": "gap-document-reliability"
+  },
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "scopeOfValidity": {
+    "builtToAnswer": "what the Phase 2 modelling, simulation and analysis programme consisted of",
+    "intendedUse": "industry briefing, Distribution Statement A",
+    "questionClass": "other"
+  },
+  "title": "Optionally Manned Fighting Vehicle Industry Day briefing, 9 December 2020",
+  "type": "Evidence"
+}

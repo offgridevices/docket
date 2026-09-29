@@ -1,0 +1,21 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2020-12-09T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "con-crew-in-hull",
+  "implications": "Crew in the hull removes the manned turret, which is what makes an unmanned or remote turret a design consequence of the Manning characteristic rather than a vendor preference.",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "PDF p. 5 (slide footer 6), characteristic H",
+    "sourceArtifact": "sources/army-2020-12-09-omfv-industry-day-briefing.pdf"
+  },
+  "kind": "physical",
+  "rev": 1,
+  "source": "ev-con-2020-12",
+  "statement": "The two crew members will be positioned in the hull.",
+  "type": "Constraint"
+}

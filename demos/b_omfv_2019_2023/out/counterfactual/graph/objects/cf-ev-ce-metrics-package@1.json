@@ -1,0 +1,39 @@
+{
+  "classification": {
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "inferred",
+  "createdAt": "2026-09-06T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "evidenceType": "Document",
+  "id": "cf-ev-ce-metrics-package",
+  "inclusionReason": "counterfactual: the record that would locate the withheld value",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "counterfactual",
+    "locator": "counterfactual",
+    "sourceArtifact": "demos/b_omfv_2019_2023/README.md#counterfactual-repair"
+  },
+  "pointer": {
+    "custodian": "COUNTERFACTUAL — PEO Ground Combat Systems",
+    "uri": "counterfactual: a CDRL delivery record for the metrics package"
+  },
+  "published": "2023",
+  "publisher": "COUNTERFACTUAL — no such document is known to exist",
+  "reliabilitySteps": {
+    "$gap": "gap-reliability-steps"
+  },
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "scopeOfValidity": {
+    "builtToAnswer": "where the combat effectiveness metrics package is held",
+    "intendedUse": "counterfactual locator for a withheld dataset",
+    "questionClass": "combat-effectiveness"
+  },
+  "title": "COUNTERFACTUAL: the delivery record for the OMFV combat effectiveness metrics package",
+  "type": "Evidence"
+}

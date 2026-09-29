@@ -1,0 +1,25 @@
+{
+  "charter": "ch-omfv",
+  "createdAt": "2023-03-31T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "diffs": [],
+  "episodes": [
+    "ep-omfv-2020-02",
+    "ep-omfv-2020-02-r2",
+    "ep-omfv-2020-02-r3",
+    "ep-omfv-2020-02-r4"
+  ],
+  "id": "prg-omfv",
+  "name": "OMFV requirements decision, 2019-2023",
+  "refreshTriggers": [
+    "rt-234-report",
+    "rt-con-update-2020-12",
+    "rt-phase2-efforts",
+    "rt-sigmgmt-correction"
+  ],
+  "rev": 5,
+  "type": "DecisionProgram"
+}

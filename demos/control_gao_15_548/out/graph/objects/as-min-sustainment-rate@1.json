@@ -1,0 +1,29 @@
+{
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "evidence": "ev-oem-rates",
+  "id": "as-min-sustainment-rate",
+  "implicationsIfWrong": "Verbatim, printed p. 13: \"a change in the minimum sustainment rate could impact the findings of a study\". GAO adds that it does not believe the lack of explicitly stated information materially affected the results of this one.",
+  "indicatorsThatWouldAlter": [
+    "a published derivation of the minimum sustainment rate",
+    "a manufacturer restating its minimum sustainment rate on different cost assumptions"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 13 (PDF p. 16)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "linchpin": false,
+  "rationale": {
+    "$gap": "gap-msr-derivation"
+  },
+  "rev": 1,
+  "statement": "Verbatim, printed p. 13: the study \"used the minimum sustainment rates as derived by the original equipment manufacturers, but did not include specific information on how that minimum sustainment rate was derived.\"",
+  "type": "Assumption",
+  "variedInSensitivity": false
+}

@@ -1,0 +1,24 @@
+{
+  "conditions": [
+    "northeast Asia intense battle"
+  ],
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "description": "The most intense battle CBO reports the Army simulating: a brigade-sized battle set in northeast Asia (p. 10 and fn 12).",
+  "id": "sc-ne-asia",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 10 and fn 12",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "name": "Northeast Asia intense battle",
+  "rationale": "It bounds the survivability claim: in this scenario the GCVs' survivability was no greater than the current Bradley IFVs' (p. 10).",
+  "rev": 1,
+  "source": "ev-army-sim-2010",
+  "type": "Scenario"
+}

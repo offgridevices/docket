@@ -1,0 +1,862 @@
+{
+  "$defs": {
+    "actor": {
+      "additionalProperties": false,
+      "properties": {
+        "actorId": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "actorType": {
+          "enum": [
+            "human",
+            "agent",
+            "kernel"
+          ]
+        }
+      },
+      "required": [
+        "actorType",
+        "actorId"
+      ],
+      "type": "object"
+    },
+    "exclusionRef": {
+      "additionalProperties": false,
+      "properties": {
+        "$exclusion": {
+          "$ref": "#/$defs/id"
+        }
+      },
+      "required": [
+        "$exclusion"
+      ],
+      "type": "object"
+    },
+    "gapRef": {
+      "additionalProperties": false,
+      "properties": {
+        "$gap": {
+          "$ref": "#/$defs/id"
+        }
+      },
+      "required": [
+        "$gap"
+      ],
+      "type": "object"
+    },
+    "id": {
+      "pattern": "^[a-z0-9][a-z0-9._:-]*$",
+      "type": "string"
+    },
+    "provenance": {
+      "additionalProperties": false,
+      "properties": {
+        "extractedAt": {
+          "type": "string"
+        },
+        "extractor": {
+          "type": "string"
+        },
+        "locator": {
+          "type": "string"
+        },
+        "sourceArtifact": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "sourceArtifact",
+        "locator",
+        "extractor",
+        "extractedAt"
+      ],
+      "type": "object"
+    },
+    "timestamp": {
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}(T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?Z)?$",
+      "type": "string"
+    }
+  },
+  "$id": "https://docket.offgriddevices.com/schema/Evidence.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "evidenceType": {
+            "const": "MSStudy"
+          }
+        },
+        "required": [
+          "evidenceType"
+        ]
+      },
+      "then": {
+        "required": [
+          "model",
+          "scenarios",
+          "vvaRecord"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "evidenceType": {
+            "const": "SoldierTouchpoint"
+          }
+        },
+        "required": [
+          "evidenceType"
+        ]
+      },
+      "then": {
+        "required": [
+          "n",
+          "selectionRule",
+          "unit",
+          "instrument",
+          "dates",
+          "analysisMethod"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "evidenceType": {
+            "const": "VendorFeedback"
+          }
+        },
+        "required": [
+          "evidenceType"
+        ]
+      },
+      "then": {
+        "required": [
+          "vendors",
+          "event"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "evidenceType": {
+            "const": "MarketResearch"
+          }
+        },
+        "required": [
+          "evidenceType"
+        ]
+      },
+      "then": {
+        "required": [
+          "method",
+          "respondents"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "evidenceType": {
+            "const": "ThreatAnalysis"
+          }
+        },
+        "required": [
+          "evidenceType"
+        ]
+      },
+      "then": {
+        "required": [
+          "threatSet",
+          "authority"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "evidenceType": {
+            "const": "Document"
+          }
+        },
+        "required": [
+          "evidenceType"
+        ]
+      },
+      "then": {
+        "required": [
+          "publisher",
+          "published"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "evidenceType": {
+            "const": "Dataset"
+          }
+        },
+        "required": [
+          "evidenceType"
+        ]
+      },
+      "then": {
+        "required": [
+          "custodian",
+          "schemaRef"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "evidenceType": {
+            "const": "ExpertAssessment"
+          }
+        },
+        "required": [
+          "evidenceType"
+        ]
+      },
+      "then": {
+        "required": [
+          "experts",
+          "method"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "evidenceType": {
+            "const": "BudgetExhibit"
+          }
+        },
+        "required": [
+          "evidenceType"
+        ]
+      },
+      "then": {
+        "required": [
+          "fiscalYear",
+          "programElement",
+          "submitted"
+        ]
+      }
+    }
+  ],
+  "description": "The load-bearing object. Pointer, classification and scope are separable from any Claim.",
+  "properties": {
+    "analysisMethod": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/exclusionRef"
+        },
+        {
+          "$ref": "#/$defs/gapRef"
+        }
+      ]
+    },
+    "assertions": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "field": {
+            "type": "string"
+          },
+          "locator": {
+            "type": "string"
+          },
+          "subject": {
+            "type": "string"
+          },
+          "value": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "number"
+              }
+            ]
+          }
+        },
+        "required": [
+          "subject",
+          "field",
+          "value",
+          "locator"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "authority": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/exclusionRef"
+        },
+        {
+          "$ref": "#/$defs/gapRef"
+        }
+      ]
+    },
+    "classification": {
+      "additionalProperties": false,
+      "properties": {
+        "caveats": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "controlledBy": {
+          "type": "string"
+        },
+        "level": {
+          "enum": [
+            "U",
+            "CUI",
+            "C",
+            "S",
+            "TS"
+          ]
+        },
+        "metadataLevel": {
+          "enum": [
+            "U",
+            "CUI",
+            "C",
+            "S",
+            "TS"
+          ]
+        }
+      },
+      "required": [
+        "level",
+        "metadataLevel"
+      ],
+      "type": "object"
+    },
+    "confidence": {
+      "enum": [
+        "explicit",
+        "inferred",
+        "absent"
+      ]
+    },
+    "createdAt": {
+      "$ref": "#/$defs/timestamp"
+    },
+    "createdBy": {
+      "$ref": "#/$defs/actor"
+    },
+    "custodian": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/exclusionRef"
+        },
+        {
+          "$ref": "#/$defs/gapRef"
+        }
+      ]
+    },
+    "date": {
+      "type": "string"
+    },
+    "dates": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/exclusionRef"
+        },
+        {
+          "$ref": "#/$defs/gapRef"
+        }
+      ]
+    },
+    "event": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/exclusionRef"
+        },
+        {
+          "$ref": "#/$defs/gapRef"
+        }
+      ]
+    },
+    "evidenceType": {
+      "enum": [
+        "MSStudy",
+        "SoldierTouchpoint",
+        "VendorFeedback",
+        "MarketResearch",
+        "ThreatAnalysis",
+        "Document",
+        "Dataset",
+        "ExpertAssessment",
+        "BudgetExhibit"
+      ]
+    },
+    "experts": {
+      "oneOf": [
+        {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        {
+          "$ref": "#/$defs/exclusionRef"
+        },
+        {
+          "$ref": "#/$defs/gapRef"
+        }
+      ]
+    },
+    "fiscalYear": {
+      "type": "string"
+    },
+    "hsiPlanRef": {
+      "type": "string"
+    },
+    "id": {
+      "$ref": "#/$defs/id"
+    },
+    "inclusionReason": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/exclusionRef"
+        },
+        {
+          "$ref": "#/$defs/gapRef"
+        }
+      ]
+    },
+    "ingestionProvenance": {
+      "$ref": "#/$defs/provenance"
+    },
+    "instrument": {
+      "oneOf": [
+        {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        {
+          "$ref": "#/$defs/exclusionRef"
+        },
+        {
+          "$ref": "#/$defs/gapRef"
+        }
+      ]
+    },
+    "limitations": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "impact": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "$ref": "#/$defs/exclusionRef"
+              },
+              {
+                "$ref": "#/$defs/gapRef"
+              }
+            ]
+          },
+          "statement": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "statement",
+          "impact"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "method": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/exclusionRef"
+        },
+        {
+          "$ref": "#/$defs/gapRef"
+        }
+      ]
+    },
+    "model": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/id"
+        },
+        {
+          "$ref": "#/$defs/exclusionRef"
+        },
+        {
+          "$ref": "#/$defs/gapRef"
+        }
+      ]
+    },
+    "n": {
+      "oneOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "$ref": "#/$defs/exclusionRef"
+        },
+        {
+          "$ref": "#/$defs/gapRef"
+        }
+      ]
+    },
+    "pointer": {
+      "oneOf": [
+        {
+          "additionalProperties": false,
+          "properties": {
+            "custodian": {
+              "type": "string"
+            },
+            "hash": {
+              "type": "string"
+            },
+            "uri": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "uri",
+            "custodian"
+          ],
+          "type": "object"
+        },
+        {
+          "$ref": "#/$defs/exclusionRef"
+        },
+        {
+          "$ref": "#/$defs/gapRef"
+        }
+      ]
+    },
+    "programElement": {
+      "type": "string"
+    },
+    "published": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/exclusionRef"
+        },
+        {
+          "$ref": "#/$defs/gapRef"
+        }
+      ]
+    },
+    "publisher": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/exclusionRef"
+        },
+        {
+          "$ref": "#/$defs/gapRef"
+        }
+      ]
+    },
+    "reliabilitySteps": {
+      "oneOf": [
+        {
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "type": "array"
+        },
+        {
+          "$ref": "#/$defs/exclusionRef"
+        },
+        {
+          "$ref": "#/$defs/gapRef"
+        }
+      ]
+    },
+    "respondents": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/exclusionRef"
+        },
+        {
+          "$ref": "#/$defs/gapRef"
+        }
+      ]
+    },
+    "rev": {
+      "minimum": 1,
+      "type": "integer"
+    },
+    "reviewStatus": {
+      "enum": [
+        "draft",
+        "reviewed",
+        "rejected"
+      ]
+    },
+    "reviewers": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "date": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "role": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "role",
+          "date"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "runs": {
+      "items": {
+        "$ref": "#/$defs/id"
+      },
+      "type": "array"
+    },
+    "scenarios": {
+      "oneOf": [
+        {
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "type": "array"
+        },
+        {
+          "$ref": "#/$defs/exclusionRef"
+        },
+        {
+          "$ref": "#/$defs/gapRef"
+        }
+      ]
+    },
+    "schemaRef": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/exclusionRef"
+        },
+        {
+          "$ref": "#/$defs/gapRef"
+        }
+      ]
+    },
+    "scopeOfValidity": {
+      "oneOf": [
+        {
+          "additionalProperties": false,
+          "properties": {
+            "accreditedFor": {
+              "type": "string"
+            },
+            "builtToAnswer": {
+              "type": "string"
+            },
+            "conditions": {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "intendedUse": {
+              "type": "string"
+            },
+            "questionClass": {
+              "enum": [
+                "desired-characteristics",
+                "force-structure",
+                "operational-concept",
+                "combat-effectiveness",
+                "cost",
+                "schedule",
+                "industrial-base",
+                "requirements-tradeoff",
+                "capability-gap",
+                "other"
+              ]
+            },
+            "validUntil": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "builtToAnswer",
+            "questionClass",
+            "intendedUse"
+          ],
+          "type": "object"
+        },
+        {
+          "$ref": "#/$defs/exclusionRef"
+        },
+        {
+          "$ref": "#/$defs/gapRef"
+        }
+      ]
+    },
+    "selectionRule": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/exclusionRef"
+        },
+        {
+          "$ref": "#/$defs/gapRef"
+        }
+      ]
+    },
+    "submitted": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/exclusionRef"
+        },
+        {
+          "$ref": "#/$defs/gapRef"
+        }
+      ]
+    },
+    "supersedes": {
+      "$ref": "#/$defs/id"
+    },
+    "threatSet": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/exclusionRef"
+        },
+        {
+          "$ref": "#/$defs/gapRef"
+        }
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "type": {
+      "const": "Evidence"
+    },
+    "unit": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/exclusionRef"
+        },
+        {
+          "$ref": "#/$defs/gapRef"
+        }
+      ]
+    },
+    "vendors": {
+      "oneOf": [
+        {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        {
+          "$ref": "#/$defs/exclusionRef"
+        },
+        {
+          "$ref": "#/$defs/gapRef"
+        }
+      ]
+    },
+    "vvaRecord": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/id"
+        },
+        {
+          "$ref": "#/$defs/exclusionRef"
+        },
+        {
+          "$ref": "#/$defs/gapRef"
+        }
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "type",
+    "rev",
+    "createdBy",
+    "createdAt",
+    "title",
+    "evidenceType",
+    "pointer",
+    "classification",
+    "scopeOfValidity",
+    "reviewStatus",
+    "reliabilitySteps"
+  ],
+  "title": "Evidence",
+  "type": "object"
+}

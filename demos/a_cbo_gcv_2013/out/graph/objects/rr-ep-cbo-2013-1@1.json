@@ -1,0 +1,90 @@
+{
+  "biasChecksStatus": [
+    {
+      "check": "bc-structured",
+      "status": "performed"
+    }
+  ],
+  "blockers": [],
+  "computedBiasRisks": [],
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "docket-kernel/0.1.0",
+    "actorType": "kernel"
+  },
+  "episode": "ep-cbo-2013",
+  "flipSummary": {
+    "nSimplex": 2000,
+    "ranked": [
+      "flip-run-pl-cbo-secondary-2",
+      "flip-run-pl-cbo-secondary-4",
+      "flip-run-pl-cbo-secondary-3",
+      "flip-run-pl-cbo-secondary-1"
+    ],
+    "run": "run-pl-cbo-secondary",
+    "runsNotSummarised": [
+      "run-pl-cbo-primary"
+    ],
+    "seed": 20130430,
+    "simplexRobustness": {
+      "alt-gcv": 0.4375,
+      "alt-namer": 0.0365,
+      "alt-puma": 0.526,
+      "alt-retain-bradley": 0.0,
+      "alt-upgraded-bradley": 0.0
+    }
+  },
+  "id": "rr-ep-cbo-2013-1",
+  "kernelVersion": "0.1.0",
+  "mandateScorecard": "ms-ep-cbo-2013-1",
+  "openExclusions": [
+    "ex-army-categories",
+    "ex-namer-puma-sim",
+    "ex-no-thresholds",
+    "ex-risk-not-scored",
+    "ex-transportability",
+    "ex-vva-na"
+  ],
+  "openGaps": [
+    "gap-aoa-report",
+    "gap-sim-model",
+    "gap-sim-vva",
+    "gap-squad-reliability",
+    "gap-survey-n"
+  ],
+  "policyVersion": "0.1",
+  "ready": true,
+  "rev": 1,
+  "seed": 20130430,
+  "standardsAssessment": "sa-ep-cbo-2013-published-21-1",
+  "type": "ReadinessReport",
+  "warnings": [
+    {
+      "message": "evidence built for combat-effectiveness reused for requirements-tradeoff with justification by Congressional Budget Office",
+      "objects": [
+        "cl-primary",
+        "ev-army-expert-estimates"
+      ],
+      "rule": "reuse-justified",
+      "severity": "info"
+    },
+    {
+      "message": "evidence built for requirements-tradeoff reused for operational-concept with justification by Congressional Budget Office",
+      "objects": [
+        "cl-squad-rationale",
+        "ev-cbo-2013"
+      ],
+      "rule": "reuse-justified",
+      "severity": "info"
+    },
+    {
+      "message": "evidence built for desired-characteristics reused for requirements-tradeoff with justification by Congressional Budget Office",
+      "objects": [
+        "cl-weights",
+        "ev-soldier-survey"
+      ],
+      "rule": "reuse-justified",
+      "severity": "info"
+    }
+  ]
+}

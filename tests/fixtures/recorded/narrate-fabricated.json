@@ -1,0 +1,14 @@
+{
+  "4c02320493dc2bd031570c703baddb6069974bb97aada3005ea235faa984336b": {
+    "note": "hand-authored; fabricated numeral, attempt 1 of 3",
+    "response": "{\"sentences\": [{\"text\": \"Under the primary metric the highest-scoring alternative scores 46.1.\", \"cites\": [\"res-run-pl-cbo-primary-alt-puma\", \"run-pl-cbo-primary\"]}]}"
+  },
+  "b6df091d978e25e4f7ae7be5cc841ba999e9a180f33c7953621523e78643d886": {
+    "note": "hand-authored; fabricated numeral, attempt 3 of 3 (retry 2) - still bad",
+    "response": "{\"sentences\": [{\"text\": \"Under the primary metric the highest-scoring alternative scores 48.1.\", \"cites\": [\"res-run-pl-cbo-primary-alt-puma\", \"run-pl-cbo-primary\"]}]}"
+  },
+  "cd0b75f968121f09985030a2369d2a03741bfb9445596978a9dd832e1e5813ef": {
+    "note": "hand-authored; fabricated numeral, attempt 2 of 3 (retry 1) - still bad",
+    "response": "{\"sentences\": [{\"text\": \"Under the primary metric the highest-scoring alternative scores 47.1.\", \"cites\": [\"res-run-pl-cbo-primary-alt-puma\", \"run-pl-cbo-primary\"]}]}"
+  }
+}

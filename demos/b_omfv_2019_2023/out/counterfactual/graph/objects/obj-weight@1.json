@@ -1,0 +1,25 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2020-02-25T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "description": "The OMFV must traverse 80% of Main Supply Routes (MSRs), national highways, and bridges in pacing threat countries, and reduce the cost of logistics and maintenance. Designs must allow for future growth in components and component weights without overall growth of vehicle weight through modularity and innovation.",
+  "id": "obj-weight",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "section 'OMFV Characteristics: Objectives', Weight (characteristic text); sources/army-2020-04-09-omfv-industry-day-narrative.pdf p. 6 section 3.2 (priorityRank 5)",
+    "sourceArtifact": "sources/army-2020-02-25-omfv-characteristics-for-industry-comment.md"
+  },
+  "measures": [
+    "m-weight-bridges"
+  ],
+  "name": "Weight",
+  "priority": "primary",
+  "priorityRank": 5,
+  "provenance": "ev-con-2020-02",
+  "rev": 1,
+  "type": "Objective"
+}

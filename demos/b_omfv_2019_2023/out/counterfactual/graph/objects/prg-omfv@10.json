@@ -1,0 +1,32 @@
+{
+  "charter": "ch-omfv",
+  "createdAt": "2023-06-26T00:00:00Z",
+  "createdBy": {
+    "actorId": "docket-kernel/0.1.0",
+    "actorType": "kernel"
+  },
+  "diffs": [
+    "diff-ep-omfv-2020-02-ep-omfv-2020-02-r2",
+    "diff-ep-omfv-2020-02-r2-ep-omfv-2020-02-r3",
+    "diff-ep-omfv-2020-02-r3-ep-omfv-2020-02-r4"
+  ],
+  "episodes": [
+    "ep-omfv-2020-02",
+    "ep-omfv-2020-02-r2",
+    "ep-omfv-2020-02-r3",
+    "ep-omfv-2020-02-r4",
+    "ep-omfv-2020-02-r5"
+  ],
+  "id": "prg-omfv",
+  "name": "OMFV requirements decision, 2019-2023",
+  "refreshTriggers": [
+    "rt-234-report",
+    "rt-con-update-2020-12",
+    "rt-downselect",
+    "rt-gao-grading",
+    "rt-phase2-efforts",
+    "rt-sigmgmt-correction"
+  ],
+  "rev": 10,
+  "type": "DecisionProgram"
+}

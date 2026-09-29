@@ -1,0 +1,208 @@
+{
+  "$defs": {
+    "actor": {
+      "additionalProperties": false,
+      "properties": {
+        "actorId": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "actorType": {
+          "enum": [
+            "human",
+            "agent",
+            "kernel"
+          ]
+        }
+      },
+      "required": [
+        "actorType",
+        "actorId"
+      ],
+      "type": "object"
+    },
+    "exclusionRef": {
+      "additionalProperties": false,
+      "properties": {
+        "$exclusion": {
+          "$ref": "#/$defs/id"
+        }
+      },
+      "required": [
+        "$exclusion"
+      ],
+      "type": "object"
+    },
+    "gapRef": {
+      "additionalProperties": false,
+      "properties": {
+        "$gap": {
+          "$ref": "#/$defs/id"
+        }
+      },
+      "required": [
+        "$gap"
+      ],
+      "type": "object"
+    },
+    "id": {
+      "pattern": "^[a-z0-9][a-z0-9._:-]*$",
+      "type": "string"
+    },
+    "provenance": {
+      "additionalProperties": false,
+      "properties": {
+        "extractedAt": {
+          "type": "string"
+        },
+        "extractor": {
+          "type": "string"
+        },
+        "locator": {
+          "type": "string"
+        },
+        "sourceArtifact": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "sourceArtifact",
+        "locator",
+        "extractor",
+        "extractedAt"
+      ],
+      "type": "object"
+    },
+    "timestamp": {
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}(T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?Z)?$",
+      "type": "string"
+    }
+  },
+  "$id": "https://docket.offgriddevices.com/schema/Commitment.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "",
+  "properties": {
+    "conditions": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "dueDate": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          },
+          "verifyBy": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "required": [
+          "text",
+          "verifyBy",
+          "dueDate"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "confidence": {
+      "enum": [
+        "explicit",
+        "inferred",
+        "absent"
+      ]
+    },
+    "createdAt": {
+      "$ref": "#/$defs/timestamp"
+    },
+    "createdBy": {
+      "$ref": "#/$defs/actor"
+    },
+    "dissent": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "text": {
+            "type": "string"
+          },
+          "who": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "who",
+          "text"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "episode": {
+      "$ref": "#/$defs/id"
+    },
+    "id": {
+      "$ref": "#/$defs/id"
+    },
+    "ingestionProvenance": {
+      "$ref": "#/$defs/provenance"
+    },
+    "packageHash": {
+      "type": "string"
+    },
+    "rev": {
+      "minimum": 1,
+      "type": "integer"
+    },
+    "selected": {
+      "$ref": "#/$defs/id"
+    },
+    "signedAt": {
+      "type": "string"
+    },
+    "signer": {
+      "additionalProperties": false,
+      "properties": {
+        "identity": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "identity",
+        "role"
+      ],
+      "type": "object"
+    },
+    "stopRules": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "supersedes": {
+      "$ref": "#/$defs/id"
+    },
+    "type": {
+      "const": "Commitment"
+    }
+  },
+  "required": [
+    "id",
+    "type",
+    "rev",
+    "createdBy",
+    "createdAt",
+    "episode",
+    "selected",
+    "signer",
+    "signedAt",
+    "conditions",
+    "stopRules",
+    "packageHash"
+  ],
+  "title": "Commitment",
+  "type": "object"
+}

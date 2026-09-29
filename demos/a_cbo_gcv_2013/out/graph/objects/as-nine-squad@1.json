@@ -1,0 +1,32 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "evidence": "ev-army-squad-2011",
+  "id": "as-nine-squad",
+  "implicationsIfWrong": "The secondary metric overstates the GCV and the Namer. The primary metric's ranking — Puma, then upgraded Bradley, both ahead of the GCV — would govern, and the GCV's case would rest on protection alone.",
+  "indicatorsThatWouldAlter": [
+    "the Army adopts a squad size other than nine",
+    "evidence that a split-squad dismount does not reduce effectiveness",
+    "a change in the Army's platoon structure or in the 28-seat platoon rule"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 6 (Box 1-1); p. 34",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "linchpin": true,
+  "parameterBinding": {
+    "kind": "weight",
+    "target": "ws-secondary:m-squad"
+  },
+  "rationale": "The Army's stated reason is that a squad split between vehicles is hard to organise and direct immediately after the soldiers exit, especially under fire or in a city (Box 1-1, p. 6).",
+  "rev": 1,
+  "statement": "Carrying a full nine-member squad in one vehicle materially improves the squad's effectiveness on dismount, and enough so that the secondary metric is right to score it all-or-nothing: 100 for a vehicle that carries nine, 0 for one that does not.",
+  "type": "Assumption",
+  "variedInSensitivity": true
+}

@@ -1,0 +1,31 @@
+{
+  "confidence": "absent",
+  "confirmedBy": {
+    "actorId": "shreyash",
+    "date": "2026-09-06"
+  },
+  "createdAt": "2021-09-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gap-vendor-events",
+  "impact": "degrading",
+  "indicatorsThatWouldResolve": [
+    "an Army list of the Phase 2 vendor feedback events"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "printed p. 8 (PDF p. 11)",
+    "sourceArtifact": "sources/gao-23-106549.pdf"
+  },
+  "rev": 1,
+  "sought": "which vendors attended which of the four vendor feedback events, and when",
+  "type": "InsufficientEvidence",
+  "whereLookedFor": [
+    "GAO-23-106549 printed p. 8 (PDF p. 11)",
+    "public web search, 2026-09-06"
+  ],
+  "whyNotFound": "GAO reports that \"the Army conducted four vendor feedback events that provided the Army and its industry partners with opportunities to exchange concepts and comments\" and names neither the vendors nor the events"
+}

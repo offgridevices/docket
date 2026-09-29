@@ -1,0 +1,27 @@
+{
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "evidence": "ev-gao-15-548",
+  "id": "as-demand-scenarios",
+  "implicationsIfWrong": "The scenarios would bracket the wrong range of demand, and the financial consequences the model reports for each manufacturer and supplier would be computed off it.",
+  "indicatorsThatWouldAlter": [
+    "a change in the Army's anticipated combat vehicle production between 2015 and 2019",
+    "a demand level outside the range the study's scenarios varied over"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 12 (PDF p. 15)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "linchpin": false,
+  "rationale": "Verbatim, printed p. 12: the study \"explicitly identified and appropriately varied assumptions about the expected demand for combat vehicles when developing scenarios for the combat vehicle industrial base using sensitivity analysis\", which GAO defines as \"identifying key elements and varying the assumed value of a single element while holding the others constant to identify the extent to which a conclusion relies on a particular value for that element\" and calls \"a key characteristic for a credible study\".",
+  "rev": 1,
+  "statement": "Printed p. 12: assumptions about the expected demand for combat vehicles, used when developing the scenarios for the combat vehicle industrial base.",
+  "type": "Assumption",
+  "variedInSensitivity": true
+}

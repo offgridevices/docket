@@ -1,0 +1,6 @@
+{
+  "4c02320493dc2bd031570c703baddb6069974bb97aada3005ea235faa984336b": {
+    "note": "hand-authored; numerals read from Demo A's graph",
+    "response": "{\"sentences\": [{\"text\": \"Under the primary metric the highest-scoring alternative scores 45.1.\", \"cites\": [\"res-run-pl-cbo-primary-alt-puma\", \"run-pl-cbo-primary\"]}]}"
+  }
+}

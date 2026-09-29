@@ -1,0 +1,31 @@
+{
+  "attribute": "combat vehicle manufacturing costs against industry benchmark data",
+  "conditions": [
+    "constrained fiscal environment"
+  ],
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "criteria": {
+    "$gap": "gap-criteria"
+  },
+  "id": "m-benchmark",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 9 (PDF p. 12); printed p. 16 (PDF p. 19)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "measure": "the range within which the study's authors expected a withheld cost to fall, estimated from industry benchmark data and their own industry experience and then put back to the supplier (printed pp. 9, 16)",
+  "metric": {
+    "direction": "min",
+    "units": "difference between an observed facility cost and the industry benchmark, in dollars"
+  },
+  "objective": "obj-viability",
+  "rev": 1,
+  "task": "Conduct a benchmark comparison",
+  "type": "Measure"
+}

@@ -1,0 +1,31 @@
+{
+  "attribute": "launch and support platforms",
+  "conditions": [
+    "European MDO environment"
+  ],
+  "confidence": "explicit",
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "criteria": {
+    "$gap": "gap-thresholds"
+  },
+  "id": "m-lsp-vehicles",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 13 (PDF p. 18)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "measure": "number of TWVs required to meet the identified launch and support platform capability gaps",
+  "metric": {
+    "direction": "min",
+    "units": "vehicles"
+  },
+  "objective": "obj-launch-support",
+  "rev": 1,
+  "task": "provide a platform for weapon systems such as the High Mobility Artillery Rocket System or communication systems",
+  "type": "Measure"
+}

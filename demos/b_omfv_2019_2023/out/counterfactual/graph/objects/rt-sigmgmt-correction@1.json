@@ -1,0 +1,24 @@
+{
+  "affected": [
+    "obj-survivability-dec"
+  ],
+  "confidence": "explicit",
+  "createdAt": "2022-10-25T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "description": "Attachment 0010 showed the signature management requirements at P3 in column F while the latest revision of the requirements had them at P2. The Government response: \"Attachment 0010 will be corrected to reflect signature management requirement P2 in column F.\" A document correction to match an existing revision — not a re-prioritisation decision, and not dated to one.",
+  "detectedAt": "2022-10-25",
+  "id": "rt-sigmgmt-correction",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "PDF p. 5, control no. 021",
+    "sourceArtifact": "sources/acc-dta-2022-10-25-omfv-phase-3-4-industry-qa-01-140.pdf"
+  },
+  "kind": "artefact-version-changed",
+  "rev": 1,
+  "source": "ACC-DTA, OMFV Phase 3-4 Solicitation W56HZV-22-R-0026 Questions and Answers 01-140, 25 October 2022, Q&A control no. 021, PDF p. 5",
+  "type": "RefreshTrigger"
+}

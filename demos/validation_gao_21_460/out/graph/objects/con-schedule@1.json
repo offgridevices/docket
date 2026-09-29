@@ -1,0 +1,21 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "con-schedule",
+  "implications": "the 2022 TWV Strategy depends on a study whose final report was not available during GAO's audit, so only the study's design and portions of its execution could be assessed (printed pp. 14, 35).",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 14 (PDF p. 19)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "kind": "programmatic",
+  "rev": 1,
+  "source": "ev-gao-21-460",
+  "statement": "According to MDO TWV Study officials, they delayed the final report from March 2021 until July 2021 due to the time required to accurately define the level of detail needed for the force used in the model.",
+  "type": "Constraint"
+}

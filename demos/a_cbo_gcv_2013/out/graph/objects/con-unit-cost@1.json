@@ -1,0 +1,21 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "con-unit-cost",
+  "implications": "To stay under the cap the Design Concept After Trades gave up an antitank missile launcher, gave up armor kits for two-thirds of the planned vehicles, and kept a 25 mm cannon. That is why the notional GCV scores -7 on lethality — less lethal than the vehicle it replaces.",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "pp. 7, 8, 12",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "kind": "programmatic",
+  "rev": 1,
+  "source": "ev-cbo-2013",
+  "statement": "The GCV's average procurement unit cost may not exceed $13.5 million in 2013 dollars ($13.0 million in 2011 dollars), set by the Undersecretary of Defense for Acquisition, Technology, and Logistics in August 2011.",
+  "type": "Constraint"
+}

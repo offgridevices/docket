@@ -1,0 +1,31 @@
+{
+  "confidence": "absent",
+  "confirmedBy": {
+    "actorId": "shreyash",
+    "date": "2026-09-05"
+  },
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gap-sim-model",
+  "impact": "degrading",
+  "indicatorsThatWouldResolve": [
+    "the AoA report, or any public Army source, names the model"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "pp. 10–11",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "rev": 1,
+  "sought": "the name and version of the combat simulation the Army ran in 2010",
+  "type": "InsufficientEvidence",
+  "whereLookedFor": [
+    "CBO pp. 10–11 and p. 10 fn 12",
+    "CBO appendix, pp. 33–35"
+  ],
+  "whyNotFound": "CBO reports 'a series of computer simulations of combat' and lists the scenarios, but never names the model"
+}

@@ -1,0 +1,21 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "description": "subject matter experts from the Capabilities Developments Integration Directorates reviewed and validated data for the Distribution and Transportation line of effort at workshops conducted prior to modeling.",
+  "documentation": "ev-gao-21-460",
+  "id": "drs-cdid-workshops",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 13 (PDF p. 18)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "method": "expert-review",
+  "performedBy": "subject matter experts from the Capabilities Developments Integration Directorates",
+  "rev": 1,
+  "type": "DataReliabilityStep"
+}

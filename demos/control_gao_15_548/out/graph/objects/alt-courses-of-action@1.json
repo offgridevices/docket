@@ -1,0 +1,22 @@
+{
+  "baselineFlag": false,
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "description": "GAO printed p. 14, verbatim: the scenarios \"were run through the model to help the Army develop potential courses of action to alter the structure of the combat vehicle industrial base.\" GAO printed p. 18 names consolidation of production at certain facilities as an example, and records that these options were not required by the congressional direction and were not included in the final report.",
+  "enteredOrder": 3,
+  "id": "alt-courses-of-action",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 14 (PDF p. 17); printed p. 18 (PDF p. 21)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "name": "Restructure the industrial base along one of the courses of action the scenarios produced",
+  "rev": 1,
+  "status": "evaluated",
+  "type": "Alternative"
+}

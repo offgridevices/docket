@@ -1,0 +1,29 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "description": "The four categories CBO scored: protection and survivability, lethality, mobility, passenger capacity.",
+  "id": "obj-capability",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "pp. 1, 10–11",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "measures": [
+    "m-prot",
+    "m-leth",
+    "m-mob",
+    "m-pax",
+    "m-squad"
+  ],
+  "name": "Improve combat vehicle capability relative to the current Bradley IFV",
+  "priority": "primary",
+  "priorityRank": 1,
+  "provenance": "ev-cbo-2013",
+  "rev": 1,
+  "type": "Objective"
+}

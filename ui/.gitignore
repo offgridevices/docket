@@ -1,0 +1,18 @@
+node_modules/
+dist/
+dist-ssr/
+.vite/
+test-results/
+playwright-report/
+# `playwright.config.ts`'s `webServer.env.DOCKET_STATE_DIR` — a throwaway session store
+# for Playwright runs, never a fixture worth committing.
+.playwright-state/
+*.local
+
+# Editor / OS
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

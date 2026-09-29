@@ -1,0 +1,22 @@
+{
+  "authority": {
+    "date": "2026-09-05",
+    "role": "reconstruction author",
+    "who": "shreyash"
+  },
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "ex-no-refresh",
+  "reason": "Demonstration A is a point-in-time reconstruction of one published study: there is no prior episode, no refresh trigger and no diff. Demonstration B exercises the refresh path.",
+  "reasonType": "not-applicable",
+  "retainedInStructure": true,
+  "rev": 1,
+  "target": {
+    "kind": "Section",
+    "label": "refresh-log"
+  },
+  "type": "Exclusion"
+}

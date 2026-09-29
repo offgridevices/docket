@@ -1,0 +1,23 @@
+{
+  "confidence": "inferred",
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "obj-launch-support",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 11 (PDF p. 16)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "measures": [
+    "m-lsp-vehicles"
+  ],
+  "name": "Launch and Support Platforms. Some TWVs are used as a platform for weapon systems such as the High Mobility Artillery Rocket System or communication systems.",
+  "priority": "primary",
+  "provenance": "ev-g8-memo-2020-04-30",
+  "rev": 1,
+  "type": "Objective"
+}

@@ -1,0 +1,32 @@
+{
+  "confidence": "absent",
+  "confirmedBy": {
+    "actorId": "shreyash",
+    "date": "2026-09-05"
+  },
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gap-kearney-report",
+  "impact": "degrading",
+  "indicatorsThatWouldResolve": [
+    "public release of the April 2014 report to the congressional defense committees",
+    "release of the interim and final study briefings or the backup slides GAO reviewed (printed p. 2)"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 1 (PDF p. 4); printed p. 2 (PDF p. 5); printed p. 18 (PDF p. 21); printed p. 19 (PDF p. 22); printed p. 22 (PDF p. 25)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "rev": 1,
+  "sought": "A.T. Kearney / Department of the Army, \"M1 Abrams Tank Upgrade and Bradley Fighting Vehicle Industrial Base Study: Report to Congress\", the final report to the congressional defense committees, April 2014 (title from GAO printed p. 22 fn 1)",
+  "type": "InsufficientEvidence",
+  "whereLookedFor": [
+    "GAO-15-548 printed pp. 1-2, 18, 22",
+    "public web search, 2026-09-05"
+  ],
+  "whyNotFound": "a report to the congressional defense committees; not published. GAO printed p. 19 records that the Army did not provide it even to the original equipment manufacturers and suppliers, \"due to the classification of the report as 'for official use only.'\""
+}

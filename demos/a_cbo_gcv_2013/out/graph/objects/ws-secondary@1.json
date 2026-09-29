@@ -1,0 +1,26 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "ws-secondary",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 35 (Table A-3)",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "method": "equal",
+  "name": "CBO's secondary metric — equal weights, full squad scored all or nothing",
+  "provenance": "ev-cbo-2013",
+  "rev": 1,
+  "type": "WeightSet",
+  "weights": {
+    "m-leth": 0.25,
+    "m-mob": 0.25,
+    "m-prot": 0.25,
+    "m-squad": 0.25
+  }
+}

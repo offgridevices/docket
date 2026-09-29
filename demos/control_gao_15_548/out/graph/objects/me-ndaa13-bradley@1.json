@@ -1,0 +1,24 @@
+{
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "me-ndaa13-bradley",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 1 (PDF p. 4); printed p. 5 (PDF p. 8); printed p. 8 (PDF p. 11)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "rev": 1,
+  "satisfiedBy": [
+    "cl-shutdown-cost",
+    "cl-mandate-coverage"
+  ],
+  "source": "H.R. Rep. No. 112-705, at 885 (2012) (Conf. Rep.), as quoted at GAO-15-548 printed p. 1 fn 2",
+  "status": "satisfied",
+  "text": "The conferees for the National Defense Authorization Act for Fiscal Year 2013 directed the Secretary of the Army to report to the congressional defense committees on the Bradley Fighting Vehicle industrial base, including an assessment of the financial impact and risk of a production break — the cost of shutdown compared with the cost of continued production — and of the industrial capability and capacity impact and risk, including the loss of a specialised workforce and supplier base.",
+  "type": "MandateElement"
+}

@@ -1,0 +1,38 @@
+{
+  "gridTailoringRow": {
+    "objectivity": "generally_objective",
+    "reliability": "insufficient_to_conclude",
+    "validity": "insufficient_to_conclude"
+  },
+  "scopeFindings": {
+    "NotAssessableAtLevel": [
+      "cl-concepts-outperform-m2a4",
+      "ev-ce-metrics"
+    ]
+  },
+  "states": {
+    "DES-1": 1,
+    "DES-2": 2,
+    "DES-3": 2,
+    "DES-4": 1,
+    "DES-5": 2,
+    "DES-6": 2,
+    "DES-7": 1,
+    "DES-8": 4,
+    "DES-9": 4,
+    "EXE-1": 2,
+    "EXE-14": 3,
+    "EXE-2": 1,
+    "EXE-3": 1,
+    "EXE-4": 1,
+    "EXE-5": 4,
+    "EXE-6": 4,
+    "EXE-7": 2,
+    "EXE-8": 4,
+    "PRE-1": 4,
+    "PRE-2": 2,
+    "PRE-3": 2,
+    "PRE-4": 2
+  },
+  "tailoring": "published-21-plus-vva"
+}

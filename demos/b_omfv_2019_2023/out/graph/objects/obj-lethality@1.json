@@ -1,0 +1,22 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2020-02-25T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "description": "The OMFV equipped platoons must defeat future near-peer soldiers, infantry fighting vehicles, helicopters, small unmanned aerial systems, and tanks as part of a Combined Arms Team in rural and urban terrain.",
+  "id": "obj-lethality",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "section 'OMFV Characteristics: Objectives', Lethality (characteristic text); sources/army-2020-04-09-omfv-industry-day-narrative.pdf p. 6 section 3.2 (priorityRank 4)",
+    "sourceArtifact": "sources/army-2020-02-25-omfv-characteristics-for-industry-comment.md"
+  },
+  "name": "Lethality",
+  "priority": "primary",
+  "priorityRank": 4,
+  "provenance": "ev-con-2020-02",
+  "rev": 1,
+  "type": "Objective"
+}

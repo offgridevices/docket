@@ -1,0 +1,30 @@
+{
+  "authority": {
+    "date": "2011-03",
+    "role": "analysis of alternatives",
+    "who": "Department of the Army (analysts)"
+  },
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "evidence": "ev-army-expert-estimates",
+  "id": "ex-namer-puma-sim",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 20 fn 4",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "reason": "The technical data were insufficient to simulate the performance of the Namer or the Puma; instead the Army's analysts estimated how those two vehicles would have performed relative to the current Bradley IFV. Their estimates are carried as evidence in their own right, not as simulation.",
+  "reasonType": "data-unavailable",
+  "retainedInStructure": true,
+  "rev": 1,
+  "target": {
+    "kind": "Study",
+    "label": "combat simulation of the Namer and the Puma"
+  },
+  "type": "Exclusion"
+}

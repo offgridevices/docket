@@ -1,0 +1,241 @@
+{
+  "$defs": {
+    "actor": {
+      "additionalProperties": false,
+      "properties": {
+        "actorId": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "actorType": {
+          "enum": [
+            "human",
+            "agent",
+            "kernel"
+          ]
+        }
+      },
+      "required": [
+        "actorType",
+        "actorId"
+      ],
+      "type": "object"
+    },
+    "exclusionRef": {
+      "additionalProperties": false,
+      "properties": {
+        "$exclusion": {
+          "$ref": "#/$defs/id"
+        }
+      },
+      "required": [
+        "$exclusion"
+      ],
+      "type": "object"
+    },
+    "gapRef": {
+      "additionalProperties": false,
+      "properties": {
+        "$gap": {
+          "$ref": "#/$defs/id"
+        }
+      },
+      "required": [
+        "$gap"
+      ],
+      "type": "object"
+    },
+    "id": {
+      "pattern": "^[a-z0-9][a-z0-9._:-]*$",
+      "type": "string"
+    },
+    "provenance": {
+      "additionalProperties": false,
+      "properties": {
+        "extractedAt": {
+          "type": "string"
+        },
+        "extractor": {
+          "type": "string"
+        },
+        "locator": {
+          "type": "string"
+        },
+        "sourceArtifact": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "sourceArtifact",
+        "locator",
+        "extractor",
+        "extractedAt"
+      ],
+      "type": "object"
+    },
+    "timestamp": {
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}(T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?Z)?$",
+      "type": "string"
+    }
+  },
+  "$id": "https://docket.offgriddevices.com/schema/FlipAnalysis.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "",
+  "properties": {
+    "assumption": {
+      "$ref": "#/$defs/id"
+    },
+    "confidence": {
+      "enum": [
+        "explicit",
+        "inferred",
+        "absent"
+      ]
+    },
+    "createdAt": {
+      "$ref": "#/$defs/timestamp"
+    },
+    "createdBy": {
+      "$ref": "#/$defs/actor"
+    },
+    "currentValue": {
+      "type": "number"
+    },
+    "direction": {
+      "enum": [
+        "up",
+        "down",
+        "none"
+      ]
+    },
+    "flipDistance": {
+      "oneOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "flipThreshold": {
+      "oneOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "id": {
+      "$ref": "#/$defs/id"
+    },
+    "ingestionProvenance": {
+      "$ref": "#/$defs/provenance"
+    },
+    "kernelVersion": {
+      "type": "string"
+    },
+    "parameter": {
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "enum": [
+            "weight",
+            "observation",
+            "assumption"
+          ]
+        },
+        "label": {
+          "type": "string"
+        },
+        "target": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "kind",
+        "target",
+        "label"
+      ],
+      "type": "object"
+    },
+    "range": {
+      "additionalProperties": false,
+      "properties": {
+        "hi": {
+          "type": "number"
+        },
+        "lo": {
+          "type": "number"
+        },
+        "source": {
+          "enum": [
+            "uncertainty",
+            "sweep",
+            "default"
+          ]
+        }
+      },
+      "required": [
+        "lo",
+        "hi",
+        "source"
+      ],
+      "type": "object"
+    },
+    "rankingAfter": {
+      "oneOf": [
+        {
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "rankingBefore": {
+      "items": {
+        "$ref": "#/$defs/id"
+      },
+      "type": "array"
+    },
+    "rev": {
+      "minimum": 1,
+      "type": "integer"
+    },
+    "run": {
+      "$ref": "#/$defs/id"
+    },
+    "supersedes": {
+      "$ref": "#/$defs/id"
+    },
+    "type": {
+      "const": "FlipAnalysis"
+    }
+  },
+  "required": [
+    "id",
+    "type",
+    "rev",
+    "createdBy",
+    "createdAt",
+    "run",
+    "parameter",
+    "currentValue",
+    "range",
+    "flipThreshold",
+    "flipDistance",
+    "direction",
+    "rankingBefore",
+    "rankingAfter",
+    "kernelVersion"
+  ],
+  "title": "FlipAnalysis",
+  "type": "object"
+}

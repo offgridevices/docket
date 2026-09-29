@@ -1,0 +1,61 @@
+{
+  "assertions": [
+    {
+      "field": "costM",
+      "locator": "PB2027 PE 0605625A R-2/R-2A, volume pp. 3d-306, 3d-308 (extract PDF pp. 50, 52)",
+      "subject": "omfv-mta-total-cost-fy21-25",
+      "value": 1536
+    },
+    {
+      "field": "window",
+      "locator": "PB2027 PE 0605625A R-4A, volume p. 3d-320 (extract PDF p. 64)",
+      "subject": "omfv-concept-design",
+      "value": "4Q FY2021 - 1Q FY2023"
+    },
+    {
+      "field": "quarter",
+      "locator": "PB2027 PE 0605625A R-4A, volume p. 3d-320 (extract PDF p. 64)",
+      "subject": "omfv-acdd",
+      "value": "2Q-2Q FY2022"
+    }
+  ],
+  "classification": {
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "explicit",
+  "createdAt": "2026-09-05T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2026-04",
+  "evidenceType": "BudgetExhibit",
+  "fiscalYear": "FY2027",
+  "id": "ev-pb2027",
+  "inclusionReason": "one of the seven annual R-2 exhibits covering the OMFV/XM30 program elements",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "the OMFV/XM30 pages of the PB FY2027 justification books — the first appearance of an XM30 procurement line in any P-form",
+    "sourceArtifact": "sources/army-rdte-r2-fy2027-omfv-xm30-extract.pdf"
+  },
+  "pointer": {
+    "custodian": "Assistant Secretary of the Army (Financial Management and Comptroller)",
+    "uri": "sources/army-rdte-r2-fy2027-omfv-xm30-extract.pdf ; https://www.asafm.army.mil/Budget-Materials/"
+  },
+  "programElement": "PE 0605625A",
+  "reliabilitySteps": {
+    "$gap": "gap-exhibit-reliability"
+  },
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "scopeOfValidity": {
+    "builtToAnswer": "the President's Budget justification for the OMFV/XM30 effort",
+    "intendedUse": "congressional budget justification",
+    "questionClass": "cost"
+  },
+  "submitted": "2026-04",
+  "title": "Army RDT&E R-2 exhibits, President's Budget FY2027 — OMFV/XM30 extract",
+  "type": "Evidence"
+}

@@ -1,0 +1,31 @@
+{
+  "confidence": "absent",
+  "confirmedBy": {
+    "actorId": "shreyash",
+    "date": "2026-09-06"
+  },
+  "createdAt": "2021-09-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gap-234-report",
+  "impact": "degrading",
+  "indicatorsThatWouldResolve": [
+    "public release of the Section 234 report"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "printed p. 8 (PDF p. 11)",
+    "sourceArtifact": "sources/gao-23-106549.pdf"
+  },
+  "rev": 1,
+  "sought": "the Army's Section 234 report, March 2023",
+  "type": "InsufficientEvidence",
+  "whereLookedFor": [
+    "GAO-23-106549, which describes it throughout",
+    "public web search, 2026-09-06"
+  ],
+  "whyNotFound": "the report is not public and never was: it is a report to the congressional defense committees. Everything this record holds about it is a reconstruction from GAO's description"
+}

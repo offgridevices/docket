@@ -1,0 +1,24 @@
+{
+  "affected": [
+    "alt-omfv-concept"
+  ],
+  "confidence": "explicit",
+  "createdAt": "2023-06-26T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "description": "Phase 3/4 Product Development is awarded to two vendors. The single \"OMFV concept\" alternative the record has carried since February 2020 is replaced by two funded detailed designs.",
+  "detectedAt": "2023-06-26",
+  "id": "rt-downselect",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "Exhibit R-3, PE 0605625A / Project CF6, source-volume page \"Volume 3d - 201\", extract PDF p. 74",
+    "sourceArtifact": "sources/army-rdte-r2-fy2025-omfv-xm30-extract.pdf"
+  },
+  "kind": "evidence-changed",
+  "rev": 1,
+  "source": "Army/DoW public announcement of the OMFV Phase 3/4 awards, 26 June 2023 (sources/army-2023-06-26-omfv-phase-3-4-award.source.md — stub; release status is a human call and nothing is quoted from it). The two performers and the June 2023 award month are independently printed in sources/army-rdte-r2-fy2025-omfv-xm30-extract.pdf, Exhibit R-3, PE 0605625A / Project CF6, source-volume page \"Volume 3d - 201\", extract PDF p. 74",
+  "type": "RefreshTrigger"
+}

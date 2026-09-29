@@ -1,0 +1,35 @@
+{
+  "addresses": [
+    "obj-survivability-dec",
+    "obj-lethality"
+  ],
+  "assessableAt": {
+    "level": "U"
+  },
+  "confidence": "explicit",
+  "createdAt": "2023-03-31T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "cl-force-structure-improves",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "printed p. 12 (PDF p. 15)",
+    "sourceArtifact": "sources/gao-23-106549.pdf"
+  },
+  "questionClass": "force-structure",
+  "rev": 1,
+  "section": "evaluation-results",
+  "supportedBy": [
+    {
+      "evidence": "ev-trac-aoa"
+    },
+    {
+      "evidence": "ev-mbl-1"
+    }
+  ],
+  "text": "The first TRAC analysis found that a different force structure improved survivability and lethality, and the Maneuver Battle Lab analysis drew similar conclusions.",
+  "type": "Claim"
+}

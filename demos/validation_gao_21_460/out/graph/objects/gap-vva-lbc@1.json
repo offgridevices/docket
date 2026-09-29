@@ -1,0 +1,30 @@
+{
+  "confidence": "explicit",
+  "confirmedBy": {
+    "actorId": "shreyash",
+    "date": "2026-09-05"
+  },
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gap-vva-lbc",
+  "impact": "degrading",
+  "indicatorsThatWouldResolve": [
+    "release of an accreditation package for the Logistics Battle Command model"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 14 (PDF p. 19)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "rev": 1,
+  "sought": "the MIL-STD-3022 accreditation package for the Logistics Battle Command model",
+  "type": "InsufficientEvidence",
+  "whereLookedFor": [
+    "GAO-21-460 printed pp. 13-14"
+  ],
+  "whyNotFound": "we were not able to examine the consistency and verifiability of data measurement as well as the description and documentation of the models used for the study"
+}

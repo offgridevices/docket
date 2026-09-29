@@ -1,0 +1,46 @@
+{
+  "biasChecksStatus": [
+    {
+      "check": "bc-oem-review",
+      "status": "performed"
+    }
+  ],
+  "blockers": [
+    {
+      "message": "no evaluation run on this episode scored any measure of this primary objective, so the record does not answer it (design §7.1)",
+      "objects": [
+        "obj-viability"
+      ],
+      "rule": "objective-run-coverage",
+      "severity": "blocking"
+    }
+  ],
+  "computedBiasRisks": [],
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "docket-kernel/0.1.0",
+    "actorType": "kernel"
+  },
+  "episode": "ep-kearney-2014",
+  "flipSummary": {},
+  "id": "rr-ep-kearney-2014-1",
+  "kernelVersion": "0.1.0",
+  "mandateScorecard": "ms-ep-kearney-2014-1",
+  "openExclusions": [
+    "ex-vva-na"
+  ],
+  "openGaps": [
+    "gap-criteria",
+    "gap-kearney-report",
+    "gap-msr-derivation",
+    "gap-risk-perspective-rationale",
+    "gap-weights"
+  ],
+  "policyVersion": "0.1",
+  "ready": false,
+  "rev": 1,
+  "seed": 15548,
+  "standardsAssessment": "sa-ep-kearney-2014-gao-15-548-1",
+  "type": "ReadinessReport",
+  "warnings": []
+}

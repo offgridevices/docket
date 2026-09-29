@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Docket icon 03 - Docket tab. Filing silhouette, no interior detail. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Docket">
+  <title>Docket - Docket tab</title>
+  <rect width="200" height="200" fill="#1B1813"/>
+  <path d="M 52 48 H 104 V 64 H 148 V 152 H 52 Z" fill="#F1ECE0"/>
+  <rect x="60" y="56" width="36" height="8" fill="#FF6A00"/>
+</svg>

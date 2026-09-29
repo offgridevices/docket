@@ -1,0 +1,21 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "description": "subject matter experts reviewed the mobility percentages for each unit to determine their reliability.",
+  "documentation": "ev-gao-21-460",
+  "id": "drs-sme-mobility",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 13 (PDF p. 18)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "method": "expert-review",
+  "performedBy": "subject matter experts",
+  "rev": 1,
+  "type": "DataReliabilityStep"
+}

@@ -1,0 +1,32 @@
+{
+  "confidence": "absent",
+  "confirmedBy": {
+    "actorId": "shreyash",
+    "date": "2026-09-05"
+  },
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gap-msr-derivation",
+  "impact": "degrading",
+  "indicatorsThatWouldResolve": [
+    "the original equipment manufacturers publish the derivation of their minimum sustainment rates",
+    "release of the April 2014 report with the assumptions used to define the minimum sustainment rate"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 13 (PDF p. 16)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "rev": 1,
+  "sought": "how the minimum sustainment rate the study used was derived",
+  "type": "InsufficientEvidence",
+  "whereLookedFor": [
+    "GAO-15-548 printed p. 13",
+    "public web search for the original equipment manufacturers' minimum sustainment rate derivations, 2026-09-05"
+  ],
+  "whyNotFound": "Verbatim, printed p. 13: the study \"noted that it used the minimum sustainment rates as derived by the original equipment manufacturers, but did not include specific information on how that minimum sustainment rate was derived\", and \"could have included more explicit information about the assumptions used to define the minimum sustainment rate\"."
+}

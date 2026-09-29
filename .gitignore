@@ -1,0 +1,90 @@
+# ---- Secrets and credentials: never commit ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+*.p12
+*.pfx
+credentials.json
+service-account*.json
+secrets.*
+.netrc
+
+# ---- Python (uv-managed; uv.lock IS committed) ----
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+.python-version
+dist/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# ---- Local scratch ----
+scratch/
+tmp/
+*.log
+.superpowers/
+
+# ---- macOS ----
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# ---- Editors ----
+.idea/
+.vscode/
+*.swp
+
+# ---- Large binaries: keep the repo cloneable ----
+# Public source PDFs in sources/ ARE committed on purpose (provenance).
+# Anything above ~25MB gets a stub in sources/ pointing at the URL instead.
+*.zip
+*.tar.gz
+*.mp4
+*.mov
+
+# ---- Frontend build artefacts (ui/ source is committed; none of these are — the
+#      built SPA is not committed; `docket ui`/`make demo` build it when missing) ----
+ui/node_modules/
+ui/dist/
+ui/test-results/
+ui/playwright-report/
+ui/.vite/
+src/docket/api/static/
+
+# ---- Local UI state (sessions, copied demo stores) ----
+.docket-state/
+
+# ---- Browser-test state (Playwright's throwaway session store, any depth) ----
+.playwright-state/
+**/.playwright-state/
+
+# ---- Windows ----
+Thumbs.db
+
+# ---- Local research library: never committed (see library/BRIEF.md) ----
+# Enforced twice by scripts/precommit-audit.sh: this exact line is required, and any
+# staged file under library/ fails the commit. Third-party research material stays local.
+library/
+
+# ---- Private working folder: never committed ----
+# Enforced by scripts/precommit-audit.sh exactly like library/: this exact line is
+# required, and any staged file under proposal/ fails the commit.
+proposal/
+
+
+# ---- Downloaded source documents: never committed ----
+# sources/ commits only the provenance notes (*.source.md) and its README. The documents
+# themselves are third-party downloads; fetch each from the URL in its note (see
+# scripts/fetch-source.mjs). Local copies sit beside their notes and stay untracked.
+sources/*
+!sources/*.source.md
+!sources/README.md

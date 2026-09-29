@@ -1,0 +1,24 @@
+{
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "ws-kearney",
+  "method": "equal",
+  "name": "Equal weight across the six analyses — OURS, not the study's. GAO's account does not say the six analyses were weighted, or combined into a single score at all.",
+  "provenance": {
+    "$gap": "gap-weights"
+  },
+  "rev": 1,
+  "type": "WeightSet",
+  "weights": {
+    "m-benchmark": 0.16666666666666666,
+    "m-cost-baseline": 0.16666666666666666,
+    "m-current-state": 0.16666666666666666,
+    "m-network-strategy": 0.16666666666666666,
+    "m-scenario-analysis": 0.16666666666666666,
+    "m-supplier-base": 0.16666666666666666
+  }
+}

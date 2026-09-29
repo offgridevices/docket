@@ -1,0 +1,73 @@
+{
+  "approvedBy": {
+    "actorId": "shreyash",
+    "date": "2026-09-05"
+  },
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "deviations": [],
+  "episode": "ep-cbo-2013",
+  "id": "pl-cbo",
+  "policyBasis": "pol-cbo",
+  "rev": 1,
+  "steps": [
+    {
+      "alternatives": [
+        "alt-gcv",
+        "alt-namer",
+        "alt-upgraded-bradley",
+        "alt-puma",
+        "alt-retain-bradley"
+      ],
+      "authority": {
+        "document": "CBO, The Army's Ground Combat Vehicle Program and Alternatives (April 2013)",
+        "paragraph": "Appendix, 'Overall Improvement' (pp. 33–34) and Table A-3 (p. 35)"
+      },
+      "biasChecks": [
+        "bc-structured"
+      ],
+      "evaluator": "mdl-cbo-metric",
+      "id": "primary",
+      "measures": [
+        "m-prot",
+        "m-leth",
+        "m-mob",
+        "m-pax"
+      ],
+      "method": "mavt",
+      "sensitivitySweeps": [],
+      "weightSet": "ws-primary"
+    },
+    {
+      "alternatives": [
+        "alt-gcv",
+        "alt-namer",
+        "alt-upgraded-bradley",
+        "alt-puma",
+        "alt-retain-bradley"
+      ],
+      "authority": {
+        "document": "CBO, The Army's Ground Combat Vehicle Program and Alternatives (April 2013)",
+        "paragraph": "Appendix, 'Overall Improvement' (pp. 33–34) and Table A-3 (p. 35)"
+      },
+      "biasChecks": [
+        "bc-structured"
+      ],
+      "evaluator": "mdl-cbo-metric",
+      "id": "secondary",
+      "measures": [
+        "m-prot",
+        "m-leth",
+        "m-mob",
+        "m-squad"
+      ],
+      "method": "mavt",
+      "sensitivitySweeps": [],
+      "weightSet": "ws-secondary"
+    }
+  ],
+  "type": "Plan"
+}

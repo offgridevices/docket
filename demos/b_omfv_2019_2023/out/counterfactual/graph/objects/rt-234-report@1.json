@@ -1,0 +1,34 @@
+{
+  "affected": [
+    "obj-survivability-dec",
+    "obj-mobility",
+    "obj-growth",
+    "obj-lethality",
+    "obj-weight",
+    "obj-logistics",
+    "obj-transportability",
+    "obj-manning-dec",
+    "obj-training",
+    "alt-omfv-concept",
+    "alt-m2a4-bradley"
+  ],
+  "confidence": "explicit",
+  "createdAt": "2023-03-31T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "description": "The Army reports to the congressional defense committees under Section 234 of the FY2022 NDAA. The report identifies nine desired characteristics and 28 prioritized attributes, presents preliminary observations on force structure and operational concepts, and compares the combat effectiveness of three OMFV concepts with the modernized Bradley M2A4. The report is the Army's own product, not an external finding, which is why this trigger is `evidence-changed`.",
+  "detectedAt": "2023-03-31",
+  "id": "rt-234-report",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "printed p. 8 (PDF p. 11)",
+    "sourceArtifact": "sources/gao-23-106549.pdf"
+  },
+  "kind": "evidence-changed",
+  "rev": 1,
+  "source": "Army Section 234 report, March 2023 — reconstructed from GAO-23-106549",
+  "type": "RefreshTrigger"
+}

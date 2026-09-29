@@ -1,0 +1,38 @@
+{
+  "addresses": [
+    "obj-capability"
+  ],
+  "assessableAt": {
+    "level": "U"
+  },
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "cl-weights",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "pp. 33–34",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "questionClass": "requirements-tradeoff",
+  "rev": 1,
+  "section": "objectives-and-measures",
+  "supportedBy": [
+    {
+      "evidence": "ev-cbo-2013"
+    },
+    {
+      "evidence": "ev-soldier-survey",
+      "reuseJustification": {
+        "authority": "Congressional Budget Office",
+        "text": "The ranking was collected to find out which characteristics matter most to deployed soldiers; CBO reused it as the weighting for a requirements trade-off and states that derivation in its methodology appendix (pp. 33–34)."
+      }
+    }
+  ],
+  "text": "CBO's primary-metric weights are the Army's category weights for the four categories CBO could assess, renormalised to sum to one (CBO writes 'based on'; Table A-1's figures make it an exact renormalisation); the Army derived those from rankings given by soldiers who had deployed with combat brigades.",
+  "type": "Claim"
+}

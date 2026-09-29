@@ -1,0 +1,51 @@
+{
+  "assertions": [
+    {
+      "field": "quarter",
+      "locator": "GAO-23-106059 printed p. 128 (PDF p. 138), OMFV programme profile — the PDF is a deliberate sidecar-only source; see sources/gao-23-106059.source.md",
+      "subject": "omfv-acdd",
+      "value": "2022-07 (4Q FY2022)"
+    }
+  ],
+  "classification": {
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "explicit",
+  "createdAt": "2026-09-05T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2023-06",
+  "evidenceType": "Document",
+  "id": "ev-gao-23-106059",
+  "inclusionReason": "it dates the approval of the Abbreviated Capability Development Document, which the R-4A schedules place in a different quarter",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "the sidecar for the OMFV/XM30 programme profile at printed p. 128 (PDF p. 138)",
+    "sourceArtifact": "sources/gao-23-106059.source.md"
+  },
+  "pointer": {
+    "custodian": "GAO",
+    "uri": "sources/gao-23-106059.source.md ; https://www.gao.gov/products/gao-23-106059"
+  },
+  "published": "2023-06",
+  "publisher": "U.S. Government Accountability Office",
+  "reliabilitySteps": {
+    "$gap": "gap-document-reliability"
+  },
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "scopeOfValidity": {
+    "builtToAnswer": "the annual status of major Department of War acquisition programmes",
+    "conditions": [
+      "the 24.7 MB PDF is deliberately not committed; the committed artefact is the sidecar, and the page is checkable at the public landing page"
+    ],
+    "intendedUse": "report to congressional committees",
+    "questionClass": "schedule"
+  },
+  "title": "GAO-23-106059, Weapon Systems Annual Assessment (2023) — OMFV/XM30 programme profile",
+  "type": "Evidence"
+}

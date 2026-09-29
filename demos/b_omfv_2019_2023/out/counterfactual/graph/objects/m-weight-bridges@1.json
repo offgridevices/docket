@@ -1,0 +1,28 @@
+{
+  "attribute": "route and bridge trafficability at the vehicle's design weight",
+  "confidence": "explicit",
+  "createdAt": "2020-02-25T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "criteria": {
+    "threshold": 80
+  },
+  "id": "m-weight-bridges",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "section 'OMFV Characteristics: Objectives', Weight",
+    "sourceArtifact": "sources/army-2020-02-25-omfv-characteristics-for-industry-comment.md"
+  },
+  "measure": "traverse 80% of Main Supply Routes (MSRs), national highways, and bridges in pacing threat countries",
+  "metric": {
+    "direction": "max",
+    "units": "percent of MSRs, national highways and bridges in pacing threat countries"
+  },
+  "objective": "obj-weight",
+  "rev": 1,
+  "task": "Move the fleet across the pacing theatre",
+  "type": "Measure"
+}

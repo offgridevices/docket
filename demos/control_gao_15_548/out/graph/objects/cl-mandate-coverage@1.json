@@ -1,0 +1,35 @@
+{
+  "addresses": [
+    "obj-viability"
+  ],
+  "assessableAt": {
+    "level": "U"
+  },
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "cl-mandate-coverage",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 18 (PDF p. 21)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "mandateElements": [
+    "me-ndaa13-bradley",
+    "me-sasc-goco"
+  ],
+  "questionClass": "industrial-base",
+  "rev": 1,
+  "section": "mandate-elements",
+  "supportedBy": [
+    {
+      "evidence": "ev-gao-15-548"
+    }
+  ],
+  "text": "Printed p. 18: the final report addressed the information required by the congressional direction — an assessment of the Bradley Fighting Vehicle industrial base, and the Army's analysis and plans for using the Joint Systems Manufacturing Center in Lima, Ohio, where the Abrams tank is produced — and went beyond it, covering Strykers, M109 Paladins, M88 Hercules, M113 Armored Personnel Carriers, the Ground Combat Vehicle, the Armored Multi-Purpose Vehicle and U.S. Marine Corps combat vehicles, and identifying potential courses of action such as consolidation of production at certain facilities.",
+  "type": "Claim"
+}

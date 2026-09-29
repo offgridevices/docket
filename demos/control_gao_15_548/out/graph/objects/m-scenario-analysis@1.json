@@ -1,0 +1,31 @@
+{
+  "attribute": "the financial consequences to manufacturers and suppliers at different levels of demand",
+  "conditions": [
+    "constrained fiscal environment"
+  ],
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "criteria": {
+    "$gap": "gap-criteria"
+  },
+  "id": "m-scenario-analysis",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 9 (PDF p. 12); printed p. 13 (PDF p. 16)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "measure": "the financial consequences to various manufacturers and suppliers in the industrial base based on different levels of demand, computed through the spreadsheet-based model (printed pp. 9, 13)",
+  "metric": {
+    "direction": "min",
+    "units": "financial consequence to each manufacturer and supplier, in dollars, per demand scenario"
+  },
+  "objective": "obj-alternatives",
+  "rev": 1,
+  "task": "Develop and assess multiple scenarios for sustaining the combat vehicle industrial base",
+  "type": "Measure"
+}

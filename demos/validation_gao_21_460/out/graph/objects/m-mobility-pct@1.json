@@ -1,0 +1,31 @@
+{
+  "attribute": "mobility",
+  "conditions": [
+    "European MDO environment"
+  ],
+  "confidence": "explicit",
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "criteria": {
+    "$gap": "gap-thresholds"
+  },
+  "id": "m-mobility-pct",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 11 (PDF p. 16)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "measure": "percentage of the unit moved by its own assets",
+  "metric": {
+    "direction": "max",
+    "units": "percent"
+  },
+  "objective": "obj-mobility",
+  "rev": 1,
+  "task": "move a unit from point A to B using only its own assets",
+  "type": "Measure"
+}

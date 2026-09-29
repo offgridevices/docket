@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Docket icon 05 - Beacon square. OffGrid arc with a square in place of the beacon dot. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Docket">
+  <title>Docket - Beacon square</title>
+  <rect width="200" height="200" fill="#1B1813"/>
+  <path d="M124.5 55.4 A58 58 0 1 1 75.5 55.4" fill="none" stroke="#FF6A00" stroke-width="20" stroke-linecap="butt"/>
+  <rect x="84" y="24" width="32" height="32" fill="#F1ECE0"/>
+</svg>

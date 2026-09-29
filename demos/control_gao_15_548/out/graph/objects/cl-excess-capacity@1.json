@@ -1,0 +1,31 @@
+{
+  "addresses": [
+    "obj-viability"
+  ],
+  "assessableAt": {
+    "level": "U"
+  },
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "cl-excess-capacity",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 17 (PDF p. 20)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "questionClass": "industrial-base",
+  "rev": 1,
+  "section": "evaluation-results",
+  "supportedBy": [
+    {
+      "evidence": "ev-gao-15-548"
+    }
+  ],
+  "text": "Verbatim, printed p. 17: the final report \"clearly concluded that there was significant excess in large structure machining capacity throughout the ground combat vehicle manufacturing network\", and linked that conclusion to the study's assessment of manufacturing capabilities. GAO found the conclusion reasonable in that it flowed logically from the evidence collected based on the methodology.",
+  "type": "Claim"
+}

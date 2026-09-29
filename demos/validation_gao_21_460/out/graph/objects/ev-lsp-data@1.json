@@ -1,0 +1,46 @@
+{
+  "classification": {
+    "caveats": [
+      "not publicly released; its release status has not been verified by this project"
+    ],
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "explicit",
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "custodian": "Army Futures Command",
+  "evidenceType": "Dataset",
+  "id": "ev-lsp-data",
+  "inclusionReason": "the data behind the Launch and Support Platforms line of effort: an Army force design update process identified the gaps and program managers validated the counts",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 13 (PDF p. 18)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "pointer": {
+    "$gap": "gap-study-artefacts"
+  },
+  "reliabilitySteps": [
+    "drs-pm-validation"
+  ],
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "schemaRef": {
+    "$gap": "gap-data-schema"
+  },
+  "scopeOfValidity": {
+    "builtToAnswer": "how many vehicles were required to meet the identified launch and support platform capability gaps",
+    "conditions": [
+      "European MDO environment"
+    ],
+    "intendedUse": "the Launch and Support Platforms line of effort",
+    "questionClass": "capability-gap"
+  },
+  "title": "Force design update data and the program-manager-validated vehicle counts, Launch and Support Platforms line of effort",
+  "type": "Evidence"
+}

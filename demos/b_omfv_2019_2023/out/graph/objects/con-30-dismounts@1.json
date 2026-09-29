@@ -1,0 +1,21 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2020-12-09T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "con-30-dismounts",
+  "implications": "Thirty dismounts across a platoon fixes the seat count the design must carry and, with the two-crew constraint, fixes how many vehicles a platoon needs.",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "PDF p. 5 (slide footer 6), characteristic H",
+    "sourceArtifact": "sources/army-2020-12-09-omfv-industry-day-briefing.pdf"
+  },
+  "kind": "physical",
+  "rev": 1,
+  "source": "ev-con-2020-12",
+  "statement": "A platoon of OMFVs will transport 30 Soldiers that dismount from the vehicles.",
+  "type": "Constraint"
+}

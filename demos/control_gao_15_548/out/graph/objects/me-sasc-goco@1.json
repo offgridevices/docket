@@ -1,0 +1,23 @@
+{
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "me-sasc-goco",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 1 (PDF p. 4); printed p. 5 (PDF p. 8); printed p. 8 (PDF p. 11)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "rev": 1,
+  "satisfiedBy": [
+    "cl-mandate-coverage"
+  ],
+  "source": "S. Rep. No. 112-173, at 23-24 (2012), as quoted at GAO-15-548 printed p. 1 fn 2",
+  "status": "satisfied",
+  "text": "Senate Report 112-173 directed the Secretary of the Army to report on the Army's analysis and plans to utilise and configure its government-owned/contractor-operated facility, where Abrams tanks are produced, to meet the Army's tank and other tracked and wheeled vehicle production requirements to 2025 and beyond.",
+  "type": "MandateElement"
+}

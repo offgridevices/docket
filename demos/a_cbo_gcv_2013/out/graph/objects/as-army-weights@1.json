@@ -1,0 +1,31 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "evidence": "ev-soldier-survey",
+  "id": "as-army-weights",
+  "implicationsIfWrong": "The primary ranking could change. CBO's own secondary metric is the published alternative weighting, and it comes within 0.0165 of weight of reversing the top choice — so the answer is more sensitive to this weighting than the two published rankings, which agree on the Puma, make it look.",
+  "indicatorsThatWouldAlter": [
+    "a new soldier survey",
+    "an Army revision of the AoA weighting scheme"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "pp. 33–34 (Table A-1)",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "linchpin": false,
+  "parameterBinding": {
+    "kind": "weight",
+    "target": "ws-primary:m-prot"
+  },
+  "rationale": "They are the weights the Army derived from rankings given by soldiers who had deployed with combat brigades (p. 33), restricted to the four categories CBO could assess and renormalised to sum to one (Table A-1, p. 34).",
+  "rev": 1,
+  "statement": "CBO's primary-metric weights — 0.40 protection and survivability, 0.30 lethality, 0.20 mobility, 0.10 passenger capacity — represent deployed soldiers' preferences well enough to rank the vehicles.",
+  "type": "Assumption",
+  "variedInSensitivity": true
+}

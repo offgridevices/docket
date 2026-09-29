@@ -1,0 +1,47 @@
+{
+  "classification": {
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "explicit",
+  "createdAt": "2020-12-09T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2020-12-09",
+  "evidenceType": "Document",
+  "id": "ev-con-2020-12",
+  "inclusionReason": "the updated CON: the text that supersedes the February 2020 characteristics",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "PDF p. 5 (slide footer 6)",
+    "sourceArtifact": "sources/army-2020-12-09-omfv-industry-day-briefing.pdf"
+  },
+  "pointer": {
+    "custodian": "Department of the Army (DISTRIBUTION STATEMENT A: approved for public release)",
+    "uri": "sources/army-2020-12-09-omfv-industry-day-briefing.pdf#page=5"
+  },
+  "published": "2020-12-09",
+  "publisher": "Department of the Army, Next Generation Combat Vehicles Cross-Functional Team",
+  "reliabilitySteps": {
+    "$gap": "gap-reliability-steps"
+  },
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "reviewers": [
+    {
+      "date": "2020-12-09",
+      "name": "Next Generation Combat Vehicles Cross-Functional Team",
+      "role": "issuing authority"
+    }
+  ],
+  "scopeOfValidity": {
+    "builtToAnswer": "the updated desired characteristics for the OMFV",
+    "intendedUse": "industry day briefing",
+    "questionClass": "desired-characteristics"
+  },
+  "title": "OMFV Industry Day briefing, 9 December 2020 — Updated OMFV Characteristics (CON)",
+  "type": "Evidence"
+}

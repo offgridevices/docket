@@ -1,0 +1,21 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "description": "The Army then provided information on the identified solutions to program managers to validate how many vehicles were required to meet these expected gaps.",
+  "documentation": "ev-gao-21-460",
+  "id": "drs-pm-validation",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 13 (PDF p. 18)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "method": "expert-review",
+  "performedBy": "program managers",
+  "rev": 1,
+  "type": "DataReliabilityStep"
+}

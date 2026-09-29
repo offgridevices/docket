@@ -1,0 +1,313 @@
+{
+  "$defs": {
+    "actor": {
+      "additionalProperties": false,
+      "properties": {
+        "actorId": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "actorType": {
+          "enum": [
+            "human",
+            "agent",
+            "kernel"
+          ]
+        }
+      },
+      "required": [
+        "actorType",
+        "actorId"
+      ],
+      "type": "object"
+    },
+    "exclusionRef": {
+      "additionalProperties": false,
+      "properties": {
+        "$exclusion": {
+          "$ref": "#/$defs/id"
+        }
+      },
+      "required": [
+        "$exclusion"
+      ],
+      "type": "object"
+    },
+    "gapRef": {
+      "additionalProperties": false,
+      "properties": {
+        "$gap": {
+          "$ref": "#/$defs/id"
+        }
+      },
+      "required": [
+        "$gap"
+      ],
+      "type": "object"
+    },
+    "id": {
+      "pattern": "^[a-z0-9][a-z0-9._:-]*$",
+      "type": "string"
+    },
+    "provenance": {
+      "additionalProperties": false,
+      "properties": {
+        "extractedAt": {
+          "type": "string"
+        },
+        "extractor": {
+          "type": "string"
+        },
+        "locator": {
+          "type": "string"
+        },
+        "sourceArtifact": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "sourceArtifact",
+        "locator",
+        "extractor",
+        "extractedAt"
+      ],
+      "type": "object"
+    },
+    "timestamp": {
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}(T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?Z)?$",
+      "type": "string"
+    }
+  },
+  "$id": "https://docket.offgriddevices.com/schema/Charter.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "AR 5-11 \u00b64-5b problem statement plus scope and authority (design \u00a76.1).",
+  "properties": {
+    "authority": {
+      "additionalProperties": false,
+      "properties": {
+        "board": {
+          "type": "string"
+        },
+        "delegations": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "signer": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "signer"
+      ],
+      "type": "object"
+    },
+    "conditionsOfInterest": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "confidence": {
+      "enum": [
+        "explicit",
+        "inferred",
+        "absent"
+      ]
+    },
+    "consequencesOfErroneousOutput": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/exclusionRef"
+        },
+        {
+          "$ref": "#/$defs/gapRef"
+        }
+      ]
+    },
+    "createdAt": {
+      "$ref": "#/$defs/timestamp"
+    },
+    "createdBy": {
+      "$ref": "#/$defs/actor"
+    },
+    "decisionClassPolicy": {
+      "$ref": "#/$defs/id"
+    },
+    "decisionToBeMade": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/exclusionRef"
+        },
+        {
+          "$ref": "#/$defs/gapRef"
+        }
+      ]
+    },
+    "definitions": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "term": {
+            "type": "string"
+          },
+          "text": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "$ref": "#/$defs/exclusionRef"
+              },
+              {
+                "$ref": "#/$defs/gapRef"
+              }
+            ]
+          }
+        },
+        "required": [
+          "term",
+          "text"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "hierarchyBinding": {
+      "type": "string"
+    },
+    "id": {
+      "$ref": "#/$defs/id"
+    },
+    "ingestionProvenance": {
+      "$ref": "#/$defs/provenance"
+    },
+    "limitations": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "mitigation": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "$ref": "#/$defs/exclusionRef"
+              },
+              {
+                "$ref": "#/$defs/gapRef"
+              }
+            ]
+          },
+          "statement": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "statement",
+          "mitigation"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "mandateElements": {
+      "items": {
+        "$ref": "#/$defs/id"
+      },
+      "type": "array"
+    },
+    "neededBy": {
+      "type": "string"
+    },
+    "question": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/exclusionRef"
+        },
+        {
+          "$ref": "#/$defs/gapRef"
+        }
+      ]
+    },
+    "questionClass": {
+      "enum": [
+        "desired-characteristics",
+        "force-structure",
+        "operational-concept",
+        "combat-effectiveness",
+        "cost",
+        "schedule",
+        "industrial-base",
+        "requirements-tradeoff",
+        "capability-gap",
+        "other"
+      ]
+    },
+    "rev": {
+      "minimum": 1,
+      "type": "integer"
+    },
+    "scope": {
+      "additionalProperties": false,
+      "properties": {
+        "excluded": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "included": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        }
+      },
+      "required": [
+        "included",
+        "excluded"
+      ],
+      "type": "object"
+    },
+    "successCriteria": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "supersedes": {
+      "$ref": "#/$defs/id"
+    },
+    "type": {
+      "const": "Charter"
+    }
+  },
+  "required": [
+    "id",
+    "type",
+    "rev",
+    "createdBy",
+    "createdAt",
+    "question",
+    "decisionToBeMade",
+    "consequencesOfErroneousOutput",
+    "questionClass",
+    "scope",
+    "authority",
+    "decisionClassPolicy"
+  ],
+  "title": "Charter",
+  "type": "object"
+}

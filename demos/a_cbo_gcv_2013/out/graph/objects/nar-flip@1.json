@@ -1,0 +1,33 @@
+{
+  "confidence": "inferred",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "episode": "ep-cbo-2013",
+  "id": "nar-flip",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 35 (Table A-3)",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "rev": 1,
+  "section": "what-flips",
+  "sentences": [
+    {
+      "cites": [
+        "flip-run-pl-cbo-secondary-4"
+      ],
+      "text": "Raising the weight on the full-squad criterion from 0.25 to 0.2665 makes the Ground Combat Vehicle the top-ranked vehicle on CBO's secondary metric — 0.0165 of weight away from the weighting CBO itself published."
+    },
+    {
+      "cites": [
+        "flip-run-pl-cbo-secondary-2"
+      ],
+      "text": "The weight on lethality reaches the same reversal marginally sooner, at 0.2343 rather than 0.25."
+    }
+  ],
+  "type": "Narrative"
+}

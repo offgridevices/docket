@@ -1,0 +1,315 @@
+{
+  "$defs": {
+    "actor": {
+      "additionalProperties": false,
+      "properties": {
+        "actorId": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "actorType": {
+          "enum": [
+            "human",
+            "agent",
+            "kernel"
+          ]
+        }
+      },
+      "required": [
+        "actorType",
+        "actorId"
+      ],
+      "type": "object"
+    },
+    "exclusionRef": {
+      "additionalProperties": false,
+      "properties": {
+        "$exclusion": {
+          "$ref": "#/$defs/id"
+        }
+      },
+      "required": [
+        "$exclusion"
+      ],
+      "type": "object"
+    },
+    "gapRef": {
+      "additionalProperties": false,
+      "properties": {
+        "$gap": {
+          "$ref": "#/$defs/id"
+        }
+      },
+      "required": [
+        "$gap"
+      ],
+      "type": "object"
+    },
+    "id": {
+      "pattern": "^[a-z0-9][a-z0-9._:-]*$",
+      "type": "string"
+    },
+    "provenance": {
+      "additionalProperties": false,
+      "properties": {
+        "extractedAt": {
+          "type": "string"
+        },
+        "extractor": {
+          "type": "string"
+        },
+        "locator": {
+          "type": "string"
+        },
+        "sourceArtifact": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "sourceArtifact",
+        "locator",
+        "extractor",
+        "extractedAt"
+      ],
+      "type": "object"
+    },
+    "timestamp": {
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}(T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?Z)?$",
+      "type": "string"
+    }
+  },
+  "$id": "https://docket.offgriddevices.com/schema/VVARecord.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "MIL-STD-3022 Table I fields; \u00a75.3 retained-section rule via sections[].content.",
+  "properties": {
+    "accreditationDecision": {
+      "oneOf": [
+        {
+          "additionalProperties": false,
+          "properties": {
+            "authority": {
+              "type": "string"
+            },
+            "basis": {
+              "enum": [
+                "document",
+                "interview",
+                "verbal"
+              ]
+            },
+            "date": {
+              "type": "string"
+            },
+            "document": {
+              "$ref": "#/$defs/id"
+            },
+            "scope": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "authority",
+            "date",
+            "scope",
+            "basis"
+          ],
+          "type": "object"
+        },
+        {
+          "$ref": "#/$defs/exclusionRef"
+        },
+        {
+          "$ref": "#/$defs/gapRef"
+        }
+      ]
+    },
+    "assumptionsCapabilitiesLimitationsRisks": {
+      "additionalProperties": false,
+      "properties": {
+        "assumptions": {
+          "oneOf": [
+            {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            },
+            {
+              "$ref": "#/$defs/exclusionRef"
+            },
+            {
+              "$ref": "#/$defs/gapRef"
+            }
+          ]
+        },
+        "capabilities": {
+          "oneOf": [
+            {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            },
+            {
+              "$ref": "#/$defs/exclusionRef"
+            },
+            {
+              "$ref": "#/$defs/gapRef"
+            }
+          ]
+        },
+        "limitations": {
+          "oneOf": [
+            {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            },
+            {
+              "$ref": "#/$defs/exclusionRef"
+            },
+            {
+              "$ref": "#/$defs/gapRef"
+            }
+          ]
+        },
+        "risks": {
+          "oneOf": [
+            {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            },
+            {
+              "$ref": "#/$defs/exclusionRef"
+            },
+            {
+              "$ref": "#/$defs/gapRef"
+            }
+          ]
+        }
+      },
+      "required": [
+        "assumptions",
+        "capabilities",
+        "limitations",
+        "risks"
+      ],
+      "type": "object"
+    },
+    "confidence": {
+      "enum": [
+        "explicit",
+        "inferred",
+        "absent"
+      ]
+    },
+    "createdAt": {
+      "$ref": "#/$defs/timestamp"
+    },
+    "createdBy": {
+      "$ref": "#/$defs/actor"
+    },
+    "id": {
+      "$ref": "#/$defs/id"
+    },
+    "ingestionProvenance": {
+      "$ref": "#/$defs/provenance"
+    },
+    "issues": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "lessonsLearned": {
+      "type": "string"
+    },
+    "methodology": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/exclusionRef"
+        },
+        {
+          "$ref": "#/$defs/gapRef"
+        }
+      ]
+    },
+    "problemStatement": {
+      "$ref": "#/$defs/id"
+    },
+    "requirementsAndAcceptabilityCriteria": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/exclusionRef"
+        },
+        {
+          "$ref": "#/$defs/gapRef"
+        }
+      ]
+    },
+    "rev": {
+      "minimum": 1,
+      "type": "integer"
+    },
+    "sections": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "content": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "$ref": "#/$defs/exclusionRef"
+              },
+              {
+                "$ref": "#/$defs/gapRef"
+              }
+            ]
+          },
+          "name": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "content"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "supersedes": {
+      "$ref": "#/$defs/id"
+    },
+    "type": {
+      "const": "VVARecord"
+    }
+  },
+  "required": [
+    "id",
+    "type",
+    "rev",
+    "createdBy",
+    "createdAt",
+    "problemStatement",
+    "requirementsAndAcceptabilityCriteria",
+    "assumptionsCapabilitiesLimitationsRisks",
+    "methodology",
+    "accreditationDecision",
+    "sections"
+  ],
+  "title": "VVARecord",
+  "type": "object"
+}

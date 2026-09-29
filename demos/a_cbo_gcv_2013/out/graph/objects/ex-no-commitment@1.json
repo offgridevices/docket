@@ -1,0 +1,29 @@
+{
+  "authority": {
+    "date": "2013-04",
+    "role": "analyst",
+    "who": "Congressional Budget Office"
+  },
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "ex-no-commitment",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 37 ('About This Document')",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "reason": "In keeping with CBO's mandate to provide objective and impartial analysis, the report makes no recommendations, and no decision was taken in it. The episode therefore stops at PENDING_SIGNATURE: there is nothing to sign.",
+  "reasonType": "not-applicable",
+  "retainedInStructure": true,
+  "rev": 1,
+  "target": {
+    "kind": "Section",
+    "label": "commitment"
+  },
+  "type": "Exclusion"
+}

@@ -1,0 +1,22 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2020-12-09T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "description": "A platoon of OMFVs will transport 30 Soldiers that dismount from the vehicles. Each OMFV vehicle will be crewed by no more than two Soldiers who will be positioned in the hull. Squad members can perform crew duties prior to dismounting the OMFV but the vehicles must remain operational after dismounting. The OMFV should allow commanders to choose between manned or remote operation based on the tactical situation.",
+  "id": "obj-manning-dec",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "PDF p. 5 (slide footer 6), characteristic H",
+    "sourceArtifact": "sources/army-2020-12-09-omfv-industry-day-briefing.pdf"
+  },
+  "name": "Manning",
+  "priority": "primary",
+  "priorityRank": 8,
+  "provenance": "ev-con-2020-12",
+  "rev": 1,
+  "type": "Objective"
+}

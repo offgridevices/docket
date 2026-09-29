@@ -1,0 +1,37 @@
+{
+  "addresses": [
+    "obj-alternatives"
+  ],
+  "assessableAt": {
+    "level": "U"
+  },
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "cl-shutdown-cost",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 11 (PDF p. 14); printed p. 12 (PDF p. 15)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "mandateElements": [
+    "me-ndaa13-bradley"
+  ],
+  "questionClass": "industrial-base",
+  "rev": 1,
+  "section": "evaluation-results",
+  "supportedBy": [
+    {
+      "evidence": "ev-gao-15-548"
+    },
+    {
+      "evidence": "ev-army-procurement-plans"
+    }
+  ],
+  "text": "Printed p. 11: the Army's study estimated $53 million for a shutdown and restart of the Bradley Fighting Vehicle production line, against a 2012 original equipment manufacturer study's $750 million, and \"appropriately cautions against comparison of these results\" because the two studies had very different assumptions caused by differing time frames and by actions the Army and the manufacturer took in the intervening time. Printed p. 12 records that the manufacturer agreed the two estimates could not be compared.",
+  "type": "Claim"
+}

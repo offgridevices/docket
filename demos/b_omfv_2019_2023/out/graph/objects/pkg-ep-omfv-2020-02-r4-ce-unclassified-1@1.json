@@ -1,0 +1,17 @@
+{
+  "createdAt": "2023-06-26T00:00:00Z",
+  "createdBy": {
+    "actorId": "docket-kernel/0.1.0",
+    "actorType": "kernel"
+  },
+  "episode": "ep-omfv-2020-02-r4-ce",
+  "graphSnapshotHash": "14f49a22799ef1fa9f674d5e554d875a2a482826ade88449ff3396131a05a0b5",
+  "hash": "adf8d391ad6385bdc8fe697ce64b3d2c1d5d36e71cade21e2a9befd10ee86303",
+  "id": "pkg-ep-omfv-2020-02-r4-ce-unclassified-1",
+  "kernelVersion": "0.1.0",
+  "path": "package-unclassified.md",
+  "renderedAt": "2023-06-26T00:00:00Z",
+  "rendering": "unclassified",
+  "rev": 1,
+  "type": "DecisionPackage"
+}

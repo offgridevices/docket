@@ -1,0 +1,56 @@
+{
+  "classification": {
+    "caveats": [
+      "copyrighted press, not a US Government work"
+    ],
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "explicit",
+  "createdAt": "2020-02-25T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2020-02-06",
+  "evidenceType": "Document",
+  "id": "ev-breaking-defense",
+  "inclusionReason": "the public, articulable operational rationale for the Poland-bridges assumption; the assumption is reasonable, which is exactly why an unevidenced version of it is easy to nod past",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "sidecar, two quoted sentences",
+    "sourceArtifact": "sources/breaking-defense-2020-02-06-polish-bridge-problem.source.md"
+  },
+  "limitations": [
+    {
+      "impact": "the rationale is read from two quoted sentences, not from the article",
+      "statement": "Copyrighted press. No copy is committed and only the two sentences the sidecar already quotes may be reproduced."
+    }
+  ],
+  "pointer": {
+    "custodian": "Breaking Defense — copyrighted press; no artefact committed, see sources/breaking-defense-2020-02-06-polish-bridge-problem.source.md",
+    "uri": "https://breakingdefense.com/2020/02/omfv-the-armys-polish-bridge-problem/"
+  },
+  "published": "2020-02-06",
+  "publisher": "Breaking Defense (Sydney J. Freedberg Jr.)",
+  "reliabilitySteps": {
+    "$gap": "gap-reliability-steps"
+  },
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "reviewers": [
+    {
+      "date": "2020-02-06",
+      "name": "Breaking Defense",
+      "role": "publisher (editorial review; no other review record is public)"
+    }
+  ],
+  "scopeOfValidity": {
+    "builtToAnswer": "why the OMFV's weight matters for movement across Eastern European bridges",
+    "intendedUse": "trade press explanation of the Weight characteristic",
+    "questionClass": "desired-characteristics"
+  },
+  "title": "Breaking Defense, 'OMFV: The Army's Polish Bridge Problem', 6 February 2020",
+  "type": "Evidence"
+}

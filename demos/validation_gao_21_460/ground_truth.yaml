@@ -1,0 +1,36 @@
+# GAO-21-460 Figure 6 — GAO's own per-question labels, transcribed.
+#
+# This file is the answer key. It is written by an unblinded step and is read by
+# `run.py` only. `build.py` never opens it, never names it, and was written by an
+# agent that never saw it.
+#
+# Figure 6 is the only per-question published key in the GAO record. There are 26
+# GAO products applying these "generally accepted research standards" and 21 true
+# answer keys (2006-2024); GAO-23-106549 publishes a 3x3 verdict grid and nine
+# findings, not per-question labels. Nothing here is our judgment: every label is
+# GAO's, as printed.
+source: "GAO-21-460 Figure 6, printed p. 39 (Appendix II; PDF p. 44); linearised text printed pp. 40-41 (PDF pp. 45-46), accessible edition"
+legend: {assessed: "Assessed", unable_to_assess: "Unable to assess"}
+labels: {DES-1: assessed, DES-2: assessed, DES-3: assessed, DES-4: assessed, DES-5: assessed, DES-6: assessed, DES-7: assessed, DES-8: assessed, DES-9: assessed,
+         EXE-1: assessed, EXE-2: unable_to_assess, EXE-3: assessed, EXE-4: assessed, EXE-5: assessed, EXE-6: unable_to_assess, EXE-7: assessed, EXE-8: unable_to_assess,
+         PRE-1: unable_to_assess, PRE-2: unable_to_assess, PRE-3: unable_to_assess, PRE-4: unable_to_assess}
+tally: {assessed: 14, unable_to_assess: 7}
+majority_baseline: 0.667
+transcription: >-
+  Three independent readings of the same figure, zero disagreement. (1) Visual read of
+  the figure image; (2) programmatic colour sampling of each cell's header band (green
+  swatch = Assessed, amber = Unable to assess) — both in
+  library/gao/derived/gao-21-460-figure-6-ground-truth.yaml, which is local, gitignored
+  and not committed; (3) this file, read off the accessible edition's linearised text of
+  Figure 6 (pdftotext, PDF pp. 45-46), where the three execution questions and the
+  presentation heading carry an explicit parenthetical. The 21 canonical question strings
+  in src/docket/standard/research-standards-36.yaml match the figure's a)-i) / a)-h) /
+  a)-d) lists 1:1 and in order, which is what fixes the id mapping.
+note: >-
+  GAO's linearised text spells the annotation "(unable to access)" on EXE-2, EXE-6 and
+  EXE-8 and "(all were unable to be accessed)" on the presentation heading; the figure's
+  own legend reads "Unable to assess". The typo is GAO's and is transcribed here as the
+  legend word, not the body word. GAO assessed the *study*; per footnote 7 and Appendix I
+  of the related GAO-23-106549, GAO did not assess or verify the Army's underlying
+  analytical work, and in GAO-21-460 GAO states it assessed only the design portion and
+  portions of the execution (printed p. 35).

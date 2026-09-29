@@ -1,0 +1,27 @@
+{
+  "confidence": "explicit",
+  "consequence": "Cost growth and schedule delay relative to options that are already in production; CBO rates the GCV High and both foreign vehicles Low.",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "evidence": [
+    "ev-cbo-2013",
+    "ex-risk-not-scored"
+  ],
+  "id": "rk-gcv-programmatic",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 20",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "kind": "schedule",
+  "monitor": "Programmatic risk is re-read at each milestone; CBO reports it qualitatively and does not score it (see ex-risk-not-scored).",
+  "owner": "Department of the Army (GCV program)",
+  "rev": 1,
+  "statement": "The GCV program carries high programmatic risk: the vehicle is in the early stages of development and several years from production, while the Namer and the Puma are already in production.",
+  "status": "open",
+  "type": "Risk"
+}

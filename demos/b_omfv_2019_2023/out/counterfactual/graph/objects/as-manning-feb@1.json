@@ -1,0 +1,27 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2020-02-25T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "evidence": "ev-con-2020-02",
+  "id": "as-manning-feb",
+  "implicationsIfWrong": "a crew size chosen later on other grounds would be unconstrained by this characteristic, which is what happened in December 2020 when the CON fixed it at two",
+  "indicatorsThatWouldAlter": [
+    "the Army states a crew number in a published characteristic",
+    "a soldier touchpoint finds a minimum crew below or above the design"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "section 'OMFV Characteristics: Objectives', Manning",
+    "sourceArtifact": "sources/army-2020-02-25-omfv-characteristics-for-industry-comment.md"
+  },
+  "linchpin": false,
+  "rationale": "the February 2020 characteristic states the crew as a minimum to be found, not as a number: no crew size appears anywhere in the notice",
+  "rev": 1,
+  "statement": "The OMFV should operate with the minimal number of crew members required to fight and win.",
+  "type": "Assumption",
+  "variedInSensitivity": false
+}

@@ -1,0 +1,377 @@
+{
+  "$defs": {
+    "actor": {
+      "additionalProperties": false,
+      "properties": {
+        "actorId": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "actorType": {
+          "enum": [
+            "human",
+            "agent",
+            "kernel"
+          ]
+        }
+      },
+      "required": [
+        "actorType",
+        "actorId"
+      ],
+      "type": "object"
+    },
+    "exclusionRef": {
+      "additionalProperties": false,
+      "properties": {
+        "$exclusion": {
+          "$ref": "#/$defs/id"
+        }
+      },
+      "required": [
+        "$exclusion"
+      ],
+      "type": "object"
+    },
+    "gapRef": {
+      "additionalProperties": false,
+      "properties": {
+        "$gap": {
+          "$ref": "#/$defs/id"
+        }
+      },
+      "required": [
+        "$gap"
+      ],
+      "type": "object"
+    },
+    "id": {
+      "pattern": "^[a-z0-9][a-z0-9._:-]*$",
+      "type": "string"
+    },
+    "provenance": {
+      "additionalProperties": false,
+      "properties": {
+        "extractedAt": {
+          "type": "string"
+        },
+        "extractor": {
+          "type": "string"
+        },
+        "locator": {
+          "type": "string"
+        },
+        "sourceArtifact": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "sourceArtifact",
+        "locator",
+        "extractor",
+        "extractedAt"
+      ],
+      "type": "object"
+    },
+    "timestamp": {
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}(T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?Z)?$",
+      "type": "string"
+    }
+  },
+  "$id": "https://docket.offgriddevices.com/schema/DecisionEpisode.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "",
+  "properties": {
+    "alternatives": {
+      "items": {
+        "$ref": "#/$defs/id"
+      },
+      "type": "array"
+    },
+    "asOf": {
+      "type": "string"
+    },
+    "assumptions": {
+      "items": {
+        "$ref": "#/$defs/id"
+      },
+      "type": "array"
+    },
+    "biasChecks": {
+      "items": {
+        "$ref": "#/$defs/id"
+      },
+      "type": "array"
+    },
+    "charter": {
+      "$ref": "#/$defs/id"
+    },
+    "claims": {
+      "items": {
+        "$ref": "#/$defs/id"
+      },
+      "type": "array"
+    },
+    "commitment": {
+      "$ref": "#/$defs/id"
+    },
+    "confidence": {
+      "enum": [
+        "explicit",
+        "inferred",
+        "absent"
+      ]
+    },
+    "constraints": {
+      "items": {
+        "$ref": "#/$defs/id"
+      },
+      "type": "array"
+    },
+    "createdAt": {
+      "$ref": "#/$defs/timestamp"
+    },
+    "createdBy": {
+      "$ref": "#/$defs/actor"
+    },
+    "distribution": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "date": {
+            "type": "string"
+          },
+          "to": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "to",
+          "date"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "evidenceRegister": {
+      "items": {
+        "$ref": "#/$defs/id"
+      },
+      "type": "array"
+    },
+    "flipAnalyses": {
+      "items": {
+        "$ref": "#/$defs/id"
+      },
+      "type": "array"
+    },
+    "groundRules": {
+      "items": {
+        "$ref": "#/$defs/id"
+      },
+      "type": "array"
+    },
+    "id": {
+      "$ref": "#/$defs/id"
+    },
+    "ingestionProvenance": {
+      "$ref": "#/$defs/provenance"
+    },
+    "lifecycleState": {
+      "enum": [
+        "DRAFT",
+        "MODEL_APPROVED",
+        "PLAN_APPROVED",
+        "EVALUATED",
+        "PENDING_SIGNATURE",
+        "SIGNED",
+        "SUSPECT",
+        "SUPERSEDED",
+        "VOID"
+      ]
+    },
+    "mandateElements": {
+      "items": {
+        "$ref": "#/$defs/id"
+      },
+      "type": "array"
+    },
+    "models": {
+      "items": {
+        "$ref": "#/$defs/id"
+      },
+      "type": "array"
+    },
+    "narratives": {
+      "items": {
+        "$ref": "#/$defs/id"
+      },
+      "type": "array"
+    },
+    "objectives": {
+      "items": {
+        "$ref": "#/$defs/id"
+      },
+      "type": "array"
+    },
+    "observations": {
+      "items": {
+        "$ref": "#/$defs/id"
+      },
+      "type": "array"
+    },
+    "plan": {
+      "$ref": "#/$defs/id"
+    },
+    "program": {
+      "$ref": "#/$defs/id"
+    },
+    "readiness": {
+      "$ref": "#/$defs/id"
+    },
+    "refreshedBecause": {
+      "$ref": "#/$defs/id"
+    },
+    "replacements": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "type": "object"
+    },
+    "rev": {
+      "minimum": 1,
+      "type": "integer"
+    },
+    "risks": {
+      "items": {
+        "$ref": "#/$defs/id"
+      },
+      "type": "array"
+    },
+    "runs": {
+      "items": {
+        "$ref": "#/$defs/id"
+      },
+      "type": "array"
+    },
+    "scenarios": {
+      "items": {
+        "$ref": "#/$defs/id"
+      },
+      "type": "array"
+    },
+    "sequence": {
+      "type": "integer"
+    },
+    "supersedes": {
+      "$ref": "#/$defs/id"
+    },
+    "transitions": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "actor": {
+            "additionalProperties": false,
+            "properties": {
+              "actorId": {
+                "type": "string"
+              },
+              "actorType": {
+                "enum": [
+                  "human",
+                  "agent",
+                  "kernel"
+                ]
+              }
+            },
+            "required": [
+              "actorType",
+              "actorId"
+            ],
+            "type": "object"
+          },
+          "at": {
+            "type": "string"
+          },
+          "checksSatisfied": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "checksUnsatisfied": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "from": {
+            "type": "string"
+          },
+          "policyVersion": {
+            "type": "string"
+          },
+          "refused": {
+            "type": "boolean"
+          },
+          "to": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "from",
+          "to",
+          "actor",
+          "at",
+          "policyVersion",
+          "checksSatisfied",
+          "checksUnsatisfied",
+          "refused"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "type": {
+      "const": "DecisionEpisode"
+    },
+    "weightSets": {
+      "items": {
+        "$ref": "#/$defs/id"
+      },
+      "type": "array"
+    }
+  },
+  "required": [
+    "id",
+    "type",
+    "rev",
+    "createdBy",
+    "createdAt",
+    "sequence",
+    "charter",
+    "lifecycleState",
+    "transitions",
+    "objectives",
+    "alternatives",
+    "groundRules",
+    "constraints",
+    "assumptions",
+    "evidenceRegister",
+    "scenarios",
+    "claims",
+    "risks",
+    "biasChecks",
+    "mandateElements",
+    "observations",
+    "weightSets",
+    "models",
+    "runs",
+    "flipAnalyses",
+    "narratives",
+    "asOf"
+  ],
+  "title": "DecisionEpisode",
+  "type": "object"
+}

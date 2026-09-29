@@ -1,0 +1,60 @@
+{
+  "authority": {
+    "board": "Army Futures Command, Futures and Concepts Center",
+    "signer": "Army Deputy Chief of Staff, G-8"
+  },
+  "conditionsOfInterest": [
+    "European MDO environment"
+  ],
+  "confidence": "inferred",
+  "consequencesOfErroneousOutput": "The 2022 TWV Strategy sets TWV fleet capabilities and requirements for a force the Army plans to have MDO-capable in a single theater by 2028; a wrong answer buys the wrong number and type of tactical wheeled vehicles for that force. GAO-21-460 does not state the consequences of error; this sentence is a reconstruction from the study's stated purpose (printed pp. 6, 9).",
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "decisionClassPolicy": "pol-twv",
+  "decisionToBeMade": "what TWV fleet capabilities and requirements the Army's 2022 TWV Strategy should adopt",
+  "definitions": [
+    {
+      "term": "capabilities",
+      "text": "the technologies and abilities needed to achieve a specific mission, for example, the fuel capacity, or equivalent, needed to travel 300 miles (printed p. 6)"
+    },
+    {
+      "term": "requirements",
+      "text": "the number and types of TWVs needed to achieve Army objectives (printed p. 6)"
+    }
+  ],
+  "id": "ch-twv-2021",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 9 (PDF p. 14)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "limitations": [
+    {
+      "mitigation": "Modeling officials stated they modified an existing scenario previously developed to support a European Command wargame (printed pp. 13–14); recorded as sc-europe-mdo.",
+      "statement": "In the Distribution and Transportation line of effort, the Army identified the lack of a sufficient, Office of the Secretary of Defense-approved, Multi-Domain Operations Defense Planning Scenario for the European theater as a limitation (printed pp. 13–14)."
+    },
+    {
+      "mitigation": "no mitigation was necessary for this limitation since there were no specific shortfalls identified at the brigade level",
+      "statement": "Another limitation identified for this line of effort was a sustainment analysis focused on distribution from the theater operations down to the brigade level (printed p. 14)."
+    }
+  ],
+  "question": "to identify the capabilities and requirements needed for TWVs in the MDO environment (printed p. 9), to inform the Army's 2022 TWV Strategy (printed pp. 9, 12)",
+  "questionClass": "capability-gap",
+  "rev": 1,
+  "scope": {
+    "excluded": [],
+    "included": [
+      "the TWVs the Army needs for a notional force in a European MDO environment (printed p. 12)",
+      "about 66 percent of the types of units currently used in the Army (printed p. 12)",
+      "some surrogate units for those that currently do not exist but may in 2028— such as Strategic Fires Battalions (printed p. 12)"
+    ]
+  },
+  "successCriteria": [
+    "a 2022 TWV Strategy informed by identified capabilities and requirements"
+  ],
+  "type": "Charter"
+}

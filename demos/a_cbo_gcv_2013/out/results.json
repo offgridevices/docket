@@ -1,0 +1,184 @@
+{
+  "blockers": [],
+  "dimensions": {
+    "objectivity": "generally_objective",
+    "reliability": "generally_reliable",
+    "validity": "generally_valid"
+  },
+  "flip": {
+    "primary": {
+      "ws-primary:m-leth": {
+        "assumption": null,
+        "direction": "down",
+        "flipDistance": 0.247109,
+        "flipThreshold": 0.052891,
+        "rankingAfter": [
+          "alt-gcv",
+          "alt-puma",
+          "alt-upgraded-bradley",
+          "alt-namer",
+          "alt-retain-bradley"
+        ]
+      },
+      "ws-primary:m-mob": {
+        "assumption": null,
+        "direction": "up",
+        "flipDistance": 0.747883,
+        "flipThreshold": 0.947883,
+        "rankingAfter": [
+          "alt-gcv",
+          "alt-puma",
+          "alt-upgraded-bradley",
+          "alt-namer",
+          "alt-retain-bradley"
+        ]
+      },
+      "ws-primary:m-pax": {
+        "assumption": null,
+        "direction": "up",
+        "flipDistance": 0.360251,
+        "flipThreshold": 0.460251,
+        "rankingAfter": [
+          "alt-gcv",
+          "alt-puma",
+          "alt-upgraded-bradley",
+          "alt-namer",
+          "alt-retain-bradley"
+        ]
+      },
+      "ws-primary:m-prot": {
+        "assumption": "as-army-weights",
+        "direction": "up",
+        "flipDistance": 0.531818,
+        "flipThreshold": 0.931818,
+        "rankingAfter": [
+          "alt-namer",
+          "alt-puma",
+          "alt-upgraded-bradley",
+          "alt-gcv",
+          "alt-retain-bradley"
+        ]
+      }
+    },
+    "primary_shortest": "ws-primary:m-leth",
+    "secondary": {
+      "ws-secondary:m-leth": {
+        "assumption": null,
+        "direction": "down",
+        "flipDistance": 0.015661,
+        "flipThreshold": 0.234339,
+        "rankingAfter": [
+          "alt-gcv",
+          "alt-puma",
+          "alt-namer",
+          "alt-upgraded-bradley",
+          "alt-retain-bradley"
+        ]
+      },
+      "ws-secondary:m-mob": {
+        "assumption": null,
+        "direction": "up",
+        "flipDistance": 0.397059,
+        "flipThreshold": 0.647059,
+        "rankingAfter": [
+          "alt-gcv",
+          "alt-puma",
+          "alt-upgraded-bradley",
+          "alt-namer",
+          "alt-retain-bradley"
+        ]
+      },
+      "ws-secondary:m-prot": {
+        "assumption": null,
+        "direction": "up",
+        "flipDistance": 0.541667,
+        "flipThreshold": 0.791667,
+        "rankingAfter": [
+          "alt-namer",
+          "alt-puma",
+          "alt-gcv",
+          "alt-upgraded-bradley",
+          "alt-retain-bradley"
+        ]
+      },
+      "ws-secondary:m-squad": {
+        "assumption": "as-nine-squad",
+        "direction": "up",
+        "flipDistance": 0.016504,
+        "flipThreshold": 0.266504,
+        "rankingAfter": [
+          "alt-gcv",
+          "alt-puma",
+          "alt-namer",
+          "alt-upgraded-bradley",
+          "alt-retain-bradley"
+        ]
+      }
+    },
+    "secondary_shortest": "ws-secondary:m-leth"
+  },
+  "kernel": "0.1.0",
+  "now": "2013-04-30T00:00:00Z",
+  "openExclusions": [
+    "ex-army-categories",
+    "ex-namer-puma-sim",
+    "ex-no-thresholds",
+    "ex-risk-not-scored",
+    "ex-transportability",
+    "ex-vva-na"
+  ],
+  "openGaps": [
+    "gap-aoa-report",
+    "gap-sim-model",
+    "gap-sim-vva",
+    "gap-squad-reliability",
+    "gap-survey-n"
+  ],
+  "packages": {
+    "full": "a59a764085be97a037da7a87943c7827b1955aaeca6ec74a91886baa2040df51",
+    "unclassified": "9ab1881135bc46557ee1f061831f5d480dbfd288675d8400076c4025e270c5bf"
+  },
+  "primary": {
+    "alt-gcv": 16.4,
+    "alt-namer": 6.1,
+    "alt-puma": 45.1,
+    "alt-retain-bradley": 0.0,
+    "alt-upgraded-bradley": 31.8
+  },
+  "ranking": {
+    "primary": [
+      "alt-puma",
+      "alt-upgraded-bradley",
+      "alt-gcv",
+      "alt-namer",
+      "alt-retain-bradley"
+    ],
+    "secondary": [
+      "alt-puma",
+      "alt-gcv",
+      "alt-upgraded-bradley",
+      "alt-namer",
+      "alt-retain-bradley"
+    ]
+  },
+  "ready": true,
+  "secondary": {
+    "alt-gcv": 36.0,
+    "alt-namer": 25.25,
+    "alt-puma": 38.25,
+    "alt-retain-bradley": 0.0,
+    "alt-upgraded-bradley": 25.5
+  },
+  "seed": 20130430,
+  "simplex": {
+    "alt-gcv": 0.4375,
+    "alt-namer": 0.0365,
+    "alt-puma": 0.526,
+    "alt-retain-bradley": 0.0,
+    "alt-upgraded-bradley": 0.0
+  },
+  "source": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf",
+  "warnings": [
+    "reuse-justified"
+  ]
+}

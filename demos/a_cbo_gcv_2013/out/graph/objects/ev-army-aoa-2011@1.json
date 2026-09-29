@@ -1,0 +1,55 @@
+{
+  "classification": {
+    "caveats": [
+      "not publicly released; its release status has not been verified by this project"
+    ],
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2011-03",
+  "evidenceType": "Document",
+  "id": "ev-army-aoa-2011",
+  "inclusionReason": "the source CBO names for the upgraded Bradley's protection and lethality scores and for the Army's category weights",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 7 fn 10; p. 21 (Table 2-2 source line)",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "limitations": [
+    {
+      "impact": "its scores cannot be checked against the analysis that produced them; the pointer is a recorded gap, not a locator",
+      "statement": "The report itself is not public: everything recorded here is what CBO reports about it"
+    }
+  ],
+  "pointer": {
+    "$gap": "gap-aoa-report"
+  },
+  "published": "2011-03",
+  "publisher": "Department of the Army, Headquarters",
+  "reliabilitySteps": [
+    "drs-cbo-army-data"
+  ],
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "reviewers": [
+    {
+      "date": "2011-03",
+      "name": "Department of the Army, Headquarters",
+      "role": "issuing authority (no review record seen by this project)"
+    }
+  ],
+  "scopeOfValidity": {
+    "builtToAnswer": "Which vehicle should the Army pursue at Milestone A?",
+    "intendedUse": "the Army's Milestone A decision and its report to the Congress",
+    "questionClass": "requirements-tradeoff"
+  },
+  "title": "Department of the Army, Headquarters, Report on the Results of the Ground Combat Vehicle Analysis of Alternatives (Milestone A), March 2011",
+  "type": "Evidence"
+}

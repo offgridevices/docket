@@ -1,0 +1,94 @@
+{
+  "accreditationDecision": {
+    "authority": "Army modeling officials — an internal verification and validation process involving experts not involved with the project",
+    "basis": "interview",
+    "date": "2021",
+    "scope": "review of the Logistics Battle Command model to ensure it is appropriate for the Distribution and Transportation line of effort"
+  },
+  "assumptionsCapabilitiesLimitationsRisks": {
+    "assumptions": {
+      "$gap": "gap-vva-lbc"
+    },
+    "capabilities": {
+      "$gap": "gap-vva-lbc"
+    },
+    "limitations": {
+      "$gap": "gap-vva-lbc"
+    },
+    "risks": {
+      "$gap": "gap-vva-lbc"
+    }
+  },
+  "confidence": "inferred",
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "vva-lbc",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 13 (PDF p. 18)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "methodology": {
+    "$gap": "gap-vva-lbc"
+  },
+  "problemStatement": "ch-twv-2021",
+  "requirementsAndAcceptabilityCriteria": {
+    "$gap": "gap-vva-lbc"
+  },
+  "rev": 1,
+  "sections": [
+    {
+      "content": {
+        "$gap": "gap-vva-lbc"
+      },
+      "name": "Problem Statement"
+    },
+    {
+      "content": {
+        "$gap": "gap-vva-lbc"
+      },
+      "name": "M&S Requirements and Acceptability Criteria"
+    },
+    {
+      "content": {
+        "$gap": "gap-vva-lbc"
+      },
+      "name": "M&S Assumptions, Capabilities, Limitations & Risks/Impacts"
+    },
+    {
+      "content": {
+        "$gap": "gap-vva-lbc"
+      },
+      "name": "Accreditation Methodology"
+    },
+    {
+      "content": {
+        "$gap": "gap-vva-lbc"
+      },
+      "name": "Issues"
+    },
+    {
+      "content": {
+        "$gap": "gap-vva-lbc"
+      },
+      "name": "Key Participants"
+    },
+    {
+      "content": {
+        "$gap": "gap-vva-lbc"
+      },
+      "name": "Resources"
+    },
+    {
+      "content": {
+        "$gap": "gap-vva-lbc"
+      },
+      "name": "Lessons Learned"
+    }
+  ],
+  "type": "VVARecord"
+}

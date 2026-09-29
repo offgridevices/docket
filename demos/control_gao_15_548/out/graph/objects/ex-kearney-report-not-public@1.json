@@ -1,0 +1,24 @@
+{
+  "authority": {
+    "date": "2026-09-05",
+    "role": "reconstruction author",
+    "who": "shreyash"
+  },
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "ex-kearney-report-not-public",
+  "reason": "The report is not published; GAO's description of it is the only public account. It stays in the evidence register because it is the study under assessment, but no Claim in this record rests on it: its pointer is a recorded gap, and a claim resting on evidence whose metadata nobody outside the Army can see is exactly what the scope checker is right to refuse. Demonstration A hits the same mechanism with the Army's Milestone A analysis of alternatives.",
+  "reasonType": "data-unavailable",
+  "retainedInStructure": true,
+  "rev": 1,
+  "target": {
+    "id": "ev-kearney-final-report",
+    "kind": "Evidence",
+    "label": "the Army's April 2014 report to the congressional defense committees"
+  },
+  "type": "Exclusion"
+}

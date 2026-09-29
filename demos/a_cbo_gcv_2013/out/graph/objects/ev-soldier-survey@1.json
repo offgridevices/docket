@@ -1,0 +1,64 @@
+{
+  "analysisMethod": "rankings converted to category weights in the Army's AoA, Tab I, 'Ground Combat Vehicle Affordability Strategy' (p. 33 fn 1)",
+  "classification": {
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "dates": {
+    "$gap": "gap-survey-n"
+  },
+  "evidenceType": "SoldierTouchpoint",
+  "id": "ev-soldier-survey",
+  "inclusionReason": "the basis of CBO's primary-metric weights (pp. 33–34)",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "pp. 33–34 (Table A-1)",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "instrument": [
+    "ranking of the vehicle's most important characteristics (p. 33)"
+  ],
+  "limitations": [
+    {
+      "impact": "the rankings → Army weights step cannot be checked; the Army weights → CBO weights step is an exact division and can be checked against Table A-1",
+      "statement": "Only the second half of the derivation is public. CBO's four weights are the Army's four retained weights renormalised — 0.20/0.15/0.10/0.05 over their sum of 0.50 gives 0.40/0.30/0.20/0.10 exactly (Table A-1, p. 34) — but how the Army turned soldiers' rankings into those weights is in the AoA's Tab I, which is not public"
+    }
+  ],
+  "n": {
+    "$gap": "gap-survey-n"
+  },
+  "pointer": {
+    "custodian": "Department of the Army (instrument and responses, not public); CBO (reported weights)",
+    "uri": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf#page=38"
+  },
+  "reliabilitySteps": [
+    "drs-cbo-army-data"
+  ],
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "reviewers": [
+    {
+      "date": "2011-03",
+      "name": "Department of the Army (analysis of alternatives)",
+      "role": "author"
+    }
+  ],
+  "scopeOfValidity": {
+    "builtToAnswer": "Which characteristics of a fighting vehicle matter most to soldiers who have deployed with combat brigades?",
+    "intendedUse": "set the Army's AoA category weights",
+    "questionClass": "desired-characteristics"
+  },
+  "selectionRule": "soldiers who had been deployed with combat brigades in Iraq, Afghanistan, Kosovo, or Bosnia (p. 33)",
+  "title": "Soldier ranking of the characteristics that matter most in a fighting vehicle — the source of the Army's AoA category weights",
+  "type": "Evidence",
+  "unit": {
+    "$gap": "gap-survey-n"
+  }
+}

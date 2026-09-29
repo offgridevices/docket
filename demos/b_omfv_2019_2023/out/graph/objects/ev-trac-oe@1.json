@@ -1,0 +1,49 @@
+{
+  "classification": {
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "inferred",
+  "createdAt": "2021-09-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "evidenceType": "MSStudy",
+  "id": "ev-trac-oe",
+  "inclusionReason": "GAO printed p. 11: \"a second TRAC study expanded on the first, and added another scenario with different terrain and details from a vendor's concepts.\" GAO never names it. The identification with the \"TRAC OE\" entry on the December 2020 Phase 2 schedule is OURS, and this object is marked inferred for that reason",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "PDF p. 17 (slide footer 19) (timeline); PDF p. 18 (slide footer 20) (description); GAO printed p. 11 (PDF p. 14) (the second TRAC study, unnamed)",
+    "sourceArtifact": "sources/army-2020-12-09-omfv-industry-day-briefing.pdf"
+  },
+  "model": "mdl-trac",
+  "pointer": {
+    "custodian": "Department of the Army (the study itself is not public); the cited document is the public record that names it",
+    "uri": "sources/army-2020-12-09-omfv-industry-day-briefing.pdf#page=18"
+  },
+  "reliabilitySteps": {
+    "$gap": "gap-reliability-steps"
+  },
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "reviewers": [
+    {
+      "date": "2021",
+      "name": "Department of the Army",
+      "role": "performing organisation (no review record is public)"
+    }
+  ],
+  "scenarios": {
+    "$gap": "gap-model-docs"
+  },
+  "scopeOfValidity": {
+    "builtToAnswer": "the desired characteristics for the OMFV — GAO printed p. 12: \"these analyses were not designed to draw conclusions on force structure alternatives. Instead, the analyses were intended to assess the desired characteristics\"",
+    "intendedUse": "Phase 2 modelling, simulation and analysis",
+    "questionClass": "desired-characteristics"
+  },
+  "title": "TRAC Operational Effectiveness (Dec 2020 Industry Day slide, PDF p. 18 (slide footer 20)) — inferred by us to be the second TRAC study GAO describes at printed p. 11; GAO does not name it",
+  "type": "Evidence",
+  "vvaRecord": "vva-trac"
+}

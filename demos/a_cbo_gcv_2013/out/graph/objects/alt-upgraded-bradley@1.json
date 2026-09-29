@@ -1,0 +1,22 @@
+{
+  "baselineFlag": false,
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "description": "1,748 upgraded Bradley IFVs: 35 to 41 tons, 7 passengers. More lethal than the notional GCV, less mobile, and two passengers short of a full squad (pp. 2, 20). Programmatic risk: Intermediate.",
+  "enteredOrder": 3,
+  "id": "alt-upgraded-bradley",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 2 (Summary Table 1); pp. 20–31",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "name": "Option 2: upgrade the Bradley infantry fighting vehicle",
+  "rev": 1,
+  "status": "evaluated",
+  "type": "Alternative"
+}

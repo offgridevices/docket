@@ -1,0 +1,30 @@
+{
+  "authority": {
+    "date": "2026-09-06",
+    "role": "reconstruction author",
+    "who": "shreyash"
+  },
+  "confidence": "explicit",
+  "createdAt": "2023-03-31T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "ex-234-report-not-public",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "printed p. 8 (PDF p. 11)",
+    "sourceArtifact": "sources/gao-23-106549.pdf"
+  },
+  "reason": "the report is a report to the congressional defense committees and is not public; no claim in this record rests on it, because a claim resting on a gapped pointer cannot be assessed at any level",
+  "reasonType": "data-unavailable",
+  "retainedInStructure": true,
+  "rev": 1,
+  "target": {
+    "id": "ev-234-report",
+    "kind": "Evidence",
+    "label": "the Army's March 2023 Section 234 report"
+  },
+  "type": "Exclusion"
+}

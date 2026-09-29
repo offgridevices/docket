@@ -1,0 +1,26 @@
+{
+  "aggregationK": 21,
+  "blockingRules": [],
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "decisionClass": "industrial-base-study",
+  "id": "pol-kearney",
+  "method": "mavt",
+  "nSimplex": 200,
+  "name": "Industrial-base study assessed against GAO's 21 published questions, aggregated by GAO's own stated rule. GAO-23-106549 printed p. 17: \"we drew conclusions that the report was generally objective when available information presented in the report was consistent with our definition of objectivity but was missing information that would have addressed the generally accepted research standards.\" That is a rule about missing information, not a count of it, so aggregationK is set high enough that generally_X holds unless a mapped question reaches state 3 or 4. See docs/decisions/2026-09-05-aggregation-k-is-a-policy-parameter.md and the README: the parameter is a policy choice, not a kernel change, the qualifier sentence on each verdict names every state-2 question, and the value is pending Shreyash's sign-off.",
+  "prohibitedExclusionReasons": [
+    "time-or-resource"
+  ],
+  "requireAllLinchpinsVaried": false,
+  "requiredBiasChecks": [
+    "independent-disconfirming-review"
+  ],
+  "rev": 1,
+  "tailoring": "gao-15-548",
+  "type": "Policy",
+  "version": "0.1"
+}

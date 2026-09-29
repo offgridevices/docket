@@ -1,0 +1,133 @@
+# The measurement target for the GAO-15-548 positive control.
+#
+# READ THIS FIRST. This file is NOT a GAO answer key. There is no GAO answer key for this
+# case. Everything below is ours.
+
+source: "GAO-15-548, printed pp. 1-19, 22-24 (PDF pp. 4-22, 25-27). Printed page + 3 = PDF page."
+
+gao_published_no_per_question_key: true
+
+gao_note: >
+  GAO published NO per-question ratings for this study. Printed p. 24 (PDF p. 27):
+  "For reporting purposes, we determined that qualitative assessment ratings provide the
+  best explanation of the nuances of the analysis and findings, rather than numeric
+  ratings for each individual standard." Every per-question state below is OURS, not
+  GAO's. GAO-21-460 Figure 6 remains the only per-question published key in the whole
+  twenty-year series.
+
+dimension_frame_note: >
+  GAO-15-548 does not grade on objectivity, validity and reliability either. That frame
+  comes from Section 234(d) of the National Defense Authorization Act for Fiscal Year 2022
+  and appears in GAO-23-106549 (printed p. 17, where GAO states its three definitions).
+  Mapping this study onto the three dimensions is OURS as well, and so are the three
+  verdicts below.
+
+scope_note: >
+  GAO-15-548 assessed the reasonableness of the study's METHODS (printed p. 2). It did not
+  assess or verify the Army study's underlying analytical work, and neither does this
+  record. GAO made no recommendations (printed p. 19) and the Army agreed with the draft
+  report as written (printed p. 19).
+
+gao_published_verdict: >
+  Printed p. 7: "the Army's combat vehicle industrial base study's approach—including its
+  design, execution, and presentation of results—was both reasonable and sound for its
+  intended purposes." Printed pp. 7 and 17: the findings and conclusions "were presented
+  in a clear, comprehensive, and timely manner." Printed p. 19: "we found the study's
+  design, execution, and presentation of results were executed in accordance with
+  generally accepted research standards."
+
+# ---- asserted: the three things this control exists to hold ------------------------
+#
+# These are the point of the positive control. If they stop holding, either the fixture
+# or the scorer has changed and somebody has to say which.
+
+all_applicable_states_in: [1, 2]
+
+dimension_verdicts:
+  objectivity: generally_objective
+  validity: generally_valid
+  reliability: generally_reliable
+
+des_4_state: 2
+
+des_4_mechanism: >
+  `assumptions_all_have_rationale` fails, so DES-4 falls to its state-2 clause,
+  `assumptions_listed`. TWO assumption rationales are recorded gaps, not one, and they are
+  exactly GAO's two examples of the study's "some key assumptions could have been
+  discussed or defined more explicitly" (printed p. 10): (1) `as-min-sustainment-rate` —
+  printed p. 13, the study "did not include specific information on how that minimum
+  sustainment rate was derived"; (2) `as-army-risk-perspective` — printed p. 12, "a key
+  assumption that was not explicitly identified was that the study assessed risk from the
+  perspective of the Army." Measured: patching either one alone leaves DES-4 at 2;
+  patching both takes it to 1. DES-4 is the assumption-rationale question. The
+  charter-definition route (`definition-missing`) drives DES-2/DES-3 instead, and both of
+  this charter's definitions carry text, so it does not fire.
+
+expected_blockers: [objective-run-coverage]
+
+expected_blockers_note: >
+  The study has no evaluation run — five of its six analyses are qualitative and GAO
+  publishes no per-alternative numbers — so no run covers the primary objective's
+  measures. That is a true statement about a narrative study, and `ready` is false for
+  that one reason and no other. Any additional blocker is a fixture defect: fix the
+  fixture, never the rules.
+
+aggregation_k: 21
+
+aggregation_k_rationale: >
+  Ruling R3, set as a POLICY parameter on `pol-kearney`, not as a kernel change.
+  GAO-23-106549 printed p. 17: "we drew conclusions that the report was generally
+  objective when available information presented in the report was consistent with our
+  definition of objectivity but was missing information that would have addressed the
+  generally accepted research standards." That is a rule about missing information, not a
+  count of it. Three objectivity questions land at state 2 here (DES-4, PRE-3, PRE-4), so
+  the kernel default k=1 would read `not_objective` for a study GAO passed — measured:
+  at k=1 all three dimensions read `not_*`. k=21 makes `generally_X` hold unless a mapped
+  question reaches state 3 or 4, and every state-2 question is named in the verdict's
+  qualifier sentence, which is where the weight then sits.
+
+# ---- recorded, not asserted --------------------------------------------------------
+#
+# The table below was RECORDED from a run of `demos/control_gao_15_548/run.py`, not
+# hand-written, and it is labelled ours for the reasons at the top of this file. The
+# agreement statistic the run reports against it is therefore a regression check on the
+# fixture — it says the record still scores what it scored when this table was taken —
+# and is not evidence about GAO. The comment after each state is the clause that fired.
+
+per_question_states:
+  DES-1: 1     # charter_complete_and_plan_approved -> 1
+  DES-2: 1     # charter_question_and_terms_defined -> 1
+  DES-3: 1     # scope_defined_and_terms_defined -> 1
+  DES-4: 2     # assumptions_listed -> 2
+  DES-5: 1     # assumptions_all_evidenced_and_consistent -> 1
+  DES-6: 2     # any_assumption_varied -> 2
+  DES-7: 1     # constraints_discussed -> 1
+  DES-8: 1     # scenarios_have_rationale -> 1
+  DES-9: 1     # scenarios_cover_conditions -> 1
+  DES-10: null # tailored out of gao-15-548
+  DES-11: null # tailored out of gao-15-548
+  DES-12: null # tailored out of gao-15-548
+  DES-13: null # tailored out of gao-15-548
+  DES-14: null # tailored out of gao-15-548
+  EXE-1: 1     # methodology_covers_objectives -> 1
+  EXE-2: 1     # objectives_addressed -> 1
+  EXE-3: 1     # models_scope_ok -> 1
+  EXE-4: 1     # data_scope_all_known -> 1
+  EXE-5: 1     # reliability_all -> 1
+  EXE-6: 1     # limitations_all_explained -> 1
+  EXE-7: 1     # ms_limitations_all_justified -> 1
+  EXE-8: 2     # models_documented_na_reasoned -> 2
+  EXE-9: null  # tailored out of gao-15-548
+  EXE-10: null # tailored out of gao-15-548
+  EXE-11: null # tailored out of gao-15-548
+  EXE-12: null # tailored out of gao-15-548
+  EXE-13: null # tailored out of gao-15-548
+  EXE-14: null # tailored out of gao-15-548
+  EXE-15: null # tailored out of gao-15-548
+  PRE-1: 2     # claims_all_supported -> 2
+  PRE-2: 1     # claims_exist_no_silence_no_blocking_gaps -> 1
+  PRE-3: 2     # claims_exist_no_silence -> 2
+  PRE-4: 2     # claims_all_supported -> 2
+  PRE-5: null  # tailored out of gao-15-548
+  PRE-6: null  # tailored out of gao-15-548
+  PRE-7: null  # tailored out of gao-15-548

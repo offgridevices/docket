@@ -1,0 +1,29 @@
+{
+  "authority": {
+    "date": "2013-04",
+    "role": "analyst",
+    "who": "Congressional Budget Office"
+  },
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "ex-transportability",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 34 fn 3",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "reason": "CBO did not have enough data on the types and numbers of conveyances needed to move the vehicles long distances by rail, ship or air. The Army's scheme weights it 0.15; excluding it raised the weights on the other six attributes (Table A-2).",
+  "reasonType": "data-unavailable",
+  "retainedInStructure": true,
+  "rev": 1,
+  "target": {
+    "kind": "Measure",
+    "label": "long-distance transportability (a seventh mobility attribute)"
+  },
+  "type": "Exclusion"
+}

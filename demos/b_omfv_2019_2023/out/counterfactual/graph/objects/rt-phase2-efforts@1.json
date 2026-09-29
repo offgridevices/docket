@@ -1,0 +1,32 @@
+{
+  "affected": [
+    "obj-survivability-dec",
+    "obj-mobility",
+    "obj-growth",
+    "obj-lethality",
+    "obj-weight",
+    "obj-logistics",
+    "obj-transportability",
+    "obj-manning-dec",
+    "obj-training"
+  ],
+  "confidence": "explicit",
+  "createdAt": "2021-09-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "description": "The Phase 2 modelling, simulation and analysis programme runs: ARIES 1, MBL1, ARIES 2, TRAC AoA, HSI 1, HSI 2 and TRAC OE, with four vendor feedback events alongside. GAO printed p. 8 counts the result as \"seven previously conducted analytical studies\" and four soldier touchpoints — the report's \"11 analytical efforts\". The characteristics are unchanged; what changes is the evidence under them.",
+  "detectedAt": "2021-09-30",
+  "id": "rt-phase2-efforts",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "PDF p. 17 (slide footer 19)",
+    "sourceArtifact": "sources/army-2020-12-09-omfv-industry-day-briefing.pdf"
+  },
+  "kind": "evidence-changed",
+  "rev": 1,
+  "source": "OMFV Industry Day briefing, 9 December 2020, PDF p. 17 (slide footer 19) and PDF p. 18 (slide footer 20); GAO-23-106549 printed p. 8 (PDF p. 11)",
+  "type": "RefreshTrigger"
+}

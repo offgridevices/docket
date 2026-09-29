@@ -1,0 +1,22 @@
+{
+  "baselineFlag": false,
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "description": "2,048 Pumas — five per platoon rather than four, to keep 28 seats in the platoon: 35 to 47 tons, 6 passengers. The most lethal vehicle CBO examined (pp. 2, 20, 24). Programmatic risk: Low.",
+  "enteredOrder": 4,
+  "id": "alt-puma",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 2 (Summary Table 1); pp. 20–31",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "name": "Option 3: purchase the German Puma infantry fighting vehicle",
+  "rev": 1,
+  "status": "evaluated",
+  "type": "Alternative"
+}

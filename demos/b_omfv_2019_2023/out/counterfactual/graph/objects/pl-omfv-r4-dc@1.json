@@ -1,0 +1,53 @@
+{
+  "approvedBy": {
+    "actorId": "Next Generation Combat Vehicles Cross-Functional Team",
+    "date": "2023-03-31"
+  },
+  "confidence": "inferred",
+  "createdAt": "2023-03-31T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "episode": "ep-omfv-2020-02-r4-dc",
+  "id": "pl-omfv-r4-dc",
+  "policyBasis": "pol-omfv",
+  "rev": 1,
+  "steps": [
+    {
+      "alternatives": [
+        "alt-omfv-concept",
+        "alt-m2a4-bradley"
+      ],
+      "authority": {
+        "document": "OMFV Industry Day briefing, 9 December 2020",
+        "paragraph": "Phase 2 MS&A Activities, PDF p. 18 (slide footer 20)"
+      },
+      "evaluator": "mdl-aries",
+      "id": "aries",
+      "measures": [
+        "m-weight-bridges"
+      ],
+      "method": "mavt",
+      "weightSet": "ws-omfv"
+    },
+    {
+      "alternatives": [
+        "alt-omfv-concept",
+        "alt-m2a4-bradley"
+      ],
+      "authority": {
+        "document": "OMFV Industry Day briefing, 9 December 2020",
+        "paragraph": "Phase 2 MS&A Activities, PDF p. 18 (slide footer 20)"
+      },
+      "evaluator": "mdl-trac",
+      "id": "trac",
+      "measures": [
+        "m-weight-bridges"
+      ],
+      "method": "mavt",
+      "weightSet": "ws-omfv"
+    }
+  ],
+  "type": "Plan"
+}

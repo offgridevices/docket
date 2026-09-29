@@ -1,0 +1,58 @@
+{
+  "classification": {
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "custodian": "U.S. Army Materiel Command; Department of Defense; the combat vehicle program offices",
+  "date": "2013",
+  "evidenceType": "Dataset",
+  "id": "ev-amc-baseline",
+  "inclusionReason": "the study's stated mitigation for the absence of a comprehensive supplier list",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 15 (PDF p. 18)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "limitations": [
+    {
+      "impact": "the supplier population is assembled from seven partial sources rather than from one authoritative list; the study's authors asserted they do not think they missed any key suppliers (printed p. 16), which is an assertion, not a measurement",
+      "statement": "Printed p. 15: the original equipment manufacturers elected, for business competition reasons, not to furnish information that clearly identified all the suppliers for each vehicle."
+    }
+  ],
+  "pointer": {
+    "custodian": "U.S. Army Materiel Command and the Department of Defense (the sources themselves, not public); U.S. Government Accountability Office (the published description)",
+    "uri": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf#page=18"
+  },
+  "reliabilitySteps": [
+    "drs-original-sources"
+  ],
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "reviewers": [
+    {
+      "date": "2013",
+      "name": "A.T. Kearney",
+      "role": "compiling analyst"
+    },
+    {
+      "date": "2015-06",
+      "name": "U.S. Government Accountability Office",
+      "role": "mitigation reviewed against research standards"
+    }
+  ],
+  "schemaRef": "verbatim, printed p. 15: \"the Army Materiel Command's Industrial Base Baseline Assessment; a Department of Defense database of suppliers; combat vehicle program manager interviews; other industrial base studies; a sustainment engineering risk assessment; ground combat systems consolidated parts lists; and lists of long-lead items for various vehicles\"",
+  "scopeOfValidity": {
+    "builtToAnswer": "Which suppliers make up the combat vehicle industrial base, when the original equipment manufacturers will not furnish a comprehensive list?",
+    "intendedUse": "mitigating the study's first limitation — no comprehensive supplier list",
+    "questionClass": "industrial-base"
+  },
+  "title": "The other supplier information sources: the Army Materiel Command's Industrial Base Baseline Assessment and six more",
+  "type": "Evidence"
+}

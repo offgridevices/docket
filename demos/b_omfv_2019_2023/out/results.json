@@ -1,0 +1,831 @@
+{
+  "affectedByGaoGrading": {
+    "episodes": [
+      "ep-omfv-2020-02",
+      "ep-omfv-2020-02-r2",
+      "ep-omfv-2020-02-r3",
+      "ep-omfv-2020-02-r4",
+      "ep-omfv-2020-02-r4-ce",
+      "ep-omfv-2020-02-r4-dc",
+      "ep-omfv-2020-02-r4-fs",
+      "ep-omfv-2020-02-r5"
+    ],
+    "gradedSections": [
+      "ep-omfv-2020-02-r4-ce",
+      "ep-omfv-2020-02-r4-dc",
+      "ep-omfv-2020-02-r4-fs"
+    ],
+    "note": "`affected_episodes` is transitive reverse reachability. The trigger is filed on `prg-omfv`, and every main-chain episode references the programme through `DecisionEpisode.program`, so the raw set is the whole programme, not only the three sections GAO graded. The three sections are the episodes whose own `claims` list holds one of the claims the trigger names; `gradedSections` is that subset, and it is ours, not the kernel's.",
+    "trigger": "rt-gao-grading"
+  },
+  "blocker_rules": [
+    "NotAssessableAtLevel",
+    "ReusePastPurpose",
+    "bias-check-missing",
+    "linchpin-unevidenced",
+    "objective-measured",
+    "objective-run-coverage",
+    "silent-omission"
+  ],
+  "blockers": {
+    "ep-omfv-2020-02": [
+      "bias-check-missing",
+      "linchpin-unevidenced",
+      "objective-measured",
+      "objective-run-coverage",
+      "silent-omission"
+    ],
+    "ep-omfv-2020-02-r2": [
+      "bias-check-missing",
+      "linchpin-unevidenced",
+      "objective-measured",
+      "objective-run-coverage",
+      "silent-omission"
+    ],
+    "ep-omfv-2020-02-r3": [
+      "bias-check-missing",
+      "linchpin-unevidenced",
+      "objective-measured",
+      "objective-run-coverage",
+      "silent-omission"
+    ],
+    "ep-omfv-2020-02-r4": [
+      "bias-check-missing",
+      "linchpin-unevidenced",
+      "objective-measured",
+      "objective-run-coverage",
+      "silent-omission"
+    ],
+    "ep-omfv-2020-02-r4-ce": [
+      "NotAssessableAtLevel",
+      "bias-check-missing",
+      "linchpin-unevidenced",
+      "objective-measured",
+      "objective-run-coverage",
+      "silent-omission"
+    ],
+    "ep-omfv-2020-02-r4-dc": [
+      "bias-check-missing",
+      "linchpin-unevidenced",
+      "objective-measured",
+      "objective-run-coverage",
+      "silent-omission"
+    ],
+    "ep-omfv-2020-02-r4-fs": [
+      "ReusePastPurpose",
+      "bias-check-missing",
+      "linchpin-unevidenced",
+      "objective-measured",
+      "objective-run-coverage",
+      "silent-omission"
+    ],
+    "ep-omfv-2020-02-r5": [
+      "bias-check-missing",
+      "linchpin-unevidenced",
+      "objective-measured",
+      "objective-run-coverage",
+      "silent-omission"
+    ]
+  },
+  "charter": "ch-omfv",
+  "des6_ce_state": 2,
+  "diffs": {
+    "ep-omfv-2020-02-r2\u2192ep-omfv-2020-02-r3": {
+      "added": [
+        "ev-aries-1",
+        "ev-aries-2",
+        "ev-bradley-swapc-2018",
+        "ev-concept-design-2021",
+        "ev-hsi-1",
+        "ev-hsi-2",
+        "ev-market-research-study-2020",
+        "ev-mbl-1",
+        "ev-trac-aoa",
+        "ev-trac-oe",
+        "ev-vendor-feedback-1",
+        "ev-vendor-feedback-2",
+        "ev-vendor-feedback-3",
+        "ev-vendor-feedback-4",
+        "mdl-aries",
+        "mdl-trac",
+        "risk-bias-ep-omfv-2020-02-r3-selection",
+        "ws-omfv"
+      ],
+      "because": "rt-phase2-efforts",
+      "changed": [],
+      "judgmentsChanged": [],
+      "judgmentsConsistent": [],
+      "pairing": "unknown",
+      "ratingsChanged": [
+        {
+          "after": 1,
+          "before": 2,
+          "questionId": "DES-1"
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "questionId": "EXE-1"
+        },
+        {
+          "after": 1,
+          "before": 4,
+          "questionId": "EXE-3"
+        },
+        {
+          "after": 2,
+          "before": 4,
+          "questionId": "EXE-7"
+        }
+      ],
+      "removed": [
+        "risk-bias-ep-omfv-2020-02-r2-selection"
+      ]
+    },
+    "ep-omfv-2020-02-r3\u2192ep-omfv-2020-02-r4": {
+      "added": [
+        "ev-234-report",
+        "risk-bias-ep-omfv-2020-02-r4-selection"
+      ],
+      "because": "rt-234-report",
+      "changed": [],
+      "judgmentsChanged": [],
+      "judgmentsConsistent": [],
+      "pairing": "unknown",
+      "ratingsChanged": [],
+      "removed": [
+        "risk-bias-ep-omfv-2020-02-r3-selection"
+      ]
+    },
+    "ep-omfv-2020-02-r4\u2192ep-omfv-2020-02-r5": {
+      "added": [
+        "alt-xm30-gdls",
+        "alt-xm30-rheinmetall",
+        "risk-bias-ep-omfv-2020-02-r5-selection"
+      ],
+      "because": "rt-downselect",
+      "changed": [
+        {
+          "after": "\"One of the two Phase 3/4 Product Development performers named on the PB2025 R-3 exhibit against a June 2023 award date. The abstract \\\"OMFV concept\\\" of 2020 has become two funded detailed designs.\"",
+          "before": "\"The vehicle the nine characteristics describe: a Bradley replacement inside the Armored Brigade Combat Team, to be refined with industry rather than specified up front (February 2020 notice, Background and Concept of employment).\"",
+          "field": "description",
+          "object": "alt-omfv-concept\u2192alt-xm30-gdls"
+        },
+        {
+          "after": "3",
+          "before": "1",
+          "field": "enteredOrder",
+          "object": "alt-omfv-concept\u2192alt-xm30-gdls"
+        },
+        {
+          "after": "\"XM30 (OMFV) detailed design \u2014 General Dynamics Land Systems\"",
+          "before": "\"OMFV concept\"",
+          "field": "name",
+          "object": "alt-omfv-concept\u2192alt-xm30-gdls"
+        },
+        {
+          "after": "\"selected\"",
+          "before": "\"evaluated\"",
+          "field": "status",
+          "object": "alt-omfv-concept\u2192alt-xm30-gdls"
+        }
+      ],
+      "judgmentsChanged": [],
+      "judgmentsConsistent": [],
+      "pairing": "replacements",
+      "ratingsChanged": [],
+      "removed": [
+        "alt-omfv-concept",
+        "risk-bias-ep-omfv-2020-02-r4-selection"
+      ]
+    },
+    "ep-omfv-2020-02\u2192ep-omfv-2020-02-r2": {
+      "added": [
+        "as-manning-dec",
+        "con-30-dismounts",
+        "con-crew-in-hull",
+        "con-two-crew",
+        "ev-abct-opconcept",
+        "ev-con-2020-12",
+        "ev-market-research-2020",
+        "ev-threat-analysis",
+        "obj-manning-dec",
+        "obj-survivability-dec",
+        "risk-bias-ep-omfv-2020-02-r2-selection"
+      ],
+      "because": "rt-con-update-2020-12",
+      "changed": [
+        {
+          "after": "\"ev-con-2020-12\"",
+          "before": "\"ev-con-2020-02\"",
+          "field": "evidence",
+          "object": "as-manning-feb\u2192as-manning-dec"
+        },
+        {
+          "after": "\"a platoon that cannot put 30 soldiers on the ground, or a two-soldier crew that cannot fight the vehicle, would invalidate the concept the Phase 2 designs were built to\"",
+          "before": "\"a crew size chosen later on other grounds would be unconstrained by this characteristic, which is what happened in December 2020 when the CON fixed it at two\"",
+          "field": "implicationsIfWrong",
+          "object": "as-manning-feb\u2192as-manning-dec"
+        },
+        {
+          "after": "[\"a soldier touchpoint finds two crew insufficient\",\"a change in the Army's platoon structure or squad size\"]",
+          "before": "[\"the Army states a crew number in a published characteristic\",\"a soldier touchpoint finds a minimum crew below or above the design\"]",
+          "field": "indicatorsThatWouldAlter",
+          "object": "as-manning-feb\u2192as-manning-dec"
+        },
+        {
+          "after": "\"the December 2020 updated CON states the platoon dismount count and the crew size as design facts; the slide gives no derivation for either number\"",
+          "before": "\"the February 2020 characteristic states the crew as a minimum to be found, not as a number: no crew size appears anywhere in the notice\"",
+          "field": "rationale",
+          "object": "as-manning-feb\u2192as-manning-dec"
+        },
+        {
+          "after": "\"A platoon of OMFVs will transport 30 Soldiers that dismount from the vehicles. Each OMFV vehicle will be crewed by no more than two Soldiers who will be positioned in the hull.\"",
+          "before": "\"The OMFV should operate with the minimal number of crew members required to fight and win.\"",
+          "field": "statement",
+          "object": "as-manning-feb\u2192as-manning-dec"
+        },
+        {
+          "after": "\"A platoon of OMFVs will transport 30 Soldiers that dismount from the vehicles. Each OMFV vehicle will be crewed by no more than two Soldiers who will be positioned in the hull. Squad members can perform crew duties prior to dismounting the OMFV but the vehicles must remain operational after dismounting. The OMFV should allow commanders to choose between manned or remote operation based on the tactical situation.\"",
+          "before": "\"The OMFV should operate with the minimal number of crew members required to fight and win. The OMFV should allow commanders to choose between manned or remote operation based on the tactical situation.\"",
+          "field": "description",
+          "object": "obj-manning\u2192obj-manning-dec"
+        },
+        {
+          "after": "\"ev-con-2020-12\"",
+          "before": "\"ev-con-2020-02\"",
+          "field": "provenance",
+          "object": "obj-manning\u2192obj-manning-dec"
+        },
+        {
+          "after": "\"The OMFV shall be survivable against modern direct fire, indirect fire, and blast threats. The OMFV should reduce likelihood of detection by minimizing thermal, visual, and acoustic signatures.\"",
+          "before": "\"The OMFV must protect the crew and Soldiers from emerging threats and CBRN environments. The OMFV should reduce likelihood of detection by minimizing thermal, visual, and acoustic signatures.\"",
+          "field": "description",
+          "object": "obj-survivability\u2192obj-survivability-dec"
+        },
+        {
+          "after": "\"ev-con-2020-12\"",
+          "before": "\"ev-con-2020-02\"",
+          "field": "provenance",
+          "object": "obj-survivability\u2192obj-survivability-dec"
+        }
+      ],
+      "judgmentsChanged": [],
+      "judgmentsConsistent": [],
+      "pairing": "replacements",
+      "ratingsChanged": [
+        {
+          "after": 1,
+          "before": 4,
+          "questionId": "DES-7"
+        }
+      ],
+      "removed": [
+        "as-manning-feb",
+        "obj-manning",
+        "obj-survivability",
+        "risk-bias-ep-omfv-2020-02-selection"
+      ]
+    }
+  },
+  "episodes": [
+    "ep-omfv-2020-02",
+    "ep-omfv-2020-02-r2",
+    "ep-omfv-2020-02-r3",
+    "ep-omfv-2020-02-r4",
+    "ep-omfv-2020-02-r4-dc",
+    "ep-omfv-2020-02-r4-fs",
+    "ep-omfv-2020-02-r4-ce",
+    "ep-omfv-2020-02-r5"
+  ],
+  "findings": {
+    "F1": {
+      "attributed_to": [
+        "fs"
+      ],
+      "by": [
+        "ReusePastPurpose",
+        "EXE-3 state 3 via model_evidence_reuse_past_purpose (ev-trac-aoa)"
+      ],
+      "cross_fired_on": [],
+      "detected": true,
+      "detected_by": "rule",
+      "objects": [
+        "cl-force-structure-improves",
+        "ev-mbl-1",
+        "ev-trac-aoa"
+      ],
+      "page": "printed p. 12",
+      "sub_episode": [
+        "fs"
+      ]
+    },
+    "F2": {
+      "attributed_to": [
+        "fs"
+      ],
+      "by": [
+        "silent-omission"
+      ],
+      "cross_fired_on": [
+        "dc",
+        "ce"
+      ],
+      "detected": true,
+      "detected_by": "rule",
+      "objects": [
+        "ep-omfv-2020-02-r4-ce",
+        "ep-omfv-2020-02-r4-dc",
+        "ep-omfv-2020-02-r4-fs",
+        "ev-trac-oe"
+      ],
+      "page": "printed p. 11",
+      "sub_episode": [
+        "ce",
+        "dc",
+        "fs"
+      ]
+    },
+    "F3": {
+      "attributed_to": [
+        "ce"
+      ],
+      "by": [
+        "inclusion-reason-missing",
+        "Risk kind bias-selection (risk-bias-ep-omfv-2020-02-r4-ce-selection)"
+      ],
+      "cross_fired_on": [],
+      "detected": true,
+      "detected_by": "rule",
+      "objects": [
+        "cl-concepts-outperform-m2a4",
+        "ep-omfv-2020-02-r4-ce",
+        "ev-bradley-swapc-2018",
+        "ev-concept-design-2021",
+        "ev-market-research-study-2020"
+      ],
+      "page": "printed p. 13",
+      "sub_episode": [
+        "ce"
+      ]
+    },
+    "F4": {
+      "attributed_to": [
+        "ce"
+      ],
+      "by": [
+        "NotAssessableAtLevel"
+      ],
+      "cross_fired_on": [],
+      "detected": true,
+      "detected_by": "rule",
+      "objects": [
+        "cl-concepts-outperform-m2a4",
+        "ev-ce-metrics"
+      ],
+      "page": "printed p. 14",
+      "sub_episode": [
+        "ce"
+      ]
+    },
+    "F5": {
+      "attributed_to": [
+        "dc",
+        "fs",
+        "ce"
+      ],
+      "by": [
+        "vva-verbal",
+        "EXE-14 state 3 under published-21-plus-vva"
+      ],
+      "cross_fired_on": [],
+      "detected": true,
+      "detected_by": "rule",
+      "objects": [
+        "mdl-aries",
+        "mdl-trac",
+        "vva-aries",
+        "vva-trac"
+      ],
+      "page": "printed p. 10",
+      "sub_episode": [
+        "ce",
+        "dc",
+        "fs"
+      ]
+    },
+    "F6": {
+      "attributed_to": [
+        "dc"
+      ],
+      "by": [
+        "linchpin-unevidenced"
+      ],
+      "cross_fired_on": [
+        "fs",
+        "ce"
+      ],
+      "detected": true,
+      "detected_by": "rule",
+      "objects": [
+        "as-poland-bridges"
+      ],
+      "page": "printed p. 9",
+      "sub_episode": [
+        "ce",
+        "dc",
+        "fs"
+      ]
+    },
+    "F7": {
+      "attributed_to": [
+        "dc",
+        "fs",
+        "ce"
+      ],
+      "by": [
+        "EXE-8 state 4"
+      ],
+      "cross_fired_on": [],
+      "detected": true,
+      "detected_by": "rating",
+      "objects": [
+        "gap-model-docs"
+      ],
+      "page": "printed pp. 9-10",
+      "sub_episode": [
+        "ce",
+        "dc",
+        "fs"
+      ]
+    },
+    "F8": {
+      "attributed_to": [
+        "dc",
+        "fs",
+        "ce"
+      ],
+      "by": [
+        "EXE-5 state 4"
+      ],
+      "cross_fired_on": [],
+      "detected": true,
+      "detected_by": "rating",
+      "objects": [
+        "gap-reliability-steps"
+      ],
+      "page": "printed p. 9",
+      "sub_episode": [
+        "ce",
+        "dc",
+        "fs"
+      ]
+    },
+    "F9": {
+      "attributed_to": [
+        "fs"
+      ],
+      "by": [
+        "definition-missing"
+      ],
+      "cross_fired_on": [
+        "dc",
+        "ce"
+      ],
+      "detected": true,
+      "detected_by": "rule",
+      "objects": [
+        "ch-omfv"
+      ],
+      "page": "printed p. 10",
+      "sub_episode": [
+        "ce",
+        "dc",
+        "fs"
+      ]
+    },
+    "cross_fires": {
+      "definition-missing": [
+        "dc",
+        "ce"
+      ],
+      "linchpin-unevidenced": [
+        "fs",
+        "ce"
+      ],
+      "silent-omission": [
+        "dc",
+        "ce"
+      ]
+    },
+    "cross_fires_suppressed_by_our_attribution": {
+      "inclusion-reason-missing": [
+        "dc",
+        "fs"
+      ]
+    },
+    "cross_fires_suppressed_by_our_attribution_note": "Sections on which the kernel's own scoping would report a mechanism and our attribution rule does not \u2014 measured on every run, not asserted. `readiness._counts_for_episode` keeps a finding if it names ANYTHING the episode can reach, so on `inclusion-reason-missing` it keeps the combat-effectiveness finding for `dc` and `fs` too: all three sections share one evidence register and the three studies sit in it. Our rule reads the episode the finding names \u2014 `policy_rules.inclusion_reason_missing` now names the episode and the claim as well as the evidence, so `_attributable` needs no special case for it \u2014 and only the section whose claim did the citing owns it. The cross-fire table above is therefore the list after this one correction of ours, and this key is the size of the correction.",
+    "earlier_episode_silent_omissions": {
+      "ep-omfv-2020-02": 3,
+      "ep-omfv-2020-02-r2": 7,
+      "ep-omfv-2020-02-r3": 21,
+      "ep-omfv-2020-02-r4": 21,
+      "ep-omfv-2020-02-r5": 21
+    },
+    "earlier_episode_silent_omissions_reason": "Episodes 1-5 have no claims at all, so every entry in their evidence register is an uncited omission and silent-omission fires on each. That is the rule working as designed on a record that has not yet drawn conclusions; out/findings_matrix.json reports the per-episode count with this reason."
+  },
+  "grid": {
+    "ce": {
+      "objectivity": "generally_objective",
+      "reliability": "insufficient_to_conclude",
+      "validity": "insufficient_to_conclude"
+    },
+    "dc": {
+      "objectivity": "generally_objective",
+      "reliability": "insufficient_to_conclude",
+      "validity": "insufficient_to_conclude"
+    },
+    "fs": {
+      "objectivity": "generally_objective",
+      "reliability": "insufficient_to_conclude",
+      "validity": "insufficient_to_conclude"
+    }
+  },
+  "grid_counterfactuals": {
+    "k": [
+      {
+        "grid_match": 6,
+        "k": 1,
+        "objectivity": {
+          "ce": "not_objective",
+          "dc": "not_objective",
+          "fs": "not_objective"
+        }
+      },
+      {
+        "grid_match": 6,
+        "k": 3,
+        "objectivity": {
+          "ce": "not_objective",
+          "dc": "not_objective",
+          "fs": "not_objective"
+        }
+      },
+      {
+        "grid_match": 8,
+        "k": 4,
+        "objectivity": {
+          "ce": "generally_objective",
+          "dc": "generally_objective",
+          "fs": "not_objective"
+        }
+      },
+      {
+        "grid_match": 9,
+        "k": 5,
+        "objectivity": {
+          "ce": "generally_objective",
+          "dc": "generally_objective",
+          "fs": "generally_objective"
+        }
+      },
+      {
+        "grid_match": 9,
+        "k": 21,
+        "objectivity": {
+          "ce": "generally_objective",
+          "dc": "generally_objective",
+          "fs": "generally_objective"
+        }
+      }
+    ],
+    "k_decision": "docs/decisions/2026-09-05-aggregation-k-is-a-policy-parameter.md",
+    "note": "Measured on every run, on a throwaway copy of the store. Only OBJECTIVITY moves: validity and reliability read `insufficient_to_conclude` from PRE-1 = 4 and EXE-5 = 4, both of which come from GAO's F8 (every cited evidence item's `reliabilitySteps` is the `gap-reliability-steps` object). Six of the nine cells are immovable under either counterfactual.",
+    "r2_clauses_withdrawn": {
+      "clauses": [
+        "PRE-3: claims_exist_no_silence",
+        "PRE-4: claims_exist"
+      ],
+      "grid": {
+        "ce": {
+          "objectivity": "insufficient_to_conclude",
+          "reliability": "insufficient_to_conclude",
+          "validity": "insufficient_to_conclude"
+        },
+        "dc": {
+          "objectivity": "insufficient_to_conclude",
+          "reliability": "insufficient_to_conclude",
+          "validity": "insufficient_to_conclude"
+        },
+        "fs": {
+          "objectivity": "insufficient_to_conclude",
+          "reliability": "insufficient_to_conclude",
+          "validity": "insufficient_to_conclude"
+        }
+      },
+      "grid_match": 6,
+      "objectivity": {
+        "ce": "insufficient_to_conclude",
+        "dc": "insufficient_to_conclude",
+        "fs": "insufficient_to_conclude"
+      },
+      "pre_3": {
+        "ce": 4,
+        "dc": 4,
+        "fs": 4
+      },
+      "pre_4": {
+        "ce": 4,
+        "dc": 4,
+        "fs": 4
+      }
+    },
+    "r2_decision": "docs/decisions/2026-09-05-narrative-only-records-score-state-2-on-pre-3-pre-4.md"
+  },
+  "grid_match": 9,
+  "kernel": "0.1.0",
+  "policy": "pol-omfv",
+  "ready": {
+    "ep-omfv-2020-02": false,
+    "ep-omfv-2020-02-r2": false,
+    "ep-omfv-2020-02-r3": false,
+    "ep-omfv-2020-02-r4": false,
+    "ep-omfv-2020-02-r4-ce": false,
+    "ep-omfv-2020-02-r4-dc": false,
+    "ep-omfv-2020-02-r4-fs": false,
+    "ep-omfv-2020-02-r5": false
+  },
+  "repair": {
+    "after": "assessable-with-classified-value",
+    "before": "NotAssessableAtLevel",
+    "ce_row_after": {
+      "objectivity": "generally_objective",
+      "reliability": "generally_reliable",
+      "validity": "insufficient_to_conclude"
+    },
+    "ce_row_before": {
+      "objectivity": "generally_objective",
+      "reliability": "insufficient_to_conclude",
+      "validity": "insufficient_to_conclude"
+    },
+    "classification_level": "S",
+    "exe14_after": 1,
+    "exe14_before": 3,
+    "exe5_after": 2,
+    "exe5_after_under_grid_tailoring": 2,
+    "exe5_before": 4,
+    "note": "A counterfactual. It shows what the record would have to contain, not anything about what the Army did. The classification level stays S: the value is still withheld, and that is the point.",
+    "reliability_note": "Re-scored under the grid tailoring, the repair also moves EXE-5 from 4 to 2 and with it GAO's reliability verdict on the combat-effectiveness section, from `insufficient_to_conclude` to `generally_reliable`. That is the whole of it: one described reliability step on one dataset. Validity does not move, because PRE-1 still reads 4 \u2014 every other cited evidence item's `reliabilitySteps` is still the `gap-reliability-steps` object, which is GAO's F8 stated once."
+  },
+  "sectionTitles": {
+    "ce": "the combat effectiveness of the OMFV concepts compared with the modernized Bradley (GAO printed pp. 13-14)",
+    "dc": "the desired characteristics for the OMFV (GAO printed pp. 8-10)",
+    "fs": "force structure designs and operational concepts (GAO printed pp. 10-12)"
+  },
+  "seed": 20230627,
+  "states": {
+    "ce": {
+      "DES-1": 1,
+      "DES-2": 2,
+      "DES-3": 2,
+      "DES-4": 1,
+      "DES-5": 2,
+      "DES-6": 2,
+      "DES-7": 1,
+      "DES-8": 4,
+      "DES-9": 4,
+      "EXE-1": 2,
+      "EXE-2": 1,
+      "EXE-3": 1,
+      "EXE-4": 1,
+      "EXE-5": 4,
+      "EXE-6": 4,
+      "EXE-7": 2,
+      "EXE-8": 4,
+      "PRE-1": 4,
+      "PRE-2": 2,
+      "PRE-3": 2,
+      "PRE-4": 2
+    },
+    "dc": {
+      "DES-1": 1,
+      "DES-2": 2,
+      "DES-3": 2,
+      "DES-4": 1,
+      "DES-5": 2,
+      "DES-6": 3,
+      "DES-7": 1,
+      "DES-8": 4,
+      "DES-9": 4,
+      "EXE-1": 2,
+      "EXE-2": 1,
+      "EXE-3": 1,
+      "EXE-4": 1,
+      "EXE-5": 4,
+      "EXE-6": 2,
+      "EXE-7": 2,
+      "EXE-8": 4,
+      "PRE-1": 4,
+      "PRE-2": 2,
+      "PRE-3": 2,
+      "PRE-4": 2
+    },
+    "fs": {
+      "DES-1": 1,
+      "DES-2": 2,
+      "DES-3": 2,
+      "DES-4": 1,
+      "DES-5": 2,
+      "DES-6": 3,
+      "DES-7": 1,
+      "DES-8": 4,
+      "DES-9": 4,
+      "EXE-1": 2,
+      "EXE-2": 2,
+      "EXE-3": 3,
+      "EXE-4": 2,
+      "EXE-5": 4,
+      "EXE-6": 4,
+      "EXE-7": 2,
+      "EXE-8": 4,
+      "PRE-1": 4,
+      "PRE-2": 2,
+      "PRE-3": 2,
+      "PRE-4": 2
+    }
+  },
+  "vva_states": {
+    "ce": {
+      "DES-1": 1,
+      "DES-2": 2,
+      "DES-3": 2,
+      "DES-4": 1,
+      "DES-5": 2,
+      "DES-6": 2,
+      "DES-7": 1,
+      "DES-8": 4,
+      "DES-9": 4,
+      "EXE-1": 2,
+      "EXE-14": 3,
+      "EXE-2": 1,
+      "EXE-3": 1,
+      "EXE-4": 1,
+      "EXE-5": 4,
+      "EXE-6": 4,
+      "EXE-7": 2,
+      "EXE-8": 4,
+      "PRE-1": 4,
+      "PRE-2": 2,
+      "PRE-3": 2,
+      "PRE-4": 2
+    },
+    "dc": {
+      "DES-1": 1,
+      "DES-2": 2,
+      "DES-3": 2,
+      "DES-4": 1,
+      "DES-5": 2,
+      "DES-6": 3,
+      "DES-7": 1,
+      "DES-8": 4,
+      "DES-9": 4,
+      "EXE-1": 2,
+      "EXE-14": 3,
+      "EXE-2": 1,
+      "EXE-3": 1,
+      "EXE-4": 1,
+      "EXE-5": 4,
+      "EXE-6": 2,
+      "EXE-7": 2,
+      "EXE-8": 4,
+      "PRE-1": 4,
+      "PRE-2": 2,
+      "PRE-3": 2,
+      "PRE-4": 2
+    },
+    "fs": {
+      "DES-1": 1,
+      "DES-2": 2,
+      "DES-3": 2,
+      "DES-4": 1,
+      "DES-5": 2,
+      "DES-6": 3,
+      "DES-7": 1,
+      "DES-8": 4,
+      "DES-9": 4,
+      "EXE-1": 2,
+      "EXE-14": 3,
+      "EXE-2": 2,
+      "EXE-3": 3,
+      "EXE-4": 2,
+      "EXE-5": 4,
+      "EXE-6": 4,
+      "EXE-7": 2,
+      "EXE-8": 4,
+      "PRE-1": 4,
+      "PRE-2": 2,
+      "PRE-3": 2,
+      "PRE-4": 2
+    }
+  }
+}

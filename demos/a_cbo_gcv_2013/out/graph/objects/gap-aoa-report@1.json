@@ -1,0 +1,32 @@
+{
+  "confidence": "absent",
+  "confirmedBy": {
+    "actorId": "shreyash",
+    "date": "2026-09-05"
+  },
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gap-aoa-report",
+  "impact": "degrading",
+  "indicatorsThatWouldResolve": [
+    "public release of the Milestone A AoA report",
+    "public release of Tab I, 'Ground Combat Vehicle Affordability Strategy'"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 7 fn 10; p. 33 fn 1",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "rev": 1,
+  "sought": "Department of the Army, Headquarters, Report on the Results of the Ground Combat Vehicle Analysis of Alternatives (Milestone A) to the Armed Services Committees (March 2011), including Tab B and Tab I",
+  "type": "InsufficientEvidence",
+  "whereLookedFor": [
+    "CBO's source lines and footnotes (Tab B at p. 7 fn 10, Tab I at p. 33 fn 1)",
+    "public web search, 2026-09-05"
+  ],
+  "whyNotFound": "a report to the congressional defense committees; not published and not found in any public repository"
+}

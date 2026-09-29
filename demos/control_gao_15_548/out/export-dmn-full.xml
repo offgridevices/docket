@@ -1,0 +1,57 @@
+<definitions xmlns="https://www.omg.org/spec/DMN/20230324/MODEL/" id="defs-pl-kearney" name="pl-kearney" namespace="https://docket.dev/ns#pl-kearney">
+  <knowledgeSource id="ks-gao-army-combat-vehicles-industrial-base-study-s-approach-met-research-standards-gao-15-548-16-june-2015" name="GAO, Army Combat Vehicles: Industrial Base Study's Approach Met Research Standards, GAO-15-548 (16 June 2015)" />
+  <inputData id="input-m-benchmark" name="m-benchmark" />
+  <inputData id="input-m-cost-baseline" name="m-cost-baseline" />
+  <inputData id="input-m-current-state" name="m-current-state" />
+  <inputData id="input-m-network-strategy" name="m-network-strategy" />
+  <inputData id="input-m-scenario-analysis" name="m-scenario-analysis" />
+  <inputData id="input-m-supplier-base" name="m-supplier-base" />
+  <decision id="benchmark" name="benchmark">
+    <informationRequirement>
+      <requiredInput href="#input-m-benchmark" />
+    </informationRequirement>
+    <authorityRequirement>
+      <requiredAuthority href="#ks-gao-army-combat-vehicles-industrial-base-study-s-approach-met-research-standards-gao-15-548-16-june-2015" />
+    </authorityRequirement>
+  </decision>
+  <decision id="cost-baseline" name="cost-baseline">
+    <informationRequirement>
+      <requiredInput href="#input-m-cost-baseline" />
+    </informationRequirement>
+    <authorityRequirement>
+      <requiredAuthority href="#ks-gao-army-combat-vehicles-industrial-base-study-s-approach-met-research-standards-gao-15-548-16-june-2015" />
+    </authorityRequirement>
+  </decision>
+  <decision id="current-state" name="current-state">
+    <informationRequirement>
+      <requiredInput href="#input-m-current-state" />
+    </informationRequirement>
+    <authorityRequirement>
+      <requiredAuthority href="#ks-gao-army-combat-vehicles-industrial-base-study-s-approach-met-research-standards-gao-15-548-16-june-2015" />
+    </authorityRequirement>
+  </decision>
+  <decision id="network-strategy" name="network-strategy">
+    <informationRequirement>
+      <requiredInput href="#input-m-network-strategy" />
+    </informationRequirement>
+    <authorityRequirement>
+      <requiredAuthority href="#ks-gao-army-combat-vehicles-industrial-base-study-s-approach-met-research-standards-gao-15-548-16-june-2015" />
+    </authorityRequirement>
+  </decision>
+  <decision id="scenario-analysis" name="scenario-analysis">
+    <informationRequirement>
+      <requiredInput href="#input-m-scenario-analysis" />
+    </informationRequirement>
+    <authorityRequirement>
+      <requiredAuthority href="#ks-gao-army-combat-vehicles-industrial-base-study-s-approach-met-research-standards-gao-15-548-16-june-2015" />
+    </authorityRequirement>
+  </decision>
+  <decision id="supplier-base" name="supplier-base">
+    <informationRequirement>
+      <requiredInput href="#input-m-supplier-base" />
+    </informationRequirement>
+    <authorityRequirement>
+      <requiredAuthority href="#ks-gao-army-combat-vehicles-industrial-base-study-s-approach-met-research-standards-gao-15-548-16-june-2015" />
+    </authorityRequirement>
+  </decision>
+</definitions>

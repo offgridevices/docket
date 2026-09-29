@@ -1,0 +1,90 @@
+{
+  "alternatives": [
+    "alt-omfv-concept",
+    "alt-m2a4-bradley"
+  ],
+  "asOf": "2020-12-09",
+  "assumptions": [
+    "as-poland-bridges",
+    "as-manning-dec"
+  ],
+  "biasChecks": [],
+  "charter": "ch-omfv",
+  "claims": [],
+  "constraints": [
+    "con-30-dismounts",
+    "con-two-crew",
+    "con-crew-in-hull"
+  ],
+  "createdAt": "2020-12-09T00:00:00Z",
+  "createdBy": {
+    "actorId": "docket-kernel/0.1.0",
+    "actorType": "kernel"
+  },
+  "evidenceRegister": [
+    "ev-con-2020-02",
+    "ev-industry-day-narrative-2020-04",
+    "ev-breaking-defense",
+    "ev-con-2020-12",
+    "ev-threat-analysis",
+    "ev-market-research-2020",
+    "ev-abct-opconcept"
+  ],
+  "flipAnalyses": [],
+  "groundRules": [],
+  "id": "ep-omfv-2020-02-r2",
+  "lifecycleState": "MODEL_APPROVED",
+  "mandateElements": [],
+  "models": [],
+  "narratives": [],
+  "objectives": [
+    "obj-survivability-dec",
+    "obj-mobility",
+    "obj-growth",
+    "obj-lethality",
+    "obj-weight",
+    "obj-logistics",
+    "obj-transportability",
+    "obj-manning-dec",
+    "obj-training"
+  ],
+  "observations": [],
+  "program": "prg-omfv",
+  "refreshedBecause": "rt-con-update-2020-12",
+  "replacements": {
+    "as-manning-feb": "as-manning-dec",
+    "obj-manning": "obj-manning-dec",
+    "obj-survivability": "obj-survivability-dec"
+  },
+  "rev": 4,
+  "risks": [
+    "risk-bias-ep-omfv-2020-02-r2-selection"
+  ],
+  "runs": [],
+  "scenarios": [],
+  "sequence": 2,
+  "supersedes": "ep-omfv-2020-02",
+  "transitions": [
+    {
+      "actor": {
+        "actorId": "shreyash",
+        "actorType": "human"
+      },
+      "at": "2020-12-09T00:00:00Z",
+      "checksSatisfied": [
+        "charter-three-fields",
+        "charter-human-accepted",
+        "no-blocking-structural",
+        "gaps-confirmed",
+        "linchpins-human"
+      ],
+      "checksUnsatisfied": [],
+      "from": "DRAFT",
+      "policyVersion": "0.1",
+      "refused": false,
+      "to": "MODEL_APPROVED"
+    }
+  ],
+  "type": "DecisionEpisode",
+  "weightSets": []
+}

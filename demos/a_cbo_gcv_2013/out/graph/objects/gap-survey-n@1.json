@@ -1,0 +1,31 @@
+{
+  "confidence": "absent",
+  "confirmedBy": {
+    "actorId": "shreyash",
+    "date": "2026-09-05"
+  },
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gap-survey-n",
+  "impact": "informational",
+  "indicatorsThatWouldResolve": [
+    "release of the AoA's Tab I"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 33",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "rev": 1,
+  "sought": "the sample size, unit, dates and instrument of the soldier ranking behind the Army's AoA category weights",
+  "type": "InsufficientEvidence",
+  "whereLookedFor": [
+    "CBO appendix, pp. 33–34",
+    "the AoA's Tab I, which is not public"
+  ],
+  "whyNotFound": "CBO reports only that the weights were based on rankings given by soldiers who had been deployed with combat brigades in Iraq, Afghanistan, Kosovo, or Bosnia"
+}

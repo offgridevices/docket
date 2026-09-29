@@ -1,0 +1,48 @@
+{
+  "classification": {
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "explicit",
+  "createdAt": "2021-09-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2021",
+  "evidenceType": "Document",
+  "id": "ev-concept-design-2021",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "printed p. 13 (PDF p. 16)",
+    "sourceArtifact": "sources/gao-23-106549.pdf"
+  },
+  "pointer": {
+    "custodian": "Department of the Army (the study itself is not public); the cited document is the public record that names it",
+    "uri": "sources/gao-23-106549.pdf#page=16"
+  },
+  "published": "2021",
+  "publisher": {
+    "$gap": "gap-additional-studies"
+  },
+  "reliabilitySteps": {
+    "$gap": "gap-reliability-steps"
+  },
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "reviewers": [
+    {
+      "date": "2021",
+      "name": "Department of the Army",
+      "role": "performing organisation (no review record is public)"
+    }
+  ],
+  "scopeOfValidity": {
+    "builtToAnswer": "the combat effectiveness comparison between the OMFV concepts and the modernized Bradley",
+    "intendedUse": "support to the Section 234 comparison",
+    "questionClass": "combat-effectiveness"
+  },
+  "title": "A study to support concept design in 2021",
+  "type": "Evidence"
+}

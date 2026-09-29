@@ -1,0 +1,6 @@
+{
+  "d4ebf5351d237bc498f9e4d0bf1efcdc7e01f1b03ec7c80c3066b80a57f376b4": {
+    "note": "hand-authored",
+    "response": "{\"steps\": [{\"authorityKey\": \"cba-decmat\", \"id\": \"primary\", \"rationale\": \"Step 7 requires comparing and ranking alternatives against the criteria.\"}, {\"authorityKey\": \"oas-4-10\", \"id\": \"secondary\", \"rationale\": \"The methodology and its inputs must be documented before this step runs.\"}, {\"authorityKey\": \"sensitivity\", \"id\": \"phantom\", \"rationale\": \"A step id the skeleton never had.\"}]}"
+  }
+}

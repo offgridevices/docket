@@ -1,0 +1,23 @@
+{
+  "checkType": "independent-disconfirming-review",
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "bc-oem-review",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 14 (PDF p. 17)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "performedAt": "2013-05",
+  "performedBy": "A.T. Kearney",
+  "producedEvidence": "ev-oem-review-2013",
+  "requiredBy": "pol-kearney",
+  "rev": 1,
+  "status": "performed",
+  "type": "BiasCheck"
+}

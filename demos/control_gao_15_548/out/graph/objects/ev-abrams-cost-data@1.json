@@ -1,0 +1,58 @@
+{
+  "classification": {
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "custodian": "Abrams program office; the production facilities",
+  "date": "2013",
+  "evidenceType": "Dataset",
+  "id": "ev-abrams-cost-data",
+  "inclusionReason": "GAO's worked example of the study going to the original source for government cost data",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 16 (PDF p. 19); printed p. 17 (PDF p. 20)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "limitations": [
+    {
+      "impact": "some facility baselines are reviewed estimates rather than reported figures, and GAO does not say which",
+      "statement": "Printed p. 17: where a firm elected not to provide company data, the authors estimated the firm's financial information from various sources and met with the firm to review those estimates for accuracy."
+    }
+  ],
+  "pointer": {
+    "custodian": "the Abrams program office and the production facilities (the data itself, not public); U.S. Government Accountability Office (the published description)",
+    "uri": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf#page=19"
+  },
+  "reliabilitySteps": [
+    "drs-abrams-program-office"
+  ],
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "reviewers": [
+    {
+      "date": "2013",
+      "name": "Abrams program office",
+      "role": "providing office"
+    },
+    {
+      "date": "2013",
+      "name": "Defense Contract Management Agency",
+      "role": "reviewed the facilities' financial data (printed p. 17)"
+    }
+  ],
+  "schemaRef": "government expenses at the Joint Systems Manufacturing Center, and per-facility baseline data — cost, hours per unit, manufacturing capability (printed p. 17)",
+  "scopeOfValidity": {
+    "builtToAnswer": "What does the government spend at the Joint Systems Manufacturing Center, and what are the facilities' financial baselines?",
+    "intendedUse": "the study's cost baseline for the government-owned, contractor-operated facility, and the baseline data used to develop scenarios",
+    "questionClass": "industrial-base"
+  },
+  "title": "Government expenses at the Joint Systems Manufacturing Center, obtained from the Abrams program office, and the facilities' financial data",
+  "type": "Evidence"
+}

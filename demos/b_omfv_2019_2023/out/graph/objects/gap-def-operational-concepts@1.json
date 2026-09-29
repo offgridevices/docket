@@ -1,0 +1,32 @@
+{
+  "confidence": "absent",
+  "confirmedBy": {
+    "actorId": "shreyash",
+    "date": "2026-09-06"
+  },
+  "createdAt": "2020-02-25T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gap-def-operational-concepts",
+  "impact": "degrading",
+  "indicatorsThatWouldResolve": [
+    "the Army publishes a definition with the force-structure analysis it says will follow in 18 to 24 months (GAO printed p. 10)"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "printed p. 10 (PDF p. 13)",
+    "sourceArtifact": "sources/gao-23-106549.pdf"
+  },
+  "rev": 1,
+  "sought": "a definition of \"operational concepts\" as the Army's report uses it",
+  "type": "InsufficientEvidence",
+  "whereLookedFor": [
+    "GAO-23-106549 printed p. 10 (PDF p. 13)",
+    "the Army's Section 234 report, which is not public",
+    "the February 2020 and December 2020 published characteristics"
+  ],
+  "whyNotFound": "The Army's report did not clearly define, however, force structure or operational concepts. (GAO-23-106549 printed p. 10)"
+}

@@ -1,0 +1,34 @@
+{
+  "addresses": [
+    "obj-viability"
+  ],
+  "assessableAt": {
+    "level": "U"
+  },
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "cl-oem-review",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 14 (PDF p. 17)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "questionClass": "industrial-base",
+  "rev": 1,
+  "section": "bias-checks",
+  "supportedBy": [
+    {
+      "evidence": "ev-gao-15-548"
+    },
+    {
+      "evidence": "ev-oem-review-2013"
+    }
+  ],
+  "text": "Verbatim, printed p. 14: as part of executing the defined methodology, \"contractor-specific preliminary findings were presented to the original equipment manufacturers in May 2013\", which gave them an opportunity to weigh in on the accuracy of the findings related to their facility.",
+  "type": "Claim"
+}

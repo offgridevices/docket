@@ -1,0 +1,22 @@
+{
+  "baselineFlag": true,
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "description": "Extend the life of 820 current Bradley IFVs and continue research and development. No new capability; this is the reference vehicle every improvement is measured against — the M2A3 version used in Iraq, with reactive and underbelly armor (pp. 2, 21). Programmatic risk: None.",
+  "enteredOrder": 5,
+  "id": "alt-retain-bradley",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 2 (Summary Table 1); pp. 20–31",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "name": "Option 4: retain the current Bradley infantry fighting vehicle",
+  "rev": 1,
+  "status": "evaluated",
+  "type": "Alternative"
+}

@@ -1,0 +1,52 @@
+{
+  "classification": {
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "inferred",
+  "createdAt": "2021-09-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2021-09",
+  "evidenceType": "MSStudy",
+  "id": "ev-trac-aoa",
+  "inclusionReason": "GAO printed p. 11: the report noted the Army used \"a September 2021 study conducted by the Army's Research and Analysis Center (TRAC)\", one of the two of the 11 analytical efforts the force-structure observations rely on. GAO does not tie that study to either of the two TRAC line items on the December 2020 Phase 2 schedule; tying it to \"TRAC AoA\" is OURS, and the schedule's own placement points the other way (see the README's schedule paragraph). Marked inferred for that reason",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "printed p. 11 (PDF p. 14); named on the Phase 2 schedule at sources/army-2020-12-09-omfv-industry-day-briefing.pdf PDF p. 17 (slide footer 19)",
+    "sourceArtifact": "sources/gao-23-106549.pdf"
+  },
+  "model": {
+    "$gap": "gap-trac-aoa-model"
+  },
+  "pointer": {
+    "custodian": "Department of the Army (the study itself is not public); the cited document is the public record that names it",
+    "uri": "sources/gao-23-106549.pdf#page=14"
+  },
+  "reliabilitySteps": {
+    "$gap": "gap-reliability-steps"
+  },
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "reviewers": [
+    {
+      "date": "2021-09",
+      "name": "Department of the Army",
+      "role": "performing organisation (no review record is public)"
+    }
+  ],
+  "scenarios": {
+    "$gap": "gap-model-docs"
+  },
+  "scopeOfValidity": {
+    "builtToAnswer": "the desired characteristics for the OMFV — GAO printed p. 12: \"these analyses were not designed to draw conclusions on force structure alternatives. Instead, the analyses were intended to assess the desired characteristics\"",
+    "intendedUse": "Phase 2 modelling, simulation and analysis",
+    "questionClass": "desired-characteristics"
+  },
+  "title": "TRAC AoA — a September 2021 study conducted by the Army's Research and Analysis Center (TRAC); identified with the \"TRAC AoA\" line on the December 2020 Phase 2 schedule by US, not by GAO",
+  "type": "Evidence",
+  "vvaRecord": "vva-trac"
+}

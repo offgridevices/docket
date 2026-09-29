@@ -1,0 +1,10 @@
+{
+  "664f150588abe29a47ddd2f70fa07287de866b19a5c7f1da28c6e82677cf5008": {
+    "note": "hand-authored: retry-prompt key, still schema-invalid",
+    "response": "{\"steps\": [{\"authorityKey\": \"not-a-real-key\", \"id\": \"primary\", \"rationale\": \"x\"}, {\"authorityKey\": \"not-a-real-key\", \"id\": \"secondary\", \"rationale\": \"x\"}]}"
+  },
+  "d4ebf5351d237bc498f9e4d0bf1efcdc7e01f1b03ec7c80c3066b80a57f376b4": {
+    "note": "hand-authored: always schema-invalid, for the retry-exhaustion path",
+    "response": "{\"steps\": [{\"authorityKey\": \"not-a-real-key\", \"id\": \"primary\", \"rationale\": \"x\"}, {\"authorityKey\": \"not-a-real-key\", \"id\": \"secondary\", \"rationale\": \"x\"}]}"
+  }
+}

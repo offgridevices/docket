@@ -1,0 +1,66 @@
+{
+  "classification": {
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "explicit",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2015-06-16",
+  "evidenceType": "Document",
+  "id": "ev-gao-15-548",
+  "inclusionReason": "the only public account of the Army's study, and the source of every locator in this record",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 1 (PDF p. 4); printed p. 2 (PDF p. 5); printed p. 3 (PDF p. 6); printed p. 18 (PDF p. 21); printed p. 19 (PDF p. 22); printed p. 23 (PDF p. 26)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "limitations": [
+    {
+      "impact": "this record is a reconstruction of the study's *method* as GAO describes it; it carries no independent check of the study's numbers, and neither does GAO's report",
+      "statement": "GAO assessed the reasonableness of the study's methods (printed p. 2). Its examination covered the study's design, execution and presentation of results."
+    },
+    {
+      "impact": "the supplier perspectives GAO reports are illustrative, not representative of the supplier base",
+      "statement": "Printed p. 3 and printed p. 23: GAO interviewed representatives from six suppliers that participated in the study, and states that \"the views of these suppliers cannot be generalized to the views of all those suppliers that participated in the study.\""
+    },
+    {
+      "impact": "the manufacturer and supplier commentary GAO collected bears on the interim briefings and the facility-specific information, not on the final report as issued",
+      "statement": "Printed p. 18: the original equipment manufacturers and the suppliers GAO spoke with \"reported they had not received copies of the final report, so they were unable to comment fully on the nature of the final report's findings.\""
+    }
+  ],
+  "pointer": {
+    "custodian": "U.S. Government Accountability Office",
+    "uri": "https://www.gao.gov/products/gao-15-548"
+  },
+  "published": "2015-06-16",
+  "publisher": "U.S. Government Accountability Office",
+  "reliabilitySteps": [
+    "drs-two-analysts"
+  ],
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "reviewers": [
+    {
+      "date": "2015-06-16",
+      "name": "Marie A. Mak, Director, Acquisition and Sourcing Management, GAO",
+      "role": "signing director"
+    },
+    {
+      "date": "2015-06-08",
+      "name": "Department of Defense (Office of the Assistant Secretary of the Army for Acquisition, Logistics, and Technology)",
+      "role": "agency comment on the draft"
+    }
+  ],
+  "scopeOfValidity": {
+    "builtToAnswer": "Was the Army's combat vehicle industrial base study's approach — its design, execution and presentation of results — reasonable and sound for its intended purposes?",
+    "intendedUse": "report to the congressional defense committees on the reasonableness of the study's methods, under the Joint Explanatory Statement to accompany the National Defense Authorization Act for Fiscal Year 2014",
+    "questionClass": "industrial-base"
+  },
+  "title": "U.S. Government Accountability Office, Army Combat Vehicles: Industrial Base Study's Approach Met Research Standards, GAO-15-548 (16 June 2015)",
+  "type": "Evidence"
+}

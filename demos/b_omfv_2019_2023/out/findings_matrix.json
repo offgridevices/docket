@@ -1,0 +1,236 @@
+{
+  "F1": {
+    "attributed_to": [
+      "fs"
+    ],
+    "by": [
+      "ReusePastPurpose",
+      "EXE-3 state 3 via model_evidence_reuse_past_purpose (ev-trac-aoa)"
+    ],
+    "cross_fired_on": [],
+    "detected": true,
+    "detected_by": "rule",
+    "objects": [
+      "cl-force-structure-improves",
+      "ev-mbl-1",
+      "ev-trac-aoa"
+    ],
+    "page": "printed p. 12",
+    "sub_episode": [
+      "fs"
+    ]
+  },
+  "F2": {
+    "attributed_to": [
+      "fs"
+    ],
+    "by": [
+      "silent-omission"
+    ],
+    "cross_fired_on": [
+      "dc",
+      "ce"
+    ],
+    "detected": true,
+    "detected_by": "rule",
+    "objects": [
+      "ep-omfv-2020-02-r4-ce",
+      "ep-omfv-2020-02-r4-dc",
+      "ep-omfv-2020-02-r4-fs",
+      "ev-trac-oe"
+    ],
+    "page": "printed p. 11",
+    "sub_episode": [
+      "ce",
+      "dc",
+      "fs"
+    ]
+  },
+  "F3": {
+    "attributed_to": [
+      "ce"
+    ],
+    "by": [
+      "inclusion-reason-missing",
+      "Risk kind bias-selection (risk-bias-ep-omfv-2020-02-r4-ce-selection)"
+    ],
+    "cross_fired_on": [],
+    "detected": true,
+    "detected_by": "rule",
+    "objects": [
+      "cl-concepts-outperform-m2a4",
+      "ep-omfv-2020-02-r4-ce",
+      "ev-bradley-swapc-2018",
+      "ev-concept-design-2021",
+      "ev-market-research-study-2020"
+    ],
+    "page": "printed p. 13",
+    "sub_episode": [
+      "ce"
+    ]
+  },
+  "F4": {
+    "attributed_to": [
+      "ce"
+    ],
+    "by": [
+      "NotAssessableAtLevel"
+    ],
+    "cross_fired_on": [],
+    "detected": true,
+    "detected_by": "rule",
+    "objects": [
+      "cl-concepts-outperform-m2a4",
+      "ev-ce-metrics"
+    ],
+    "page": "printed p. 14",
+    "sub_episode": [
+      "ce"
+    ]
+  },
+  "F5": {
+    "attributed_to": [
+      "dc",
+      "fs",
+      "ce"
+    ],
+    "by": [
+      "vva-verbal",
+      "EXE-14 state 3 under published-21-plus-vva"
+    ],
+    "cross_fired_on": [],
+    "detected": true,
+    "detected_by": "rule",
+    "objects": [
+      "mdl-aries",
+      "mdl-trac",
+      "vva-aries",
+      "vva-trac"
+    ],
+    "page": "printed p. 10",
+    "sub_episode": [
+      "ce",
+      "dc",
+      "fs"
+    ]
+  },
+  "F6": {
+    "attributed_to": [
+      "dc"
+    ],
+    "by": [
+      "linchpin-unevidenced"
+    ],
+    "cross_fired_on": [
+      "fs",
+      "ce"
+    ],
+    "detected": true,
+    "detected_by": "rule",
+    "objects": [
+      "as-poland-bridges"
+    ],
+    "page": "printed p. 9",
+    "sub_episode": [
+      "ce",
+      "dc",
+      "fs"
+    ]
+  },
+  "F7": {
+    "attributed_to": [
+      "dc",
+      "fs",
+      "ce"
+    ],
+    "by": [
+      "EXE-8 state 4"
+    ],
+    "cross_fired_on": [],
+    "detected": true,
+    "detected_by": "rating",
+    "objects": [
+      "gap-model-docs"
+    ],
+    "page": "printed pp. 9-10",
+    "sub_episode": [
+      "ce",
+      "dc",
+      "fs"
+    ]
+  },
+  "F8": {
+    "attributed_to": [
+      "dc",
+      "fs",
+      "ce"
+    ],
+    "by": [
+      "EXE-5 state 4"
+    ],
+    "cross_fired_on": [],
+    "detected": true,
+    "detected_by": "rating",
+    "objects": [
+      "gap-reliability-steps"
+    ],
+    "page": "printed p. 9",
+    "sub_episode": [
+      "ce",
+      "dc",
+      "fs"
+    ]
+  },
+  "F9": {
+    "attributed_to": [
+      "fs"
+    ],
+    "by": [
+      "definition-missing"
+    ],
+    "cross_fired_on": [
+      "dc",
+      "ce"
+    ],
+    "detected": true,
+    "detected_by": "rule",
+    "objects": [
+      "ch-omfv"
+    ],
+    "page": "printed p. 10",
+    "sub_episode": [
+      "ce",
+      "dc",
+      "fs"
+    ]
+  },
+  "cross_fires": {
+    "definition-missing": [
+      "dc",
+      "ce"
+    ],
+    "linchpin-unevidenced": [
+      "fs",
+      "ce"
+    ],
+    "silent-omission": [
+      "dc",
+      "ce"
+    ]
+  },
+  "cross_fires_suppressed_by_our_attribution": {
+    "inclusion-reason-missing": [
+      "dc",
+      "fs"
+    ]
+  },
+  "cross_fires_suppressed_by_our_attribution_note": "Sections on which the kernel's own scoping would report a mechanism and our attribution rule does not \u2014 measured on every run, not asserted. `readiness._counts_for_episode` keeps a finding if it names ANYTHING the episode can reach, so on `inclusion-reason-missing` it keeps the combat-effectiveness finding for `dc` and `fs` too: all three sections share one evidence register and the three studies sit in it. Our rule reads the episode the finding names \u2014 `policy_rules.inclusion_reason_missing` now names the episode and the claim as well as the evidence, so `_attributable` needs no special case for it \u2014 and only the section whose claim did the citing owns it. The cross-fire table above is therefore the list after this one correction of ours, and this key is the size of the correction.",
+  "earlier_episode_silent_omissions": {
+    "ep-omfv-2020-02": 3,
+    "ep-omfv-2020-02-r2": 7,
+    "ep-omfv-2020-02-r3": 21,
+    "ep-omfv-2020-02-r4": 21,
+    "ep-omfv-2020-02-r5": 21
+  },
+  "earlier_episode_silent_omissions_reason": "Episodes 1-5 have no claims at all, so every entry in their evidence register is an uncited omission and silent-omission fires on each. That is the rule working as designed on a record that has not yet drawn conclusions; out/findings_matrix.json reports the per-episode count with this reason."
+}

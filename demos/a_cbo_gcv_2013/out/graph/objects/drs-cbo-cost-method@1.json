@@ -1,0 +1,22 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2013-04",
+  "description": "CBO built its own cost estimates rather than adopting the Army's: development cost projected from the Army's preliminary Milestone A estimates as revised for the January 2013 programme changes; GCV procurement from the $13.5 million average procurement unit cost ceiling set by the Undersecretary of Defense for Acquisition, Technology, and Logistics; the foreign vehicles from their published unit costs and an assumed adaptation cost.",
+  "documentation": "ev-cbo-cost-estimate",
+  "id": "drs-cbo-cost-method",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "pp. 7, 23–24",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "method": "source-review",
+  "performedBy": "Congressional Budget Office",
+  "rev": 1,
+  "type": "DataReliabilityStep"
+}

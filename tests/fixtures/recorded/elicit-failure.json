@@ -1,0 +1,10 @@
+{
+  "133cf112a9991ff6f86f249716aee1fe930b6e14a4011da3e54a4f7cd9737253": {
+    "note": "hand-authored, deliberately schema-invalid, not a real model response — attempts 2 and 3 hash identically since the retry prompt is rebuilt from the same errors both times",
+    "response": "{}"
+  },
+  "d446d03d233d66def36b61bfef3925f7a0454e8400620986517c1e6d6f2a4df4": {
+    "note": "hand-authored, deliberately schema-invalid, not a real model response — attempt 1 of the BackendError-after-retries test",
+    "response": "{}"
+  }
+}

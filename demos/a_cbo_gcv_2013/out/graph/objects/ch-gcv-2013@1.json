@@ -1,0 +1,106 @@
+{
+  "authority": {
+    "board": "Tactical Air and Land Forces Subcommittee, House Committee on Armed Services (requester)",
+    "signer": "the Congress (the decision); CBO (the analysis)"
+  },
+  "conditionsOfInterest": [
+    "unconventional threats",
+    "conventional armored battle",
+    "northeast Asia intense battle"
+  ],
+  "confidence": "inferred",
+  "consequencesOfErroneousOutput": "The Army fields a fleet that is less capable, costlier or riskier than an available alternative — the GCV program is $28.8 billion over 2014–2030 — or gives up the nine-member-squad capability it has made one of its highest priorities.",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "decisionClassPolicy": "pol-cbo",
+  "decisionToBeMade": "Whether to continue the Ground Combat Vehicle program as planned or to pursue one of the four alternatives.",
+  "definitions": [
+    {
+      "term": "protection and survivability",
+      "text": "Protection is the vehicle's ability to protect its occupants from the effects of attacks; survivability is its ability to withstand attacks and still continue to operate. Improvement is determined by the reduction in losses of vehicles and personnel (Table 1-2 note a, p. 11)."
+    },
+    {
+      "term": "lethality",
+      "text": "The vehicle's ability to destroy enemy personnel and vehicles (Table 1-2 note b, p. 11)."
+    },
+    {
+      "term": "mobility",
+      "text": "The ability to travel on- and off-road (Table 1-2 note c, p. 11)."
+    },
+    {
+      "term": "passenger capacity",
+      "text": "The number of passengers carried beyond the crew. The primary metric scores the percentage increase over the current Bradley's seven; the secondary metric scores 100 if the vehicle carries a full nine-member squad and 0 if it does not (pp. 11, 34)."
+    },
+    {
+      "term": "programmatic risk",
+      "text": "The risk that a program's cost will rise or its schedule will lengthen; CBO reads it off how close a vehicle is to production (p. 20)."
+    }
+  ],
+  "id": "ch-gcv-2013",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "pp. 1–5, 10–12, 20–21",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "limitations": [
+    {
+      "mitigation": {
+        "$exclusion": "ex-namer-puma-sim"
+      },
+      "statement": "The comparison places estimated scores for two vehicles beside simulated scores for a third."
+    },
+    {
+      "mitigation": {
+        "$exclusion": "ex-transportability"
+      },
+      "statement": "Long-distance transportability is not among the mobility attributes, although the Army's scheme weights it 0.15."
+    },
+    {
+      "mitigation": {
+        "$exclusion": "ex-army-categories"
+      },
+      "statement": "Four of the Army's eight analysis-of-alternatives categories are not in the comparison at all."
+    },
+    {
+      "mitigation": "CBO analysed the December 2010 notional design and said so (p. 8); recorded here as a limitation on the CBO evidence.",
+      "statement": "The Army intends to change the GCV's protection and cannon requirements; the details were still pending."
+    },
+    {
+      "mitigation": "The acceptance criterion in the VV&A record is ±1 point, and the reproduction is reported against CBO's printed values.",
+      "statement": "CBO's inputs are published rounded to whole percent, so the overall figures can only be reproduced to within a rounding point."
+    }
+  ],
+  "mandateElements": [],
+  "question": "How would the Army's planned Ground Combat Vehicle compare with four alternatives — the Israeli Namer, an upgraded Bradley, the German Puma, and retaining the current Bradley — in capability, cost and programmatic risk over 2014 through 2030, measured against the current Bradley IFV?",
+  "questionClass": "requirements-tradeoff",
+  "rev": 1,
+  "scope": {
+    "excluded": [
+      "how the choice of contractor would affect the industrial base or employment (p. 5)",
+      "which threats the Army will face and how its armored forces will confront them (p. 5)",
+      "the Army's pending changes to the GCV's protection and cannon requirements (p. 8)",
+      "long-distance transportability (p. 34 fn 3)",
+      "communications, growth potential and sustainability (p. 34)"
+    ],
+    "included": [
+      "the notional GCV (December 2010 Design Concept After Trades)",
+      "four alternatives: Namer, upgraded Bradley, Puma, retain the current Bradley",
+      "protection and survivability",
+      "lethality",
+      "mobility",
+      "passenger capacity",
+      "total development and procurement cost, 2014–2030",
+      "programmatic risk, reported qualitatively"
+    ]
+  },
+  "successCriteria": [
+    "greater improvement in capability relative to the current Bradley IFV",
+    "lower total cost of development and procurement, 2014–2030",
+    "lower programmatic risk"
+  ],
+  "type": "Charter"
+}

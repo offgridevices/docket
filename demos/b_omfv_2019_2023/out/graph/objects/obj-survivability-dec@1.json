@@ -1,0 +1,22 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2020-12-09T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "description": "The OMFV shall be survivable against modern direct fire, indirect fire, and blast threats. The OMFV should reduce likelihood of detection by minimizing thermal, visual, and acoustic signatures.",
+  "id": "obj-survivability-dec",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "PDF p. 5 (slide footer 6), characteristic A; priorityRank from sources/army-2020-04-09-omfv-industry-day-narrative.pdf p. 6 section 3.2 and the December slide's own statement that the nine characteristics are listed in order of priority (PDF p. 11 (slide footer 13))",
+    "sourceArtifact": "sources/army-2020-12-09-omfv-industry-day-briefing.pdf"
+  },
+  "name": "Survivability",
+  "priority": "primary",
+  "priorityRank": 1,
+  "provenance": "ev-con-2020-12",
+  "rev": 1,
+  "type": "Objective"
+}

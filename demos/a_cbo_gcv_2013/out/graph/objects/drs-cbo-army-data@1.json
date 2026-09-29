@@ -1,0 +1,22 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2012-05",
+  "description": "CBO states the provenance of every capability score in the source line of the tables that print it: the Army's Report on the Results of the Ground Combat Vehicle Analysis of Alternatives (Milestone A), March 2011, and Department of the Army personal communications to CBO staff of May 2012 and December 2012. CBO went to the AoA report itself, citing Tab B (trade impact analysis, p. 7 fn 10) and Tab I (affordability strategy, p. 33 fn 1).",
+  "documentation": "ev-cbo-2013",
+  "id": "drs-cbo-army-data",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 21 (Table 2-2 source line); p. 33 fn 1",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "method": "source-review",
+  "performedBy": "Congressional Budget Office",
+  "rev": 1,
+  "type": "DataReliabilityStep"
+}

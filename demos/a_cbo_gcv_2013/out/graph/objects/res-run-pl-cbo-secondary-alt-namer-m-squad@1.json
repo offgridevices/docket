@@ -1,0 +1,19 @@
+{
+  "aggregate": false,
+  "alternative": "alt-namer",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "docket-kernel/0.1.0",
+    "actorType": "kernel"
+  },
+  "id": "res-run-pl-cbo-secondary-alt-namer-m-squad",
+  "measure": "m-squad",
+  "method": "value-function",
+  "raw": 100.0,
+  "rawUnits": "percent, all or nothing",
+  "rev": 1,
+  "run": "run-pl-cbo-secondary",
+  "type": "Result",
+  "units": "value",
+  "value": 100.0
+}

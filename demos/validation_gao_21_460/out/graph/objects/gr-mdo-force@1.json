@@ -1,0 +1,19 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gr-mdo-force",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 12 (PDF p. 17)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "rev": 1,
+  "source": "ev-gao-21-460",
+  "statement": "the TWVs the Army needs for a notional force in a European MDO environment — the stressor force for the study according to Futures and Concepts Center officials",
+  "type": "GroundRule"
+}

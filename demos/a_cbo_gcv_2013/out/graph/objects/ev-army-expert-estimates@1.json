@@ -1,0 +1,55 @@
+{
+  "classification": {
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2011-03",
+  "evidenceType": "ExpertAssessment",
+  "experts": [
+    "Army analysts (not named in the public record)"
+  ],
+  "id": "ev-army-expert-estimates",
+  "inclusionReason": "the Army's stated substitute where technical data were insufficient to simulate (p. 20 fn 4)",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 20 fn 4; values at p. 21 (Table 2-2)",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "limitations": [
+    {
+      "impact": "the Namer's and the Puma's protection and lethality carry more uncertainty than the GCV's, and CBO publishes no band on either",
+      "statement": "These are estimates, not simulation output (p. 20 fn 4)"
+    }
+  ],
+  "method": "estimate of how the vehicle would have performed relative to the current Bradley IFV",
+  "pointer": {
+    "custodian": "Department of the Army (originals, not public); CBO (reported values)",
+    "uri": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf#page=25"
+  },
+  "reliabilitySteps": [
+    "drs-cbo-army-data"
+  ],
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "reviewers": [
+    {
+      "date": "2011-03",
+      "name": "Department of the Army (analysis of alternatives)",
+      "role": "author"
+    }
+  ],
+  "scopeOfValidity": {
+    "builtToAnswer": "How would the Namer and the Puma have performed against the current Bradley IFV on protection, survivability and lethality?",
+    "intendedUse": "the Army's analysis of alternatives, in place of simulation",
+    "questionClass": "combat-effectiveness"
+  },
+  "title": "Army analysts' estimates of the Namer's and the Puma's performance relative to the current Bradley IFV",
+  "type": "Evidence"
+}

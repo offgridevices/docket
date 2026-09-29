@@ -1,0 +1,47 @@
+{
+  "classification": {
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "explicit",
+  "createdAt": "2020-02-25T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2020-02-25",
+  "evidenceType": "Document",
+  "id": "ev-con-2020-02",
+  "inclusionReason": "the Army's own statement of the nine desired characteristics",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "section 'OMFV Characteristics: Objectives'",
+    "sourceArtifact": "sources/army-2020-02-25-omfv-characteristics-for-industry-comment.md"
+  },
+  "pointer": {
+    "custodian": "SAM.gov",
+    "uri": "https://sam.gov/opp/7bc2690bb261442d970970d574dab8ff/view"
+  },
+  "published": "2020-02-25",
+  "publisher": "Department of the Army, Next Generation Combat Vehicles Cross-Functional Team",
+  "reliabilitySteps": {
+    "$gap": "gap-reliability-steps"
+  },
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "reviewers": [
+    {
+      "date": "2020-02-25",
+      "name": "Next Generation Combat Vehicles Cross-Functional Team",
+      "role": "issuing authority"
+    }
+  ],
+  "scopeOfValidity": {
+    "builtToAnswer": "the desired characteristics for the OMFV",
+    "intendedUse": "industry comment",
+    "questionClass": "desired-characteristics"
+  },
+  "title": "Optionally Manned Fighting Vehicle (OMFV) Characteristics For Industry Comment, SAM.gov notice, 25 February 2020",
+  "type": "Evidence"
+}

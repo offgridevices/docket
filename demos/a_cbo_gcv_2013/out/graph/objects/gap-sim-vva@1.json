@@ -1,0 +1,31 @@
+{
+  "confidence": "absent",
+  "confirmedBy": {
+    "actorId": "shreyash",
+    "date": "2026-09-05"
+  },
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gap-sim-vva",
+  "impact": "degrading",
+  "indicatorsThatWouldResolve": [
+    "an accreditation record released with the AoA"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "pp. 10–11",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "rev": 1,
+  "sought": "a verification, validation and accreditation record for the Army's 2010 combat simulations",
+  "type": "InsufficientEvidence",
+  "whereLookedFor": [
+    "the CBO report",
+    "public Army sources, 2026-09-05"
+  ],
+  "whyNotFound": "no VV&A record for these simulations appears in the public record"
+}

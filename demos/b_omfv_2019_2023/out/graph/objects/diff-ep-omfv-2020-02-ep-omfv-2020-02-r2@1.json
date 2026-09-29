@@ -1,0 +1,101 @@
+{
+  "added": [
+    "as-manning-dec",
+    "con-30-dismounts",
+    "con-crew-in-hull",
+    "con-two-crew",
+    "ev-abct-opconcept",
+    "ev-con-2020-12",
+    "ev-market-research-2020",
+    "ev-threat-analysis",
+    "obj-manning-dec",
+    "obj-survivability-dec",
+    "risk-bias-ep-omfv-2020-02-r2-selection"
+  ],
+  "because": "rt-con-update-2020-12",
+  "changed": [
+    {
+      "after": "\"ev-con-2020-12\"",
+      "before": "\"ev-con-2020-02\"",
+      "field": "evidence",
+      "object": "as-manning-feb→as-manning-dec"
+    },
+    {
+      "after": "\"a platoon that cannot put 30 soldiers on the ground, or a two-soldier crew that cannot fight the vehicle, would invalidate the concept the Phase 2 designs were built to\"",
+      "before": "\"a crew size chosen later on other grounds would be unconstrained by this characteristic, which is what happened in December 2020 when the CON fixed it at two\"",
+      "field": "implicationsIfWrong",
+      "object": "as-manning-feb→as-manning-dec"
+    },
+    {
+      "after": "[\"a soldier touchpoint finds two crew insufficient\",\"a change in the Army's platoon structure or squad size\"]",
+      "before": "[\"the Army states a crew number in a published characteristic\",\"a soldier touchpoint finds a minimum crew below or above the design\"]",
+      "field": "indicatorsThatWouldAlter",
+      "object": "as-manning-feb→as-manning-dec"
+    },
+    {
+      "after": "\"the December 2020 updated CON states the platoon dismount count and the crew size as design facts; the slide gives no derivation for either number\"",
+      "before": "\"the February 2020 characteristic states the crew as a minimum to be found, not as a number: no crew size appears anywhere in the notice\"",
+      "field": "rationale",
+      "object": "as-manning-feb→as-manning-dec"
+    },
+    {
+      "after": "\"A platoon of OMFVs will transport 30 Soldiers that dismount from the vehicles. Each OMFV vehicle will be crewed by no more than two Soldiers who will be positioned in the hull.\"",
+      "before": "\"The OMFV should operate with the minimal number of crew members required to fight and win.\"",
+      "field": "statement",
+      "object": "as-manning-feb→as-manning-dec"
+    },
+    {
+      "after": "\"A platoon of OMFVs will transport 30 Soldiers that dismount from the vehicles. Each OMFV vehicle will be crewed by no more than two Soldiers who will be positioned in the hull. Squad members can perform crew duties prior to dismounting the OMFV but the vehicles must remain operational after dismounting. The OMFV should allow commanders to choose between manned or remote operation based on the tactical situation.\"",
+      "before": "\"The OMFV should operate with the minimal number of crew members required to fight and win. The OMFV should allow commanders to choose between manned or remote operation based on the tactical situation.\"",
+      "field": "description",
+      "object": "obj-manning→obj-manning-dec"
+    },
+    {
+      "after": "\"ev-con-2020-12\"",
+      "before": "\"ev-con-2020-02\"",
+      "field": "provenance",
+      "object": "obj-manning→obj-manning-dec"
+    },
+    {
+      "after": "\"The OMFV shall be survivable against modern direct fire, indirect fire, and blast threats. The OMFV should reduce likelihood of detection by minimizing thermal, visual, and acoustic signatures.\"",
+      "before": "\"The OMFV must protect the crew and Soldiers from emerging threats and CBRN environments. The OMFV should reduce likelihood of detection by minimizing thermal, visual, and acoustic signatures.\"",
+      "field": "description",
+      "object": "obj-survivability→obj-survivability-dec"
+    },
+    {
+      "after": "\"ev-con-2020-12\"",
+      "before": "\"ev-con-2020-02\"",
+      "field": "provenance",
+      "object": "obj-survivability→obj-survivability-dec"
+    }
+  ],
+  "createdAt": "2023-06-26T00:00:00Z",
+  "createdBy": {
+    "actorId": "docket-kernel/0.1.0",
+    "actorType": "kernel"
+  },
+  "from": "ep-omfv-2020-02",
+  "id": "diff-ep-omfv-2020-02-ep-omfv-2020-02-r2",
+  "judgmentsChanged": [],
+  "judgmentsConsistent": [],
+  "kernelVersion": "0.1.0",
+  "pairing": "replacements",
+  "rankingAfter": [],
+  "rankingBefore": [],
+  "ratingsChanged": [
+    {
+      "after": 1,
+      "before": 4,
+      "questionId": "DES-7"
+    }
+  ],
+  "removed": [
+    "as-manning-feb",
+    "obj-manning",
+    "obj-survivability",
+    "risk-bias-ep-omfv-2020-02-selection"
+  ],
+  "rev": 1,
+  "to": "ep-omfv-2020-02-r2",
+  "type": "EpisodeDiff"
+}

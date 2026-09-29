@@ -1,0 +1,72 @@
+{
+  "classification": {
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2013-04",
+  "evidenceType": "Document",
+  "id": "ev-cbo-2013",
+  "inclusionReason": "the analysis this record reconstructs",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "whole report; capability scores at p. 21 (Table 2-2)",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "limitations": [
+    {
+      "impact": "the GCV's capability scores describe the December 2010 notional design, not the vehicle the Army would field",
+      "statement": "The Army intends to change the requirements for the amount of protection and the size of the GCV's cannon; CBO could not account for those changes because the details were still pending (pp. 1 fn 1, 8)"
+    },
+    {
+      "impact": "the comparison answers the Army's question, not the prior question of whether those are the right goals",
+      "statement": "CBO accepted the Army's goals for the vehicle and for the number of vehicles needed; different goals would have changed the criteria (p. 5)"
+    }
+  ],
+  "pointer": {
+    "custodian": "Congressional Budget Office",
+    "uri": "https://www.cbo.gov/publication/44044"
+  },
+  "published": "2013-04",
+  "publisher": "Congressional Budget Office",
+  "reliabilitySteps": [
+    "drs-cbo-army-data"
+  ],
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "reviewers": [
+    {
+      "date": "2013-04",
+      "name": "Philip Webre and Derek Trunkey (CBO)",
+      "role": "internal review"
+    },
+    {
+      "date": "2013-04",
+      "name": "Scot A. Arnold (Institute for Defense Analyses)",
+      "role": "external review"
+    },
+    {
+      "date": "2013-04",
+      "name": "Gilbert F. Decker, formerly Assistant Secretary of the Army for Research, Development, and Acquisition",
+      "role": "external review"
+    }
+  ],
+  "scopeOfValidity": {
+    "builtToAnswer": "Compare the Army's plan for the Ground Combat Vehicle with four alternatives on capability, cost and programmatic risk over 2014–2030",
+    "conditions": [
+      "unconventional threats",
+      "conventional armored battle",
+      "northeast Asia intense battle"
+    ],
+    "intendedUse": "inform the Congress on the Ground Combat Vehicle program",
+    "questionClass": "requirements-tradeoff"
+  },
+  "title": "Congressional Budget Office, The Army's Ground Combat Vehicle Program and Alternatives (April 2013)",
+  "type": "Evidence"
+}

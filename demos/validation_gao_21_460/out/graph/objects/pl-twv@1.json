@@ -1,0 +1,76 @@
+{
+  "approvedBy": {
+    "actorId": "Army Futures Command, Futures and Concepts Center (FCC OPORD 19-014)",
+    "date": "2020-04-30"
+  },
+  "confidence": "inferred",
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "episode": "ep-twv-2021",
+  "id": "pl-twv",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05T00:00:00Z",
+    "extractor": "human",
+    "locator": "printed p. 36 (PDF p. 41)",
+    "sourceArtifact": "sources/gao-21-460-tactical-wheeled-vehicles-accessible.pdf"
+  },
+  "policyBasis": "pol-twv",
+  "rev": 1,
+  "steps": [
+    {
+      "alternatives": [
+        "alt-current-fleet",
+        "alt-mdo-fleet"
+      ],
+      "authority": {
+        "document": "FCC OPORD 19-014: Multi-Domain Operations Tactical Wheeled Vehicle Study",
+        "paragraph": "study plan, Mobility line of effort (GAO-21-460 printed p. 36)"
+      },
+      "evaluator": "mdl-cba",
+      "id": "mobility",
+      "measures": [
+        "m-mobility-pct"
+      ],
+      "method": "mavt",
+      "weightSet": "ws-twv"
+    },
+    {
+      "alternatives": [
+        "alt-current-fleet",
+        "alt-mdo-fleet"
+      ],
+      "authority": {
+        "document": "FCC OPORD 19-014: Multi-Domain Operations Tactical Wheeled Vehicle Study",
+        "paragraph": "study plan, Launch and Support Platforms line of effort (GAO-21-460 printed p. 36)"
+      },
+      "evaluator": "mdl-cba",
+      "id": "launch-support",
+      "measures": [
+        "m-lsp-vehicles"
+      ],
+      "method": "mavt",
+      "weightSet": "ws-twv"
+    },
+    {
+      "alternatives": [
+        "alt-current-fleet",
+        "alt-mdo-fleet"
+      ],
+      "authority": {
+        "document": "FCC OPORD 19-014: Multi-Domain Operations Tactical Wheeled Vehicle Study",
+        "paragraph": "study plan, Distribution and Transportation line of effort (GAO-21-460 printed p. 36)"
+      },
+      "evaluator": "mdl-lbc",
+      "id": "distribution-transportation",
+      "measures": [
+        "m-dt-sustainment"
+      ],
+      "method": "mavt",
+      "weightSet": "ws-twv"
+    }
+  ],
+  "type": "Plan"
+}

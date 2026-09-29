@@ -1,0 +1,82 @@
+{
+  "accreditationDecision": {
+    "authority": "A.T. Kearney (the study's authors)",
+    "basis": "document",
+    "date": "2014-04",
+    "document": "ev-kearney-final-report",
+    "scope": "the financial consequences to manufacturers and suppliers in the combat vehicle industrial base at different levels of demand"
+  },
+  "assumptionsCapabilitiesLimitationsRisks": {
+    "assumptions": [
+      "the minimum sustainment rates as derived by the original equipment manufacturers (printed p. 13; the derivation is gap-msr-derivation)",
+      "risk assessed from the perspective of the Army (printed pp. 12-13; GAO reads this as an assumption the study did not identify as one)"
+    ],
+    "capabilities": [
+      "financial consequence to each manufacturer and supplier at a given level of demand (printed p. 13)",
+      "scenarios run through the model to develop courses of action to alter the structure of the industrial base (printed p. 14)"
+    ],
+    "limitations": [
+      "developed to support the continued analysis of future state industrial base environmental changes, not as a general cost model (printed p. 14 fn 8)",
+      "rests on cost data that are in part benchmark estimates rather than reported figures (printed p. 16)"
+    ],
+    "risks": [
+      "printed p. 13: \"a change in the minimum sustainment rate could impact the findings of a study\""
+    ]
+  },
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "vva-kearney",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 2 (PDF p. 5); printed p. 13 (PDF p. 16); printed p. 14 (PDF p. 17)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "methodology": "Printed p. 13: a spreadsheet-based model built from the current state assessment and the cost baseline, exercised over demand scenarios.",
+  "problemStatement": "ch-kearney-2014",
+  "requirementsAndAcceptabilityCriteria": "Printed p. 13: the model had to examine the financial consequences to various manufacturers and suppliers in the industrial base at different levels of demand, from the current state assessment and the cost baseline. No numeric acceptance criterion appears in the public account.",
+  "rev": 1,
+  "sections": [
+    {
+      "content": "See the charter, ch-kearney-2014.",
+      "name": "Problem Statement"
+    },
+    {
+      "content": "Examine the financial consequences to manufacturers and suppliers at different levels of demand (printed p. 13). No numeric acceptance criterion is public.",
+      "name": "M&S Requirements and Acceptability Criteria"
+    },
+    {
+      "content": "As listed in the structured field of this record.",
+      "name": "M&S Assumptions, Capabilities, Limitations & Risks/Impacts"
+    },
+    {
+      "content": "GAO reviewed the interim and final study briefings, the backup slides detailing the methodological elements of the study, and the final report, and found the study executed in accordance with its defined methodology (printed pp. 2, 13). Reading that as the accreditation basis is ours.",
+      "name": "Accreditation Methodology"
+    },
+    {
+      "content": {
+        "$exclusion": "ex-vva-na"
+      },
+      "name": "Issues"
+    },
+    {
+      "content": "A.T. Kearney (authors); the Army Program Executive Office for Ground Combat Systems; the two original equipment manufacturers; shreyash (reconstruction).",
+      "name": "Key Participants"
+    },
+    {
+      "content": "GAO-15-548 and nothing else; the study's own documentation is not public (gap-kearney-report).",
+      "name": "Resources"
+    },
+    {
+      "content": {
+        "$exclusion": "ex-vva-na"
+      },
+      "name": "Lessons Learned"
+    }
+  ],
+  "type": "VVARecord"
+}

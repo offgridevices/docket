@@ -1,0 +1,71 @@
+{
+  "classification": {
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "explicit",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2010-12",
+  "evidenceType": "MSStudy",
+  "id": "ev-army-sim-2010",
+  "inclusionReason": "the only combat-simulation results for the GCV in the public record (pp. 10–11)",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "pp. 10–11",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "limitations": [
+    {
+      "impact": "those two vehicles' protection and lethality rest on Army analysts' estimates, not on simulation",
+      "statement": "Technical data were insufficient to simulate the Namer or the Puma (p. 20 fn 4)"
+    },
+    {
+      "impact": "the 27 percent composite cannot be recomputed from public data",
+      "statement": "Only the aggregate results are public: CBO reports the averages and two scenario extremes, not the runs"
+    }
+  ],
+  "model": {
+    "$gap": "gap-sim-model"
+  },
+  "pointer": {
+    "custodian": "Department of the Army (originals, not public); CBO (reported values)",
+    "uri": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf#page=15"
+  },
+  "reliabilitySteps": [
+    "drs-cbo-army-data"
+  ],
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "reviewers": [
+    {
+      "date": "2010-12",
+      "name": "Department of the Army (analysis of alternatives)",
+      "role": "author"
+    }
+  ],
+  "scenarios": [
+    "sc-unconventional",
+    "sc-conventional",
+    "sc-ne-asia"
+  ],
+  "scopeOfValidity": {
+    "builtToAnswer": "How much better does the notional GCV protect its occupants, survive attack and destroy enemy forces than the current Bradley IFV?",
+    "conditions": [
+      "unconventional threats",
+      "conventional armored battle",
+      "northeast Asia intense battle"
+    ],
+    "intendedUse": "the Army's Ground Combat Vehicle analysis of alternatives",
+    "questionClass": "combat-effectiveness"
+  },
+  "title": "Army combat simulations, February–December 2010: the notional GCV substituted for the current Bradley IFV",
+  "type": "Evidence",
+  "vvaRecord": {
+    "$gap": "gap-sim-vva"
+  }
+}

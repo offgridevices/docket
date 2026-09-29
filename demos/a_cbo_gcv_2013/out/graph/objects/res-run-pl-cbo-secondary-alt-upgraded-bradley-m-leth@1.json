@@ -1,0 +1,19 @@
+{
+  "aggregate": false,
+  "alternative": "alt-upgraded-bradley",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "docket-kernel/0.1.0",
+    "actorType": "kernel"
+  },
+  "id": "res-run-pl-cbo-secondary-alt-upgraded-bradley-m-leth",
+  "measure": "m-leth",
+  "method": "value-function",
+  "raw": 60.0,
+  "rawUnits": "percent improvement vs the current Bradley IFV",
+  "rev": 1,
+  "run": "run-pl-cbo-secondary",
+  "type": "Result",
+  "units": "value",
+  "value": 60.0
+}

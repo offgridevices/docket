@@ -1,0 +1,43 @@
+{
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "definition": {
+    "kind": "code",
+    "version": "unversioned in the public description"
+  },
+  "id": "mdl-kearney-financial",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 13 (PDF p. 16); printed p. 14 (PDF p. 17)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "inputs": [
+    "m-current-state",
+    "m-cost-baseline"
+  ],
+  "intendedUse": "Verbatim, printed pp. 13-14 (the sentence begins on p. 13 and finishes on p. 14): the study's authors \"used the information collected through the current state assessment and the cost baseline to develop a spreadsheet-based model to examine the financial consequences to various manufacturers and suppliers in the industrial base based on different levels of demand.\" Printed p. 14: \"These scenarios were run through the model to help the Army develop potential courses of action to alter the structure of the combat vehicle industrial base.\"",
+  "limitations": [
+    {
+      "justification": "GAO found the study \"was executed in accordance with its defined methodology\" and that the authors \"successfully conducted each of the six analyses\" (printed p. 13), the scenario analysis among them.",
+      "statement": "Printed p. 14 fn 8: \"This model was developed to support the continued analysis of future state industrial base environmental changes.\" It was built for this study and for its continuation, not as a general-purpose cost model."
+    },
+    {
+      "justification": "GAO's assessment is of the reasonableness of the study's methods (printed p. 2); the model's internals were available to GAO through the backup slides that detail the methodological elements of the study, and are not available to this record.",
+      "statement": "The model's own construction is not public: GAO describes what it does and what went into it, not how it computes."
+    }
+  ],
+  "name": "The study's spreadsheet-based financial consequence model",
+  "outputs": [
+    "m-scenario-analysis"
+  ],
+  "qualificationStatus": "validated",
+  "questionClass": "industrial-base",
+  "rev": 1,
+  "type": "Model",
+  "vvaRecord": "vva-kearney"
+}

@@ -1,0 +1,81 @@
+{
+  "accreditationDecision": {
+    "authority": "A.T. Kearney (the study's authors)",
+    "basis": "document",
+    "date": "2014-04",
+    "document": "ev-kearney-final-report",
+    "scope": "the six-analysis assessment of the combined commercial and government combat vehicle industrial base"
+  },
+  "assumptionsCapabilitiesLimitationsRisks": {
+    "assumptions": [
+      "the six analyses together answer both halves of the study's objective (printed p. 9)"
+    ],
+    "capabilities": [
+      "current state assessment, cost baseline, supplier base analysis and benchmark comparison, addressing the state of the industrial base (printed p. 9)",
+      "scenario analysis and network strategy plan, addressing strategic alternatives to sustain it (printed p. 9)"
+    ],
+    "limitations": [
+      "five of the six analyses are qualitative; GAO reports findings, not scores",
+      "the criteria each analysis was scored against are not public (gap-criteria)"
+    ],
+    "risks": [
+      "printed p. 14: the original equipment manufacturers thought the number of critical skills identified was too low, though GAO found the criteria reasonable and reasonably applied"
+    ]
+  },
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "vva-kearney-method",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 2 (PDF p. 5); printed p. 9 (PDF p. 12); printed p. 13 (PDF p. 16)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "methodology": "Printed p. 9: four elements addressing the assessment of the industrial base and two addressing the development of strategic alternatives, described in more detail in figure 2 at printed p. 10.",
+  "problemStatement": "ch-kearney-2014",
+  "requirementsAndAcceptabilityCriteria": "Printed p. 9: the methodology had to be consistent with and address the study's objective. Printed p. 13: each of the six analyses had to be conducted as defined.",
+  "rev": 1,
+  "sections": [
+    {
+      "content": "See the charter, ch-kearney-2014.",
+      "name": "Problem Statement"
+    },
+    {
+      "content": "The methodology had to be consistent with and address the study's objective, and each of the six analyses had to be conducted as defined (printed pp. 9, 13).",
+      "name": "M&S Requirements and Acceptability Criteria"
+    },
+    {
+      "content": "As listed in the structured field of this record.",
+      "name": "M&S Assumptions, Capabilities, Limitations & Risks/Impacts"
+    },
+    {
+      "content": "GAO found the study executed in accordance with its defined methodology and the six analyses successfully conducted (printed p. 13). Reading that as the accreditation basis is ours.",
+      "name": "Accreditation Methodology"
+    },
+    {
+      "content": {
+        "$exclusion": "ex-vva-na"
+      },
+      "name": "Issues"
+    },
+    {
+      "content": "A.T. Kearney (authors); GAO (assessment against generally accepted research standards); shreyash (reconstruction).",
+      "name": "Key Participants"
+    },
+    {
+      "content": "GAO-15-548 and nothing else; the study's own documentation is not public (gap-kearney-report).",
+      "name": "Resources"
+    },
+    {
+      "content": {
+        "$exclusion": "ex-vva-na"
+      },
+      "name": "Lessons Learned"
+    }
+  ],
+  "type": "VVARecord"
+}

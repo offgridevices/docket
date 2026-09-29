@@ -1,0 +1,49 @@
+{
+  "classification": {
+    "caveats": [
+      "not publicly released; its release status has not been verified by this project"
+    ],
+    "level": "U",
+    "metadataLevel": "U"
+  },
+  "confidence": "inferred",
+  "createdAt": "2023-03-31T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "date": "2023-03",
+  "evidenceType": "Document",
+  "id": "ev-234-report",
+  "inclusionReason": "the document GAO-23-106549 assesses; everything this record holds about March 2023 is a reconstruction from GAO's description of it",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "printed p. 8 (PDF p. 11)",
+    "sourceArtifact": "sources/gao-23-106549.pdf"
+  },
+  "pointer": {
+    "$gap": "gap-234-report"
+  },
+  "published": "2023-03",
+  "publisher": "Department of the Army",
+  "reliabilitySteps": {
+    "$gap": "gap-reliability-steps"
+  },
+  "rev": 1,
+  "reviewStatus": "reviewed",
+  "reviewers": [
+    {
+      "date": "2023-03",
+      "name": "Department of the Army",
+      "role": "issuing authority"
+    }
+  ],
+  "scopeOfValidity": {
+    "builtToAnswer": "the desired characteristics, the force structure designs and operational concepts, and the combat effectiveness of the OMFV compared with the modernized Bradley",
+    "intendedUse": "the Army's report to the congressional defense committees",
+    "questionClass": "desired-characteristics"
+  },
+  "title": "Department of the Army, report to the congressional defense committees under Section 234 of the National Defense Authorization Act for Fiscal Year 2022, March 2023",
+  "type": "Evidence"
+}

@@ -1,0 +1,75 @@
+{
+  "accreditationDecision": {
+    "authority": "Congressional Budget Office (published methodology, appendix pp. 33–35); reproduction checked against Table 2-2 by this reconstruction",
+    "basis": "document",
+    "date": "2013-04",
+    "document": "ev-cbo-2013",
+    "scope": "comparison of the notional GCV and four alternatives on four categories of capability, relative to the current Bradley IFV, on CBO's own published inputs"
+  },
+  "assumptionsCapabilitiesLimitationsRisks": {
+    "assumptions": [
+      "value is additive across the four categories, as CBO's construction is",
+      "the category scores are commensurable percentages on a common reference"
+    ],
+    "capabilities": [
+      "weighted additive aggregation over the four categories",
+      "one-at-a-time flip analysis and weight-simplex robustness"
+    ],
+    "limitations": [
+      "no interaction terms between categories",
+      "CBO's inputs are published rounded to whole percent"
+    ],
+    "risks": [
+      "a reproduction within a rounding point could mask a different construction that happens to agree at this precision"
+    ]
+  },
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "vva-cbo-metric",
+  "methodology": "Additive multi-attribute value aggregation over the four categories (docket kernel, method mavt), with the weights of Table A-3 and no value-function transformation: the raw percentage improvement is the value.",
+  "problemStatement": "ch-gcv-2013",
+  "requirementsAndAcceptabilityCriteria": "Reproduce both of CBO's published overall-improvement figures (Table 2-2, p. 21) from CBO's published category scores and published weights (Table A-3, p. 35), to within the one point CBO's own rounding to whole percent allows, and reproduce both published rankings exactly.",
+  "rev": 1,
+  "sections": [
+    {
+      "content": "See the charter, ch-gcv-2013.",
+      "name": "Problem Statement"
+    },
+    {
+      "content": "Reproduce CBO's Table 2-2 overall-improvement figures to within one point and both rankings exactly.",
+      "name": "M&S Requirements and Acceptability Criteria"
+    },
+    {
+      "content": "As listed in the structured field of this record.",
+      "name": "M&S Assumptions, Capabilities, Limitations & Risks/Impacts"
+    },
+    {
+      "content": "Comparison of the kernel's output against CBO's published values, asserted in the demonstration's test suite.",
+      "name": "Accreditation Methodology"
+    },
+    {
+      "content": {
+        "$exclusion": "ex-vva-na"
+      },
+      "name": "Issues"
+    },
+    {
+      "content": "CBO (methodology, appendix pp. 33–35); the docket kernel (computation); shreyash (reconstruction).",
+      "name": "Key Participants"
+    },
+    {
+      "content": "The public CBO report, and nothing else.",
+      "name": "Resources"
+    },
+    {
+      "content": {
+        "$exclusion": "ex-vva-na"
+      },
+      "name": "Lessons Learned"
+    }
+  ],
+  "type": "VVARecord"
+}

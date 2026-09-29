@@ -1,0 +1,22 @@
+{
+  "confidence": "explicit",
+  "createdAt": "2020-02-25T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "description": "The OMFV must possess the growth margins and open architecture required for rapid upgrades and insertion of future technologies such as mission command systems, protection systems, and sensors.",
+  "id": "obj-growth",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "section 'OMFV Characteristics: Objectives', Growth (characteristic text); sources/army-2020-04-09-omfv-industry-day-narrative.pdf p. 6 section 3.2 (priorityRank 3)",
+    "sourceArtifact": "sources/army-2020-02-25-omfv-characteristics-for-industry-comment.md"
+  },
+  "name": "Growth",
+  "priority": "primary",
+  "priorityRank": 3,
+  "provenance": "ev-con-2020-02",
+  "rev": 1,
+  "type": "Objective"
+}

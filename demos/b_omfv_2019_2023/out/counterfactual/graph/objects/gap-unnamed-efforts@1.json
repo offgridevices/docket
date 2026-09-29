@@ -1,0 +1,33 @@
+{
+  "confidence": "absent",
+  "confirmedBy": {
+    "actorId": "shreyash",
+    "date": "2026-09-06"
+  },
+  "createdAt": "2021-09-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gap-unnamed-efforts",
+  "impact": "degrading",
+  "indicatorsThatWouldResolve": [
+    "public release of the Section 234 report, which lists all eleven",
+    "an Army list of the Phase 2 modelling, simulation and analysis efforts"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "printed p. 8 (PDF p. 11)",
+    "sourceArtifact": "sources/gao-23-106549.pdf"
+  },
+  "rev": 1,
+  "sought": "the identity of the four of GAO's eleven analytical efforts that no public document names",
+  "type": "InsufficientEvidence",
+  "whereLookedFor": [
+    "GAO-23-106549 printed pp. 8-14 (PDF pp. 11-17)",
+    "OMFV Industry Day briefing, 9 December 2020, PDF p. 17 (slide footer 19) and PDF p. 18 (slide footer 20)",
+    "public web search, 2026-09-06"
+  ],
+  "whyNotFound": "GAO counts \"seven previously conducted analytical studies\" and four soldier touchpoints — eleven analytical efforts (printed p. 8) — and names only some of them. The December 2020 Phase 2 schedule names seven: ARIES 1, ARIES 2, TRAC AoA, TRAC OE, MBL1, HSI 1 and HSI 2. Seven is what this record holds; the other four are named in no public document and are not invented here"
+}

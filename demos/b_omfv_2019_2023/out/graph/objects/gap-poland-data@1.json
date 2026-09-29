@@ -1,0 +1,32 @@
+{
+  "confidence": "absent",
+  "confirmedBy": {
+    "actorId": "shreyash",
+    "date": "2026-09-06"
+  },
+  "createdAt": "2020-02-25T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gap-poland-data",
+  "impact": "blocking",
+  "indicatorsThatWouldResolve": [
+    "an ERDC-style bridge classification study for the pacing theatre",
+    "release of the bridge classification data behind the Weight threshold"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "printed p. 9 (PDF p. 12)",
+    "sourceArtifact": "sources/gao-23-106549.pdf"
+  },
+  "rev": 1,
+  "sought": "the data and methods supporting the assumption that bridges in Poland are representative of those across Eastern Europe",
+  "type": "InsufficientEvidence",
+  "whereLookedFor": [
+    "the Army's Section 234 report as described in GAO-23-106549 printed p. 9",
+    "public web search, 2026-09-06"
+  ],
+  "whyNotFound": "the report assumes that bridges in Poland are representative of those across Eastern Europe, but the Army does not identify the data and methods used to support this assumption (GAO-23-106549 printed p. 9)"
+}

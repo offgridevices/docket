@@ -1,0 +1,144 @@
+{
+  "biasChecksStatus": [],
+  "blockers": [
+    {
+      "message": "VVARecord has no accreditation decision",
+      "objects": [
+        "mdl-cba",
+        "vva-cba"
+      ],
+      "rule": "model-vva",
+      "severity": "blocking"
+    },
+    {
+      "message": "no evaluation run on this episode scored any measure of this primary objective, so the record does not answer it (design §7.1)",
+      "objects": [
+        "obj-distribution"
+      ],
+      "rule": "objective-run-coverage",
+      "severity": "blocking"
+    },
+    {
+      "message": "no evaluation run on this episode scored any measure of this primary objective, so the record does not answer it (design §7.1)",
+      "objects": [
+        "obj-launch-support"
+      ],
+      "rule": "objective-run-coverage",
+      "severity": "blocking"
+    },
+    {
+      "message": "no evaluation run on this episode scored any measure of this primary objective, so the record does not answer it (design §7.1)",
+      "objects": [
+        "obj-mobility"
+      ],
+      "rule": "objective-run-coverage",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-twv-2021",
+        "ev-army-officials-2021"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-twv-2021",
+        "ev-fcc-oporder-19-014"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-twv-2021",
+        "ev-g8-memo-2020-04-30"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-twv-2021",
+        "ev-gao-21-460"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-twv-2021",
+        "ev-lbc-study"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-twv-2021",
+        "ev-lsp-data"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    },
+    {
+      "message": "evidence known to the episode is neither cited by a claim nor excluded with a reason",
+      "objects": [
+        "ep-twv-2021",
+        "ev-mobility-data"
+      ],
+      "rule": "silent-omission",
+      "severity": "blocking"
+    }
+  ],
+  "computedBiasRisks": [
+    "risk-bias-ep-twv-2021-selection"
+  ],
+  "createdAt": "2021-05-01T00:00:00Z",
+  "createdBy": {
+    "actorId": "docket-kernel/0.1.0",
+    "actorType": "kernel"
+  },
+  "episode": "ep-twv-2021",
+  "flipSummary": {},
+  "id": "rr-ep-twv-2021-1",
+  "kernelVersion": "0.1.0",
+  "mandateScorecard": "ms-ep-twv-2021-1",
+  "openExclusions": [],
+  "openGaps": [
+    "gap-data-schema",
+    "gap-fcc-oporder",
+    "gap-g8-memo",
+    "gap-readiness-implications",
+    "gap-readiness-indicators",
+    "gap-study-artefacts",
+    "gap-thresholds",
+    "gap-vva-cba",
+    "gap-vva-lbc",
+    "gap-weights"
+  ],
+  "policyVersion": "0.1",
+  "ready": false,
+  "rev": 1,
+  "seed": 21460,
+  "standardsAssessment": "sa-ep-twv-2021-gao-21-460-1",
+  "type": "ReadinessReport",
+  "warnings": [
+    {
+      "message": "accreditation asserted by interview, not by document",
+      "objects": [
+        "mdl-lbc",
+        "vva-lbc"
+      ],
+      "rule": "vva-verbal",
+      "severity": "warning"
+    }
+  ]
+}

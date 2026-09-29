@@ -1,0 +1,31 @@
+{
+  "attribute": "the ability of key suppliers to withstand enduring periods of low demand",
+  "conditions": [
+    "constrained fiscal environment"
+  ],
+  "confidence": "inferred",
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "criteria": {
+    "$gap": "gap-criteria"
+  },
+  "id": "m-supplier-base",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 9 (PDF p. 12); printed p. 14 (PDF p. 17); printed p. 15 (PDF p. 18)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "measure": "suppliers identified as critical, fragile or at risk, from the written survey, the non-respondent follow-up and interviews and site visits with 72 suppliers (printed pp. 9, 14, 15)",
+  "metric": {
+    "direction": "min",
+    "units": "suppliers identified as critical or at risk (count)"
+  },
+  "objective": "obj-viability",
+  "rev": 1,
+  "task": "Conduct a supplier base analysis",
+  "type": "Measure"
+}

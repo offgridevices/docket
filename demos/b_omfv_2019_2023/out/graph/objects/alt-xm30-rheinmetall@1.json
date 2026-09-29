@@ -1,0 +1,22 @@
+{
+  "baselineFlag": false,
+  "confidence": "explicit",
+  "createdAt": "2023-06-26T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "description": "The second of the two Phase 3/4 Product Development performers named on the PB2025 R-3 exhibit against a June 2023 award date.",
+  "enteredOrder": 4,
+  "id": "alt-xm30-rheinmetall",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-06",
+    "extractor": "human",
+    "locator": "Exhibit R-3, PE 0605625A / Project CF6, source-volume page \"Volume 3d - 201\", extract PDF p. 74",
+    "sourceArtifact": "sources/army-rdte-r2-fy2025-omfv-xm30-extract.pdf"
+  },
+  "name": "XM30 (OMFV) detailed design — American Rheinmetall Vehicles",
+  "rev": 1,
+  "status": "selected",
+  "type": "Alternative"
+}

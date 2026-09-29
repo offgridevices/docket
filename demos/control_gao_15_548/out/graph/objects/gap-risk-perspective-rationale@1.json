@@ -1,0 +1,31 @@
+{
+  "confidence": "absent",
+  "confirmedBy": {
+    "actorId": "shreyash",
+    "date": "2026-09-05"
+  },
+  "createdAt": "2014-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "id": "gap-risk-perspective-rationale",
+  "impact": "degrading",
+  "indicatorsThatWouldResolve": [
+    "release of the April 2014 report showing the perspective stated as an assumption with its rationale"
+  ],
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "printed p. 12 (PDF p. 15); printed p. 13 (PDF p. 16)",
+    "sourceArtifact": "sources/gao-15-548-army-combat-vehicles-industrial-base-study.pdf"
+  },
+  "rev": 1,
+  "sought": "the study's own statement of why risk was assessed from the perspective of the Army rather than from that of the original equipment manufacturers or the individual suppliers",
+  "type": "InsufficientEvidence",
+  "whereLookedFor": [
+    "GAO-15-548 printed pp. 12-13",
+    "public web search for any Army or A.T. Kearney statement of the perspective from which the study assessed risk, 2026-09-05"
+  ],
+  "whyNotFound": "GAO printed p. 12 records that this \"key assumption ... was not explicitly identified\" by the study, and printed p. 13 that it \"was presented in the study as a finding; however, we believe it to be an assumption\". An assumption the study did not identify as one states no rationale for itself; the reading that it is an assumption at all is GAO's."
+}

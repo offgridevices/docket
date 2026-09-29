@@ -1,0 +1,28 @@
+{
+  "confidence": "inferred",
+  "createdAt": "2013-04-30T00:00:00Z",
+  "createdBy": {
+    "actorId": "shreyash",
+    "actorType": "human"
+  },
+  "episode": "ep-cbo-2013",
+  "id": "nar-results",
+  "ingestionProvenance": {
+    "extractedAt": "2026-09-05",
+    "extractor": "human",
+    "locator": "p. 21 (Table 2-2)",
+    "sourceArtifact": "sources/cbo-2013-04-gcv-program-and-alternatives.pdf"
+  },
+  "rev": 1,
+  "section": "evaluation-results",
+  "sentences": [
+    {
+      "cites": [
+        "res-run-pl-cbo-primary-alt-puma",
+        "res-run-pl-cbo-primary-alt-gcv"
+      ],
+      "text": "On CBO's primary metric the kernel scores the Puma at 45.1 percent and the notional GCV at 16.4 percent improvement over the current Bradley IFV, which CBO printed as 45 and 16."
+    }
+  ],
+  "type": "Narrative"
+}
