@@ -69,7 +69,8 @@ fi
 
 # 1. Forbidden filenames / extensions. Matched on the basename so nested paths
 #    (infra/credentials.json, config/.env) are caught, not just the repo root.
-#    The research-library and private-proposal checks stay on the full path.
+#    The research-library, private-proposal and downloaded-source checks stay on the
+#    full path.
 while IFS= read -r f; do
   [ -z "$f" ] && continue
   case "$(basename "$f")" in
@@ -83,6 +84,10 @@ while IFS= read -r f; do
       echo "RESEARCH LIBRARY FILE STAGED (must stay local): $f"; fail=1;;
     proposal/*|*/proposal/*)
       echo "PRIVATE PROPOSAL FILE STAGED (must stay local): $f"; fail=1;;
+    sources/*.source.md|sources/README.md)
+      ;;
+    sources/*)
+      echo "DOWNLOADED SOURCE DOCUMENT STAGED (sources/ commits only *.source.md notes): $f"; fail=1;;
   esac
 done <<< "$staged_files"
 

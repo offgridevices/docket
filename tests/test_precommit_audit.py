@@ -109,6 +109,30 @@ def test_a_nested_proposal_path_is_refused_too(tmp_path):
     assert "PRIVATE PROPOSAL FILE STAGED (must stay local): sub/proposal/x.md" in result.stdout
 
 
+def test_a_downloaded_source_document_is_refused(tmp_path):
+    """`sources/` commits only the `.source.md` provenance notes; the documents are
+    third-party downloads that stay local, even when force-added past `.gitignore`."""
+    repo = _base_repo(tmp_path, "source-pdf")
+    (repo / "sources").mkdir()
+    (repo / "sources" / "gao-00-000.pdf").write_bytes(b"%PDF-1.7\n")
+    _git(["add", "-f", "sources/gao-00-000.pdf"], cwd=repo)
+    result = _run_audit(repo)
+    assert result.returncode == 1, result.stdout
+    assert ("DOWNLOADED SOURCE DOCUMENT STAGED (sources/ commits only *.source.md "
+            "notes): sources/gao-00-000.pdf") in result.stdout
+
+
+def test_a_source_note_and_the_sources_readme_are_allowed(tmp_path):
+    repo = _base_repo(tmp_path, "source-note")
+    (repo / "sources").mkdir()
+    (repo / "sources" / "gao-00-000.source.md").write_text("# note\n", encoding="utf-8")
+    (repo / "sources" / "README.md").write_text("# sources\n", encoding="utf-8")
+    _git(["add", "sources"], cwd=repo)
+    result = _run_audit(repo)
+    assert result.returncode == 0, result.stdout
+    assert "DOWNLOADED SOURCE DOCUMENT STAGED" not in result.stdout
+
+
 # ---- staged mode (must stay byte-for-byte unchanged in behaviour) ------------------
 
 
