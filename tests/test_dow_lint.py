@@ -12,8 +12,6 @@ import subprocess
 import sys
 from pathlib import Path
 
-import pytest
-
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -191,15 +189,12 @@ def test_allow_marker_does_not_exempt_other_lines(tmp_path):
     assert "second, unmarked paragraph" in problems[0]
 
 
-def test_claude_md_carries_the_allow_marker_when_it_is_present():
-    """`CLAUDE.md` states the DoW-naming rule itself and necessarily says "DoD" while
-    doing so, so the line carries the allow marker. The file is local working guidance
-    and is gitignored, so a fresh clone will not have it: check it where it exists and
-    skip where it does not, rather than asserting a file the repository does not ship."""
+def test_claude_md_passes_the_lint():
+    """`CLAUDE.md` is committed agent guidance and is held to the same naming rule as the
+    rest of our prose: any "DoD" in it must be in a whitelisted context or carry the
+    allow marker."""
     claude_md = ROOT / "CLAUDE.md"
-    if not claude_md.exists():
-        pytest.skip("CLAUDE.md is local, gitignored working guidance; absent in a clone")
-    assert dl.ALLOW_MARKER in claude_md.read_text(encoding="utf-8")
+    assert claude_md.exists()
     assert dl.check_file(claude_md) == []
 
 
