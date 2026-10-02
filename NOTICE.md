@@ -12,8 +12,10 @@ other is an author preprint, held as a sidecar only. Rights are recorded per ite
 three classes, and every row is read from that document's `.source.md` sidecar
 rather than inferred from its filename.
 
-This file is not a licence and grants no rights in anything, including this project's own
-work. The repository carries no `LICENSE` yet; until it does, all rights are reserved.
+This file is not a licence and grants no rights in any of these documents. The project's
+own work is licensed separately: `LICENSING.md` says which files are under AGPL-3.0-only
+(`LICENSE`) and which under Apache-2.0 (`LICENSE-APACHE`). Nothing in those licences
+covers the documents listed here.
 
 ## How to read a row
 

@@ -5,7 +5,8 @@ description = "Schema-driven, auditable decision records: a governed AI agent dr
 readme = "README.md"
 requires-python = ">=3.12"
 classifiers = ["Private :: Do Not Upload"]
-license-files = []
+license = "AGPL-3.0-only AND Apache-2.0"
+license-files = ["LICENSE", "LICENSE-APACHE", "LICENSING.md"]
 dependencies = [
   "jsonschema>=4.23",
   "pyyaml>=6.0",

@@ -2,10 +2,16 @@
 
 ## Licence first
 
-There is no `LICENSE` file yet: all rights are reserved and no licence has been chosen.
-Until one exists there is no basis on which an outside contribution can be accepted, so
-treat this file as the rules the work already follows rather than an invitation to open a
-pull request.
+Docket is open source, and contributions are welcome. The application is under
+AGPL-3.0-only (`LICENSE`); the record format, the exporters, the HTTP API description and
+the research-standard data are under Apache-2.0 (`LICENSE-APACHE`). `LICENSING.md` has
+the exact file map.
+
+Contributions are accepted under the licence of the files they change (inbound =
+outbound): a change to `src/docket/schema/` is contributed under Apache-2.0, a change to
+the kernel under AGPL-3.0-only. There is no separate contributor agreement. By opening a
+pull request you confirm you have the right to contribute the change on those terms. The
+rules below apply to every contribution, from inside OffGrid or outside it.
 
 ## Development setup
 
