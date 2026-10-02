@@ -18,7 +18,7 @@ and its reasons are in
 | `ui/src/types/objects.d.ts`, the TypeScript types generated from the JSON Schemas | Apache-2.0 | `LICENSE-APACHE` |
 | The OpenAPI document the service serves at `/api/openapi.json` | Apache-2.0 | `LICENSE-APACHE` |
 | `src/docket/standard/research-standards-36.yaml` and `src/docket/standard/tailorings/` | Apache-2.0 | `LICENSE-APACHE` |
-| `ui/src/brand/logo/` — the Docket and OffGrid names, marks, wordmarks and lockups | Not licensed; trademarks of OffGrid LLC, all rights reserved | — |
+| The Docket and OffGrid names and marks, wherever they appear — `ui/src/brand/logo/`, `ui/src/brand/DOCKET-LOGO.md`, and in `ui/public/` the icons and preview image (`favicon.svg`, `favicon-16.png`, `favicon-32.png`, `apple-touch-icon.png`, `icon-192.png`, `icon-512.png`, `icon-1024.png`, `og-image.png`) | Not licensed; trademarks of OffGrid LLC, all rights reserved | — |
 | Everything else in this repository that OffGrid LLC wrote | AGPL-3.0-only | `LICENSE` |
 
 In SPDX terms the project as a whole is `AGPL-3.0-only AND Apache-2.0`.
@@ -50,10 +50,11 @@ agreement. `CONTRIBUTING.md` has the development rules.
 
 ## Names and logos are not licensed
 
-The names "Docket" and "OffGrid" and the marks in `ui/src/brand/logo/` identify OffGrid
+The names "Docket" and "OffGrid" and their marks — `ui/src/brand/logo/`, `ui/src/brand/DOCKET-LOGO.md`, and in `ui/public/` the icons and preview image (`favicon.svg`, `favicon-16.png`, `favicon-32.png`, `apple-touch-icon.png`, `icon-192.png`, `icon-512.png`, `icon-1024.png`, `og-image.png`) — identify OffGrid
 LLC's software and service. Neither licence grants any right to use them. A fork may say
 truthfully that it is based on Docket, but anything it distributes or hosts must carry its
-own name and logo.
+own name and logo. The script that draws the mark (`ui/scripts/gen-docket-logo.mjs`) is code
+under AGPL-3.0-only; the mark it draws is not.
 
 ## Third-party material keeps its own rights
 

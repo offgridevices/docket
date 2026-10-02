@@ -16,7 +16,7 @@ Date: 2026-10-02. Status: settled by Shreyash, 2026-10-02.
 Contributions come in under the licence of the files they change (inbound = outbound),
 with no separate contributor agreement. `LICENSING.md` holds the file map; third-party
 material keeps its own rights (`NOTICE.md`, `ui/src/brand/FONTS.md`, dependency metadata).
-The names "Docket" and "OffGrid" and the marks in `ui/src/brand/logo/` are excluded from
+The names "Docket" and "OffGrid" and their marks, wherever they appear (`ui/src/brand/logo/`, `ui/src/brand/DOCKET-LOGO.md`, and in `ui/public/` the icons and preview image (`favicon.svg`, `favicon-16.png`, `favicon-32.png`, `apple-touch-icon.png`, `icon-192.png`, `icon-512.png`, `icon-1024.png`, `og-image.png`)), are excluded from
 both licences and stay trademarks of OffGrid LLC: a fork may run and change the code, but
 not under OffGrid's name or logo.
 
