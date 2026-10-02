@@ -335,12 +335,8 @@ jobs:
               not tamper-proof; the chain is unkeyed in Phase I. Flag stronger wording.
 
             ### 5. Decisions that are settled — do not flag as open, and flag text that reopens them
-            - **Licence:** AGPL-3.0-only for the application; Apache-2.0 for the record
-              format (`src/docket/schema/`), the exporters (`src/docket/exports/`), the
-              HTTP API description (`/api/openapi.json`) and the research-standard data,
-              per `LICENSING.md`. Copyright OffGrid LLC. Contributions are inbound =
-              outbound. Flag text that contradicts `LICENSING.md`, and any change to the
-              licence split without a new decision record.
+            - **Licence:** all rights reserved; no `LICENSE` file yet, and none may be
+              added without a recorded decision.
             - Every settled technical choice is recorded under `docs/decisions/`; text or
               code that contradicts one without a new decision record is a defect.
             - Do not conflate CUI with classified — they carry very different
