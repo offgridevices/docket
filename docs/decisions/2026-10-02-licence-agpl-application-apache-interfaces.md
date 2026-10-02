@@ -16,8 +16,9 @@ Date: 2026-10-02. Status: settled by Shreyash, 2026-10-02.
 Contributions come in under the licence of the files they change (inbound = outbound),
 with no separate contributor agreement. `LICENSING.md` holds the file map; third-party
 material keeps its own rights (`NOTICE.md`, `ui/src/brand/FONTS.md`, dependency metadata).
-This is the split that Mattermost and Grafana use: a copyleft application with permissive
-interfaces around it.
+The names "Docket" and "OffGrid" and the marks in `ui/src/brand/logo/` are excluded from
+both licences and stay trademarks of OffGrid LLC: a fork may run and change the code, but
+not under OffGrid's name or logo.
 
 **Over:**
 
@@ -27,7 +28,7 @@ interfaces around it.
 - **Apache-2.0 for everything.** Maximum adoption, but anyone could take the
   application, change it and host a closed copy as a service, and the improvements would
   never come back to the people using the tool.
-- **Proprietary core with only the API open,** the Lattice pattern. Integrators get a
+- **Proprietary core with only the API open.** Integrators get a
   stable surface, but the scoring kernel, the thing a reviewer most needs to inspect,
   stays closed, and customers stay locked to one vendor's build.
 
@@ -55,6 +56,8 @@ gives OffGrid no right to relicense them.
 
 **Consequences recorded elsewhere.** `LICENSING.md` (the file map and a plain reading of
 the AGPL), `README.md` ("Licence"), `CONTRIBUTING.md` ("Licence first"), `NOTICE.md`,
-`docs/architecture.md`, the review workflow's settled-decisions list, the `license` field
+`docs/architecture.md`, the `license` field
 in `pyproject.toml` and `ui/package.json`, and a `LICENSE.md` pointer in each
-Apache-licensed folder.
+Apache-licensed folder. The review workflow's settled-decisions list is updated in its own
+pull request, #3, because the reviewer will not run on a pull request that edits its own
+workflow.

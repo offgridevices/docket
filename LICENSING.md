@@ -18,6 +18,7 @@ and its reasons are in
 | `ui/src/types/objects.d.ts`, the TypeScript types generated from the JSON Schemas | Apache-2.0 | `LICENSE-APACHE` |
 | The OpenAPI document the service serves at `/api/openapi.json` | Apache-2.0 | `LICENSE-APACHE` |
 | `src/docket/standard/research-standards-36.yaml` and `src/docket/standard/tailorings/` | Apache-2.0 | `LICENSE-APACHE` |
+| `ui/src/brand/logo/` — the Docket and OffGrid names, marks, wordmarks and lockups | Not licensed; trademarks of OffGrid LLC, all rights reserved | — |
 | Everything else in this repository that OffGrid LLC wrote | AGPL-3.0-only | `LICENSE` |
 
 In SPDX terms the project as a whole is `AGPL-3.0-only AND Apache-2.0`.
@@ -33,7 +34,7 @@ Notes on the Apache-licensed parts:
   arrangement, identifiers and annotations. The scoring rules (`rules.yaml`), the
   doctrine crosswalk (`crosswalk.yaml`) and the loading code (`__init__.py`) in the same
   folder are part of the application and stay under AGPL-3.0-only.
-- **The exporters** import parts of the application (`docket.store`, `docket.kernel`).
+- **The exporters** import parts of the application: `docket.store`, `docket.kernel.render` (including the private helper `_cite_withheld_level`), `docket.kernel.scope`, `docket.objects`, `docket.canon`, and `KERNEL_VERSION` from the top-level `docket` package.
   The Apache grant covers the exporter source and the file formats they write. A
   program that runs the exporters together with those application modules includes
   AGPL-3.0-only code, and that code keeps its own terms.
@@ -46,6 +47,13 @@ Contributions are accepted under the licence of the files they change (inbound =
 outbound). A change to `src/docket/schema/` is contributed under Apache-2.0; a change to
 the kernel is contributed under AGPL-3.0-only. There is no separate contributor licence
 agreement. `CONTRIBUTING.md` has the development rules.
+
+## Names and logos are not licensed
+
+The names "Docket" and "OffGrid" and the marks in `ui/src/brand/logo/` identify OffGrid
+LLC's software and service. Neither licence grants any right to use them. A fork may say
+truthfully that it is based on Docket, but anything it distributes or hosts must carry its
+own name and logo.
 
 ## Third-party material keeps its own rights
 
