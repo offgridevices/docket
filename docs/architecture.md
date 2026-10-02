@@ -38,7 +38,8 @@ cheap; catching a wrong answer is not.
 ```
 README.md            what this is, what it runs on, how to run it
 CONTRIBUTING.md      dev setup, checks, hooks and the contribution rules
-NOTICE.md            third-party rights in sources/, item by item; no licence is granted yet
+LICENSING.md         which files are AGPL-3.0-only (LICENSE) and which Apache-2.0 (LICENSE-APACHE)
+NOTICE.md            third-party rights in sources/, item by item
 Makefile             make demo · make test · make figures · make ui-build
 
 src/docket/          the Python package

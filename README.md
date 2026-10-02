@@ -128,6 +128,17 @@ where to look when something misbehaves. `CONTRIBUTING.md` has the development r
 
 ## Licence
 
-All rights reserved; licence not yet chosen. There is no `LICENSE` file, and nothing here
-may be redistributed until there is. `NOTICE.md` records the rights in each third-party
-document under `sources/`, item by item.
+Copyright (C) 2026 OffGrid LLC. Docket is open source:
+
+- **The application** is under the GNU Affero General Public License, version 3 only
+  (`LICENSE`).
+- **The interfaces** are under the Apache License 2.0 (`LICENSE-APACHE`): the record
+  format in `src/docket/schema/`, the exporters in `src/docket/exports/`, the HTTP API
+  description served at `/api/openapi.json`, and the research-standard data derived from
+  GAO reports. Anyone can build tools that read and write Docket records without a
+  licence question.
+
+`LICENSING.md` has the exact file map and what the AGPL asks of anyone who hosts a
+modified copy. Third-party material keeps its own rights: `NOTICE.md` records the rights
+in each document under `sources/`, item by item, and `ui/src/brand/FONTS.md` covers the
+UI fonts.
